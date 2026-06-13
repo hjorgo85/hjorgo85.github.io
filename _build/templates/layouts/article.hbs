@@ -1,0 +1,102 @@
+{{> head}}
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+{{> header}}
+<main id="main">
+  <div class="container article-wrap">
+    {{> breadcrumbs}}
+    <div class="article-grid">
+      <article>
+        <header class="article-header">
+          <h1>{{title}}</h1>
+          <div class="article-meta">
+            <span class="author"><img src="{{author.photo}}" alt="{{author.name}}" width="28" height="28" loading="lazy"> By {{author.name}}</span>
+            <span>Published <time datetime="{{datePublished}}">{{datePublishedDisplay}}</time></span>
+            {{#if dateModifiedDisplay}}<span>Updated <time datetime="{{dateModified}}">{{dateModifiedDisplay}}</time></span>{{/if}}
+            <span>{{readingTime}} min read</span>
+          </div>
+        </header>
+
+        {{#if heroImage}}
+        <figure class="article-hero">
+          <img src="{{heroImage.src}}" alt="{{heroImage.alt}}" width="{{heroImage.width}}" height="{{heroImage.height}}" loading="eager" fetchpriority="high">
+          {{#if heroImage.caption}}<figcaption>{{heroImage.caption}}</figcaption>{{/if}}
+        </figure>
+        {{/if}}
+
+        {{#if toc}}{{> toc}}{{/if}}
+
+        {{#if quickFacts}}
+        <div class="quick-facts">
+          <h2>Quick Facts</h2>
+          <dl>
+            {{#each quickFacts}}
+            <dt>{{this.label}}</dt>
+            <dd>{{this.value}}</dd>
+            {{/each}}
+          </dl>
+        </div>
+        {{/if}}
+
+        <div class="article-content">
+          {{{contentHtml}}}
+        </div>
+
+        {{#each affiliateProducts}}
+        {{> affiliate-card}}
+        {{/each}}
+
+        {{#if faq}}{{> faq}}{{/if}}
+
+        {{#if sources}}
+        <section class="sources">
+          <h2>Sources &amp; Further Reading</h2>
+          <ol>
+            {{#each sources}}
+            <li><a href="{{this.url}}" rel="noopener" target="_blank">{{this.label}}</a></li>
+            {{/each}}
+          </ol>
+        </section>
+        {{/if}}
+
+        {{#if author}}{{> author-box author}}{{/if}}
+      </article>
+
+      <aside class="sidebar">
+        {{#if related}}
+        <div class="sidebar-box">
+          <h3>Related Guides</h3>
+          <ul>
+            {{#each related}}
+            <li><a href="{{this.url}}">{{this.title}}</a></li>
+            {{/each}}
+          </ul>
+        </div>
+        {{/if}}
+        <div class="sidebar-box">
+          <h3>Explore {{categoryLabel}}</h3>
+          <ul>
+            <li><a href="{{categoryUrl}}">All {{categoryLabel}} Guides</a></li>
+            <li><a href="/fish-types/">All Fish Species Guides</a></li>
+            <li><a href="/product-reviews/">Aquarium Gear Reviews</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    {{#if related}}
+    <section class="related-articles">
+      <h2>Related Articles</h2>
+      <div class="grid grid-3">
+        {{#each related}}
+        {{> article-card}}
+        {{/each}}
+      </div>
+    </section>
+    {{/if}}
+  </div>
+</main>
+{{> footer}}
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+hektor-jorgo:
+  name: "Hektor Jorgo"
+  slug: "hektor-jorgo"
+  title: "Co-Founder & Marine Biologist"
+  photo: "/assets/img/authors/avatar-placeholder.svg"
+  bio: "Hektor is a co-founder of Sea Life Planet and has kept reef and freshwater aquariums for over 15 years. He holds a background in marine biology and focuses on species care accuracy, water chemistry, and tank husbandry."
+  sameAs:
+    - "https://www.linkedin.com/"
+
+chris-brady:
+  name: "Chris Brady"
+  slug: "chris-brady"
+  title: "Co-Founder & Aquarium Equipment Specialist"
+  photo: "/assets/img/authors/avatar-placeholder.svg"
+  bio: "Chris is a co-founder of Sea Life Planet, specializing in aquarium equipment, filtration systems, and product testing. He has set up and maintained dozens of freshwater and saltwater systems."
+  sameAs:
+    - "https://www.linkedin.com/"

@@ -1,0 +1,59 @@
+{{> head}}
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+{{> header}}
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <h1>{{hero.title}}</h1>
+      <p>{{hero.subtitle}}</p>
+      <div class="btn-group">
+        <a class="btn btn-accent" href="{{hero.primaryCtaUrl}}">{{hero.primaryCtaLabel}}</a>
+        <a class="btn btn-outline" href="{{hero.secondaryCtaUrl}}" style="color:#fff;border-color:#fff;">{{hero.secondaryCtaLabel}}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>{{categories.heading}}</h2>
+        <p>{{categories.subheading}}</p>
+      </div>
+      <div class="grid grid-4">
+        {{#each categories.items}}
+        <a class="category-tile" href="{{this.url}}">
+          <span class="icon">{{icon this.icon}}</span>
+          <h3>{{this.label}}</h3>
+        </a>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>{{featured.heading}}</h2>
+        <p>{{featured.subheading}}</p>
+      </div>
+      <div class="grid grid-3">
+        {{#each featured.items}}
+        {{> article-card}}
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="article-content">
+        {{{contentHtml}}}
+      </div>
+    </div>
+  </section>
+</main>
+{{> footer}}
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

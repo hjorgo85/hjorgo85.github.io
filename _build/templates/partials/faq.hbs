@@ -1,0 +1,9 @@
+<section class="faq-section" id="faq">
+  <h2>Frequently Asked Questions</h2>
+  {{#each faq}}
+  <details class="faq-item">
+    <summary>{{this.q}}</summary>
+    <div class="faq-answer">{{{this.aHtml}}}</div>
+  </details>
+  {{/each}}
+</section>

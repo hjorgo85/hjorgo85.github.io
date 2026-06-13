@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="container nav">
+    <a href="/" class="logo">
+      {{icon "fish"}}
+      {{site.logoText}}
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+      {{icon "menu"}}
+    </button>
+    <ul class="nav-links" id="primary-nav">
+      {{#each site.nav}}
+      <li><a href="{{this.url}}"{{#if (eq this.url ../url)}} aria-current="page"{{/if}}>{{this.label}}</a></li>
+      {{/each}}
+    </ul>
+  </div>
+</header>

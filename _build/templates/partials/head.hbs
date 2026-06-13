@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{title}} | {{site.name}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{site.url}}{{url}}">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<meta property="og:type" content="{{#if ogType}}{{ogType}}{{else}}website{{/if}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{site.url}}{{url}}">
+<meta property="og:site_name" content="{{site.name}}">
+{{#if image}}<meta property="og:image" content="{{site.url}}{{image}}">{{/if}}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{site.twitter}}">
+
+{{#if robots}}<meta name="robots" content="{{robots}}">{{/if}}
+
+{{#if schemaJson}}
+<script type="application/ld+json">
+{{{schemaJson}}}
+</script>
+{{/if}}
+</head>

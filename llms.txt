@@ -1,0 +1,18 @@
+# Sea Life Planet
+
+> Sea Life Planet is a marine-biology-backed guide to fishkeeping, covering species profiles, tank setup, water chemistry, and equipment reviews for freshwater and saltwater aquarists.
+
+Content is written and reviewed by our team of aquarists (see /about/). Guides are updated periodically to reflect current best practice.
+
+## Key sections
+
+- [Saltwater Fishkeeping](https://sealifeplanet.com/saltwater/): Species profiles and care guides for marine aquariums.
+- [Freshwater Fish](https://sealifeplanet.com/freshwater-fish/): Species profiles and care guides for freshwater aquariums.
+- [Product Reviews](https://sealifeplanet.com/product-reviews/): Independent reviews of aquarium equipment.
+- [All Fish Species Guides](https://sealifeplanet.com/fish-types/): Full index of species profiles.
+- [About](https://sealifeplanet.com/about/): Who we are and our editorial standards.
+
+## Notes
+
+- Some links to equipment are Amazon affiliate links (see /affiliate-disclosure/). This does not influence our recommendations.
+- Full sitemap: https://sealifeplanet.com/sitemap.xml

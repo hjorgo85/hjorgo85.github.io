@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-disclosure">{{site.affiliateDisclosure}} Read our full <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.</p>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          {{icon "fish"}}
+          {{site.logoText}}
+        </div>
+        <p>{{site.tagline}}</p>
+        <div class="social-links">
+          {{#each site.social}}
+          <a href="{{this.url}}" aria-label="{{this.name}}" rel="me noopener" target="_blank">{{icon this.icon}}</a>
+          {{/each}}
+        </div>
+      </div>
+      {{#each site.footerColumns}}
+      <div>
+        <h3>{{this.title}}</h3>
+        <ul>
+          {{#each this.links}}
+          <li><a href="{{this.url}}">{{this.label}}</a></li>
+          {{/each}}
+        </ul>
+      </div>
+      {{/each}}
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{currentYear}} {{site.name}}. All rights reserved.</p>
+      <p>Built with care for fishkeepers, by fishkeepers.</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,36 @@
+{{> head}}
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+{{> header}}
+<main id="main">
+  <div class="hub-hero">
+    <div class="container">
+      {{> breadcrumbs}}
+      <h1>{{title}}</h1>
+      <p class="lead">{{intro}}</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <div class="article-content">
+      {{{contentHtml}}}
+    </div>
+
+    {{#each groups}}
+    <section class="related-articles">
+      <h2>{{this.title}}</h2>
+      <div class="grid grid-3">
+        {{#each this.articles}}
+        {{> article-card}}
+        {{/each}}
+      </div>
+    </section>
+    {{/each}}
+
+    {{#if faq}}{{> faq}}{{/if}}
+  </div>
+</main>
+{{> footer}}
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

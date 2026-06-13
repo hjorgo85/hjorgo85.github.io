@@ -1,0 +1,20 @@
+{{> head}}
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+{{> header}}
+<main id="main">
+  <div class="container article-wrap">
+    {{> breadcrumbs}}
+    <article>
+      <h1>{{title}}</h1>
+      <div class="article-content">
+        {{{contentHtml}}}
+      </div>
+      {{#if faq}}{{> faq}}{{/if}}
+    </article>
+  </div>
+</main>
+{{> footer}}
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

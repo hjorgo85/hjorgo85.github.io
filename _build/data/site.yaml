@@ -1,0 +1,62 @@
+name: "Sea Life Planet"
+url: "https://sealifeplanet.com"
+tagline: "Practical, expert-checked guides for freshwater & saltwater aquariums"
+description: "Sea Life Planet is a marine-biology-backed guide to fishkeeping — species profiles, tank setup, water chemistry, and gear reviews for freshwater and saltwater aquarists."
+logoText: "Sea Life Planet"
+twitter: "@sealifeplanet"
+social:
+  - name: Facebook
+    url: "https://www.facebook.com/sealifeplanet"
+    icon: facebook
+  - name: Instagram
+    url: "https://www.instagram.com/sealifeplanet"
+    icon: instagram
+  - name: YouTube
+    url: "https://www.youtube.com/@sealifeplanet"
+    icon: youtube
+  - name: Pinterest
+    url: "https://www.pinterest.com/sealifeplanet"
+    icon: pinterest
+
+nav:
+  - label: "Saltwater"
+    url: "/saltwater/"
+  - label: "Freshwater Fish"
+    url: "/freshwater-fish/"
+  - label: "Product Reviews"
+    url: "/product-reviews/"
+  - label: "About"
+    url: "/about/"
+  - label: "Contact"
+    url: "/contact-us/"
+
+footerColumns:
+  - title: "Explore"
+    links:
+      - label: "Saltwater Fishkeeping"
+        url: "/saltwater/"
+      - label: "Freshwater Fish"
+        url: "/freshwater-fish/"
+      - label: "Product Reviews"
+        url: "/product-reviews/"
+      - label: "All Fish Species Guides"
+        url: "/fish-types/"
+  - title: "Company"
+    links:
+      - label: "About Us"
+        url: "/about/"
+      - label: "Contact"
+        url: "/contact-us/"
+      - label: "Privacy Policy"
+        url: "/privacy-policy/"
+      - label: "Terms of Service"
+        url: "/terms-of-service/"
+  - title: "Resources"
+    links:
+      - label: "Affiliate Disclosure"
+        url: "/affiliate-disclosure/"
+      - label: "Sitemap"
+        url: "/sitemap.xml"
+
+affiliateDisclosure: "Sea Life Planet is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from qualifying purchases — at no extra cost to you."
+amazonTag: "sealifeplanet-20"
