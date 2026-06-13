@@ -41,7 +41,7 @@ faq:
     a: "Two male bettas should not be kept in the same tank — they will fight, often fatally, due to intense territorial aggression (the trait selectively bred for the 'betta fights' the species is historically known for). Male/female pairs are also generally not recommended outside of deliberate, supervised breeding setups, as males can injure females, especially outside of spawning behavior. A single betta per tank is the standard, safe recommendation."
   - q: "What fish can live with a betta?"
     a: "It depends heavily on the individual betta's temperament, but in a 10+ gallon planted tank, peaceful, fast-moving fish that don't resemble bettas (no long flowing fins, no bright red/blue coloring) have the best track record — examples include certain small tetras (in groups), corydoras catfish, and snails. Always have a backup plan (a spare tank or container) in case a particular betta proves more aggressive than expected, and never assume a tank mate combination that worked for someone else's betta will work for yours — individual temperament varies significantly."
-related: []
+related: ["betta-fish", "betta-fish-fungal-infections", "betta-fish-skin-peeling", "dwarf-gouramis", "guppy-fish-care"]
 sources:
   - label: "Betta splendens — FishBase"
     url: "https://www.fishbase.se/summary/Betta-splendens.html"
@@ -114,6 +114,8 @@ Always have a contingency plan (spare container/tank) when trialing tank mates, 
 ## Common Health Issues
 
 - **Fin rot** — frayed, discolored fin edges, often linked to poor water quality or, in long-finned varieties, physical damage from sharp decor or strong flow. Early-stage fin rot often resolves with water quality correction alone.
+- **Fungal infections** — cottony white or grey growths, usually secondary to fin rot, injury, or poor water quality. See our [betta fungal infections guide](/betta-fish-fungal-infections/) for identification and treatment.
+- **Skin peeling** — distinct patches where skin appears to lift or slough off can signal chemical burns, columnaris, or a parasitic infection. Our [betta skin peeling guide](/betta-fish-skin-peeling/) covers how to tell these apart.
 - **Swim bladder issues / bloating** — often diet-related (overfeeding, especially dry pellets that expand). Occasional fasting days and pre-soaking pellets can help.
 - **Velvet and ich** — parasitic infections presenting as a fine gold dust (velvet) or white spots (ich); both are treatable but easier to prevent via stable water quality and avoiding unquarantined tank mates.
 
