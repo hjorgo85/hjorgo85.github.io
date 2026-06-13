@@ -41,7 +41,7 @@ faq:
     a: "Water volume acts as a buffer against change — the same amount of evaporation, the same feeding, or the same small dosing error has a proportionally larger effect on a 10-gallon tank than a 40-gallon one. Temperature swings faster with ambient room temperature changes, salinity shifts faster from evaporation, and a missed water change or overfeeding event has less water to dilute it into. None of this makes a 10-gallon tank impossible, but it does mean less margin for the inconsistencies that are common while learning the hobby."
   - q: "Is a 10-gallon saltwater tank a good idea for a beginner?"
     a: "It's workable, but it's a different project than 'a smaller version of a beginner tank' — the smaller margin for error actually makes it a better fit for someone who already has some experience (often from a larger tank) and wants a focused nano or pico project, rather than a true first saltwater tank. If you're brand new to the hobby, a 20-40 gallon tank — covered in our [beginner saltwater fish guide](/saltwater-aquarium-fish-for-beginners/) — gives you more stability and stocking options while you're still learning the basics."
-related: ["saltwater-aquarium-fish-for-beginners", "specific-gravity-reef-tank", "common-clownfish", "clownfish-salinity-aquarium", "best-fish-for-reef-tank"]
+related: ["saltwater-aquarium-fish-for-beginners", "saltwater-fish-for-30-gallon-tank", "specific-gravity-reef-tank", "common-clownfish", "best-fish-for-reef-tank"]
 sources:
   - label: "Nano & Pico Reef Tanks Forum — Reef2Reef"
     url: "https://www.reef2reef.com/forums/nano-reefs.56/"
@@ -81,7 +81,7 @@ None of this means 10 gallons can't be done — nano and pico reef tanks are a w
 If you're set on 10 gallons specifically, two paths tend to work better than "shrink down a beginner fish-only tank":
 
 1. **A nano/pico reef** — focus the tank on corals, invertebrates, and a cleanup crew, with at most one small fish (or none at all). This plays to a small tank's strengths: corals don't need swimming space, and a invertebrate-and-coral-focused tank sidesteps most of the stocking limitations above.
-2. **Upsize to 20 gallons.** If the goal is specifically to keep a clownfish, firefish, or similar beginner fish, a 20-gallon tank is a relatively modest upgrade in footprint and cost compared to 10 gallons, and it unlocks the entire beginner stocking list covered in our [main beginner guide](/saltwater-aquarium-fish-for-beginners/) — including options that would be genuinely stressed in 10 gallons.
+2. **Upsize to 20 gallons, or further to 30.** If the goal is specifically to keep a clownfish, firefish, or similar beginner fish, a 20-gallon tank is a relatively modest upgrade in footprint and cost compared to 10 gallons, and it unlocks the entire beginner stocking list covered in our [main beginner guide](/saltwater-aquarium-fish-for-beginners/) — including options that would be genuinely stressed in 10 gallons. At 30 gallons, covered in our [30-gallon stocking guide](/saltwater-fish-for-30-gallon-tank/), a small community of 3-5 fish becomes realistic rather than just a single fish.
 
 ## If You Proceed: Setup Tips for Stability
 

@@ -41,7 +41,7 @@ faq:
     a: "It's possible but requires planning. Azure damselfish are territorial and will often clash with other Chrysiptera species that share their blue-and-yellow color scheme, since damsels tend to direct aggression at fish that look like potential rivals. If mixing damsel species, add them simultaneously to a large tank (50+ gallons) with abundant rockwork to spread out territories."
   - q: "Why does my azure damselfish hide all the time?"
     a: "A new azure damselfish often spends its first 1-2 weeks mostly hidden while it adjusts to the tank — this is normal. If hiding persists for weeks alongside clamped fins, refusal to eat, or labored breathing, check water parameters first, as poor water quality is the most common underlying cause of prolonged hiding in an otherwise hardy fish."
-related: ["yellowtail-damselfish", "domino-damselfish", "blue-devil-damselfish", "common-clownfish"]
+related: ["yellowtail-damselfish", "domino-damselfish", "blue-devil-damselfish", "common-clownfish", "how-many-azure-damselfish-should-i-get"]
 sources:
   - label: "Chrysiptera hemicyanea — FishBase"
     url: "https://www.fishbase.se/summary/Chrysiptera-hemicyanea.html"
@@ -101,6 +101,8 @@ Azure damselfish are **semi-aggressive and territorial**, particularly once they
 - Good tank mates include the [common clownfish](/common-clownfish/), [firefish](/firefish/), gobies, blennies, and other peaceful-to-semi-aggressive reef fish.
 - Be cautious mixing with other blue *Chrysiptera* damsels — an azure damselfish housed with a [blue devil damselfish](/blue-devil-damselfish/) or a [yellowtail damselfish](/yellowtail-damselfish/) can result in ongoing squabbles, since both species read similarly colored fish as rivals. If you want to keep multiple blue damsels together, add them simultaneously to a large tank (50+ gallons) with rockwork divided into multiple distinct territories.
 - A [domino damselfish](/domino-damselfish/) is a poor match for an azure damselfish in anything but a large tank — dominoes grow much larger and more aggressive over time and will likely bully a smaller azure damsel once they outgrow it.
+
+If you're wondering whether to get more than one azure damselfish, see our dedicated guide on [how many azure damselfish to get](/how-many-azure-damselfish-should-i-get/) — the short version is that a single individual is the simplest choice, and a group requires a larger tank with carefully divided territories.
 
 ## Behavior and Temperament
 
