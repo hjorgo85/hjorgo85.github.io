@@ -41,7 +41,7 @@ faq:
     a: "New flame angels are often shy for the first 1-3 weeks while they settle in, especially if the tank lacks enough rockwork to feel secure. Persistent hiding combined with not eating is more concerning — check water parameters first, and make sure it isn't being bullied by tankmates added earlier."
   - q: "What does a flame angelfish eat in a reef tank?"
     a: "A varied diet of marine algae (nori, dried seaweed sheets), high-quality angelfish pellet or flake formulated with sponge/algae content, and frozen mysis or enriched brine shrimp. Offer food 2-3 times daily in small amounts — this also reduces the odds of it turning to coral polyps out of hunger or boredom."
-related: ["yellowtail-damselfish", "common-clownfish", "banggai-cardinalfish", "pearlscale-butterflyfish-reef-safe"]
+related: ["yellowtail-damselfish", "common-clownfish", "banggai-cardinalfish", "pearlscale-butterflyfish-reef-safe", "is-valentini-puffer-reef-safe", "niger-triggerfish-reef-safe"]
 sources:
   - label: "Centropyge loricula — FishBase"
     url: "https://www.fishbase.se/summary/Centropyge-loricula.html"

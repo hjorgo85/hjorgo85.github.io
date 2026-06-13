@@ -41,7 +41,7 @@ faq:
     a: "Yes, but introduce them carefully. A common approach is to buy a small juvenile and a slightly larger juvenile at the same time and introduce them together — they'll often pair off naturally as one becomes dominant (female) and the other becomes the male. Adding a second clownfish to a tank with an already-established, mature clownfish can result in aggression, especially if sizes are mismatched."
   - q: "Why is my clownfish hosting in a powerhead, hand, or piece of coral instead of an anemone?"
     a: "This is completely normal. In the absence of a host anemone, clownfish will often 'host' in other objects — a power filter return, a piece of coral (even non-host species), a clump of macroalgae, or even your hand during feeding. This is just their natural anemone-seeking instinct redirected, and it's harmless to the fish."
-related: ["maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "why-do-clownfish-turn-black", "clownfish-ich", "clownfish-salinity-aquarium", "yellowtail-damselfish"]
+related: ["maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "why-do-clownfish-turn-black", "clownfish-ich", "clownfish-salinity-aquarium", "can-valentini-pufferfish-share-a-tank-with-clownfish"]
 sources:
   - label: "Amphiprion ocellaris — FishBase"
     url: "https://www.fishbase.se/summary/Amphiprion-ocellaris.html"
@@ -112,7 +112,7 @@ If you're set on the classic clownfish-and-anemone look, the right sequence is: 
 
 Clownfish are generally peaceful toward other species, with one major caveat: **a clownfish hosting in an anemone (or a surrogate, like a powerhead or coral colony) becomes territorial around that spot** and may nip at fish — or hands — that get too close.
 
-**Good tank mates** include the [yellowtail damselfish](/yellowtail-damselfish/), [firefish](/firefish/), gobies, blennies, and most peaceful-to-semi-aggressive community fish appropriately sized for your tank. Avoid pairing with larger, more aggressive damselfish that might bully a newly introduced clownfish.
+**Good tank mates** include the [yellowtail damselfish](/yellowtail-damselfish/), [firefish](/firefish/), gobies, blennies, and most peaceful-to-semi-aggressive community fish appropriately sized for your tank. Avoid pairing with larger, more aggressive damselfish that might bully a newly introduced clownfish. Clownfish also tend to hold their own against bolder additions like the Valentini puffer — see [can a Valentini pufferfish live with clownfish?](/can-valentini-pufferfish-share-a-tank-with-clownfish/) if you're considering that combination.
 
 ## Breeding Common Clownfish
 
