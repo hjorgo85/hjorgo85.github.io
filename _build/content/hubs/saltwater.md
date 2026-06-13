@@ -17,6 +17,8 @@ groups:
     slugs: ["pufferfish-care", "is-valentini-puffer-reef-safe", "can-valentini-pufferfish-share-a-tank-with-clownfish", "niger-triggerfish-reef-safe"]
   - title: "Reef Water Chemistry"
     slugs: ["acceptable-tds-reef-tank", "raise-alkalinity-reef-tank", "specific-gravity-reef-tank", "problems-with-high-magnesium-in-a-reef-tank"]
+  - title: "Reef Tank Troubleshooting & DIY"
+    slugs: ["diatoms-reef-tank", "hydroids-reef-tank", "sponges-reef-tank", "super-glue-reef-tank", "pla-safe-reef-tank"]
 faq:
   - q: "What's the easiest saltwater fish for a beginner?"
     a: "The [yellowtail damselfish](/yellowtail-damselfish/) and [common clownfish](/common-clownfish/) are both frequently recommended starting points — they're hardy, tolerate the water-quality swings of a newly cycled tank better than most species, and are widely available as captive-bred stock."
