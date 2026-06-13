@@ -19,6 +19,8 @@ groups:
     slugs: ["acceptable-tds-reef-tank", "raise-alkalinity-reef-tank", "specific-gravity-reef-tank", "problems-with-high-magnesium-in-a-reef-tank"]
   - title: "Reef Tank Troubleshooting & DIY"
     slugs: ["diatoms-reef-tank", "hydroids-reef-tank", "sponges-reef-tank", "super-glue-reef-tank", "pla-safe-reef-tank"]
+  - title: "Stocking Guides & Big Fish"
+    slugs: ["saltwater-aquarium-fish-for-beginners", "saltwater-fish-for-10-gallon-tank", "best-fish-for-reef-tank", "blue-hippo-tang"]
 faq:
   - q: "What's the easiest saltwater fish for a beginner?"
     a: "The [yellowtail damselfish](/yellowtail-damselfish/) and [common clownfish](/common-clownfish/) are both frequently recommended starting points — they're hardy, tolerate the water-quality swings of a newly cycled tank better than most species, and are widely available as captive-bred stock."
