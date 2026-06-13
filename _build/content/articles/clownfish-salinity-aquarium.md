@@ -41,7 +41,7 @@ faq:
     a: "A refractometer is the better choice and is what most experienced reef keepers rely on. Swing-arm hydrometers are cheaper but commonly read 0.001-0.003 SG off — which sounds small but is significant for sensitive corals and invertebrates, even though it matters less for clownfish specifically. If you only own a hydrometer, calibrate it against a refractometer reading periodically, or invest in a refractometer and calibration fluid — it's a one-time cost that removes a recurring source of error."
   - q: "Why did my clownfish get stressed after a water change?"
     a: "The most common cause is a salinity mismatch between your tank water and the newly mixed saltwater used for the change — if the new water's specific gravity differs noticeably from the tank's (often because the new batch wasn't mixed and measured carefully, or because evaporation had concentrated the tank water beforehand), the fish experiences a sudden osmotic shift. Clownfish tolerate this better than most reef inhabitants, but repeated swings still add up as a stressor. Always measure both the tank and the new saltwater batch with the same instrument before adding it."
-related: ["common-clownfish", "why-do-clownfish-turn-black", "clownfish-ich", "maroon-clownfish-premnas-biaculeatus", "yellowtail-damselfish"]
+related: ["common-clownfish", "why-do-clownfish-turn-black", "clownfish-ich", "maroon-clownfish-premnas-biaculeatus", "specific-gravity-reef-tank"]
 sources:
   - label: "Amphiprion ocellaris — FishBase"
     url: "https://www.fishbase.se/summary/Amphiprion-ocellaris.html"
@@ -55,7 +55,7 @@ Clownfish are among the most salinity-tolerant fish kept in reef aquariums — t
 
 For a clownfish-only or clownfish-and-fish-only tank, target a specific gravity of **1.020-1.025** (roughly 27-34 parts per thousand). If your tank also houses corals, anemones, or other invertebrates — which is the norm in most reef setups — target the higher and narrower range those animals need: **1.024-1.026 SG (around 32-35 ppt)**, since this satisfies clownfish requirements while also meeting the tighter tolerances of reef invertebrates.
 
-The key distinction is this: **the salinity range that's "ideal" for a clownfish-only tank is wider than what's appropriate for a reef tank** — not because clownfish need less salt, but because they tolerate a broader range without harm, while corals and invertebrates do not. In a mixed reef tank, always design around the most sensitive inhabitants, which usually means the invertebrates, not the fish.
+The key distinction is this: **the salinity range that's "ideal" for a clownfish-only tank is wider than what's appropriate for a reef tank** — not because clownfish need less salt, but because they tolerate a broader range without harm, while corals and invertebrates do not. In a mixed reef tank, always design around the most sensitive inhabitants, which usually means the invertebrates, not the fish. For the coral-and-invertebrate side of this same question — including the exact target range and how to measure it with a refractometer — see our guide to [ideal specific gravity for a reef tank](/specific-gravity-reef-tank/).
 
 ## Why Clownfish Tolerate Salinity Swings Better Than Most Reef Animals
 
