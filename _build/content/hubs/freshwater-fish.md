@@ -9,6 +9,8 @@ groups:
     slugs: ["betta-fish-care-guide"]
   - title: "Betta Fish: Varieties & Health"
     slugs: ["betta-fish", "betta-fish-fungal-infections", "betta-fish-skin-peeling"]
+  - title: "Fish Skin Peeling: Causes Across Species"
+    slugs: ["fish-skin-peeling", "angelfish-skin-peeling", "koi-fish-skin-peeling", "oscar-fish-skin-peeling-off", "goldfish-skin-peeling"]
   - title: "African Cichlid Tanks"
     slugs: ["best-food-for-mbuna-cichlids", "75-gallon-peacock-cichlid-tank", "cichlids-with-cloudy-eyes", "epsom-salt-for-african-cichlids", "driftwood-cichlid-tank", "bala-sharks-with-cichlids", "peacock-eel-with-cichlids"]
   - title: "Livebearers & Community Fish"

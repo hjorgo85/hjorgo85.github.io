@@ -90,7 +90,7 @@ The practical approach is the same one that comes up repeatedly across fish heal
 2. **Has something changed recently** — particularly swimming ability, buoyancy, or posture? This points toward an active issue rather than a breed characteristic.
 3. **Is the "deformity" affecting function** — can the fish swim, feed, and maintain normal position in the water, or is it struggling? A fancy variety's unusual *appearance* doesn't necessarily mean impaired *function*, while a fish struggling to swim or maintain position — regardless of its body shape — warrants closer attention.
 
-This baseline-comparison approach mirrors the scale-texture check in our [bloated cory catfish guide](/bloated-cory-catfish/) (flat scales = likely normal bloating, raised "pinecone" scales = possible dropsy) — in both cases, **a specific, checkable detail does more to clarify the situation than the general impression of "something looks off."**
+This baseline-comparison approach mirrors the scale-texture check in our [bloated cory catfish guide](/bloated-cory-catfish/) (flat scales = likely normal bloating, raised "pinecone" scales = possible dropsy) — in both cases, **a specific, checkable detail does more to clarify the situation than the general impression of "something looks off."** Note that all of this is about body *shape* — if what's changed is the *texture* of the skin itself (a patch that looks like it's lifting, peeling, or developing a sore), that's a different issue covered in our [goldfish skin peeling guide](/goldfish-skin-peeling/).
 
 ## Quick Reference
 

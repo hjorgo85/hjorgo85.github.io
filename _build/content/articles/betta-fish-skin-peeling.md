@@ -62,7 +62,7 @@ What separates normal slime coat activity from a problem worth investigating:
 - **Normal**: a subtle, even haze or cloudiness across the whole body, or occasional minor mucus in the water, with the betta otherwise behaving and eating normally
 - **Not normal**: a **distinct patch** where skin appears to be lifting away, peeling in larger pieces, or leaving behind a raw, discolored, or ulcerated area — especially if it's localized to one area, growing, or accompanied by other symptoms (lethargy, clamped fins, loss of appetite, or rubbing/flicking against decor)
 
-This same "subtle and even vs. distinct and changing" framework comes up elsewhere on this site — for instance, the scale-texture check in our [bloated cory catfish guide](/bloated-cory-catfish/) uses a similar logic to distinguish normal bloating from a more serious condition.
+This same "subtle and even vs. distinct and changing" framework comes up elsewhere on this site — for instance, the scale-texture check in our [bloated cory catfish guide](/bloated-cory-catfish/) uses a similar logic to distinguish normal bloating from a more serious condition. Skin peeling shows up across many freshwater species, not just bettas — our [general guide to fish skin peeling](/fish-skin-peeling/) covers the broader picture and links to species-specific causes for koi, goldfish, angelfish, and Oscars.
 
 ## Common Causes of Skin Peeling in Bettas
 
