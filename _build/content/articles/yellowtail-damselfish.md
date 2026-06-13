@@ -41,7 +41,7 @@ faq:
     a: "Temporary darkening is often a stress or aggression response (common during tank introductions or territorial disputes) and usually resolves within a few days. Persistent color loss combined with clamped fins, rapid breathing, or loss of appetite can indicate poor water quality or disease — test your water parameters first."
   - q: "Do yellowtail damselfish need a sump or just a hang-on-back filter?"
     a: "Either works. Yellowtail damselfish are hardy and tolerate a range of filtration setups, including HOB (hang-on-back) filters with a protein skimmer, canister filters, or a full sump system. What matters more is stable water parameters and adequate water movement (a powerhead helps in tanks without a sump return)."
-related: ["azure-damselfish", "blue-devil-damselfish", "domino-damselfish", "common-clownfish", "firefish", "jebao-rw-4-review"]
+related: ["azure-damselfish", "blue-devil-damselfish", "domino-damselfish", "common-clownfish", "firefish", "maroon-clownfish-premnas-biaculeatus", "jebao-rw-4-review"]
 sources:
   - label: "Chrysiptera parasema — FishBase"
     url: "https://www.fishbase.se/summary/Chrysiptera-parasema.html"

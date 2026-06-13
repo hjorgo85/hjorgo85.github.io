@@ -41,7 +41,7 @@ faq:
     a: "Yes, but introduce them carefully. A common approach is to buy a small juvenile and a slightly larger juvenile at the same time and introduce them together — they'll often pair off naturally as one becomes dominant (female) and the other becomes the male. Adding a second clownfish to a tank with an already-established, mature clownfish can result in aggression, especially if sizes are mismatched."
   - q: "Why is my clownfish hosting in a powerhead, hand, or piece of coral instead of an anemone?"
     a: "This is completely normal. In the absence of a host anemone, clownfish will often 'host' in other objects — a power filter return, a piece of coral (even non-host species), a clump of macroalgae, or even your hand during feeding. This is just their natural anemone-seeking instinct redirected, and it's harmless to the fish."
-related: ["yellowtail-damselfish", "firefish", "azure-damselfish", "banggai-cardinalfish", "jebao-rw-4-review"]
+related: ["maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "why-do-clownfish-turn-black", "clownfish-ich", "clownfish-salinity-aquarium", "yellowtail-damselfish"]
 sources:
   - label: "Amphiprion ocellaris — FishBase"
     url: "https://www.fishbase.se/summary/Amphiprion-ocellaris.html"
@@ -60,7 +60,9 @@ Decades of captive breeding have also produced color morphs not found in the wil
 - **Snowflake / Picasso** — irregular, expanded white patches that vary fish-to-fish
 - **Naked** (no white bars) — less common, striking solid-orange appearance
 
-All of these are the same species, *A. ocellaris*, with the same care requirements — the differences are purely cosmetic, the result of selective breeding.
+All of these are the same species, *A. ocellaris*, with the same care requirements — the differences are purely cosmetic, the result of selective breeding. (The "black ice" pattern is different from the natural age-related darkening some ocellaris develop — see [why do clownfish turn black?](/why-do-clownfish-turn-black/) for how to tell the two apart.)
+
+If you're drawn to the look of a clownfish but want something larger and more visually distinct, the [maroon clownfish (Premnas biaculeatus)](/maroon-clownfish-premnas-biaculeatus/) is a different genus entirely — bigger, spinier, and considerably more territorial than *A. ocellaris*.
 
 ## Tank Requirements
 
@@ -83,7 +85,7 @@ Clownfish appreciate live rock with crevices for shelter, but they're far less d
 | Nitrate | <20 ppm |
 | Alkalinity | 8-12 dKH |
 
-Clownfish are hardy and tolerate the normal swings of a maturing tank reasonably well, but — like the [yellowtail damselfish](/yellowtail-damselfish/) — "hardy" doesn't mean "indifferent to water quality." Stable parameters translate directly to better coloration, appetite, and disease resistance over the long run.
+Clownfish are hardy and tolerate the normal swings of a maturing tank reasonably well, but — like the [yellowtail damselfish](/yellowtail-damselfish/) — "hardy" doesn't mean "indifferent to water quality." Stable parameters translate directly to better coloration, appetite, and disease resistance over the long run. Clownfish are also unusually tolerant of salinity swings compared to corals and invertebrates — see our [clownfish salinity guide](/clownfish-salinity-aquarium/) for the specific ranges and why that tolerance matters.
 
 ## Diet and Feeding
 
@@ -116,14 +118,14 @@ Clownfish are generally peaceful toward other species, with one major caveat: **
 
 Common clownfish are among the most frequently captive-bred marine fish, and for good reason — they're relatively willing to pair off and spawn in home aquariums.
 
-1. **Pairing:** Clownfish are sequential hermaphrodites — the larger/more dominant individual becomes female, the next becomes the breeding male. A common approach is introducing two juveniles of slightly different sizes together.
+1. **Pairing:** Clownfish are sequential hermaphrodites — the larger/more dominant individual becomes female, the next becomes the breeding male. A common approach is introducing two juveniles of slightly different sizes together. See our [clownfish pairing behavior guide](/clownfish-pairing-behavior/) for the full introduction process and how to read the early signs of a successful pair.
 2. **Spawning:** A mature, well-fed pair will lay a clutch of eggs (often several hundred) on a flat surface near their host (anemone, rock, or surrogate), usually timed around the lunar cycle. The male guards and fans the eggs.
 3. **Hatching:** Eggs hatch roughly **7-10 days** after spawning, typically a couple of hours after sunset. Like damselfish larvae, clownfish larvae are pelagic and will be lost to filtration unless captured.
 4. **Raising fry:** Requires a separate larval tank with green water and rotifers, then graduating to baby brine shrimp — a genuinely advanced, multi-week project, but one many hobbyists pursue specifically because clownfish pairs are so willing to spawn repeatedly once established.
 
 ## Common Health Issues
 
-- **Brooklynella ("clownfish disease")** — a parasitic infection that can cause rapid mucus shedding and lethargy, particularly in stressed or newly imported fish. Quarantine is the best prevention.
+- **Brooklynella ("clownfish disease")** — a parasitic infection that can cause rapid mucus shedding and lethargy, particularly in stressed or newly imported fish. Quarantine is the best prevention. See our [clownfish ich and Brooklynella guide](/clownfish-ich/) for how to tell the two apart and treat each.
 - **Marine ich** — as with most marine fish, possible if introduced via unquarantined tankmates.
 - **Lateral line erosion (HLLE)** — can occur with poor diet/water quality over time; a varied diet helps prevent it.
 

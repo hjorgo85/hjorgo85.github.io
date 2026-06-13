@@ -11,6 +11,8 @@ groups:
     slugs: ["azure-damselfish", "blue-devil-damselfish", "domino-damselfish"]
   - title: "Reef Fish Species Profiles"
     slugs: ["flame-angelfish", "banggai-cardinalfish", "pearlscale-butterflyfish-reef-safe"]
+  - title: "Clownfish Care & Behavior"
+    slugs: ["maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "why-do-clownfish-turn-black", "clownfish-ich", "clownfish-salinity-aquarium"]
 faq:
   - q: "What's the easiest saltwater fish for a beginner?"
     a: "The [yellowtail damselfish](/yellowtail-damselfish/) and [common clownfish](/common-clownfish/) are both frequently recommended starting points — they're hardy, tolerate the water-quality swings of a newly cycled tank better than most species, and are widely available as captive-bred stock."
