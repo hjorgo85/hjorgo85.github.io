@@ -41,7 +41,7 @@ faq:
     a: "Yes, but introduce them carefully. A common approach is to buy a small juvenile and a slightly larger juvenile at the same time and introduce them together — they'll often pair off naturally as one becomes dominant (female) and the other becomes the male. Adding a second clownfish to a tank with an already-established, mature clownfish can result in aggression, especially if sizes are mismatched."
   - q: "Why is my clownfish hosting in a powerhead, hand, or piece of coral instead of an anemone?"
     a: "This is completely normal. In the absence of a host anemone, clownfish will often 'host' in other objects — a power filter return, a piece of coral (even non-host species), a clump of macroalgae, or even your hand during feeding. This is just their natural anemone-seeking instinct redirected, and it's harmless to the fish."
-related: ["yellowtail-damselfish", "firefish", "jebao-rw-4-review"]
+related: ["yellowtail-damselfish", "firefish", "azure-damselfish", "banggai-cardinalfish", "jebao-rw-4-review"]
 sources:
   - label: "Amphiprion ocellaris — FishBase"
     url: "https://www.fishbase.se/summary/Amphiprion-ocellaris.html"

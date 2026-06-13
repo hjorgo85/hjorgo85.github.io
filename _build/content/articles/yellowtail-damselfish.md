@@ -41,7 +41,7 @@ faq:
     a: "Temporary darkening is often a stress or aggression response (common during tank introductions or territorial disputes) and usually resolves within a few days. Persistent color loss combined with clamped fins, rapid breathing, or loss of appetite can indicate poor water quality or disease — test your water parameters first."
   - q: "Do yellowtail damselfish need a sump or just a hang-on-back filter?"
     a: "Either works. Yellowtail damselfish are hardy and tolerate a range of filtration setups, including HOB (hang-on-back) filters with a protein skimmer, canister filters, or a full sump system. What matters more is stable water parameters and adequate water movement (a powerhead helps in tanks without a sump return)."
-related: ["common-clownfish", "firefish", "jebao-rw-4-review"]
+related: ["azure-damselfish", "blue-devil-damselfish", "domino-damselfish", "common-clownfish", "firefish", "jebao-rw-4-review"]
 sources:
   - label: "Chrysiptera parasema — FishBase"
     url: "https://www.fishbase.se/summary/Chrysiptera-parasema.html"
@@ -100,6 +100,7 @@ This is where yellowtail damselfish require the most thought. They are **semi-ag
 - **Add damselfish last**, or alongside other semi-aggressive species of similar size, so no single fish has time to establish dominant territory before others arrive.
 - Pair with clownfish (see our [common clownfish guide](/common-clownfish/)), firefish (see our [firefish guide](/firefish/)), gobies, blennies, and larger semi-aggressive fish like tangs (in appropriately sized tanks).
 - Avoid keeping them with very passive, slow-moving fish (e.g. seahorses, pipefish) or other small damselfish species added later — both scenarios tend to end badly for the newcomer.
+- If you're considering other *Chrysiptera* damsels like the [azure damselfish](/azure-damselfish/) or [blue devil damselfish](/blue-devil-damselfish/), or a much larger species like the [domino damselfish](/domino-damselfish/), add them simultaneously to a large tank with divided territories rather than sequentially — mixing similarly colored damsels added at different times is one of the most common causes of ongoing aggression.
 
 **Keeping a group:** If you want multiple yellowtail damselfish, the established advice is to add **4 or more at once** into a tank with abundant rockwork. This disperses aggression across the group rather than concentrating it on one or two individuals. Adding them in twos or threes, or sequentially over time, tends to produce one dominant fish that harasses the rest.
 

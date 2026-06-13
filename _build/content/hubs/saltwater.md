@@ -7,6 +7,10 @@ intro: "Marine aquariums have a reputation for being difficult and expensive —
 groups:
   - title: "Beginner-Friendly Saltwater Fish"
     slugs: ["yellowtail-damselfish", "common-clownfish", "firefish"]
+  - title: "Damselfish Species Guides"
+    slugs: ["azure-damselfish", "blue-devil-damselfish", "domino-damselfish"]
+  - title: "Reef Fish Species Profiles"
+    slugs: ["flame-angelfish", "banggai-cardinalfish", "pearlscale-butterflyfish-reef-safe"]
 faq:
   - q: "What's the easiest saltwater fish for a beginner?"
     a: "The [yellowtail damselfish](/yellowtail-damselfish/) and [common clownfish](/common-clownfish/) are both frequently recommended starting points — they're hardy, tolerate the water-quality swings of a newly cycled tank better than most species, and are widely available as captive-bred stock."

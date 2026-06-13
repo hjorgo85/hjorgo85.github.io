@@ -41,7 +41,7 @@ faq:
     a: "The 'firefish' or 'firefish goby' (Nemateleotris magnifica) has a red-to-orange posterior half and a tall, black-edged first dorsal fin. The 'purple firefish' (Nemateleotris decora) is a related but distinct species with a purple body and yellow-tipped fins. Care requirements are very similar between the two, though N. decora is sometimes considered slightly more delicate."
   - q: "Is a firefish reef safe?"
     a: "Yes. Firefish ignore corals and other sessile invertebrates entirely, making them an easy addition to reef tanks. Their main compatibility concerns are about other fish (aggression toward them) and the jumping risk, not anything related to corals or clams."
-related: ["yellowtail-damselfish", "common-clownfish"]
+related: ["yellowtail-damselfish", "common-clownfish", "banggai-cardinalfish", "blue-devil-damselfish"]
 sources:
   - label: "Nemateleotris magnifica — FishBase"
     url: "https://www.fishbase.se/summary/Nemateleotris-magnifica.html"
