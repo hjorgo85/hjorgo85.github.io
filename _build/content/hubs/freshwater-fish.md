@@ -15,6 +15,8 @@ groups:
     slugs: ["stingray-pleco", "pleco-poop-information", "bloated-cory-catfish", "channel-catfish-tank-conditions", "colombian-shark-catfish", "berneys-shark-catfish", "how-to-care-for-asian-banjo-catfish"]
   - title: "Big Tank Centerpiece Fish"
     slugs: ["red-jardini-arowana", "arowana-water-temperature", "55-gallon-discus-tank", "what-are-the-fish-that-swim-with-sharks"]
+  - title: "Tetras, Nano Tanks & Common Health Questions"
+    slugs: ["endlers-5-gallon-tank", "neon-tetra-fungus", "black-skirt-tetra-being-aggressive", "dwarf-gouramis", "why-do-goldfish-look-deformed"]
 faq:
   - q: "What's the best freshwater fish for a first tank?"
     a: "It depends on tank size and goals, but fish that are frequently recommended for genuinely beginner-friendly setups include bettas (in a properly heated, filtered 5+ gallon tank — see our [betta care guide](/betta-fish-care-guide/)), certain peaceful schooling tetras, and corydoras catfish. The common thread among good beginner choices is tolerance for a range of parameters and availability of clear, accurate care information — which, unfortunately, doesn't always match what's printed on store packaging."
