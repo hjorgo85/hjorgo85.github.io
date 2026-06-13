@@ -83,6 +83,8 @@ Bala sharks are **peaceful but notably skittish** — they're prone to sudden st
 
 **For Bala sharks:** large, peaceful community tanks with soft-to-neutral water — think large barbs, other peaceful schooling fish, and species that won't be stressed by Bala sharks' active swimming. A 125+ gallon community tank built around Bala sharks' actual needs, rather than around fitting them into a cichlid tank, tends to be a much better outcome for the Bala sharks specifically.
 
+Worth noting: despite the shared "shark" name, Bala sharks have little in common with other freshwater fish marketed under similar names — see our [guide to freshwater "shark" fish](/what-are-the-fish-that-swim-with-sharks/) for more on why the name itself isn't a useful guide to compatibility or care needs.
+
 ## Quick Reference
 
 - [ ] Bala sharks grow to 12-14 inches and need schools of 6+ → 125+ gallon tanks
