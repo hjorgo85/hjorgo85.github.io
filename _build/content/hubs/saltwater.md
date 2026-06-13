@@ -21,6 +21,8 @@ groups:
     slugs: ["diatoms-reef-tank", "hydroids-reef-tank", "sponges-reef-tank", "super-glue-reef-tank", "pla-safe-reef-tank"]
   - title: "Stocking Guides & Big Fish"
     slugs: ["saltwater-aquarium-fish-for-beginners", "saltwater-fish-for-10-gallon-tank", "best-fish-for-reef-tank", "blue-hippo-tang"]
+  - title: "Wrasses, Gobies & Specialist Species"
+    slugs: ["female-melanurus-wrasse", "bluestreak-cleaner-wrasse-labroides-dimidiatrus", "water-cow-goby-fish", "chain-link-moray-eel", "foxface-rabbitfish-stressed"]
 faq:
   - q: "What's the easiest saltwater fish for a beginner?"
     a: "The [yellowtail damselfish](/yellowtail-damselfish/) and [common clownfish](/common-clownfish/) are both frequently recommended starting points — they're hardy, tolerate the water-quality swings of a newly cycled tank better than most species, and are widely available as captive-bred stock."
