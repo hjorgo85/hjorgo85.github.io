@@ -87,7 +87,7 @@ American flagfish are **omnivores with a genuinely useful algae-grazing habit**:
 - **Quality flake or pellet** as a dietary staple beyond algae alone — algae grazing supplements but doesn't replace a complete diet
 - **Occasional live/frozen foods** (bloodworms, daphnia) for variety, particularly useful for conditioning before breeding
 
-Don't rely on flagfish as a sole algae solution — they contribute to algae management but won't resolve an underlying lighting or nutrient imbalance driving excessive algae growth in the first place. Our [algae guide](/algae/) covers what actually drives algae growth and why algae-eaters are a management tool rather than a fix on their own.
+Don't rely on flagfish as a sole algae solution — they contribute to algae management but won't resolve an underlying lighting or nutrient imbalance driving excessive algae growth in the first place. Our [algae guide](/algae/) covers what actually drives algae growth and why algae-eaters are a management tool rather than a fix on their own. The saltwater-side equivalent of this fish is the [lawnmower blenny](/lawnmower-blenny-and-hair-algae/), which faces the same hair/turf-algae grazing role — and the same starvation risk once it's done its job too well.
 
 ## Tank Mates and Compatibility
 

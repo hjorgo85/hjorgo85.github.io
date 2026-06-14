@@ -67,6 +67,8 @@ Algae isn't one thing, and different types respond to different fixes. The most 
 - **Green spot algae (GSA)** — small, hard, circular green spots, often on glass and slow-growing leaves (anubias, java fern), frequently linked to low phosphate relative to other nutrients or aging bulbs.
 - **Cyanobacteria ("blue-green algae")** — not a true algae at all, but bacteria that often forms slimy films or dark tufts in low-flow areas. Our [Calothrix algae guide](/calothrix-algae/) covers identification and treatment for one common type, and our [grey algae guide](/grey-algae/) covers another frequently-confused film type.
 
+Saltwater and reef tanks deal with their own version of this same picture — coralline algae, macroalgae, and turf algae all respond to the same light/nutrient principles, covered separately in our [guide to the algae and "plants" found on a coral reef](/17-plants-in-the-coral-reef/).
+
 ## Why Algae Grows: Light and Nutrients
 
 Two inputs drive almost all algae growth:

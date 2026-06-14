@@ -41,7 +41,7 @@ faq:
     a: "Yes — food-grade sodium bicarbonate (baking soda) dissolved in RO/DI water is a widely used, inexpensive way to raise alkalinity, and it's chemically similar to what's in many commercial alkalinity buffers. It only raises alkalinity, not calcium or magnesium, so it works well for spot-correcting a low alkalinity reading, but it shouldn't be your only long-term dosing method if calcium also needs regular supplementation — that's where two-part dosing or kalkwasser come in."
   - q: "Why does my alkalinity keep dropping between water changes?"
     a: "This is normal and expected in any tank with actively growing corals and coralline algae — calcification consumes carbonate and bicarbonate ions from the water, which is exactly what alkalinity measures. The rate of drop is a rough proxy for how much calcification is happening in your tank; a faster drop usually means more coral growth (a good sign) but also means you need a more consistent dosing routine to keep up with demand."
-related: ["acceptable-tds-reef-tank", "specific-gravity-reef-tank", "problems-with-high-magnesium-in-a-reef-tank", "clownfish-salinity-aquarium", "diatoms-reef-tank"]
+related: ["acceptable-tds-reef-tank", "specific-gravity-reef-tank", "problems-with-high-magnesium-in-a-reef-tank", "clownfish-salinity-aquarium", "diatoms-reef-tank", "orange-coralline-algae"]
 sources:
   - label: "Water Chemistry Forum — Reef2Reef"
     url: "https://www.reef2reef.com/forums/water-chemistry.23/"
@@ -97,7 +97,7 @@ A reef tank running persistently low on alkalinity (well under 7 dKH, or any rea
 
 - **Coral tissue recession** — tissue pulling back from the base of the skeleton, especially in SPS corals with high calcification rates
 - **Slowed or stalled growth** — corals that were growing visibly week-to-week plateau without an obvious cause
-- **Brittle or receding coralline algae** — coralline algae is highly sensitive to alkalinity and often shows stress (paling, receding edges) before corals do, making it a useful early-warning indicator
+- **Brittle or receding coralline algae** — coralline algae is highly sensitive to alkalinity and often shows stress (paling, receding edges) before corals do, making it a useful early-warning indicator. This applies regardless of which color coralline you have established — our [orange coralline algae guide](/orange-coralline-algae/) covers why coralline color varies and how to read its growth (or lack of it) as a chemistry signal
 - **pH instability** — since alkalinity is fundamentally a pH buffer, low alkalinity often shows up alongside wider-than-normal pH swings over the day/night cycle
 
 ## How to Raise Alkalinity Step by Step

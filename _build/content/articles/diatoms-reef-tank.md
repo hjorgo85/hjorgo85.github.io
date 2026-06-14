@@ -41,7 +41,7 @@ faq:
     a: "No. Diatoms are not toxic and don't pose a direct threat to fish, corals, or invertebrates — the issue is purely cosmetic, plus the fact that a heavy diatom film can make rockwork and glass look dirty and can dull the appearance of corals it settles on. It's a normal, expected part of a new tank's biological maturation, not a sign that something is wrong."
   - q: "How do I get rid of diatoms permanently?"
     a: "You generally don't need to do anything drastic — most diatom blooms resolve on their own within a few weeks as the tank matures. In the meantime, gentle removal (siphoning during water changes, wiping the glass) keeps things looking better without disrupting the process. If diatoms persist for months, the fix isn't a treatment for the diatoms themselves — it's identifying and reducing the ongoing silicate source, which is most often the RO/DI source water."
-related: ["hydroids-reef-tank", "sponges-reef-tank", "acceptable-tds-reef-tank", "raise-alkalinity-reef-tank", "specific-gravity-reef-tank"]
+related: ["hydroids-reef-tank", "sponges-reef-tank", "acceptable-tds-reef-tank", "raise-alkalinity-reef-tank", "specific-gravity-reef-tank", "17-plants-in-the-coral-reef"]
 sources:
   - label: "New Tank Syndrome & Diatom Blooms — Reef2Reef"
     url: "https://www.reef2reef.com/forums/new-to-the-hobby.123/"
@@ -64,7 +64,7 @@ A brand-new reef tank is, almost by definition, a silica-rich environment:
 - **New sand** — especially aragonite or silica-based sand products — can leach silicates for the first several weeks after being added to a tank
 - **Dry rock** — porous rock that hasn't been fully "soaked" can release trace silicates as it cures in tank water
 - **Source water** — tap water commonly carries dissolved silicates, and even RO/DI water isn't guaranteed to be silicate-free if the system isn't fully dialed in (see [acceptable TDS for reef tank source water](/acceptable-tds-reef-tank/) for how to confirm this)
-- **Lack of competition** — in a mature tank, diatoms have to compete with established macroalgae, coralline algae, bacteria, and a working cleanup crew for the same resources. A brand-new tank has none of that competition yet, so whatever diatoms are present have the field to themselves
+- **Lack of competition** — in a mature tank, diatoms have to compete with established macroalgae, coralline algae, bacteria, and a working cleanup crew for the same resources. A brand-new tank has none of that competition yet, so whatever diatoms are present have the field to themselves (our [reef plants and algae overview](/17-plants-in-the-coral-reef/) covers what these competing algae types actually are and why most of what looks like "plants" on a reef is algae too)
 
 This combination — abundant silica, minimal competition — is why diatom blooms are so closely associated with new tanks specifically, and why they're often described as part of the predictable "ugly stage" that follows the initial nitrogen cycle.
 

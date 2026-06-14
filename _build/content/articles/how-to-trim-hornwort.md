@@ -75,6 +75,8 @@ This is where hornwort's fast growth becomes a feature rather than a problem. He
 - **Move them to another tank** — a quick way to add a fast-growing, algae-competing plant (see our [algae guide](/algae/)) to a new setup.
 - **Give them away or discard excess** — hornwort's growth rate means most keepers eventually have more than they need, and that's normal, not a sign of doing something wrong.
 
+Hornwort's "free new plant from a cutting" propagation is different from how some other plants spread — an Amazon sword, for example, produces new plants via [runners](/amazon-sword-runners/) rather than from trimmed cuttings — but the practical result is similar: a healthy, established plant tends to give you more plants over time without extra effort.
+
 ## Quick Reference
 
 - [ ] Hornwort can be cut anywhere along a healthy green stem — no specific node needed
