@@ -55,7 +55,7 @@ sources:
 
 **Most of the small "dwarf" hermit crab species commonly sold individually for reef tanks — blue leg, scarlet/red reef, and red leg hermit crabs — are reasonably reef-safe and have long track records as cleanup crew.** The real risk areas are **larger or unidentified species** (more likely to appear in bulk "assorted hermit crab" mixes than sold individually under a known species name), and a behavior that can affect even otherwise reef-safe species: **shell predation**, where a hermit crab that's outgrown its shell evicts (and effectively kills) a living snail to take its shell, if no empty shells are available. Direct coral predation is less common and mostly associated with larger species, but shell predation is the issue most reef keepers actually run into.
 
-It's also worth distinguishing these marine hermit crabs from **land hermit crabs**, a completely different terrestrial group with no relevance to marine reef tanks — and from other animals sometimes lumped into "is it reef safe" questions despite not being marine at all, like the brackish mudflat crabs covered in our [are fiddler crabs reef safe guide](/are-fiddler-crabs-reef-safe/).
+It's also worth distinguishing these marine hermit crabs from **[land hermit crabs](/do-hermit-crabs-need-saltwater/)**, a completely different terrestrial group with no relevance to marine reef tanks — and from other animals sometimes lumped into "is it reef safe" questions despite not being marine at all, like the brackish mudflat crabs covered in our [are fiddler crabs reef safe guide](/are-fiddler-crabs-reef-safe/).
 
 ## The "Reef-Safe" Dwarf Hermit Crabs Most Keepers Mean
 

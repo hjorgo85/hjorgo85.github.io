@@ -21,6 +21,8 @@ groups:
     slugs: ["crushed-coral", "how-much-crushed-coral-to-raise-ph", "can-you-put-coral-in-a-freshwater-tank", "can-you-take-coral-from-the-beach", "how-to-dry-coral", "how-to-tell-if-coral-is-dyed"]
   - title: "Brackish & Freshwater Crab Species"
     slugs: ["blue-crabs-freshwater", "freshwater-crabs-for-aquariums", "can-mud-crabs-take-off-a-finger", "can-saltwater-crabs-live-in-freshwater", "what-is-the-best-food-diet-for-fiddler-crabs", "red-claw-crabs-diet", "why-do-fiddler-crabs-make-bubbles", "fiddler-crabs-and-mudskippers", "can-red-claw-crabs-and-fiddler-crabs-live-together", "are-fiddler-crabs-reef-safe"]
+  - title: "Land Hermit Crab Care: Setup, Diet & Habits"
+    slugs: ["do-hermit-crabs-need-saltwater", "can-hermit-crabs-live-in-freshwater", "do-hermit-crabs-poop", "can-hermit-crabs-eat-tomatoes", "do-hermit-crabs-need-a-heat-lamp"]
 faq:
   - q: "What's the difference between a 'pest' and a 'cleanup crew' species in a reef tank?"
     a: "It's less about the species itself and more about **what it eats and how it behaves at scale**. Many animals that arrive as hitchhikers on live rock — amphipods, copepods, certain worms — are the same general category of small invertebrate that's deliberately purchased as 'cleanup crew' (amphipods and pods, in particular, are often beneficial rather than problematic). The animals that get a 'pest' label are usually ones that **eat things you don't want eaten** — aiptasia anemones that sting corals and fish, or hermit crab species that outgrow their reef-safe reputation and start preying on snails and coral polyps. The same tank can have both beneficial and problematic hitchhikers at once, which is why identification matters more than a blanket reaction to 'something new showing up.'"
