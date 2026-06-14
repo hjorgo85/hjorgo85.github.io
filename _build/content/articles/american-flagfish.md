@@ -41,7 +41,7 @@ faq:
     a: "Not necessarily — this is one of the species' more distinctive traits. Native to Florida, American flagfish tolerate a wider and cooler temperature range (roughly 64-80°F) than most tropical aquarium fish, and can do well in unheated tanks in many home environments, similar in spirit to how some hardy livebearers (see our [guppy care guide](/guppy-fish-care/)) tolerate a range of conditions, though flagfish lean toward the cooler end of what's typical for a 'tropical' community tank. A heater isn't harmful and can be used if keeping flagfish alongside more strictly tropical species, but it's genuinely optional in many setups."
   - q: "Can American flagfish live with guppies, mollies, or other livebearers?"
     a: "It depends on the individual flagfish and tank setup, but it's not a guaranteed-safe combination. Flagfish can nip at the fins of slower or more elaborately finned fish, which puts species like fancy guppies (including [double-tail varieties](/split-tail-guppy/)) and [sailfin mollies](/sailfin-molly/) — with their large display fins — at some risk, particularly from a territorial male flagfish. Plenty of keepers do successfully mix flagfish with livebearers in a sufficiently large, well-planted tank with multiple hiding spots and territories, but it's a combination to monitor closely after introduction rather than assume will work, a theme covered more directly in our [flagfish aggression guide](/are-american-flagfish-aggressive/)."
-related: ["are-american-flagfish-aggressive", "guppy-fish-care", "sailfin-molly", "split-tail-guppy", "guppy-tuberculosis"]
+related: ["are-american-flagfish-aggressive", "guppy-fish-care", "sailfin-molly", "split-tail-guppy", "guppy-tuberculosis", "algae"]
 sources:
   - label: "Jordanella floridae — FishBase"
     url: "https://www.fishbase.se/summary/Jordanella-floridae.html"
@@ -87,7 +87,7 @@ American flagfish are **omnivores with a genuinely useful algae-grazing habit**:
 - **Quality flake or pellet** as a dietary staple beyond algae alone — algae grazing supplements but doesn't replace a complete diet
 - **Occasional live/frozen foods** (bloodworms, daphnia) for variety, particularly useful for conditioning before breeding
 
-Don't rely on flagfish as a sole algae solution — they contribute to algae management but won't resolve an underlying lighting or nutrient imbalance driving excessive algae growth in the first place.
+Don't rely on flagfish as a sole algae solution — they contribute to algae management but won't resolve an underlying lighting or nutrient imbalance driving excessive algae growth in the first place. Our [algae guide](/algae/) covers what actually drives algae growth and why algae-eaters are a management tool rather than a fix on their own.
 
 ## Tank Mates and Compatibility
 

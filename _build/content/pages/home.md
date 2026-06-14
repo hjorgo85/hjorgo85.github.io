@@ -35,6 +35,9 @@ categories:
     - label: "Equipment Reviews"
       url: "/product-reviews/"
       icon: "cart"
+    - label: "Aquarium Plants & Algae"
+      url: "/aquarium-plants/"
+      icon: "leaf"
 featured:
   heading: "Popular Guides"
   subheading: "Start here — our most comprehensive care guides and reviews."
