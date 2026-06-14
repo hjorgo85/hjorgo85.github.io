@@ -41,7 +41,7 @@ faq:
     a: "Start with water quality: test ammonia, nitrite, nitrate, and pH, and perform a water change if any of these are elevated — this resolves a large share of cloudy eye cases without medication. If cloudiness persists for more than a few days after water quality is corrected, or if it's accompanied by other symptoms (injury, fin rot, lethargy, loss of appetite), it may be a bacterial or fungal infection requiring targeted medication, and isolating the affected fish in a hospital tank (where [epsom salt](/epsom-salt-for-african-cichlids/) is also sometimes used for other digestive issues) is a reasonable next step."
   - q: "Can diet cause cloudy eyes in cichlids?"
     a: "Diet isn't usually a direct cause of cloudy eyes, but it can be an indirect contributor in a couple of ways: overfeeding (especially rich, high-protein foods inappropriate for herbivorous cichlids like Mbuna — see our [Mbuna diet guide](/best-food-for-mbuna-cichlids/)) increases waste production, which can push ammonia and nitrate higher and contribute to the water-quality-related cloudy eye described above. Long-term nutritional deficiencies are occasionally linked to cataract-like cloudiness as well, though this is less common and develops more gradually than the acute cloudy-eye response to water quality."
-related: ["best-food-for-mbuna-cichlids", "epsom-salt-for-african-cichlids", "75-gallon-peacock-cichlid-tank", "driftwood-cichlid-tank", "bala-sharks-with-cichlids"]
+related: ["best-food-for-mbuna-cichlids", "epsom-salt-for-african-cichlids", "75-gallon-peacock-cichlid-tank", "driftwood-cichlid-tank", "bala-sharks-with-cichlids", "aquarium-filter-not-working-after-cleaning"]
 sources:
   - label: "Cichlid Health & Disease Discussion — Cichlid Forum"
     url: "https://www.cichlid-forum.com/"
@@ -61,7 +61,7 @@ Cloudy eye in cichlids is most often a **response to poor water quality** — el
 
 Elevated **ammonia or nitrite** — most often from an overstocked tank, an undersized filter, overfeeding, or a tank that hasn't fully completed its nitrogen cycle — irritates the delicate tissue around a fish's eyes (and gills), prompting a protective mucus response that shows up as cloudiness. This is often one of the **earlier visible signs** of a water quality problem, sometimes appearing before more dramatic symptoms.
 
-**What to check:** ammonia, nitrite, nitrate, and pH. If ammonia or nitrite are above 0 ppm in an established tank, something has disrupted the biological filtration — recent overfeeding, a filter media change that removed too much established bacteria, overstocking, or a tank that's still cycling.
+**What to check:** ammonia, nitrite, nitrate, and pH. If ammonia or nitrite are above 0 ppm in an established tank, something has disrupted the biological filtration — recent overfeeding, a filter media change that removed too much established bacteria, overstocking, or a tank that's still cycling. If a recent filter cleaning lines up with the timing, our guide on [filters not working properly after cleaning](/aquarium-filter-not-working-after-cleaning/) covers how over-cleaning media can trigger exactly this kind of temporary ammonia/nitrite spike.
 
 ### Physical Injury
 
