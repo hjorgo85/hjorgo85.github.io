@@ -7,6 +7,8 @@ intro: "A reef tank is as much about its invertebrates as its fish — cleanup c
 groups:
   - title: "Reef Tank Cleanup Crew & Hitchhikers"
     slugs: ["amphipods-reef-tank", "nassarius-snail-eggs", "how-often-do-emerald-crabs-molt", "porcelain-crab-reef-safe", "what-hermit-crabs-are-not-reef-safe", "does-coral-dip-kill-aiptasia", "best-mantis-shrimp-tank-mates"]
+  - title: "Anemones, BTA Color Morphs & Clownfish Hosting"
+    slugs: ["sick-anemone", "anemone-mouth-open", "why-is-my-anemone-shrinking", "anemone-expelling-zooxanthellae", "anemone-with-purple-tips", "black-widow-anemone-or-rose-bta", "colorado-sunburst-anemone", "what-corals-do-clown-fish-host"]
 faq:
   - q: "What's the difference between a 'pest' and a 'cleanup crew' species in a reef tank?"
     a: "It's less about the species itself and more about **what it eats and how it behaves at scale**. Many animals that arrive as hitchhikers on live rock — amphipods, copepods, certain worms — are the same general category of small invertebrate that's deliberately purchased as 'cleanup crew' (amphipods and pods, in particular, are often beneficial rather than problematic). The animals that get a 'pest' label are usually ones that **eat things you don't want eaten** — aiptasia anemones that sting corals and fish, or hermit crab species that outgrow their reef-safe reputation and start preying on snails and coral polyps. The same tank can have both beneficial and problematic hitchhikers at once, which is why identification matters more than a blanket reaction to 'something new showing up.'"
