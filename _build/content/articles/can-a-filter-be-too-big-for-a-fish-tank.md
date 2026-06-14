@@ -88,6 +88,8 @@ If current does seem to be a problem, the fixes generally don't involve downsizi
 
 For the majority of community tanks — average-swimming fish, no fry or shrimp colonies to protect, sturdy or well-rooted plants — a filter rated above the "minimum" for the tank's size causes no issues at all, and the extra margin is generally welcome. The "is my filter too big" question is worth asking specifically when you notice fish behavior that suggests they're struggling with current, not as a default concern whenever a filter's rating exceeds the tank's volume.
 
+The flip side comes up with multi-size product lines like Penn Plax's Cascade canisters, where a unit sized at the **low end** of its rated range for your tank can feel underpowered without anything being wrong — covered alongside that line's other common issues in our guide to [Cascade canister filter problems](/penn-plax-cascade-canister-aquarium-filter/).
+
 ## Quick Reference
 
 - [ ] Extra filtration capacity (beyond the bare minimum) is usually a benefit, not a problem

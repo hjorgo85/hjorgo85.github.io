@@ -78,6 +78,8 @@ If the pump shows **no activity at all** — no hum, no vibration — the troubl
 1. **Check power** — confirm the outlet is live and check for a tripped GFCI, the same first step as for [hood lights](/aquarium-hood-light-not-working/) or any other aquarium equipment.
 2. If power is confirmed and there's still zero response, the **motor or internal electronics** have likely failed. This is generally not something diaphragm kits address (those assume the motor still runs), and replacement becomes the practical option.
 
+This same "running but no output vs. silent and unresponsive" distinction applies to other small motorized aquarium tools too — our guide on a [battery gravel cleaner that's not working](/hygger-aquarium-gravel-cleaner-not-working/) covers the same diagnostic split for a different piece of equipment.
+
 The reverse pattern is worth keeping in mind too: a pump that's running but underperforming can look "fine" at a glance the same way a [heater with its indicator light on can still fail to heat](/aquarium-heater-light-on-but-heater-not-working/) — in both cases, confirming actual output (bubbles, or tank temperature) matters more than confirming that the unit is merely powered on.
 
 ## Quick Reference
