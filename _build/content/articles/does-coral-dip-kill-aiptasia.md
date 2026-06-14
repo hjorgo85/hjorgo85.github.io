@@ -70,7 +70,7 @@ After dipping, the frag is rinsed and visually inspected, with any dislodged pes
 
 This is where coral dips genuinely excel, and it's the use case they're designed for:
 
-- **Dip every new frag** before it enters your tank, even if it looks clean — small aiptasia can be easy to miss, especially tucked into crevices on a frag's base rock
+- **Dip every new frag** before it enters your tank, even if it looks clean — small aiptasia can be easy to miss, especially tucked into crevices on a frag's base rock (our [guide to coral frags for beginners](/coral-frags-for-beginners/) covers what else is worth checking on a new frag)
 - **Inspect carefully after dipping** — look at the base, any attached rock, and the frag's underside for anything that's been dislodged or that appears unusual
 - **Treat new live rock similarly** where practical — aiptasia commonly arrives on live rock, not just coral frags
 
