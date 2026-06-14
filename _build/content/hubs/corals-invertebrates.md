@@ -13,6 +13,8 @@ groups:
     slugs: ["lps-corals-for-beginners", "alveopora-coral-care", "how-fast-do-torch-corals-grow", "how-do-hammer-corals-grow", "how-to-frag-hammer-coral", "how-do-chalice-corals-grow", "what-do-hammer-corals-eat", "brain-coral-skeleton"]
   - title: "Coral Basics: What Coral Is, How It Lives & How It Eats"
     slugs: ["corals", "coral-frags-for-beginners", "do-corals-move", "do-corals-have-brains", "do-corals-live-forever", "how-long-do-corals-live", "how-do-corals-eat", "how-to-target-feed-corals"]
+  - title: "Soft Coral & Zoanthid Care"
+    slugs: ["zoanthid-tree", "bam-bam-zoanthid-care", "utter-chaos-zoa-coral-care", "kenya-tree-coral-not-opening", "xenia-coral-dying", "what-to-feed-mushroom-corals", "sea-whip-coral-care", "branching-coral-care"]
 faq:
   - q: "What's the difference between a 'pest' and a 'cleanup crew' species in a reef tank?"
     a: "It's less about the species itself and more about **what it eats and how it behaves at scale**. Many animals that arrive as hitchhikers on live rock — amphipods, copepods, certain worms — are the same general category of small invertebrate that's deliberately purchased as 'cleanup crew' (amphipods and pods, in particular, are often beneficial rather than problematic). The animals that get a 'pest' label are usually ones that **eat things you don't want eaten** — aiptasia anemones that sting corals and fish, or hermit crab species that outgrow their reef-safe reputation and start preying on snails and coral polyps. The same tank can have both beneficial and problematic hitchhikers at once, which is why identification matters more than a blanket reaction to 'something new showing up.'"
