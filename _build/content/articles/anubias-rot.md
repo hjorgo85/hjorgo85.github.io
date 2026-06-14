@@ -74,6 +74,8 @@ While burial is the leading cause, a few other factors can contribute to or acce
 - **Heavy algae buildup** on the rhizome and leaves, which can smother the plant's surface and trap organic debris against it — see our [general algae guide](/algae/) for what drives algae growth in the first place.
 - **Physical damage** to the rhizome (from handling, decor shifting, or aggressive fish/snails) creating an entry point for rot-causing organisms.
 
+Java fern, another common epiphyte, deals with its own version of leaf-surface algae buildup rather than rhizome rot — our [java fern algae guide](/algae-on-java-fern/) covers how that compares. And because anubias's rhizome doesn't feed from substrate the way root-feeding plants do, substrate choice (covered in our [substrate guide](/plant-substrate-for-aquariums/)) matters far less here than it does for plants like Amazon swords.
+
 ## Treatment: Trimming and Remounting
 
 1. **Remove the plant and inspect the full rhizome** — soft, discolored sections won't recover and need to be cut away.

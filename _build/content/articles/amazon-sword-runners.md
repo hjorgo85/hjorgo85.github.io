@@ -53,7 +53,7 @@ Most plant "problems" people ask about are things going wrong. A runner on an Am
 
 ## Direct Answer: Runners Are a Sign of a Healthy, Mature Plant
 
-A runner (botanically, a stolon) is a horizontal stem that an Amazon sword sends out from its base once it's established and growing well. At the tip — or sometimes at points along its length — the runner produces a **plantlet**: a small new plant with its own developing leaves and roots, initially supported by the parent plant through the runner connection. Seeing this happen is generally a positive sign about your tank's conditions (light, substrate nutrients, and overall plant health), similar in spirit to how [hornwort's tendency to grow vigorously](/how-to-trim-hornwort/) is a sign of a fast, healthy-growing plant rather than a problem to manage.
+A runner (botanically, a stolon) is a horizontal stem that an Amazon sword sends out from its base once it's established and growing well. At the tip — or sometimes at points along its length — the runner produces a **plantlet**: a small new plant with its own developing leaves and roots, initially supported by the parent plant through the runner connection. Seeing this happen is generally a positive sign about your tank's conditions (light, substrate nutrients, and overall plant health), similar in spirit to how [hornwort's tendency to grow vigorously](/how-to-trim-hornwort/) is a sign of a fast, healthy-growing plant rather than a problem to manage. A sword mature enough to runner is also typically well past the initial cycling period where [fast-growing plants help manage ammonia and nitrite](/best-plants-for-nitrite-control/) — by this stage, root feeders like swords are contributing to the tank's overall nutrient balance rather than competing for the same water-column ammonia.
 
 ## What Runners Look Like and How They Develop
 
@@ -70,7 +70,7 @@ The key signal for separation readiness is the plantlet's **own development** �
 
 ## Planting Separated Plantlets
 
-Amazon swords are root-feeding plants, meaning a nutrient-rich substrate matters more for them than for plants that primarily absorb nutrients through their leaves from the water column. When replanting a separated plantlet, give it a spot with reasonable substrate depth, since its root system — though smaller than the parent's — will continue to grow and needs room to do so. As with the parent plant, avoid burying the crown itself; only the roots and the very base of the plant should be below the substrate surface.
+Amazon swords are root-feeding plants, meaning a nutrient-rich substrate matters more for them than for plants that primarily absorb nutrients through their leaves from the water column — our [plant substrate guide](/plant-substrate-for-aquariums/) covers this distinction in more depth. When replanting a separated plantlet, give it a spot with reasonable substrate depth, since its root system — though smaller than the parent's — will continue to grow and needs room to do so. As with the parent plant, avoid burying the crown itself; only the roots and the very base of the plant should be below the substrate surface. In a larger setup like a [75-gallon planted tank](/planted-75-gallon-aquarium/), separated plantlets are a convenient way to fill out a root-feeder zone without buying additional plants.
 
 ## Why Some Swords Don't Produce Runners
 

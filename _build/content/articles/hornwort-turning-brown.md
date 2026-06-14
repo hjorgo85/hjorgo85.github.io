@@ -70,7 +70,7 @@ Unlike rooted plants, hornwort doesn't have a true root system — it's adapted 
 
 ## Light Requirements and Long-Term Browning
 
-Beyond the initial transport-stress period, **ongoing or worsening browning** — especially in an established sprig that was previously healthy — usually points to insufficient light relative to the plant's fast growth rate. Hornwort is often used as a fast-growing "nutrient sponge" that competes with algae (see our [algae guide](/algae/) for why that competition matters), but that role depends on the plant actually growing quickly, which requires moderate to bright light. In a lower-light tank, hornwort can persist but tends to thin out, with older/lower portions browning faster than new growth at the tips can replace.
+Beyond the initial transport-stress period, **ongoing or worsening browning** — especially in an established sprig that was previously healthy — usually points to insufficient light relative to the plant's fast growth rate. Hornwort is often used as a fast-growing "nutrient sponge" that competes with algae (see our [algae guide](/algae/) for why that competition matters) and is also commonly recommended for [helping manage ammonia and nitrite](/best-plants-for-nitrite-control/) in newer tanks, but both roles depend on the plant actually growing quickly, which requires moderate to bright light. In a lower-light tank, hornwort can persist but tends to thin out, with older/lower portions browning faster than new growth at the tips can replace.
 
 ## Salvaging and Trimming
 

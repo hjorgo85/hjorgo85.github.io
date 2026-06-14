@@ -67,9 +67,9 @@ If an otherwise mature, algae-light tank develops a grey film that's concentrate
 
 ## Removal and Algae-Eater Options
 
-- **Manual wiping/scraping** — straightforward and effective for diatom film; an algae pad or scraper handles glass, and a soft brush or thumb works for decor and slow-growing plant leaves.
+- **Manual wiping/scraping** — straightforward and effective for diatom film; an algae pad or scraper handles glass, and a soft brush or thumb works for decor and slow-growing plant leaves like java fern, which our [java fern algae guide](/algae-on-java-fern/) covers as a case where slow leaf turnover means film algae tends to linger longer than on faster-growing plants.
 - **Nerite snails** — widely used specifically for film algae and diatoms, and don't reproduce in freshwater, making population management simple.
-- **Otocinclus catfish** — graze on soft algae films including diatoms, though they're a community fish with their own care requirements (groups, established tanks) rather than a "drop in and forget" solution.
+- **Otocinclus catfish** — graze on soft algae films including diatoms, though they're a community fish with their own care requirements (groups, established tanks) rather than a "drop in and forget" solution. Both of these stay relatively predictable in size, which our [guide to algae-eater growth rates](/how-fast-do-algae-eaters-grow/) covers in more detail compared to faster-growing species.
 - **Patience for new tanks** — for a brand-new setup, routine wiping during normal maintenance combined with time is often all that's needed; the film typically declines without further action.
 
 ## Quick Reference

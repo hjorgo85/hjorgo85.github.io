@@ -62,7 +62,7 @@ The plant itself doesn't change dramatically between the two forms, but a few th
 - **Leaf texture** — emersed leaves tend to be thicker and more matte/leathery than the glossier leaves often seen underwater.
 - **Growth rate** — emersed anubias often grows at a similar or slightly faster rate than submerged, given adequate humidity and light.
 - **Flowering** — more commonly observed in emersed growth, where conditions more closely resemble the plant's natural above-water periods.
-- **Algae** — emersed leaves generally don't develop the same algae issues that submerged leaves can, since they're not constantly wet and exposed to the same algae-favorable conditions covered in our [algae guide](/algae/).
+- **Algae** — emersed leaves generally don't develop the same algae issues that submerged leaves can, since they're not constantly wet and exposed to the same algae-favorable conditions covered in our [algae guide](/algae/). This is a notable contrast with fully-submerged slow-growing plants like java fern, which — as covered in our [java fern algae guide](/algae-on-java-fern/) — are prone to exactly the kind of long-term leaf-surface algae that emersed growth avoids.
 
 ## Humidity and Light Needs Emersed
 

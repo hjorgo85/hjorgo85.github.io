@@ -39,7 +39,7 @@ faq:
     a: "A small group — often cited as 4-6 — is generally considered workable in a 55-gallon tank, with the caveat that this is more about the social dynamics of discus (which tend to do better in groups than alone or in pairs, similar to the schooling considerations discussed for [Colombian shark catfish](/colombian-shark-catfish/)) than about strictly maximizing the number that can physically fit. As discus reach full adult size, a 55-gallon tank with a small group can feel considerably more crowded than the same gallon count would with smaller-bodied community fish."
   - q: "What water conditions do discus need in a 55-gallon tank?"
     a: "Discus are known for wanting **soft, slightly acidic water** and being more sensitive to water quality swings than many popular community fish — this typically translates to **more frequent water changes** than a similarly-stocked tank of hardier species might need. This is worth factoring into the '55-gallon tank' question alongside the shape issue: even if the footprint and height work for your stocking plan, the maintenance routine for discus is generally more demanding than for fish like guppies (discussed in our [guppy care guide](/guppy-fish-care/)), which tolerate a wider range of water hardness and don't carry the same reputation for water-quality sensitivity."
-related: ["red-jardini-arowana", "arowana-water-temperature", "what-are-the-fish-that-swim-with-sharks", "guppy-fish-care", "channel-catfish-tank-conditions"]
+related: ["red-jardini-arowana", "arowana-water-temperature", "what-are-the-fish-that-swim-with-sharks", "guppy-fish-care", "channel-catfish-tank-conditions", "planted-75-gallon-aquarium"]
 sources:
   - label: "Symphysodon (Discus) — FishBase"
     url: "https://www.fishbase.se/Nomenclature/FamilySummary.php?Family=Cichlidae"
@@ -63,7 +63,7 @@ A standard 55-gallon tank's 21-inch height means an adult discus, at 7-8 inches 
 
 To be clear about what's actually being discussed: a standard 55-gallon tank is **not too small to keep discus** in any absolute sense — it's a legitimate, commonly used size for a small group, especially for younger discus that haven't reached full adult proportions yet. The caveat is specifically about **long-term comfort and behavior** as the group matures: a 55-gallon tank that felt spacious for young discus can feel noticeably tighter once the group reaches full size, in a way that's driven by the tank's height and width more than its overall volume.
 
-For keepers planning long-term, this is worth weighing against the alternative: a taller tank (sometimes marketed as a "discus tank" specifically, often in the 24-30 inch height range) at a similar or even somewhat lower gallon count can be a better fit for the fish's actual shape, even though it "sounds" smaller on paper.
+For keepers planning long-term, this is worth weighing against the alternative: a taller tank (sometimes marketed as a "discus tank" specifically, often in the 24-30 inch height range) at a similar or even somewhat lower gallon count can be a better fit for the fish's actual shape, even though it "sounds" smaller on paper. A step up to a [75-gallon planted tank](/planted-75-gallon-aquarium/), which typically has more height and depth than a standard 55-gallon on a similar footprint, is one practical way to get that better shape match while also gaining room for a more layered planted setup.
 
 ## Group Size and Stocking in a 55-Gallon
 
