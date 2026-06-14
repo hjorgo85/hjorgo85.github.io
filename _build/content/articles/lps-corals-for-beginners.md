@@ -41,7 +41,7 @@ faq:
     a: "This comes down to **species-specific biology rather than the LPS category as a whole**. [Alveopora](/alveopora-coral-care/) is a frequently cited example — it's an LPS genus, but has a documented reputation in the hobby for **receding or declining unpredictably** even under conditions that seem to suit other LPS well, for reasons that aren't fully agreed upon (possibilities discussed in the hobby include sensitivity to handling/shipping stress, specific flow or feeding needs that differ from more commonly kept LPS, or simply lower overall hardiness as a genus in captivity). The broader lesson is that **'LPS' describes a skeletal/polyp structure category, not a guaranteed difficulty tier** — within LPS, some genera (Euphyllia, Favia) have decades of well-documented hobby success, while others (Alveopora among them) have a more mixed track record."
   - q: "How much space should I give LPS corals from each other and from other corals?"
     a: "**More than their daytime appearance suggests, in many cases.** A number of LPS corals — particularly [Euphyllia species like hammer and torch corals](/how-do-hammer-corals-grow/) — extend **long sweeper tentacles at night** that can reach well beyond the coral's daytime footprint and **sting neighboring corals** on contact. When placing LPS frags, it's worth considering not just the coral's current size but its **likely growth and tentacle extension** over time, and leaving meaningfully more space than seems necessary at first glance — a frag that looks like it has plenty of room when small can become a problem for its neighbors within months as both it and they grow. This kind of spacing consideration applies across most popular LPS genera, not just one or two species."
-related: ["alveopora-coral-care", "how-fast-do-torch-corals-grow", "how-do-hammer-corals-grow", "how-do-chalice-corals-grow", "brain-coral-skeleton"]
+related: ["alveopora-coral-care", "how-fast-do-torch-corals-grow", "how-do-hammer-corals-grow", "how-do-chalice-corals-grow", "brain-coral-skeleton", "how-much-white-light-do-corals-need"]
 sources:
   - label: "LPS Coral Care & Identification — Reef2Reef"
     url: "https://www.reef2reef.com/forums/lps-corals.90/"
@@ -68,7 +68,7 @@ Several LPS genera have **decades of well-documented success** in home aquariums
 - **Frogspawn corals (Euphyllia divisa)** — branching tentacle tips, similar genus and care to hammer/torch
 - **Favia and related brain-type corals** — encrusting/dome-shaped growth with distinct polyp "eyes," generally hardy (see our guide on [brain coral skeletons](/brain-coral-skeleton/) for related identification notes)
 
-These species share **moderate lighting tolerance**, **moderate indirect flow** preferences, and generally **respond well to direct feeding** of meaty foods — a combination that makes them comparatively forgiving of the kind of minor parameter swings common in home aquariums.
+These species share **moderate lighting tolerance**, **moderate indirect flow** preferences, and generally **respond well to direct feeding** of meaty foods — a combination that makes them comparatively forgiving of the kind of minor parameter swings common in home aquariums. Our guide on [how much white light corals need](/how-much-white-light-do-corals-need/) covers how this "moderate lighting" tolerance compares to the higher requirements of SPS corals.
 
 ## Where the "LPS = Easy" Generalization Breaks Down
 
