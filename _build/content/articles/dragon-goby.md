@@ -41,7 +41,7 @@ faq:
     a: "Generally not toward unrelated species — dragon gobies are largely **peaceful and somewhat reclusive**, spending much of their time partially buried or resting on the substrate. They have **poor eyesight**, which can occasionally lead to startled reactions or minor conflicts if a tank mate suddenly appears close by, but this isn't the same as deliberate aggression. The bigger compatibility consideration is usually **size and water chemistry** — a dragon goby's eventual size and preference for some salinity narrows the realistic list of compatible tank mates more than its temperament does. For another freshwater fish whose temperament is frequently mischaracterized, see our guide to [black skirt tetra aggression](/black-skirt-tetra-being-aggressive/), where the actual driver of aggression (group size) is also not what the species' reputation suggests."
   - q: "What's the most important substrate consideration for dragon gobies?"
     a: "**Soft, fine sand** — not gravel, and not coarse or sharp sand. Dragon gobies spend significant time partially or fully buried in the substrate (covered in more detail in our [dragon goby burrowing guide](/do-dragon-goby-bury-themselves/)), and a substrate that's too coarse or sharp can cause physical irritation or injury to a fish that's regularly pushing its body into it. A deep enough layer of fine sand to allow comfortable burrowing — generally a couple of inches at minimum — is one of the most important setup details for this species, more so than most other tank decisions."
-related: ["do-dragon-goby-bury-themselves", "what-can-i-feed-my-dragon-goby-fish", "green-spotted-pufferfish", "how-to-care-for-asian-banjo-catfish", "berneys-shark-catfish"]
+related: ["do-dragon-goby-bury-themselves", "what-can-i-feed-my-dragon-goby-fish", "green-spotted-pufferfish", "how-to-care-for-asian-banjo-catfish", "berneys-shark-catfish", "fiddler-crabs-and-mudskippers"]
 sources:
   - label: "Gobioides broussonnetii — FishBase"
     url: "https://www.fishbase.se/summary/Gobioides-broussonnetii.html"
@@ -98,6 +98,8 @@ Dragon gobies are generally peaceful, but a few factors narrow down realistic ta
 - **Substrate-disturbance tolerance** — burrowing behavior can disturb plants or substrate-dwelling tank mates
 
 Other brackish-tolerant species and larger, calm tank mates that won't be bothered by an occasional burrowing neighbor tend to be the most realistic fits.
+
+Some keepers also consider semi-terrestrial crustaceans for a paludarium-style setup built around a brackish dragon goby tank. Our [guide to fiddler crabs and mudskippers](/fiddler-crabs-and-mudskippers/) covers a similar combination of brackish water needs and land access — the same general habitat overlap that makes those species worth considering alongside a dragon goby, though a dragon goby's substrate-burrowing habit and a crab's land-use needs would both need to be accommodated in the same tank design.
 
 ## Burrowing Behavior
 

@@ -41,7 +41,7 @@ faq:
     a: "**Less commonly than shell predation, but it does happen, particularly with larger species.** Most of the small dwarf hermit crabs commonly sold are primarily algae and detritus eaters and don't typically target coral tissue. However, **larger hermit crab species** — more likely to show up in unidentified 'assorted' mixes than to be sold individually as a known reef-safe dwarf species — have been reported picking at coral polyps, particularly soft corals or coral with exposed tissue, especially if other food sources are limited. This is part of why **size and species identification matter more for hermit crabs than the blanket 'reef safe' label on a bag of assorted cleanup crew might suggest**."
   - q: "How can I tell if a hermit crab is becoming a problem in my tank?"
     a: "Watch for a few specific behaviors rather than assuming every hermit crab in a reef tank is automatically fine or automatically a risk: **snails losing their shells to a hermit crab** (a snail that's been evicted typically doesn't survive, and you may notice an empty snail shell with a hermit crab now living in it), **a hermit crab persistently investigating or picking at coral polyps**, or **a hermit crab growing noticeably larger than the small dwarf species you intended to stock**. Any of these is a reasonable prompt to consider removing the individual crab — most fish stores will take back problem cleanup crew — rather than assuming the issue will resolve on its own."
-related: ["porcelain-crab-reef-safe", "how-often-do-emerald-crabs-molt", "nassarius-snail-eggs", "best-mantis-shrimp-tank-mates", "amphipods-reef-tank"]
+related: ["porcelain-crab-reef-safe", "how-often-do-emerald-crabs-molt", "nassarius-snail-eggs", "best-mantis-shrimp-tank-mates", "amphipods-reef-tank", "are-fiddler-crabs-reef-safe"]
 sources:
   - label: "Reef Cleanup Crew Selection — Reef2Reef"
     url: "https://www.reef2reef.com/forums/inverts.85/"
@@ -54,6 +54,8 @@ sources:
 ## Short Answer
 
 **Most of the small "dwarf" hermit crab species commonly sold individually for reef tanks — blue leg, scarlet/red reef, and red leg hermit crabs — are reasonably reef-safe and have long track records as cleanup crew.** The real risk areas are **larger or unidentified species** (more likely to appear in bulk "assorted hermit crab" mixes than sold individually under a known species name), and a behavior that can affect even otherwise reef-safe species: **shell predation**, where a hermit crab that's outgrown its shell evicts (and effectively kills) a living snail to take its shell, if no empty shells are available. Direct coral predation is less common and mostly associated with larger species, but shell predation is the issue most reef keepers actually run into.
+
+It's also worth distinguishing these marine hermit crabs from **land hermit crabs**, a completely different terrestrial group with no relevance to marine reef tanks — and from other animals sometimes lumped into "is it reef safe" questions despite not being marine at all, like the brackish mudflat crabs covered in our [are fiddler crabs reef safe guide](/are-fiddler-crabs-reef-safe/).
 
 ## The "Reef-Safe" Dwarf Hermit Crabs Most Keepers Mean
 
