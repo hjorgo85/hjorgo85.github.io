@@ -40,6 +40,7 @@ const ICONS = {
   cart: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="20" r="1.4" fill="currentColor" stroke="none"/><path d="M2.5 3h2l2.6 12.6a1.8 1.8 0 0 0 1.8 1.4h9.2a1.8 1.8 0 0 0 1.76-1.43L21.5 7H6"/></svg>',
   book: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H12v18H5.5A1.5 1.5 0 0 1 4 19.5v-15z"/><path d="M20 4.5A1.5 1.5 0 0 0 18.5 3H12v18h6.5a1.5 1.5 0 0 0 1.5-1.5v-15z"/></svg>',
   leaf: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4c-7 0-13 4-15 11 2 1 5 2 8 1 6-1.5 9-6.5 9-12 0 0-1-0.1-2 0z"/><path d="M5 19c2-4 5-6.5 9-8"/></svg>',
+  turtle: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8c4 0 7 2.5 7 6s-3 4-7 4-7-1.5-7-4 3-6 7-6z"/><path d="M12 8V5.5M10 5.5c0-1 .9-1.8 2-1.8s2 .8 2 1.8"/><path d="M4 13.5c-1 0-1.8.6-1.8 1.6M20 13.5c1 0 1.8.6 1.8 1.6M6.5 18.5c-.4 1-1.3 1.5-2.3 1.5M17.5 18.5c.4 1 1.3 1.5 2.3 1.5"/></svg>',
 };
 Handlebars.registerHelper('icon', (name) => new Handlebars.SafeString(ICONS[name] || ''));
 

@@ -73,6 +73,8 @@ This is where expectations are worth managing carefully. Even setting aside dire
 - **A turtle that isn't hunting today might hunt tomorrow** — turtle feeding behavior isn't perfectly consistent, and a turtle that ignores shrimp while well-fed may behave differently at other times
 - **Limited hiding spots in many turtle setups** — turtle tanks often have less dense planting or rockwork than a typical shrimp tank, partly because turtles can disturb or destroy live plants, leaving shrimp with fewer places to retreat
 
+How much of a constraint any of this is also depends on the tank itself — a turtle in a tank that's already on the small side for its size, as discussed in our guides on [musk turtles in 20-gallon tanks](/can-a-musk-turtle-live-in-a-20-gallon-tank/) and [turtles in 30-gallon tanks](/can-i-keep-a-turtle-in-a-30-gallon-tank/), has even less spare space and cover to offer a shrimp population than a more generously sized setup.
+
 None of these factors make cohabitation strictly impossible — some keepers do report shrimp surviving for stretches in turtle tanks, particularly in larger setups with well-fed turtles and plenty of cover — but they stack up against the shrimp's odds in a way that's hard to fully mitigate.
 
 ## A Practical Alternative
