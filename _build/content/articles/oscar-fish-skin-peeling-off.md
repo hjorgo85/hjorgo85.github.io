@@ -39,7 +39,7 @@ faq:
     a: "**Early-stage hole-in-the-head disease often improves** once the contributing factors — diet and water quality — are addressed, with pits gradually filling in over time as the fish's condition improves. **More advanced cases**, where erosion has progressed significantly, may not fully reverse even with improved care, though further progression can often be slowed or stopped. If *Hexamita* is suspected or confirmed as a contributing factor, antiparasitic treatment may be part of the approach, typically alongside (not instead of) addressing diet and water quality — since the parasite is generally considered to act in combination with other stressors rather than as a sole cause in a well-cared-for fish."
   - q: "What other skin issues besides hole-in-the-head affect Oscars?"
     a: "Oscars can develop the same general categories of skin issues discussed in our [overview of fish skin peeling](/fish-skin-peeling/) — **ammonia or chemical burns** (a particular risk given how much waste a large Oscar produces relative to tank volume), **physical injury** from decor or aggressive tank mates (Oscars can be territorial), and **columnaris**, a bacterial infection that can cause lesions or a cottony appearance similar to what's described in our [betta skin peeling guide](/betta-fish-skin-peeling/). The key distinguishing feature of hole-in-the-head disease specifically is its **location** — concentrated around the head and lateral line as small pits, rather than patches that can appear anywhere on the body."
-related: ["fish-skin-peeling", "goldfish-skin-peeling", "koi-fish-skin-peeling", "angelfish-skin-peeling", "betta-fish-skin-peeling"]
+related: ["fish-skin-peeling", "goldfish-skin-peeling", "koi-fish-skin-peeling", "angelfish-skin-peeling", "betta-fish-skin-peeling", "red-devil-fish-vs-oscar"]
 sources:
   - label: "Astronotus ocellatus — FishBase"
     url: "https://www.fishbase.se/summary/Astronotus-ocellatus.html"
@@ -81,6 +81,8 @@ Given that hole-in-the-head disease is most often discussed as a multi-factor co
 
 - **Diet variety and quality** — a varied diet appropriate for a large omnivorous cichlid, rather than relying on a single food type, is generally recommended both for general health and specifically in the context of hole-in-the-head disease
 - **Water quality and tank size** — given an adult Oscar's size (commonly 10-12+ inches) and waste output, a tank that's appropriately sized and filtered for the fish, with regular water changes and monitoring of ammonia, nitrite, and nitrate, addresses one of the most commonly cited contributing factors
+
+If you're still deciding what large cichlid fits your setup, it's worth knowing that tank size and water quality demands aren't unique to Oscars — our [red devil cichlid vs. Oscar comparison](/red-devil-fish-vs-oscar/) covers how both species share similar bioload and filtration needs, even though they differ sharply in tankmate tolerance.
 
 ## Treatment and Recovery
 
