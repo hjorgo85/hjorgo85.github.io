@@ -72,6 +72,8 @@ Nassarius snails are popular cleanup crew additions specifically because they're
 
 Finding egg capsules is, in a sense, a small positive signal: it suggests your Nassarius population is healthy enough to engage in normal reproductive behavior, which isn't a given for every invertebrate added to a reef tank. This is a different situation from species that struggle or show signs of stress, like those discussed in our guide to a [sick mystery snail](/sick-mystery-snail/) (a freshwater species, but the general principle — that visible reproductive behavior often correlates with adequate care — applies broadly across snails).
 
+Nassarius snails are just one of several [cleanup crew snail species used in reef tanks](/snails-reef-tank/), each suited to a different role — Nassarius specifically handle sand-sifting, which is part of why a thriving population (egg-laying included) is generally a welcome sign rather than a concern.
+
 ## Will the Eggs Hatch and Survive?
 
 This is where expectations are worth managing. **Hatching is possible**, but a visible population boom of new Nassarius snails is **uncommon** in typical reef tank setups, for a few reasons:

@@ -25,6 +25,8 @@ groups:
     slugs: ["do-hermit-crabs-need-saltwater", "can-hermit-crabs-live-in-freshwater", "do-hermit-crabs-poop", "can-hermit-crabs-eat-tomatoes", "do-hermit-crabs-need-a-heat-lamp"]
   - title: "Shrimp & Crayfish: Behavior, Reef Tanks & Brackish Water"
     slugs: ["shrimp-poop-in-my-aquarium", "is-shrimp-a-fish-or-crustacean", "will-crayfish-eat-snails", "ghost-shrimp-disappeared", "shrimp-reef-tank", "baby-cleaner-shrimp", "can-ghost-shrimp-live-in-brackish-water"]
+  - title: "Aquarium Snails: Health, Cold Water & Reef Cleanup Crew"
+    slugs: ["sick-mystery-snail", "sick-aquarium-snails", "can-mystery-snails-live-in-cold-water", "snails-reef-tank"]
 faq:
   - q: "What's the difference between a 'pest' and a 'cleanup crew' species in a reef tank?"
     a: "It's less about the species itself and more about **what it eats and how it behaves at scale**. Many animals that arrive as hitchhikers on live rock — amphipods, copepods, certain worms — are the same general category of small invertebrate that's deliberately purchased as 'cleanup crew' (amphipods and pods, in particular, are often beneficial rather than problematic). The animals that get a 'pest' label are usually ones that **eat things you don't want eaten** — aiptasia anemones that sting corals and fish, or hermit crab species that outgrow their reef-safe reputation and start preying on snails and coral polyps. The same tank can have both beneficial and problematic hitchhikers at once, which is why identification matters more than a blanket reaction to 'something new showing up.'"

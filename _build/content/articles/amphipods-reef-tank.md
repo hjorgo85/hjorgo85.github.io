@@ -71,7 +71,7 @@ A visible amphipod population is often interpreted by experienced reef keepers a
 - **They're a live food source** — fish like mandarin dragonets are heavily dependent on pod populations, and a tank that can't sustain amphipods and copepods generally can't sustain these fish either
 - **Their presence indicates an established refugium or live rock ecosystem** — amphipods don't typically thrive in tanks with very high predation pressure or very low organic input, so their presence reflects a certain baseline of biological stability
 
-This puts amphipods in a different category from hitchhikers covered elsewhere on this site, like [hydroids](/hydroids-reef-tank/) or [aiptasia](/does-coral-dip-kill-aiptasia/), which can pose genuine risks to fish or coral and are more often actively managed down rather than left alone.
+This puts amphipods in a different category from hitchhikers covered elsewhere on this site, like [hydroids](/hydroids-reef-tank/) or [aiptasia](/does-coral-dip-kill-aiptasia/), which can pose genuine risks to fish or coral and are more often actively managed down rather than left alone. Amphipods also aren't the same as the deliberately-added [cleanup crew snails](/snails-reef-tank/) many reef keepers stock for sand-sifting and algae control — both can coexist in the same tank, filling different niches without competing.
 
 ## When Amphipod Populations Become a Concern
 
