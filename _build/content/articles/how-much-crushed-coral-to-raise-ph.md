@@ -41,7 +41,7 @@ faq:
     a: "The main signs are **pH or KH climbing higher than your target species' range**, or moving faster than expected after a water change (since fresh water dissolves more readily against the crushed coral's surface than water that's already saturated with calcium carbonate). If your test results are creeping past what's appropriate for your fish — for example, pushing well above 8.0-8.5 in a community tank that doesn't need that — the practical fix is usually **removing some of the crushed coral** (easier if it's in a media bag than mixed into substrate) rather than trying to counteract it with acid-lowering products, which tend to fight the crushed coral's buffering rather than resolve the underlying amount."
   - q: "How long does it take to see a pH change after adding crushed coral?"
     a: "It varies, but the change is generally **gradual rather than immediate** — you're looking at a dissolving mineral process, not a fast-acting chemical reaction. Some keepers see measurable shifts in KH and pH within the first **few days to a week**, especially with filter-media placement and active flow, while substrate-based placement may take **longer to show a consistent effect**. The practical approach is to test before adding crushed coral, then **re-test periodically over one to two weeks** rather than expecting an immediate jump — and to keep testing afterward, since the effect is ongoing rather than a one-time dose."
-related: ["crushed-coral", "reef-sand-freshwater-tank", "can-you-put-coral-in-a-freshwater-tank", "epsom-salt-for-african-cichlids", "75-gallon-peacock-cichlid-tank"]
+related: ["crushed-coral", "reef-sand-freshwater-tank", "can-you-put-coral-in-a-freshwater-tank", "epsom-salt-for-african-cichlids", "75-gallon-peacock-cichlid-tank", "can-i-put-seashells-in-my-turtle-tank"]
 sources:
   - label: "Water Chemistry and Substrate Choice for Freshwater Aquariums — Practical Fishkeeping"
     url: "https://www.practicalfishkeeping.co.uk/"
@@ -74,6 +74,8 @@ How you add crushed coral to a tank affects both how fast you'll see results and
 - **As a partial substrate addition** — mixing a smaller amount of crushed coral into an otherwise inert substrate is a middle ground, providing some buffering without committing the whole substrate to it.
 
 If you're not sure which approach fits your tank, **filter or sump media is generally the more adjustable starting point** — you can add a modest amount, test, and add more or remove some based on results, which is much harder to do with substrate that's already settled into a display.
+
+The same calcium carbonate chemistry comes up in less obvious places too — our guide on [seashells in a turtle tank](/can-i-put-seashells-in-my-turtle-tank/) covers how shells, made of the same material as crushed coral, can have a similar (if usually milder) buffering effect when used as decor.
 
 ## A Test-Driven Approach
 

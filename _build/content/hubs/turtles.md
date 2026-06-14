@@ -9,6 +9,8 @@ groups:
     slugs: ["can-a-musk-turtle-live-in-a-20-gallon-tank", "can-i-keep-a-turtle-in-a-30-gallon-tank"]
   - title: "Identifying Bugs & Pests in a Turtle Tank"
     slugs: ["little-white-bugs-in-my-turtle-tank", "how-do-i-get-rid-of-mosquitos-in-my-turtle-tank"]
+  - title: "Turtle Tank Decor & Equipment"
+    slugs: ["decorations-in-my-turtle-tank", "can-i-put-seashells-in-my-turtle-tank", "can-i-turn-my-turtle-tank-filter-off-at-night"]
   - title: "Turtle Tank Mates & Cohabitation"
     slugs: ["can-i-put-shrimp-in-my-turtle-tank"]
 faq:
