@@ -87,6 +87,8 @@ A light that turns on but isn't quite right is a different situation from one th
 
 Either way, **reduced output affects whatever the light supports** — plant growth, coral coloration, or simply how the tank looks — even before the reduction is obvious to the eye, which is worth keeping in mind if you're noticing other changes in the tank around the same time.
 
+All-in-one kits with the light built directly into the lid add an extra wrinkle to this troubleshooting, since the light sits much closer to the water than on a conventional hood — our [Fluval Chi light troubleshooting guide](/fluval-chi-aquarium-light-not-working/) covers how that proximity changes which causes are most likely.
+
 ## Quick Reference
 
 - [ ] Check power first — a tripped GFCI is a common, invisible cause of a "dead" hood light

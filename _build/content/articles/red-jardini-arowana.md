@@ -41,7 +41,7 @@ faq:
     a: "Generally a tropical range of roughly 75-86°F (24-30°C) — see our dedicated [arowana water temperature guide](/arowana-water-temperature/) for more detail on the range, why stability matters at this scale, and what heating a tank of this size actually involves."
   - q: "What can live with a Red Jardini arowana?"
     a: "As adults, arowana are predatory toward anything small enough to be considered prey — so tank mates need to be **large, robust, and not the kind of fish an arowana would view as a meal**. Large, hardy catfish are a commonly discussed option, including species like [Colombian shark catfish](/colombian-shark-catfish/) (which themselves need 75+ gallon setups and reach 12+ inches) or other big bottom-dwellers — though any pairing needs the combined tank size to support both species' adult needs, not just the arowana's. Small or slow-moving fish, including most typical community species, are not appropriate long-term tank mates for an adult arowana."
-related: ["arowana-water-temperature", "55-gallon-discus-tank", "what-are-the-fish-that-swim-with-sharks", "channel-catfish-tank-conditions", "colombian-shark-catfish"]
+related: ["arowana-water-temperature", "55-gallon-discus-tank", "what-are-the-fish-that-swim-with-sharks", "channel-catfish-tank-conditions", "colombian-shark-catfish", "75-vs-90-gallon-aquarium"]
 sources:
   - label: "Scleropages jardinii — FishBase"
     url: "https://www.fishbase.se/summary/Scleropages-jardinii.html"

@@ -64,6 +64,8 @@ The resemblance is understandable — both are white, soft, and fibrous at a gla
 
 For a media that's expected to sit wet and under flow continuously, polyester's durability is the whole reason it's the standard choice — not a brand preference, but a practical one.
 
+Standard floss handles general debris well, but for especially fine haze or dust that floss lets through, some keepers add a denser polishing media on top of it — covered in our [review of CaribSea's Bio-Magnet clarifying media](/caribsea-bio-magnet-clarifier/), including where it fits relative to floss and what it doesn't fix.
+
 ## Why Cosmetic Cotton Products Are a Bad Substitute
 
 Beyond the durability issue, cotton balls and cotton pads sold for cosmetic or medical use often go through manufacturing processes that involve **bleaching agents, fragrances, or other additives** — none of which are intended to end up dissolved or dispersed into aquarium water, and none of which have been formulated with aquarium safety in mind. Even if a particular product seems "plain," there's no way to verify from the packaging that it's free of anything that could affect water chemistry or fish health over time.

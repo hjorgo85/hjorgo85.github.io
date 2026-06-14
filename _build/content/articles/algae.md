@@ -76,7 +76,7 @@ Two inputs drive almost all algae growth:
 1. **Light** — both duration (how many hours per day) and intensity (how bright, and at what spectrum). Longer photoperiods and brighter lights, especially on tanks without enough fast-growing plants to use the extra energy, push growth toward algae.
 2. **Nutrients** — primarily nitrate and phosphate, which come from fish waste, uneaten food, decaying plant matter, and (in planted tanks) fertilizers and substrate. Aquarium plants and algae compete for the same nutrients; if plants aren't using them fast enough, algae will.
 
-The practical implication: a tank with **more light than its plants can use**, or **more nutrients than its plants and water changes can remove**, tends to grow more algae — regardless of how "clean" the tank otherwise looks. This is also why [substrate choice](/plant-substrate-for-aquariums/) connects to algae indirectly: nutrients a nutrient-rich substrate releases are part of this same balance, not a separate consideration.
+The practical implication: a tank with **more light than its plants can use**, or **more nutrients than its plants and water changes can remove**, tends to grow more algae — regardless of how "clean" the tank otherwise looks. This is also why [substrate choice](/plant-substrate-for-aquariums/) connects to algae indirectly: nutrients a nutrient-rich substrate releases are part of this same balance, not a separate consideration. Fast-growing plants are one of the more direct ways to put excess nutrients to use before algae does — our [cabomba vs. hornwort comparison](/cabomba-vs-hornwort/) looks at two popular fast growers commonly used for this role, and why one is a more forgiving choice than the other.
 
 ## New Tank Algae vs. an Established-Tank Bloom
 

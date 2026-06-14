@@ -39,7 +39,7 @@ faq:
     a: "Not effectively, and not safely for your corals and invertebrates. The most reliable treatments — copper-based medications and chloroquine phosphate — kill corals, anemones, and most invertebrates, so they must be used in a separate hospital or quarantine tank. Reef-safe options like garlic-based additives and UV sterilizers can help reduce parasite load and reinfection risk in the display, but they are not considered reliable as a primary cure for an active outbreak."
   - q: "How long should I quarantine a new clownfish before adding it to my display?"
     a: "A minimum of 2-4 weeks in a separate quarantine tank with no other fish is the standard recommendation, with many experienced keepers extending this to 4-6 weeks for wild-caught clownfish given their susceptibility to Brooklynella. The quarantine period lets you observe for symptoms, treat proactively if needed (a prophylactic freshwater or formalin dip on arrival is common practice for wild clownfish), and avoid introducing parasites to an established display where treatment options are far more limited."
-related: ["common-clownfish", "maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "clownfish-salinity-aquarium", "firefish"]
+related: ["common-clownfish", "maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "clownfish-salinity-aquarium", "firefish", "methylene-blue-vs-malachite-green"]
 sources:
   - label: "Marine Ich and Brooklynella Identification — Reef2Reef"
     url: "https://www.reef2reef.com/"

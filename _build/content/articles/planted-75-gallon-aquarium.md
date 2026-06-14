@@ -75,6 +75,8 @@ A larger tank with more plant mass can generally support more light without tipp
 
 The same dimensions that make a 75-gallon nice for layered planting — typically more height and depth than a 55-gallon's roughly 21 x 13 inch cross-section — also matter for fish stocking. Our [55-gallon discus tank guide](/55-gallon-discus-tank/) covers how a 55-gallon's shape, not its gallon count, is the real limiting factor for tall-bodied fish like discus. If a planted 75-gallon is on the table, its shape advantage isn't limited to plants — it's also a better match for fish whose body shape doesn't suit a long, low, narrow tank.
 
+If you're also considering whether to go a size up, our [75-gallon vs. 90-gallon comparison](/75-vs-90-gallon-aquarium/) covers what that extra step typically gets you — often more height on a similar footprint, which extends the same layering logic even further.
+
 ## Quick Reference
 
 - [ ] A 75-gallon's extra height/depth over a 55-gallon helps with layered planting, not just plant count

@@ -72,6 +72,8 @@ Unlike rooted plants, hornwort doesn't have a true root system — it's adapted 
 
 Beyond the initial transport-stress period, **ongoing or worsening browning** — especially in an established sprig that was previously healthy — usually points to insufficient light relative to the plant's fast growth rate. Hornwort is often used as a fast-growing "nutrient sponge" that competes with algae (see our [algae guide](/algae/) for why that competition matters) and is also commonly recommended for [helping manage ammonia and nitrite](/best-plants-for-nitrite-control/) in newer tanks, but both roles depend on the plant actually growing quickly, which requires moderate to bright light. In a lower-light tank, hornwort can persist but tends to thin out, with older/lower portions browning faster than new growth at the tips can replace.
 
+Cabomba, another fine-leaved fast-growing stem plant, has its own version of this bottom-up browning — usually more dramatic — and tends to need even more light to avoid it. Our [cabomba vs. hornwort comparison](/cabomba-vs-hornwort/) covers why hornwort is generally the more forgiving of the two when light is on the lower end.
+
 ## Salvaging and Trimming
 
 The most effective response to browning hornwort — whether from transport stress or ongoing light issues — is **trimming**. Removing brown, dying sections lets the plant redirect energy to healthy green growth rather than maintaining damaged tissue, and healthy green tips can often be regrown into full sprigs on their own. Our [hornwort trimming guide](/how-to-trim-hornwort/) covers technique, frequency, and what to do with the trimmed pieces.

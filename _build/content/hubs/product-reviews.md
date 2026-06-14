@@ -6,7 +6,11 @@ type: "hub"
 intro: "Aquarium equipment marketing rarely mentions the caveats that matter once you're actually running the gear — noise levels, mounting quirks, long-term reliability. This section covers equipment we've used or researched in depth, with the trade-offs spelled out, not just the highlight reel."
 groups:
   - title: "Equipment Reviews"
-    slugs: ["jebao-rw-4-review"]
+    slugs: ["jebao-rw-4-review", "caribsea-bio-magnet-clarifier", "fluval-chi-aquarium-light-not-working"]
+  - title: "Tank Size & Setup Comparisons"
+    slugs: ["75-vs-90-gallon-aquarium"]
+  - title: "Plant & Treatment Comparisons"
+    slugs: ["cabomba-vs-hornwort", "methylene-blue-vs-malachite-green"]
 faq:
   - q: "Do you only review products you've personally used?"
     a: "We prioritize hands-on testing where possible, and clearly note when a review is based on extended use vs. research compiled from manufacturer documentation and the broader hobbyist community. Either way, our reviews focus on practical trade-offs — noise, reliability, mounting, compatibility — not just spec sheets."

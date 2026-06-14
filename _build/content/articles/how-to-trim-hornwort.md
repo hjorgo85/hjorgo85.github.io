@@ -77,6 +77,8 @@ This is where hornwort's fast growth becomes a feature rather than a problem. He
 
 Hornwort's "free new plant from a cutting" propagation is different from how some other plants spread — an Amazon sword, for example, produces new plants via [runners](/amazon-sword-runners/) rather than from trimmed cuttings — but the practical result is similar: a healthy, established plant tends to give you more plants over time without extra effort.
 
+If you're deciding between hornwort and a visually similar fast-growing stem plant for a given spot, our [cabomba vs. hornwort comparison](/cabomba-vs-hornwort/) covers how their care requirements — particularly light and CO2 — diverge more than their appearance suggests.
+
 This same fast growth is also why hornwort is a commonly recommended plant for [supporting ammonia/nitrite balance](/best-plants-for-nitrite-control/) in newer tanks — a plant that's growing quickly enough to need trimming every week or two is also taking up nutrients from the water column at a meaningful rate. And unlike root-feeding plants, hornwort doesn't need to be planted in substrate at all, so [substrate choice](/plant-substrate-for-aquariums/) is essentially a non-factor for it.
 
 ## Quick Reference
