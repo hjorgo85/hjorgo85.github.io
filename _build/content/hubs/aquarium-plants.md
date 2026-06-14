@@ -7,6 +7,8 @@ intro: "Algae questions are some of the most common in the hobby — and some of
 groups:
   - title: "Algae Identification & Control"
     slugs: ["algae", "how-long-does-it-take-for-algae-to-grow", "calothrix-algae", "grey-algae", "lawnmower-blenny-and-hair-algae", "how-fast-do-algae-eaters-grow"]
+  - title: "Live Plant Care: Anubias & Hornwort"
+    slugs: ["anubias-rot", "can-anubias-grow-out-of-water", "hornwort-turning-brown", "how-to-trim-hornwort", "amazon-sword-runners", "plant-substrate-for-aquariums"]
 faq:
   - q: "Is algae always a sign something's wrong with my tank?"
     a: "No. A small amount of algae is normal in almost every established aquarium, and is often a sign of a tank that's matured and developed a stable biological community. Algae becomes worth addressing when it's growing faster than routine maintenance can keep up with, or when it's smothering plants or covering decor heavily — at that point it's usually a sign of a light or nutrient imbalance worth adjusting, covered in our [algae guide](/algae/)."

@@ -65,7 +65,7 @@ Color and tail-type varieties are extensive — fancy/veil tail, delta tail, fan
 
 ### Aquascaping
 
-Guppies appreciate **densely planted areas** (real or silk plants, particularly fine-leaved varieties like java moss or hornwort) which serve double duty: they make guppies feel secure and display more naturally, and they provide cover for fry to hide from adult fish, which will eat fry given the opportunity. Floating plants are also well-used by guppies, which spend a good amount of time in the upper water column.
+Guppies appreciate **densely planted areas** (real or silk plants, particularly fine-leaved varieties like java moss or hornwort) which serve double duty: they make guppies feel secure and display more naturally, and they provide cover for fry to hide from adult fish, which will eat fry given the opportunity. Floating plants are also well-used by guppies, which spend a good amount of time in the upper water column. Hornwort in particular is a fast-growing, low-maintenance option for this — though new sprigs commonly shed some brown needles after transport, which our [hornwort browning guide](/hornwort-turning-brown/) covers as a normal, usually temporary adjustment.
 
 ### Water Parameters
 
