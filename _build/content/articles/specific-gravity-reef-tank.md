@@ -41,7 +41,7 @@ faq:
     a: "Calibrate every time you open a fresh bottle of calibration fluid, and re-check roughly every 1-2 months with regular use, or any time a reading seems inconsistent with your salt mix's expected output. Refractometers can drift out of calibration gradually even without obvious damage, so periodic checks against a known 1.026 SG reference fluid are the only way to catch that drift before it affects your dosing and water-change calculations."
   - q: "Why does my refractometer give a different reading than my hydrometer?"
     a: "Swing-arm hydrometers commonly read 0.001-0.003 SG off from the true value, and that error worsens with age, scratches on the float arm, or trapped air bubbles. A properly calibrated refractometer is the more accurate of the two, so if the readings disagree, trust the refractometer — but only if it has been calibrated against a 1.026 SG reference fluid recently. If neither device has been checked against a known standard, both readings are suspect."
-related: ["clownfish-salinity-aquarium", "acceptable-tds-reef-tank", "raise-alkalinity-reef-tank", "problems-with-high-magnesium-in-a-reef-tank", "diatoms-reef-tank"]
+related: ["clownfish-salinity-aquarium", "acceptable-tds-reef-tank", "raise-alkalinity-reef-tank", "problems-with-high-magnesium-in-a-reef-tank", "diatoms-reef-tank", "how-to-mix-red-sea-coral-pro-salt"]
 sources:
   - label: "Water Chemistry Forum — Reef2Reef"
     url: "https://www.reef2reef.com/forums/water-chemistry.23/"
@@ -137,7 +137,7 @@ Salt residue left on the prism from a previous reading will throw off the next o
 If your reef tank is outside the 1.025-1.026 SG target, correct it gradually:
 
 1. **Confirm the reading first.** Before making any changes, recalibrate your refractometer with 1.026 fluid and re-test. A surprising number of "salinity problems" are actually measurement errors.
-2. **To raise SG:** Mix new saltwater to a slightly higher SG than your current tank reading and use it for regular water changes, or add small amounts of pre-mixed high-SG saltwater (never dry salt directly to the tank) gradually over several days.
+2. **To raise SG:** Mix new saltwater to a slightly higher SG than your current tank reading and use it for regular water changes, or add small amounts of pre-mixed high-SG saltwater (never dry salt directly to the tank) gradually over several days. Whatever salt mix you use, the same general process applies — see our guide on [mixing Red Sea Coral Pro Salt](/how-to-mix-red-sea-coral-pro-salt/) for a worked example of getting a fresh batch fully dissolved and to the right salinity before using it.
 3. **To lower SG:** Top off with additional RO/DI water beyond your normal evaporation top-off, spread over several days, rather than a single large dilution.
 4. **Target a rate of change of roughly 0.001 SG per day or less** for routine corrections — this is gentle enough that corals and invertebrates won't register it as a shock.
 5. **Address the root cause.** A persistent drift usually traces back to an ATO system that's miscalibrated, a top-off reservoir that's the wrong salinity, or a water-change mixing routine that doesn't match the tank's actual current SG.

@@ -10,13 +10,13 @@ groups:
   - title: "Damselfish Species Guides"
     slugs: ["azure-damselfish", "blue-devil-damselfish", "domino-damselfish"]
   - title: "Reef Fish Species Profiles"
-    slugs: ["flame-angelfish", "banggai-cardinalfish", "pearlscale-butterflyfish-reef-safe"]
+    slugs: ["flame-angelfish", "coral-beauty", "banggai-cardinalfish", "pearlscale-butterflyfish-reef-safe"]
   - title: "Clownfish Care & Behavior"
     slugs: ["maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "why-do-clownfish-turn-black", "clownfish-ich", "clownfish-salinity-aquarium"]
   - title: "Pufferfish & Triggerfish"
     slugs: ["pufferfish-care", "is-valentini-puffer-reef-safe", "can-valentini-pufferfish-share-a-tank-with-clownfish", "niger-triggerfish-reef-safe"]
   - title: "Reef Water Chemistry"
-    slugs: ["acceptable-tds-reef-tank", "raise-alkalinity-reef-tank", "specific-gravity-reef-tank", "problems-with-high-magnesium-in-a-reef-tank"]
+    slugs: ["acceptable-tds-reef-tank", "raise-alkalinity-reef-tank", "specific-gravity-reef-tank", "problems-with-high-magnesium-in-a-reef-tank", "how-to-mix-red-sea-coral-pro-salt"]
   - title: "Reef Tank Troubleshooting & DIY"
     slugs: ["diatoms-reef-tank", "hydroids-reef-tank", "sponges-reef-tank", "super-glue-reef-tank", "pla-safe-reef-tank"]
   - title: "Stocking Guides & Big Fish"

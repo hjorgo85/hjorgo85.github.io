@@ -59,7 +59,7 @@ sources:
 
 Rather than thinking of "cleanup crew snails" as one interchangeable group, it's more useful to think in terms of **what part of the tank needs attention**:
 
-- **Sand bed looking lifeless or accumulating detritus?** Nassarius snails are sand-sifters, burrowing through the substrate and helping keep it turned over — their egg capsules are a commonly noticed (and harmless) sign of a healthy population, covered in our [Nassarius snail eggs guide](/nassarius-snail-eggs/)
+- **Sand bed looking lifeless or accumulating detritus?** Nassarius snails are sand-sifters, burrowing through the substrate and helping keep it turned over — their egg capsules are a commonly noticed (and harmless) sign of a healthy population, covered in our [Nassarius snail eggs guide](/nassarius-snail-eggs/). (A [sand sifting starfish](/sand-sifting-starfish-lifespan/) targets the same area of the tank, but with a much less sustainable food requirement — snails are generally the more reliable long-term choice for sand bed maintenance.)
 - **Algae building up on glass or rockwork?** Astraea and Trochus snails are grazers suited to these surfaces
 - **General detritus and algae across the substrate and lower rockwork?** Cerith snails cover a broader, more general role
 
