@@ -7,6 +7,8 @@ intro: "Equipment problems are some of the most common reasons people end up sea
 groups:
   - title: "Filters & Air Pumps: Setup and Troubleshooting"
     slugs: ["canister-filter-inlet-outlet-placement", "how-long-can-fish-live-without-air-pump-or-filter", "how-often-should-you-change-a-fish-tank-filter", "aquarium-filter-not-working-after-cleaning"]
+  - title: "Filter Sizing, Placement & Media"
+    slugs: ["can-a-filter-be-too-big-for-a-fish-tank", "how-deep-should-my-aquarium-filter-intake-be", "cotton-wool-in-my-aquarium-filter", "aquarium-sand-filter-problems"]
 faq:
   - q: "My filter seems to be running, but something feels off — where do I start?"
     a: "Start with **what changed recently**. If the filter was just cleaned, our guide on [filters not working properly after cleaning](/aquarium-filter-not-working-after-cleaning/) covers the most common causes — trapped air, an unseated impeller, or a temporary biological 'mini-cycle.' If nothing was recently touched but flow or distribution seems uneven, [intake and outlet placement](/canister-filter-inlet-outlet-placement/) is worth a look, since it affects dead spots and debris distribution even when the filter itself is working correctly."
