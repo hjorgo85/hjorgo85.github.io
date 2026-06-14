@@ -16,7 +16,7 @@ groups:
   - title: "Heaters & Overflow Boxes: Setup and Troubleshooting"
     slugs: ["how-does-an-aquarium-overflow-box-work", "aquarium-heater-light-on-but-heater-not-working", "how-long-do-aquarium-heaters-last"]
   - title: "Brand-Specific Equipment: Common Problems"
-    slugs: ["penn-plax-cascade-canister-aquarium-filter", "hygger-aquarium-gravel-cleaner-not-working", "juwel-aquarium-lights-not-working"]
+    slugs: ["penn-plax-cascade-canister-aquarium-filter", "hygger-aquarium-gravel-cleaner-not-working", "juwel-aquarium-lights-not-working", "penguin-bio-wheel-200-impeller-noise"]
 faq:
   - q: "My filter seems to be running, but something feels off — where do I start?"
     a: "Start with **what changed recently**. If the filter was just cleaned, our guide on [filters not working properly after cleaning](/aquarium-filter-not-working-after-cleaning/) covers the most common causes — trapped air, an unseated impeller, or a temporary biological 'mini-cycle.' If nothing was recently touched but flow or distribution seems uneven, [intake and outlet placement](/canister-filter-inlet-outlet-placement/) is worth a look, since it affects dead spots and debris distribution even when the filter itself is working correctly."

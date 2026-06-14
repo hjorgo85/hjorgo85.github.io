@@ -49,7 +49,7 @@ sources:
     url: "https://www.bulkreefsupply.com/"
 ---
 
-The saltwater hobby has a reputation for being unforgiving, and to some extent it is — but the gap between "easy" and "hard" fish is much wider than most beginners realize, and the species marketed hardest to newcomers aren't always the ones that actually deserve that label. This guide covers the fish that genuinely tolerate a beginner's learning curve, the popular species that don't (despite looking just as approachable), and how to sequence your first stocking list so your tank's biology can keep up.
+The saltwater hobby has a reputation for being unforgiving, and to some extent it is — but the gap between "easy" and "hard" fish is much wider than most beginners realize, and the species marketed hardest to newcomers aren't always the ones that actually deserve that label. This guide covers the fish that genuinely tolerate a beginner's learning curve, the popular species that don't (despite looking just as approachable), and how to sequence your first stocking list so your tank's biology can keep up. For a broader look at how tank style (fish-only, FOWLR, or reef) shapes which groups of saltwater fish make sense in the first place, see our overview of [saltwater aquarium fish types](/saltwater-aquarium-fish/).
 
 ## Short Answer: The Best Beginner Picks
 

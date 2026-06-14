@@ -41,7 +41,7 @@ faq:
     a: "Not in terms of the individual fish's health — there's no direct welfare concern with the cross itself, and hybrid mollies generally live and behave normally, similar in this respect to other livebearer crosses. The considerations are more about breeding goals and expectations: if you're trying to maintain a pure sailfin line (for the dramatic sail display) or a specific shortfin variety, interbreeding will introduce mixed genetics into future generations, which can be frustrating for anyone trying to breed toward a specific look, similar to the genetic considerations discussed in our [split-tail guppy guide](/split-tail-guppy/)."
   - q: "How do I prevent sailfin and shortfin mollies from interbreeding?"
     a: "The most reliable approach is to keep the two in **separate tanks** if maintaining distinct lines matters to you. If you want to keep them together in a community tank without worrying about hybrids, a **single-sex group** of one type (e.g., only female shortfin mollies alongside a mixed-sex sailfin group) avoids the issue, though sexing mollies accurately requires the fish to be mature enough to show clear sexual characteristics. For most casual keepers who aren't pursuing specific breeding goals, hybrid offspring aren't a problem to 'solve' — they're simply mollies with somewhat unpredictable fin sizes, which some keepers find adds variety rather than detracts from it."
-related: ["sailfin-molly", "guppy-fish-care", "split-tail-guppy", "guppy-tuberculosis", "american-flagfish"]
+related: ["sailfin-molly", "guppy-fish-care", "split-tail-guppy", "guppy-tuberculosis", "american-flagfish", "black-molly"]
 sources:
   - label: "Poecilia latipinna — FishBase"
     url: "https://www.fishbase.se/summary/Poecilia-latipinna.html"

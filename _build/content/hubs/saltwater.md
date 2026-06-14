@@ -12,7 +12,7 @@ groups:
   - title: "Reef Fish Species Profiles"
     slugs: ["flame-angelfish", "coral-beauty", "banggai-cardinalfish", "pearlscale-butterflyfish-reef-safe"]
   - title: "Clownfish Care & Behavior"
-    slugs: ["maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "why-do-clownfish-turn-black", "clownfish-ich", "clownfish-salinity-aquarium"]
+    slugs: ["maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "why-do-clownfish-turn-black", "clownfish-losing-color-here-is-why", "clownfish-ich", "clownfish-salinity-aquarium"]
   - title: "Pufferfish & Triggerfish"
     slugs: ["pufferfish-care", "is-valentini-puffer-reef-safe", "can-valentini-pufferfish-share-a-tank-with-clownfish", "niger-triggerfish-reef-safe"]
   - title: "Reef Water Chemistry"
@@ -20,7 +20,7 @@ groups:
   - title: "Reef Tank Troubleshooting & DIY"
     slugs: ["diatoms-reef-tank", "hydroids-reef-tank", "sponges-reef-tank", "super-glue-reef-tank", "pla-safe-reef-tank"]
   - title: "Stocking Guides & Big Fish"
-    slugs: ["saltwater-aquarium-fish-for-beginners", "saltwater-fish-for-10-gallon-tank", "best-fish-for-reef-tank", "blue-hippo-tang"]
+    slugs: ["saltwater-aquarium-fish", "saltwater-aquarium-fish-for-beginners", "saltwater-fish-for-10-gallon-tank", "best-fish-for-reef-tank", "blue-hippo-tang"]
   - title: "Wrasses, Gobies & Specialist Species"
     slugs: ["female-melanurus-wrasse", "bluestreak-cleaner-wrasse-labroides-dimidiatrus", "water-cow-goby-fish", "chain-link-moray-eel", "foxface-rabbitfish-stressed"]
   - title: "Stocking Plans & Group Sizing"

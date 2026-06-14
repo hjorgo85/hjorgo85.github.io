@@ -39,7 +39,7 @@ faq:
     a: "Fading toward pale or washed-out orange (rather than darkening toward black) is more often linked to stress, poor nutrition, or declining water quality than to normal aging. Causes include a diet lacking in color-enhancing pigments (carotenoids from foods like krill, mysis, and nori), elevated nitrate, or chronic stress from aggressive tankmates or a recent move. Check water parameters first, then review diet variety."
   - q: "Should I be worried if my clownfish turns black overnight?"
     a: "A sudden, rapid color change — especially overnight — is more concerning than a gradual one and warrants a closer look. Check for other symptoms: clamped fins, rapid or labored breathing, loss of appetite, hiding, or visible spots/film (which could indicate ich or Brooklynella). Test ammonia, nitrite, nitrate, and pH immediately. If the fish is otherwise behaving normally — eating, active, breathing normally — a fast darkening is less likely to be disease and more likely a strong stress response to something in the tank (a new aggressive tankmate, a parameter swing, or an anemone issue)."
-related: ["common-clownfish", "maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "clownfish-salinity-aquarium", "yellowtail-damselfish"]
+related: ["common-clownfish", "maroon-clownfish-premnas-biaculeatus", "clownfish-pairing-behavior", "clownfish-salinity-aquarium", "yellowtail-damselfish", "clownfish-losing-color-here-is-why"]
 sources:
   - label: "Clownfish Color Change Discussion — Reef2Reef"
     url: "https://www.reef2reef.com/"
@@ -104,6 +104,8 @@ If a clownfish is **fading toward pale or washed-out** rather than darkening tow
 This is also a good reminder that water parameters matter for [saltwater](/saltwater/) fish well beyond the basic "is anything dying" threshold — chronic, low-grade nitrate elevation won't necessarily kill a clownfish, but it can show up as duller color and reduced vigor over time.
 
 ## When to Worry
+
+If your clownfish is fading toward **pale or washed-out** rather than darkening, and it's accompanied by excess mucus, rapid breathing, or loss of appetite, that combination points toward a disease process — our guide on [clownfish losing color](/clownfish-losing-color-here-is-why/) covers the disease-related causes of pale fading (Brooklynella, ich, bacterial infections) in more depth.
 
 Treat a color change as a potential health issue — not just cosmetic — if it comes with any of the following:
 

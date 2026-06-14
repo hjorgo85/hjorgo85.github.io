@@ -41,7 +41,7 @@ faq:
     a: "Generally no, not in a typical home aquarium. While Paracanthurus hepatus forms loose aggregations in the wild, in captivity two individuals in anything less than a very large tank (200+ gallons) will usually result in one harassing the other persistently. If you want multiple tangs in one system, they're typically chosen from different genera/body shapes to reduce the territorial conflict that occurs between similarly shaped fish."
   - q: "Why do blue tangs get ich so often?"
     a: "Blue tangs are commonly wild-caught and are known to be particularly susceptible to marine ich (Cryptocaryon irritans) and 'tang stress syndrome' — a pattern of recurring illness linked to chronic stress from undersized tanks, poor diet, or aggressive tankmates. It's less that the species is inherently fragile and more that the gap between its minimum needs (large tank, varied diet, low-stress environment) and what many new owners provide is wider than for most commonly sold fish. A 4+ week quarantine and a genuinely adequate tank are the two biggest factors in avoiding chronic ich problems with this species."
-related: ["niger-triggerfish-reef-safe", "common-clownfish", "flame-angelfish", "best-fish-for-reef-tank", "saltwater-aquarium-fish-for-beginners"]
+related: ["niger-triggerfish-reef-safe", "common-clownfish", "flame-angelfish", "best-fish-for-reef-tank", "saltwater-aquarium-fish-for-beginners", "saltwater-aquarium-fish"]
 sources:
   - label: "Paracanthurus hepatus — FishBase"
     url: "https://www.fishbase.se/summary/Paracanthurus-hepatus.html"
@@ -64,6 +64,8 @@ In the wild, *P. hepatus* is found across the Indo-Pacific, from East Africa to 
 A single blue hippo tang needs a minimum of **100 gallons (380 liters)**, and many experienced reefers treat that as a floor rather than a comfortable target — **125+ gallons** gives meaningfully more room for this fish to express its natural swimming behavior and reduces the stress load that drives many of its common health problems.
 
 This is also a fish that's frequently purchased as a small, inexpensive 2-3 inch juvenile for a tank that's nowhere near large enough for its adult size. Unlike some fish that simply stay smaller in smaller tanks, a blue tang kept in an undersized system tends to show **chronic stress symptoms** — recurring ich outbreaks, faded color, clamped fins, reduced appetite — rather than just "staying small." If you're not planning for a 100+ gallon system within the fish's lifetime, this isn't a fish to buy as a juvenile "to grow into it."
+
+This "plan for the adult, not the juvenile" issue isn't unique to this species — it's one of the main reasons tangs as a group get their own callout in our broader overview of [saltwater aquarium fish types and tank styles](/saltwater-aquarium-fish/).
 
 ### Aquascaping
 

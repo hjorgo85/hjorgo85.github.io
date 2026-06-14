@@ -41,7 +41,7 @@ faq:
     a: "The enlarged, sail-like dorsal fin is a sexually dimorphic trait — males display it, often raising and 'flaring' the sail toward females during courtship and toward other males during dominance displays. It's the defining visual feature that gives the species its common name and is one of the more dramatic finnage displays among common livebearers. Because the sail is used for both courtship and male-to-male competition, keeping more than one male in a smaller tank can result in more frequent posturing/sparring than a tank with one male and multiple females, or a single-sex group."
   - q: "Can sailfin mollies breed with regular (shortfin) mollies?"
     a: "Yes — this is a common question because sailfin mollies (Poecilia latipinna) and the more common 'molly' sold as Poecilia sphenops or similar shortfin types are closely related and can interbreed, often producing offspring with intermediate fin sizes. We cover this in more detail, including what to expect from hybrid offspring, in our [guide to sailfin mollies breeding with regular mollies](/sailfin-molly-breed-with-regular-molly/)."
-related: ["sailfin-molly-breed-with-regular-molly", "guppy-fish-care", "split-tail-guppy", "guppy-tuberculosis", "american-flagfish"]
+related: ["sailfin-molly-breed-with-regular-molly", "guppy-fish-care", "split-tail-guppy", "guppy-tuberculosis", "american-flagfish", "black-molly"]
 sources:
   - label: "Poecilia latipinna — FishBase"
     url: "https://www.fishbase.se/summary/Poecilia-latipinna.html"
@@ -55,7 +55,7 @@ The sailfin molly (*Poecilia latipinna*) is often shelved alongside guppies and 
 
 Sailfin mollies are native to coastal and brackish waters of the southeastern United States, Mexico, and parts of Central America/the Caribbean — a habitat that explains their tolerance for harder water and, optionally, slight brackish salinity. The species' defining feature is the male's **enlarged dorsal fin**, which can extend much of the length of the body and is raised in a dramatic "sail" display during courtship and male-to-male competition. Females lack this enlarged fin and have a more typical, rounded molly body shape.
 
-Coloration varies by strain — wild-type sailfin mollies are silvery with rows of spots, while selectively bred varieties (including black, marble, and other color forms) are widely available in the trade, similar to how guppies (see our [guppy care guide](/guppy-fish-care/)) come in many selectively bred colors and patterns despite a relatively plain wild-type ancestor.
+Coloration varies by strain — wild-type sailfin mollies are silvery with rows of spots, while selectively bred varieties (including black, marble, and other color forms) are widely available in the trade, similar to how guppies (see our [guppy care guide](/guppy-fish-care/)) come in many selectively bred colors and patterns despite a relatively plain wild-type ancestor. The solid-black variety in particular has its own care guide — see [black molly care](/black-molly/) — including a genetic quirk where black coloration can develop white or gold patches over time.
 
 ## Tank Requirements
 
