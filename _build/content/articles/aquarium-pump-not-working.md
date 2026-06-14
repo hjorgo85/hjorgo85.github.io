@@ -41,7 +41,7 @@ faq:
     a: "**A check valve is a small one-way valve placed in the airline, typically positioned between the pump and the tank, that prevents water from siphoning back into the pump if the pump stops (during a power outage, for example) and the airline's other end is below the water level.** Its job is purely protective — it doesn't affect normal operation when working correctly. However, a check valve can occasionally **stick partially closed or become restrictive** due to mineral buildup or debris, which would show up as **reduced airflow even though the pump itself is fine**. If you have a check valve in the line and you've ruled out the diaphragm and airstone as causes of reduced output, removing the check valve temporarily (to test) can help isolate whether it's contributing to the restriction — if output improves significantly with it removed, the check valve needs cleaning or replacement."
   - q: "Is it worth repairing an air pump, or should I just replace it?"
     a: "**This depends mostly on whether a diaphragm replacement kit is available and affordable for your specific pump model.** Many common air pump models have **inexpensive diaphragm/membrane replacement kits** available — for these, replacing the diaphragm when output has gradually weakened (and other causes like the airstone and tubing have been ruled out) is often cheaper and just as effective as buying a new pump, and addresses the most common wear item directly. For pumps where no replacement kit exists, or where the **motor itself** (rather than just the diaphragm) seems to have failed — total silence with confirmed power, no hum or vibration at all — replacement is generally the more practical option, since air pumps in typical price ranges aren't usually designed for deeper repair."
-related: ["aquarium-bubble-wand-not-working", "how-does-an-air-pump-work-in-an-aquarium", "how-long-should-you-run-an-air-pump-in-a-fish-tank", "how-long-can-fish-live-without-air-pump-or-filter", "aquarium-filter-not-working-after-cleaning"]
+related: ["aquarium-bubble-wand-not-working", "how-does-an-air-pump-work-in-an-aquarium", "how-long-should-you-run-an-air-pump-in-a-fish-tank", "how-long-can-fish-live-without-air-pump-or-filter", "aquarium-filter-not-working-after-cleaning", "aquarium-heater-light-on-but-heater-not-working"]
 sources:
   - label: "Air Pump and Airstone Maintenance — Practical Fishkeeping"
     url: "https://www.practicalfishkeeping.co.uk/"
@@ -77,6 +77,8 @@ If the pump shows **no activity at all** — no hum, no vibration — the troubl
 
 1. **Check power** — confirm the outlet is live and check for a tripped GFCI, the same first step as for [hood lights](/aquarium-hood-light-not-working/) or any other aquarium equipment.
 2. If power is confirmed and there's still zero response, the **motor or internal electronics** have likely failed. This is generally not something diaphragm kits address (those assume the motor still runs), and replacement becomes the practical option.
+
+The reverse pattern is worth keeping in mind too: a pump that's running but underperforming can look "fine" at a glance the same way a [heater with its indicator light on can still fail to heat](/aquarium-heater-light-on-but-heater-not-working/) — in both cases, confirming actual output (bubbles, or tank temperature) matters more than confirming that the unit is merely powered on.
 
 ## Quick Reference
 

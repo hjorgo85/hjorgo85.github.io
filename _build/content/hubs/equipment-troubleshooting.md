@@ -13,6 +13,8 @@ groups:
     slugs: ["aquarium-hood-light-not-working", "juwel-aquarium-lights-not-working", "how-long-can-algae-live-without-light", "how-much-white-light-do-corals-need", "best-lighting-for-40-gallon-breeder"]
   - title: "Air Pumps: Setup and Troubleshooting"
     slugs: ["aquarium-pump-not-working", "how-long-should-you-run-an-air-pump-in-a-fish-tank", "aquarium-bubble-wand-not-working", "how-does-an-air-pump-work-in-an-aquarium"]
+  - title: "Heaters & Overflow Boxes: Setup and Troubleshooting"
+    slugs: ["how-does-an-aquarium-overflow-box-work", "aquarium-heater-light-on-but-heater-not-working", "how-long-do-aquarium-heaters-last"]
 faq:
   - q: "My filter seems to be running, but something feels off — where do I start?"
     a: "Start with **what changed recently**. If the filter was just cleaned, our guide on [filters not working properly after cleaning](/aquarium-filter-not-working-after-cleaning/) covers the most common causes — trapped air, an unseated impeller, or a temporary biological 'mini-cycle.' If nothing was recently touched but flow or distribution seems uneven, [intake and outlet placement](/canister-filter-inlet-outlet-placement/) is worth a look, since it affects dead spots and debris distribution even when the filter itself is working correctly."
