@@ -41,7 +41,7 @@ faq:
     a: "Many reef fish prey on amphipods and other small crustaceans, which is part of why a healthy pod population matters for certain species. **Mandarin dragonets** are the most commonly cited example — they rely heavily on live pods as a food source and often struggle in tanks without an established population. Many **wrasses**, **dottybacks**, and other small predatory reef fish also opportunistically hunt amphipods. If you're trying to reduce a large amphipod population without chemicals, adding (or already having) fish that naturally prey on them is the standard approach — though for fish like mandarins, the goal is usually the opposite: maintaining enough pods to support the fish long-term, not depleting them."
   - q: "How can I tell amphipods apart from isopods or copepods in my tank?"
     a: "All three are small crustaceans often grouped together as 'pods,' but they look and move differently. **Amphipods** are typically laterally flattened (taller than wide when viewed head-on), often translucent or brownish, and move with a distinctive jerky, hopping-and-swimming motion. **Copepods** are smaller still, often appear as tiny moving dots to the naked eye, and are a primary food source for mandarins and other small fish. **Isopods** tend to be more flattened top-to-bottom (like a tiny pill bug or roly-poly) and are generally considered more of a mixed bag — some isopod species are harmless detritivores, while a few specific types (notably certain fish-parasitic isopods) are genuinely problematic, though these are far less common as tank hitchhikers than benign detritivore species."
-related: ["hydroids-reef-tank", "diatoms-reef-tank", "does-coral-dip-kill-aiptasia", "best-mantis-shrimp-tank-mates", "nassarius-snail-eggs"]
+related: ["hydroids-reef-tank", "diatoms-reef-tank", "does-coral-dip-kill-aiptasia", "best-mantis-shrimp-tank-mates", "nassarius-snail-eggs", "what-are-some-compatible-tank-mates-for-corals"]
 sources:
   - label: "Pest & Hitchhiker Identification — Reef2Reef"
     url: "https://www.reef2reef.com/forums/pest-and-disease.83/"
@@ -88,6 +88,8 @@ If amphipod numbers feel excessive, the standard approach is **patience and natu
 - **Avoid pest-control chemicals** intended for problem hitchhikers — these risk harming amphipods' role as cleanup crew and food source, along with other beneficial invertebrates, corals, and fish
 - **Let predation catch up** — if the tank houses (or could house) fish that naturally prey on amphipods, population booms tend to self-correct over weeks to a couple of months
 - **Reduce excess organic input** if booms seem tied to overfeeding — amphipod populations track food availability, so addressing the underlying nutrient load addresses the population indirectly
+
+Amphipods are also a good example of the broader point covered in our [guide to coral-compatible tank mates](/what-are-some-compatible-tank-mates-for-corals/): being "reef-safe" isn't just about not eating coral — it's also about an animal's overall role and behavior in the tank, and amphipods generally score well on both counts.
 
 ## Quick Reference
 
