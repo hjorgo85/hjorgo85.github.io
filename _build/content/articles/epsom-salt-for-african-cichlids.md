@@ -70,7 +70,7 @@ Epsom salt is most appropriately used when a cichlid shows:
 - **No bowel movement** for an extended period, sometimes visible as a lack of typical waste trailing from the fish
 - Symptoms that have appeared **recently** rather than progressed over a long period
 
-This overlaps significantly with the early stages of what's often called "Malawi bloat" — a condition strongly linked to diet in Mbuna and other Lake Malawi cichlids, covered in detail in our [Mbuna diet guide](/best-food-for-mbuna-cichlids/). Catching these symptoms early, when they're still primarily digestive rather than involving organ damage, is when Epsom salt has the best chance of helping.
+This overlaps significantly with the early stages of what's often called "Malawi bloat" — a condition strongly linked to diet in Mbuna and other Lake Malawi cichlids, covered in detail in our [Mbuna diet guide](/best-food-for-mbuna-cichlids/), and relevant to popular Mbuna species like the ones compared in our [johanni vs. maingano guide](/johanni-vs-maingano/). Catching these symptoms early, when they're still primarily digestive rather than involving organ damage, is when Epsom salt has the best chance of helping.
 
 ## How to Dose It
 

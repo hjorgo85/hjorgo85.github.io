@@ -68,7 +68,7 @@ Several LPS genera have **decades of well-documented success** in home aquariums
 - **Frogspawn corals (Euphyllia divisa)** — branching tentacle tips, similar genus and care to hammer/torch
 - **Favia and related brain-type corals** — encrusting/dome-shaped growth with distinct polyp "eyes," generally hardy (see our guide on [brain coral skeletons](/brain-coral-skeleton/) for related identification notes)
 
-These species share **moderate lighting tolerance**, **moderate indirect flow** preferences, and generally **respond well to direct feeding** of meaty foods — a combination that makes them comparatively forgiving of the kind of minor parameter swings common in home aquariums. Our guide on [how much white light corals need](/how-much-white-light-do-corals-need/) covers how this "moderate lighting" tolerance compares to the higher requirements of SPS corals.
+These species share **moderate lighting tolerance**, **moderate indirect flow** preferences, and generally **respond well to direct feeding** of meaty foods — a combination that makes them comparatively forgiving of the kind of minor parameter swings common in home aquariums. Our guide on [how much white light corals need](/how-much-white-light-do-corals-need/) covers how this "moderate lighting" tolerance compares to the higher requirements of SPS corals. For nano LPS tanks specifically, fixtures like the [Kessil A80 or AI Prime 16HD](/kessil-a80-vs-ai-prime-16-hd/) are commonly sized to this kind of moderate-light requirement without the higher output an SPS-focused setup would need.
 
 ## Where the "LPS = Easy" Generalization Breaks Down
 

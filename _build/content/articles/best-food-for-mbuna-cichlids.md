@@ -41,7 +41,7 @@ faq:
     a: "Malawi bloat is a condition affecting Lake Malawi cichlids (most commonly Mbuna) involving abdominal swelling, loss of appetite, rapid breathing, and often progressive organ failure — frequently fatal once advanced. While the exact mechanism involves the digestive tract and is sometimes linked to a parasitic component (Hexamita), the consistent risk factor across most documented cases is a diet too high in protein and fat relative to what this group's digestive system evolved to process. Diet is widely considered the single most controllable risk factor for this condition."
   - q: "Can Mbuna cichlids eat vegetables?"
     a: "Yes, and they should — vegetable matter is a core part of an appropriate Mbuna diet, not an occasional treat. Blanched (briefly boiled or microwaved to soften) zucchini, cucumber, or peas (skins removed) are commonly offered and well accepted. Algae wafers and spirulina-based foods serve a similar role in a more convenient, less perishable form. The goal is a diet where plant matter and algae-based foods make up the clear majority of intake."
-related: ["75-gallon-peacock-cichlid-tank", "cichlids-with-cloudy-eyes", "epsom-salt-for-african-cichlids", "driftwood-cichlid-tank", "bala-sharks-with-cichlids"]
+related: ["75-gallon-peacock-cichlid-tank", "cichlids-with-cloudy-eyes", "epsom-salt-for-african-cichlids", "driftwood-cichlid-tank", "bala-sharks-with-cichlids", "amiracle-wet-dry-filter-for-aquariums"]
 sources:
   - label: "Lake Malawi Cichlid Diet & Malawi Bloat — Cichlid Forum"
     url: "https://www.cichlid-forum.com/"
@@ -57,7 +57,7 @@ Mbuna cichlids should be fed a diet that's **predominantly plant-based** — a h
 
 ## Why Mbuna Are Different From "Generic Cichlids"
 
-"Mbuna" refers to a group of small to medium rock-dwelling cichlids from Lake Malawi, spanning genera like *Pseudotropheus*, *Metriaclima*, *Labidochromis*, and *Melanochromis*. In the wild, Mbuna spend the vast majority of their day **grazing "aufwuchs"** — the thin layer of algae, diatoms, and microorganisms that coats rocks in their rocky lake habitat. This is a high-fiber, predominantly plant-based diet, consumed almost continuously throughout the day in small amounts.
+"Mbuna" refers to a group of small to medium rock-dwelling cichlids from Lake Malawi, spanning genera like *Pseudotropheus*, *Metriaclima*, *Labidochromis*, and *Melanochromis* — including commonly confused blue *Melanochromis* species like the pairing covered in our [johanni vs. maingano comparison](/johanni-vs-maingano/). In the wild, Mbuna spend the vast majority of their day **grazing "aufwuchs"** — the thin layer of algae, diatoms, and microorganisms that coats rocks in their rocky lake habitat. This is a high-fiber, predominantly plant-based diet, consumed almost continuously throughout the day in small amounts.
 
 This is a meaningfully different feeding ecology from many other popular aquarium cichlids — Central and South American cichlids, for example, often include more animal protein in their natural diets and tolerate (or in some cases benefit from) richer foods. The problem is that "cichlid food" as a marketing category often doesn't distinguish between these groups, and a Mbuna fed like a more omnivorous/carnivorous cichlid is being fed against its digestive system's design.
 

@@ -61,7 +61,7 @@ The relationship between corals and zooxanthellae is symbiotic: the coral provid
 
 **Actinic/blue lighting** (roughly 400-460nm) is popular because it triggers **fluorescence** in many corals — the vivid colors that make reef tanks visually striking, especially during simulated dawn/dusk periods when blue-only lighting runs. But fluorescence is a visual effect, not a direct measure of how much usable light the zooxanthellae are receiving for photosynthesis.
 
-**White light** — typically broader-spectrum output including red, green, and yellow wavelengths — fills in more of what photosynthesis actually uses. This is why most modern LED reef fixtures provide **independently controllable white and blue channels**, letting the balance be tuned for both appearance and coral health rather than treating them as the same thing.
+**White light** — typically broader-spectrum output including red, green, and yellow wavelengths — fills in more of what photosynthesis actually uses. This is why most modern LED reef fixtures provide **independently controllable white and blue channels**, letting the balance be tuned for both appearance and coral health rather than treating them as the same thing. Popular nano fixtures take different approaches to delivering that balance — our [Kessil A80 vs. AI Prime 16HD comparison](/kessil-a80-vs-ai-prime-16-hd/) covers how a point-source design versus a wide-angle lens affects both the visual shimmer and how evenly white light reaches corals across the tank.
 
 ## PAR: A Way to Quantify "How Much Light"
 

@@ -73,7 +73,7 @@ Activated carbon and similar chemical media (ammonia removers, phosphate remover
 
 ## Biological Media: Handle With Care, Rarely Replace
 
-This is the media that matters most for your tank's actual water quality day to day — ceramic rings, bio-balls, lava rock, or the interior of sponges, wherever your colony of nitrifying bacteria has established itself.
+This is the media that matters most for your tank's actual water quality day to day — ceramic rings, bio-balls, lava rock, or the interior of sponges, wherever your colony of nitrifying bacteria has established itself. Different biological media types vary in pore structure and capacity — our [Fluval BioMax vs. Seachem Matrix comparison](/fluval-biomax-vs-seachem-matrix/) covers how that affects both nitrification and, for some media, denitrification.
 
 - **Gentle rinse in old tank water**, occasionally — enough to remove excess sludge without stripping the biofilm where bacteria live.
 - **Don't rinse in tap water** — the chlorine or chloramine in tap water is specifically there to kill bacteria, which is exactly what you don't want happening to your filter media.

@@ -80,7 +80,7 @@ Sorting out **how widespread** a change is before digging into specific causes i
 
 ## Slow Change vs. Urgent Change
 
-**Gradual change over weeks** — similar to the slow timeframes discussed in our [Acan coral growth](/how-fast-do-acan-corals-grow/) and [how long do corals live](/how-long-do-corals-live/) guides — generally allows time to investigate calmly: what's changed recently with lighting, flow, water parameters, or new additions. **Rapid, progressive tissue loss** — recession visibly larger day to day, or a spreading "melting" appearance, the warning signs covered in our [brain coral skeleton guide](/brain-coral-skeleton/) — is different and generally warrants **faster investigation**, since an unaddressed cause could keep progressing. **Multiple corals declining together rapidly** is similarly more urgent than one colony's slow change.
+**Gradual change over weeks** — similar to the slow timeframes discussed in our [Acan coral growth](/how-fast-do-acan-corals-grow/) and [how long do corals live](/how-long-do-corals-live/) guides — generally allows time to investigate calmly: what's changed recently with lighting (including a recent fixture swap, like the upgrades compared in our [Kessil A80 vs. AI Prime 16HD guide](/kessil-a80-vs-ai-prime-16-hd/)), flow, water parameters, or new additions. **Rapid, progressive tissue loss** — recession visibly larger day to day, or a spreading "melting" appearance, the warning signs covered in our [brain coral skeleton guide](/brain-coral-skeleton/) — is different and generally warrants **faster investigation**, since an unaddressed cause could keep progressing. **Multiple corals declining together rapidly** is similarly more urgent than one colony's slow change.
 
 ## Quick Reference
 

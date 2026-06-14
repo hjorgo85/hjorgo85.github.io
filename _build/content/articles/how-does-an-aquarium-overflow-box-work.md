@@ -53,7 +53,7 @@ An overflow box is the piece of equipment that makes sump-based filtration possi
 
 ## Short Answer
 
-**An overflow box lets water flow by gravity from the main display tank down into a sump (a separate tank or container, usually below, holding filtration equipment) — a return pump in the sump then pushes that water back up to the display tank, creating a continuous loop.** There are two main designs: **drilled overflows**, built into the tank itself with a weir wall that water spills over, and **hang-on-back (HOB) overflow boxes**, which use a **siphon** to pull water over the tank's back wall on tanks that aren't drilled. Most of the common issues — gurgling noise, a siphon that stops pulling water, or a slowly rising water level — trace back to how air interacts with the drain pipe or siphon, and how well the return pump's output is matched to the overflow's drain capacity.
+**An overflow box lets water flow by gravity from the main display tank down into a sump (a separate tank or container, usually below, holding filtration equipment such as a [wet/dry filter](/amiracle-wet-dry-filter-for-aquariums/)) — a return pump in the sump then pushes that water back up to the display tank, creating a continuous loop.** There are two main designs: **drilled overflows**, built into the tank itself with a weir wall that water spills over, and **hang-on-back (HOB) overflow boxes**, which use a **siphon** to pull water over the tank's back wall on tanks that aren't drilled. Most of the common issues — gurgling noise, a siphon that stops pulling water, or a slowly rising water level — trace back to how air interacts with the drain pipe or siphon, and how well the return pump's output is matched to the overflow's drain capacity.
 
 ## Drilled Overflows vs. Hang-On-Back Overflow Boxes
 
@@ -71,7 +71,7 @@ The standard fix is a **Durso standpipe** (or similar design): a drain pipe with
 
 For **HOB overflow boxes**, the siphon tube needs to remain a continuous column of water to keep pulling water over the tank wall. If **air enters the siphon tube** — from a water level drop, a small leak in the tubing or fittings, or simply after the system has been off — the siphon **loses its prime** and stops pulling water, even though the rest of the system (return pump, sump, drain) is unaffected.
 
-Most HOB overflow boxes include a way to **re-prime** the siphon, often by manually filling the U-tube through a dedicated port until the siphon catches again. If this becomes a **recurring** problem, a slow air leak in the siphon tubing or fittings is the most likely underlying cause — worth checking before assuming it's a one-off.
+Most HOB overflow boxes include a way to **re-prime** the siphon, often by manually filling the U-tube through a dedicated port until the siphon catches again. If this becomes a **recurring** problem, a slow air leak in the siphon tubing or fittings is the most likely underlying cause — worth checking before assuming it's a one-off. Canister filters can develop a similar trapped-air pattern after maintenance; our guide on [Fluval FX6 trapped air](/fluval-fx6-air-trapped/) covers the same underlying issue in a different piece of equipment.
 
 ## Matching Return Pump Output to Drain Capacity
 

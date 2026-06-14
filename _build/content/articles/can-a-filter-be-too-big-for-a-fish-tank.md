@@ -59,7 +59,7 @@ sources:
 
 A filter's box typically advertises both its **filtration capacity** (often implied by tank size recommendations or media volume) and its **flow rate** (gallons per hour). These get bundled together, but they affect the tank differently:
 
-- **Filtration capacity** is about how much biological and mechanical filtration the unit can provide — more capacity generally means more margin for bioload, more room for media, and a filter less likely to become a bottleneck as a tank matures.
+- **Filtration capacity** is about how much biological and mechanical filtration the unit can provide — more capacity generally means more margin for bioload, more room for media (see our [Fluval BioMax vs. Seachem Matrix comparison](/fluval-biomax-vs-seachem-matrix/) for how biological media choice factors into that capacity), and a filter less likely to become a bottleneck as a tank matures.
 - **Flow rate** is about how much water physically moves through the unit per hour — and by extension, how much current it creates in the tank via its outlet.
 
 A filter can have generous filtration capacity relative to a tank's size while still being manageable in terms of current, if the flow is diffused well. Conversely, a filter that's not even oversized on paper can feel turbulent if its outlet is poorly placed. The "too big" conversation is really about flow, not capacity.

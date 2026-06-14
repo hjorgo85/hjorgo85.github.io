@@ -66,7 +66,7 @@ Extra vertical space isn't evenly useful across the hobby. It matters most for:
 
 ## Who Doesn't Benefit Much
 
-For **long, horizontally-swimming fish** — species whose space needs are mainly about length and turning room rather than height — a same-footprint 90-gallon offers comparatively little over a 75-gallon. The fish still have the same floor space to patrol, the same territory boundaries, and the same horizontal swimming distance; they simply have more water sitting above them. If your stocking plan is built around this kind of fish, the extra cost, weight, and floor-space commitment of a 90-gallon may not translate into a meaningfully better environment over a 75-gallon with the same footprint.
+For **long, horizontally-swimming fish** — species whose space needs are mainly about length and turning room rather than height — a same-footprint 90-gallon offers comparatively little over a 75-gallon. The fish still have the same floor space to patrol, the same territory boundaries, and the same horizontal swimming distance; they simply have more water sitting above them. If your stocking plan is built around this kind of fish, the extra cost, weight, and floor-space commitment of a 90-gallon may not translate into a meaningfully better environment over a 75-gallon with the same footprint. Rock-dwelling Mbuna cichlids — like the pair compared in our [johanni vs. maingano guide](/johanni-vs-maingano/) — are a good example: their territory needs are about rockwork and floor space, not water depth, so a same-footprint 90-gallon mainly adds maintenance and weight without changing how much usable territory the fish actually have.
 
 ## The Practical Tradeoffs of Going Taller
 
@@ -75,6 +75,8 @@ Before treating "taller is better" as a given, it's worth weighing the practical
 - **Weight** — a filled 90-gallon is noticeably heavier than a filled 75-gallon of the same footprint, simply because of the additional water volume. Stands and floors rated for a 75-gallon shouldn't be assumed to handle a 90-gallon without checking weight ratings.
 - **Maintenance reach** — every inch of added height makes reaching the substrate, the bottom of the glass, and low-placed decor or plants more awkward. This is a real, ongoing cost that's easy to underweight when comparing tanks on a showroom floor (where you're not the one doing weekly maintenance).
 - **Footprint commitment** — if the footprint is genuinely the same, the room/stand footprint requirement doesn't change, which is one less variable to plan around compared to a 90-gallon with different floor dimensions.
+
+Tanks at this size also start to make sump-based filtration more worthwhile — the added biological capacity of a [wet/dry filter](/amiracle-wet-dry-filter-for-aquariums/) becomes more relevant as bioload increases with tank size, somewhat independent of which dimension (75 vs. 90 gallons) the extra volume goes into.
 
 ## Quick Reference
 
