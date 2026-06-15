@@ -41,7 +41,7 @@ faq:
     a: "**Most black mollies reach 3-4.5 inches as adults** — noticeably larger than a guppy (see our [guppy care guide](/guppy-fish-care/)) but generally a bit smaller than the [sailfin molly](/sailfin-molly/), which can reach 4-6 inches. A **20-gallon tank** is a reasonable minimum for a small group, giving mollies — which do best in groups with more females than males — enough space to establish a comfortable social structure without one fish dominating limited territory."
   - q: "Do black mollies need salt or brackish water like other mollies?"
     a: "**Not strictly — a hard, alkaline freshwater setup works fine, and brackish water is an option rather than a requirement, the same as for the [sailfin molly](/sailfin-molly/).** Mollies generally come from coastal and brackish-adjacent habitats, which is reflected in their preference for harder, more alkaline water than many soft-water community species. A small amount of aquarium salt (well below marine salinity) is something some keepers use, particularly if a molly seems stressed, but it's not a baseline requirement for a healthy black molly in well-maintained freshwater."
-related: ["sailfin-molly", "sailfin-molly-breed-with-regular-molly", "guppy-fish-care", "guppy-tuberculosis", "split-tail-guppy"]
+related: ["sailfin-molly", "sailfin-molly-breed-with-regular-molly", "guppy-fish-care", "guppy-tuberculosis", "split-tail-guppy", "rainbowfish-fry"]
 sources:
   - label: "Poecilia sphenops — FishBase"
     url: "https://www.fishbase.se/summary/Poecilia-sphenops.html"
@@ -97,6 +97,8 @@ Black mollies are **peaceful and generally easy to house** with other community 
 - **More females than males** within the molly group itself, to reduce the constant pursuit that comes with a male-heavy ratio
 
 **Avoid:** aggressive or fin-nipping species, and very small or delicate tank mates that could be outcompeted by mollies' active swimming and feeding behavior.
+
+As livebearers, black mollies will also breed readily in a mixed-sex group, with fry born free-swimming and large enough to eat right away — a much simpler process than egg-laying species like [rainbowfish](/rainbowfish-fry/), which require collecting eggs and feeding fry an infusoria-level diet for their first several days.
 
 ## Color Genetics: Why Black Mollies Can Develop Patches Over Time
 

@@ -72,6 +72,7 @@ Java fern, like anubias, is an **epiphyte** — its rhizome attaches to hardscap
 - **Check light duration and intensity** — GSA in particular is frequently linked to lighting that's on longer or brighter than the plant mass in the tank can use, or to an aging bulb whose output has drifted.
 - **Don't over-fertilize relative to plant mass** — if java fern is one of relatively few plants in the tank, nutrient dosing aimed at a heavily-planted tank can leave a surplus for algae.
 - **Leave heavily-colonized old leaves alone unless they're also dying** — a leaf with some GSA that's otherwise healthy is still contributing to the plant; removing every leaf with any algae on it can do more harm (less leaf mass, more stress) than the algae itself.
+- **Remember some tankmates rely on this algae** — grazing fish like [otocinclus](/otocinclus-fry/) depend on the biofilm and algae that build up on slow-turnover leaves like java fern, so a java fern that's "too clean" isn't necessarily a win if it's removing a food source those fish depend on.
 
 ## Quick Reference
 

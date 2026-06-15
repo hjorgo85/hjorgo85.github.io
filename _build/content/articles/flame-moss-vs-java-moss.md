@@ -76,6 +76,8 @@ Both flame moss and java moss are **slow-to-moderate growers** compared to fast 
 
 Java moss, by contrast, can spread beyond its intended area if left unchecked — onto rocks, other plants, or even filter intakes — simply because its sprawling growth habit doesn't have a natural "edge" the way flame moss's upright strands do. Regular trimming keeps either moss looking intentional rather than overgrown, and trimmed portions of either can simply be tied down elsewhere to start a new patch.
 
+That same sprawling, fine-leaved structure is also why java moss is so often recommended as egg-laying cover for breeding projects — [rainbowfish](/rainbowfish-fry/), for example, scatter sticky eggs onto fine-leaved plants or spawning mops, and a java moss patch serves the same purpose.
+
 ## Algae Risk in Low Light
 
 Slow growth and a lot of fine surface area make both mosses candidates for **algae buildup** if lighting and nutrients aren't balanced — the same issue covered for another slow-turnover epiphyte in our [algae on java fern guide](/algae-on-java-fern/). Algae spores that land on moss have time to establish before the moss itself grows fast enough to shed or outcompete them. Moderate (rather than high) lighting, stable water parameters, and occasional manual cleaning of algae-affected sections are the practical responses for either moss — there's no meaningful difference between flame moss and java moss in how susceptible they are to this.

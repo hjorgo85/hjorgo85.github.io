@@ -112,6 +112,8 @@ This is the section that matters most for new guppy keepers, because **breeding 
 - **A separate breeding/grow-out tank** is the most reliable way to raise a meaningful number of fry to adulthood
 - **Single-sex groups** are the only fully reliable way to stop ongoing breeding — sexing is straightforward once fish are a few weeks old (males develop the gonopodium and brighter coloration)
 
+This ease of breeding is also why guppies sit at the top of our [guide to the easiest freshwater fish to breed](/easiest-freshwater-fish-to-breed/) — no egg stage, no spawning trigger, and fry that are born ready to eat.
+
 ## Common Health Issues
 
 - **Fin rot** — similar presentation and causes to other fish, often linked to water quality; long-finned varieties are somewhat more prone.
