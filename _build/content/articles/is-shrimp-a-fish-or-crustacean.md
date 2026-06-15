@@ -80,6 +80,8 @@ Shrimp aren't the only crustaceans that show up in aquariums and terrariums. The
 
 If you keep any combination of these alongside shrimp, you're managing a multi-crustacean setup, even if it doesn't feel that way day to day — and considerations like molting vulnerability and medication sensitivity apply across all of them, not just to shrimp specifically.
 
+The "wait, that's a crustacean?" reaction shrimp sometimes get also comes up with other marine animals, in both directions. A conch's spiral shell looks nothing like a shrimp's jointed exoskeleton, but it's mollusk, not crustacean — covered in our guide on [whether a conch is a mollusk or a crustacean](/is-conch-a-mollusk-or-crustacean/). And barnacles, which look like small immobile bumps stuck to rocks, are actually crustaceans themselves despite not resembling shrimp at all — covered in our guide on [whether barnacles are poisonous](/are-barnacles-poisonous/).
+
 ## Molting: A Crustacean Trait Worth Understanding
 
 Because shrimp have an exoskeleton rather than an internal skeleton, growth requires **molting** — periodically shedding the old shell and forming a new, larger one. During and shortly after a molt, a shrimp's new shell is soft and the animal is more vulnerable than usual. This is the same underlying process that causes the "empty shell that looks like a dead animal" phenomenon discussed for [emerald crabs](/how-often-do-emerald-crabs-molt/) in reef tanks — and it's also one of the more common (and harmless) explanations when a shrimp that was visible one day seems to vanish the next, covered in our guide to [ghost shrimp that seem to disappear](/ghost-shrimp-disappeared/).

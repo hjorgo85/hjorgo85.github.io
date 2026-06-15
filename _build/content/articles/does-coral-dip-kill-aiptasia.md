@@ -41,7 +41,7 @@ faq:
     a: "**No — this isn't how coral dips are meant to be used, and it isn't practical or safe.** Coral dips are formulated to be used on a single frag in a separate container, often at concentrations that wouldn't be appropriate for an entire tank with established corals, fish, and invertebrates. Dipping an entire display tank risks harming the corals, fish, and cleanup crew you're trying to protect, while still being unlikely to fully eliminate aiptasia that's established root systems throughout the rockwork. **Aiptasia that's already present and spreading in a display tank needs a different approach** — targeted, localized treatment rather than a tank-wide chemical dip."
   - q: "What's the best way to remove aiptasia that's already established in a reef tank?"
     a: "Several approaches are commonly used, often in combination: **targeted chemical injection** (aiptasia-specific products, or a paste made from kalkwasser/calcium hydroxide, applied directly to the anemone's mouth and column with a syringe) is one of the most precise methods for individual anemones. **Biological control** — adding predators like peppermint shrimp (which eat aiptasia, though not always reliably or completely) or Berghia nudibranchs (which are more specialized aiptasia predators but have their own care requirements) — is another route. **Manual removal** (scraping off rock, or in severe cases removing and treating rock outside the tank) is sometimes necessary for heavily infested areas. A key point across all of these: **aiptasia can reproduce from fragments**, so incomplete removal — leaving behind torn pieces of tissue — can sometimes make a population worse rather than better, which is part of why prevention (dipping new frags before they're added) is so often emphasized."
-related: ["amphipods-reef-tank", "hydroids-reef-tank", "best-mantis-shrimp-tank-mates", "coral-frags-for-beginners", "how-fast-do-torch-corals-grow"]
+related: ["amphipods-reef-tank", "hydroids-reef-tank", "best-mantis-shrimp-tank-mates", "coral-frags-for-beginners", "how-fast-do-torch-corals-grow", "aiptasia-or-feather-duster"]
 sources:
   - label: "Pest & Hitchhiker Identification — Reef2Reef"
     url: "https://www.reef2reef.com/forums/pest-and-disease.83/"
@@ -75,6 +75,8 @@ This is where coral dips genuinely excel, and it's the use case they're designed
 - **Treat new live rock similarly** where practical — aiptasia commonly arrives on live rock, not just coral frags
 
 This preventive approach is the same general logic that applies to other hitchhiker concerns covered elsewhere on this site, such as identifying [hydroids](/hydroids-reef-tank/) on new additions — catching a potential pest before it's established in the main tank is far easier than dealing with it afterward.
+
+Before reaching for a dip or any other treatment, it's worth being sure the organism in question actually is aiptasia. A small new growth that looks like a tiny anemone could also be a feather duster worm — a desirable filter feeder that's sometimes mistaken for aiptasia by newer keepers. Our [guide to telling aiptasia and feather dusters apart](/aiptasia-or-feather-duster/) covers the visual and behavioral differences.
 
 ## If Aiptasia Is Already Established: Why Dipping the Main Tank Isn't the Answer
 

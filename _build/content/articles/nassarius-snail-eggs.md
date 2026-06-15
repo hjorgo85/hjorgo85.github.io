@@ -84,6 +84,8 @@ This is where expectations are worth managing. **Hatching is possible**, but a v
 
 Some keepers do occasionally report finding small new snails weeks after an egg-laying event, but this is the exception rather than something to expect or plan around.
 
+This pattern — a planktonic larval stage followed by settling onto a surface to develop further — isn't unique to Nassarius snails. It's the same basic life-cycle strategy used by barnacles, including the ones that end up [attached to whale skin](/what-are-barnacles-on-whales/) after their larvae settle there.
+
 ## What to Do If You Find Egg Capsules
 
 Practically speaking, there's very little to actively do:

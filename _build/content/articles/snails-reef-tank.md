@@ -65,6 +65,8 @@ Rather than thinking of "cleanup crew snails" as one interchangeable group, it's
 
 A tank stocked only with one type — say, glass-grazing snails in a tank whose real issue is sand bed detritus — may not see much improvement in the area that actually needed it, even if "snails were added."
 
+Correctly identifying small organisms in a reef tank matters beyond just snails, too. A new growth that looks like a tiny anemone could be a desirable feather duster worm or a pest aiptasia anemone — two very different things that call for opposite responses, covered in our [guide to telling aiptasia and feather dusters apart](/aiptasia-or-feather-duster/).
+
 ## The Real Predation Risk: Hermit Crabs and Shells
 
 Snails in reef tanks aren't generally at risk from most other cleanup crew — [amphipods](/amphipods-reef-tank/) and [porcelain crabs](/porcelain-crab-reef-safe/), for example, don't typically bother snails. The more specific risk is **shell predation by certain hermit crab species**, covered in detail in our guide on [which hermit crabs aren't reef-safe](/what-hermit-crabs-are-not-reef-safe/): a hermit crab that's outgrown its current shell, with no empty shell available, may evict a living snail to take over its shell. This is the **single most common real "snail problem"** in reef tanks with hermit crabs present, and it's largely preventable by keeping a stock of appropriately-sized empty shells.
