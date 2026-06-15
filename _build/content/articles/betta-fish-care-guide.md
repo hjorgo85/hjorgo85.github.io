@@ -90,7 +90,7 @@ Bettas appreciate plants (live or silk — avoid sharp plastic plants, which can
 | Nitrate | <20 ppm |
 | Water hardness | Soft to moderately hard (2-15 dGH) |
 
-Bettas have a labyrinth organ that lets them breathe atmospheric air at the surface, which is part of why they're marketed as tolerant of "low oxygen" conditions — but this is **not** the same as tolerating poor water quality. Ammonia and nitrite toxicity affect bettas the same as any other fish; the labyrinth organ only addresses dissolved oxygen, not waste buildup.
+Bettas have a labyrinth organ that lets them breathe atmospheric air at the surface, which is part of why they're marketed as tolerant of "low oxygen" conditions — but this is **not** the same as tolerating poor water quality. Ammonia and nitrite toxicity affect bettas the same as any other fish; the labyrinth organ only addresses dissolved oxygen, not waste buildup. For more on how this organ fits into fish respiration generally — and why most fish don't have this option — see our [guide to why fish can't breathe air](/why-cant-fish-breathe-air/).
 
 ## Diet and Feeding
 

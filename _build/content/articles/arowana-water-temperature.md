@@ -41,7 +41,7 @@ faq:
     a: "Sustained or repeated temperature swings outside the ideal range can stress fish generally, and arowana are no exception — the immune and digestive effects of temperature stress described for many freshwater fish apply here too. In practice, large tanks have an advantage in that their thermal mass resists rapid swings from things like room temperature changes, but this cuts both ways: if a heater fails in a large tank, the **slow temperature drift can go unnoticed longer** before it's caught, compared to a small tank where a heater failure becomes obvious (and often dangerous) much faster. Multiple thermometers placed at different points in a large tank help catch uneven heating or gradual drift before it becomes a problem."
   - q: "Does water temperature affect arowana growth rate?"
     a: "Within the appropriate range, temperature is one of several factors (alongside diet and water quality) that support the fast growth arowana are known for — part of why the 'sold small, grows large' dynamic discussed in our [Red Jardini arowana guide](/red-jardini-arowana/) plays out as quickly as it does. Chronically low temperatures can slow metabolism, digestion, and growth, while temperatures sustained near the upper end of the range for extended periods may increase metabolic demands and oxygen consumption — both reasons to aim for a stable target within the range rather than drifting toward either edge as a matter of course."
-related: ["red-jardini-arowana", "55-gallon-discus-tank", "what-are-the-fish-that-swim-with-sharks", "channel-catfish-tank-conditions", "colombian-shark-catfish"]
+related: ["red-jardini-arowana", "55-gallon-discus-tank", "what-are-the-fish-that-swim-with-sharks", "channel-catfish-tank-conditions", "colombian-shark-catfish", "do-fish-get-cold"]
 sources:
   - label: "Scleropages jardinii — FishBase"
     url: "https://www.fishbase.se/summary/Scleropages-jardinii.html"
@@ -86,7 +86,7 @@ Within the ideal range, temperature is one of several factors (along with diet a
 - **Chronically low temperatures**: slowed metabolism, reduced digestion efficiency, slower growth — and potentially increased susceptibility to issues that affect stressed fish more broadly, a pattern that comes up across species, including the stress-related concerns discussed for [American flagfish](/are-american-flagfish-aggressive/) in a very different context
 - **Sustained high temperatures** (toward the upper end of the range or beyond): increased metabolic rate and oxygen demand, which interacts with the tank's overall oxygenation and bioload — a consideration that compounds with the substantial waste output already discussed for large, fast-growing fish in our [pleco waste guide](/pleco-poop-information/)
 
-The practical goal is a **stable target within the range**, monitored consistently, rather than treating temperature as a "set it and forget it" parameter — which is true for most fish, but carries more weight here given the scale involved.
+The practical goal is a **stable target within the range**, monitored consistently, rather than treating temperature as a "set it and forget it" parameter — which is true for most fish, but carries more weight here given the scale involved. For more on why fish are affected by temperature this way in the first place — and why sudden swings matter more than the absolute number — see our [guide to how temperature affects fish](/do-fish-get-cold/).
 
 ## Quick Reference
 

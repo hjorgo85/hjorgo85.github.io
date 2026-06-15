@@ -38,6 +38,9 @@ categories:
     - label: "Aquarium Plants & Algae"
       url: "/aquarium-plants/"
       icon: "leaf"
+    - label: "Fish Facts & FAQs"
+      url: "/fish-facts-faqs/"
+      icon: "fish"
 featured:
   heading: "Popular Guides"
   subheading: "Start here — our most comprehensive care guides and reviews."
