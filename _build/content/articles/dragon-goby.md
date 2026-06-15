@@ -57,6 +57,8 @@ Dragon gobies have an elongated, almost eel-like body, typically a muted brown, 
 
 The species is native to **brackish coastal waters and estuaries** along the Atlantic coast of the Americas, from the southeastern United States down through parts of South America — habitats where salinity fluctuates with tides and freshwater river input, quite different from either a typical "freshwater" or "marine" aquarium setup.
 
+As the name suggests, the dragon goby is a true member of the goby family (Gobiidae) — but, as covered in our broader [overview of gobies](/gobies-fish/), that family is so large and varied that "it's a goby" says very little about a fish's actual care needs. A brackish, sand-burrowing species like this one and a reef-associated marine goby share little beyond the family name.
+
 ## Tank Requirements
 
 ### Tank Size

@@ -73,6 +73,8 @@ A **consistent pattern** — like a caretaker always approaching from a particul
 
 On top of the refraction effects (which shape *field of view*, not color), many fish have **color vision that differs from humans'** — including, in a number of species, the ability to perceive **ultraviolet light**, which humans can't see at all. The specifics vary by species and aren't fully mapped for every fish in the hobby, but the general takeaway is the same as for field of view: **a fish's visual experience isn't simply a human's experience from a different angle** — it's shaped by genuinely different underlying biology and physics.
 
+This UV-sensitivity is also relevant to a different, frequently confused topic: the vivid "glow" many reef fish and corals show under blue or UV aquarium lighting. That effect is almost always **fluorescence**, not bioluminescence — a distinction covered in our [guide to bioluminescent aquarium fish](/bioluminescent-aquarium-fish/), which explains why that glow depends entirely on the tank's lighting rather than being light the animal produces itself.
+
 ## Does This Matter for Tank Placement?
 
 It's a minor but real factor. Positions with **less abrupt visual change** — away from high-traffic paths directly in front of the tank, or away from light switches that create sudden bright/dark transitions right at the tank — can reduce how often fish experience a startling visual shift. This is a smaller consideration than core husbandry factors, but it's part of the same general goal of a lower-stress environment that things like consistent [lighting setups](/aquarium-hood-light-not-working/) also contribute to.

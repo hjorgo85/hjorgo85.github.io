@@ -112,7 +112,7 @@ If you're set on the classic clownfish-and-anemone look, the right sequence is: 
 
 Clownfish are generally peaceful toward other species, with one major caveat: **a clownfish hosting in an anemone (or a surrogate, like a powerhead or coral colony) becomes territorial around that spot** and may nip at fish — or hands — that get too close.
 
-**Good tank mates** include the [yellowtail damselfish](/yellowtail-damselfish/), [firefish](/firefish/), gobies, blennies, and most peaceful-to-semi-aggressive community fish appropriately sized for your tank. Avoid pairing with larger, more aggressive damselfish that might bully a newly introduced clownfish. Clownfish also tend to hold their own against bolder additions like the Valentini puffer — see [can a Valentini pufferfish live with clownfish?](/can-valentini-pufferfish-share-a-tank-with-clownfish/) if you're considering that combination.
+**Good tank mates** include the [yellowtail damselfish](/yellowtail-damselfish/), [firefish](/firefish/), gobies, blennies, and most peaceful-to-semi-aggressive community fish appropriately sized for your tank. The [royal gramma](/royal-gramma/) is another frequently recommended pairing — a similarly unfussy, peaceful reef fish that occupies a different part of the tank (cave-dwelling, often swimming upside down) and rarely competes directly with clownfish for space or food. Avoid pairing with larger, more aggressive damselfish that might bully a newly introduced clownfish. Clownfish also tend to hold their own against bolder additions like the Valentini puffer — see [can a Valentini pufferfish live with clownfish?](/can-valentini-pufferfish-share-a-tank-with-clownfish/) if you're considering that combination.
 
 ## Breeding Common Clownfish
 

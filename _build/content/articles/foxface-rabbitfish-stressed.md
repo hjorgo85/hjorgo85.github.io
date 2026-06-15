@@ -41,7 +41,7 @@ faq:
     a: "Mostly — foxface rabbitfish are valued for their appetite for nuisance algae, including types many other fish won't touch, and don't typically damage SPS or soft coral. However, there are scattered reports of individual foxface nipping at LPS coral polyps or clam mantles, particularly if underfed. As with several fish in our [reef-safe stocking guide](/best-fish-for-reef-tank/), this is closer to 'reef safe with individual variation' than an unconditional yes."
   - q: "How long does it take a foxface to stop being stressed in a new tank?"
     a: "Commonly 1-2 weeks for visible stress signs (dark coloration, hiding, reduced appetite) to resolve as the fish acclimates to a new tank, though this varies by individual and by how the introduction was handled. A foxface that's still showing strong stress signs — not eating, persistently dark, hiding constantly — after 2+ weeks may be dealing with an ongoing issue (tankmate aggression, water quality, inadequate hiding spots) rather than simple settling-in time, and is worth investigating further."
-related: ["best-fish-for-reef-tank", "saltwater-aquarium-fish-for-beginners", "blue-hippo-tang", "specific-gravity-reef-tank", "bluestreak-cleaner-wrasse-labroides-dimidiatrus"]
+related: ["best-fish-for-reef-tank", "saltwater-aquarium-fish-for-beginners", "blue-hippo-tang", "specific-gravity-reef-tank", "bluestreak-cleaner-wrasse-labroides-dimidiatrus", "yellow-fish-in-hawaii"]
 sources:
   - label: "Siganus vulpinus — FishBase"
     url: "https://www.fishbase.se/summary/Siganus-vulpinus.html"
@@ -59,7 +59,7 @@ A stressed foxface rabbitfish (*Siganus vulpinus*) commonly shows **darkened or 
 
 Compared to many fish, foxface rabbitfish tend to communicate stress fairly visibly, through a combination of:
 
-- **Color darkening or blotchiness** — the bright yellow body and distinctive dark "fox-like" facial mask can take on a duller, darker, or uneven appearance under stress, sometimes described as the fish "losing its color."
+- **Color darkening or blotchiness** — the bright yellow body and distinctive dark "fox-like" facial mask can take on a duller, darker, or uneven appearance under stress, sometimes described as the fish "losing its color." That bright yellow is also part of why a foxface gets occasionally lumped in with other vividly yellow reef fish, like the [yellow tang commonly associated with Hawaii's reefs](/yellow-fish-in-hawaii/) — a healthy, unstressed foxface and a yellow tang look quite different up close, but a stressed, darkened foxface can be harder to place at a glance.
 - **Clamped fins** — fins held close to the body rather than relaxed and extended, a general stress indicator across many fish species.
 - **Hiding or reduced activity** — spending unusual amounts of time in rockwork or corners rather than the more open grazing behavior this species normally shows.
 - **Reduced or absent appetite** — particularly notable for a species that's normally an enthusiastic grazer.

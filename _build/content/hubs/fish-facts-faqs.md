@@ -6,7 +6,7 @@ type: "hub"
 intro: "Some of the most common fish-related questions aren't about a specific species or tank setup — they're basic 'how does this actually work' questions about fish themselves. This section answers those questions directly, with the biology and physics behind them, so the explanations hold up beyond a one-line answer."
 groups:
   - title: "Fish Biology & Senses"
-    slugs: ["why-cant-fish-breathe-air", "do-fish-get-cold", "do-fish-float-when-they-die", "can-fish-get-drunk", "what-do-fish-see-from-inside-the-tank"]
+    slugs: ["why-cant-fish-breathe-air", "do-fish-get-cold", "do-fish-float-when-they-die", "can-fish-get-drunk", "what-do-fish-see-from-inside-the-tank", "bioluminescent-aquarium-fish"]
   - title: "Fish Behavior & Common Questions"
     slugs: ["why-do-fish-jump-out-of-the-water", "can-salt-water-fish-live-in-freshwater", "what-does-a-small-fish-eat", "how-do-fish-get-in-ponds", "does-fishing-hurt-fish"]
 faq:

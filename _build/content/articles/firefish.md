@@ -41,7 +41,7 @@ faq:
     a: "The 'firefish' or 'firefish goby' (Nemateleotris magnifica) has a red-to-orange posterior half and a tall, black-edged first dorsal fin. The 'purple firefish' (Nemateleotris decora) is a related but distinct species with a purple body and yellow-tipped fins. Care requirements are very similar between the two, though N. decora is sometimes considered slightly more delicate."
   - q: "Is a firefish reef safe?"
     a: "Yes. Firefish ignore corals and other sessile invertebrates entirely, making them an easy addition to reef tanks. Their main compatibility concerns are about other fish (aggression toward them) and the jumping risk, not anything related to corals or clams."
-related: ["yellowtail-damselfish", "common-clownfish", "banggai-cardinalfish", "blue-devil-damselfish", "clownfish-ich"]
+related: ["yellowtail-damselfish", "common-clownfish", "banggai-cardinalfish", "blue-devil-damselfish", "clownfish-ich", "mandarin-fish"]
 sources:
   - label: "Nemateleotris magnifica — FishBase"
     url: "https://www.fishbase.se/summary/Nemateleotris-magnifica.html"
@@ -107,6 +107,8 @@ Firefish are peaceful and do best with similarly calm tank mates. They can becom
 - Larger semi-aggressive fish that chase or nip at them (this also compounds the jumping risk)
 
 **Good tank mates** include the [common clownfish](/common-clownfish/), gobies, blennies, and most peaceful community fish. The [yellowtail damselfish](/yellowtail-damselfish/) can work but should ideally be added *after* the firefish is established, since damselfish added later tend to be the more dominant party — the reverse order (firefish added to a tank with established damsels) increases stress on the firefish.
+
+The [mandarin fish](/mandarin-fish/) is another peaceful, slow-moving species that's often considered alongside firefish for a calm reef community — both do best without fast, food-competitive tank mates, though the mandarin's feeding needs are far more demanding than anything required here.
 
 **Keeping pairs:** A bonded pair, or two similarly-sized juveniles introduced together, can coexist peacefully and may even spawn in a mature tank. Mismatched introductions (one resident, one new) often result in aggression from the resident fish.
 

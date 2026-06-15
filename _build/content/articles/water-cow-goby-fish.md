@@ -41,7 +41,7 @@ faq:
     a: "No — cow gobies sift sand for microfauna (copepods, small worms, etc.) and detritus, which is a different scale and behavior from the predation seen in fish like the [chain link moray eel](/chain-link-moray-eel/). They're broadly compatible with snails, hermit crabs, and similar cleanup crew members, and are themselves considered part of a 'sand bed cleanup crew' role in many reef tanks."
   - q: "Can I keep more than one cow goby together?"
     a: "It depends on the tank. Amblygobius phalaena can be territorial toward other individuals of its own species (and sometimes similar-looking gobies) in smaller tanks, where there isn't enough sand bed area for each fish to establish its own foraging territory. In larger tanks (75+ gallons) with ample sand bed area, a mated pair or small group is sometimes kept successfully, but a single individual is the safer default for most home aquariums."
-related: ["saltwater-fish-for-10-gallon-tank", "chain-link-moray-eel", "best-fish-for-reef-tank", "specific-gravity-reef-tank", "female-melanurus-wrasse"]
+related: ["saltwater-fish-for-10-gallon-tank", "chain-link-moray-eel", "best-fish-for-reef-tank", "specific-gravity-reef-tank", "female-melanurus-wrasse", "gobies-fish"]
 sources:
   - label: "Amblygobius phalaena — FishBase"
     url: "https://www.fishbase.se/summary/Amblygobius-phalaena.html"
@@ -56,6 +56,8 @@ Sometimes sold under the name "cow goby" for its mottled brown-and-cream marking
 The cow goby has a stocky, elongated body in mottled shades of brown, tan, and cream, often with a horizontal stripe or row of darker blotches running along the sides — the irregular, patchy pattern that gives rise to the "cow" comparison. Adults reach up to about 5.5 inches (14 cm), making it one of the larger commonly kept gobies, though its body shape and bottom-dwelling habits mean it doesn't need the open swimming space a fish like the [blue hippo tang](/blue-hippo-tang/) requires.
 
 *A. phalaena* is found across the Indo-Pacific, typically in shallow lagoons and reef flats with sandy or rubble substrate — habitats that directly shape its core behavior in the aquarium, where it spends the majority of its time at or just above the substrate, picking through sand.
+
+The cow goby is also a useful reference point for the goby family generally — its stocky body, bottom-dwelling habits, and substrate-sifting behavior are fairly representative of what "goby" means across the huge number of species in this family, covered in more general terms in our [overview of gobies](/gobies-fish/).
 
 ## Tank Requirements
 

@@ -98,7 +98,7 @@ This is where yellowtail damselfish require the most thought. They are **semi-ag
 **Good tank mate strategies:**
 
 - **Add damselfish last**, or alongside other semi-aggressive species of similar size, so no single fish has time to establish dominant territory before others arrive.
-- Pair with clownfish (see our [common clownfish guide](/common-clownfish/)), firefish (see our [firefish guide](/firefish/)), gobies, blennies, and larger semi-aggressive fish like tangs (in appropriately sized tanks).
+- Pair with clownfish (see our [common clownfish guide](/common-clownfish/)), firefish (see our [firefish guide](/firefish/)), gobies, blennies, and larger semi-aggressive fish like tangs (in appropriately sized tanks). The [royal gramma](/royal-gramma/) is another good option — its cave-dwelling habits keep it out of the open-water territory a yellowtail damsel tends to patrol.
 - Avoid keeping them with very passive, slow-moving fish (e.g. seahorses, pipefish) or other small damselfish species added later — both scenarios tend to end badly for the newcomer.
 - If you're considering other *Chrysiptera* damsels like the [azure damselfish](/azure-damselfish/) or [blue devil damselfish](/blue-devil-damselfish/), or a much larger species like the [domino damselfish](/domino-damselfish/), add them simultaneously to a large tank with divided territories rather than sequentially — mixing similarly colored damsels added at different times is one of the most common causes of ongoing aggression.
 
