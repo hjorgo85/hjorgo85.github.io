@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-06-27"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/amphipods-reef-tank.webp"
 imageAlt: "A small amphipod crustacean crawling across live rock in a reef tank, illuminated by blue lighting"
 imageWidth: 1200
 imageHeight: 800

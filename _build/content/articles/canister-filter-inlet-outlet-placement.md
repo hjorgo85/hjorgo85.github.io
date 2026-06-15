@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-01-19"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/canister-filter-inlet-outlet-placement.webp"
 imageAlt: "A canister filter intake tube and spray bar outlet positioned at opposite ends of an aquarium"
 imageWidth: 1200
 imageHeight: 800

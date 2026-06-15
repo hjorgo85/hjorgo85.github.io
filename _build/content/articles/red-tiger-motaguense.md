@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-07-04"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/red-tiger-motaguense.webp"
 imageAlt: "A large red and orange cichlid with dark vertical barring swimming in an aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2021-10-05"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/best-food-for-mbuna-cichlids.webp"
 imageAlt: "Brightly colored Mbuna cichlids grazing on algae-covered rocks in a Lake Malawi-style aquarium"
 imageWidth: 1200
 imageHeight: 800

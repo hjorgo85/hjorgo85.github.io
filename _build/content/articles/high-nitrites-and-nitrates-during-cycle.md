@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2029-11-21"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/high-nitrites-and-nitrates-during-cycle.webp"
 imageAlt: "An aquarium water test kit with vials showing different color reactions for ammonia, nitrite, and nitrate"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-09-16"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-mud-crabs-take-off-a-finger.webp"
 imageAlt: "A large mud crab with prominent thick claws being handled with a gloved hand"
 imageWidth: 1200
 imageHeight: 800

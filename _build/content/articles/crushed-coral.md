@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-05-13"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/crushed-coral.webp"
 imageAlt: "Coarse white crushed coral substrate in an aquarium, showing angular calcium carbonate fragments"
 imageWidth: 1200
 imageHeight: 800

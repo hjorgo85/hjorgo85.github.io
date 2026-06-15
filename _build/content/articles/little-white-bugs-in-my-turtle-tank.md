@@ -9,7 +9,7 @@ categoryUrl: "/turtles/"
 author: "hektor-jorgo"
 datePublished: "2026-10-13"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/little-white-bugs-in-my-turtle-tank.webp"
 imageAlt: "Close-up of a turtle tank substrate with small white organisms visible near decaying plant matter"
 imageWidth: 1200
 imageHeight: 800

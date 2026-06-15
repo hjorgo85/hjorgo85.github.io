@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2023-01-24"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/fish-skin-peeling.webp"
 imageAlt: "Close-up of a freshwater fish showing a patch of skin discoloration along its flank"
 imageWidth: 1200
 imageHeight: 800

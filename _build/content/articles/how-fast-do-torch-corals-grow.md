@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-02-20"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-fast-do-torch-corals-grow.webp"
 imageAlt: "A torch coral with long, flowing tentacles and multiple heads extended in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

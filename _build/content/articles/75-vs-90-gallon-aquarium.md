@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2028-09-13"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/75-vs-90-gallon-aquarium.webp"
 imageAlt: "Two aquariums side by side, a 75-gallon and a taller 90-gallon of the same footprint, on sturdy stands"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-03-17"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/shrimp-poop-in-my-aquarium.webp"
 imageAlt: "A small freshwater shrimp on aquarium substrate with a thin dark waste trail visible behind it"
 imageWidth: 1200
 imageHeight: 800

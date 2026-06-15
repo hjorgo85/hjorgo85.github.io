@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2030-02-13"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-much-sand-for-a-20-gallon-tank.webp"
 imageAlt: "A 20-gallon aquarium with a layer of light-colored sand substrate being added before planting"
 imageWidth: 1200
 imageHeight: 800

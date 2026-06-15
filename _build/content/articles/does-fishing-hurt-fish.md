@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2030-11-06"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/does-fishing-hurt-fish.webp"
 imageAlt: "A fish being released back into water after being caught"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2028-10-11"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/caribsea-bio-magnet-clarifier.webp"
 imageAlt: "Fine white filter media pad being placed into the mechanical filtration stage of an aquarium canister filter"
 imageWidth: 1200
 imageHeight: 800

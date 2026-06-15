@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-02-04"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/does-touching-coral-kill-it.webp"
 imageAlt: "A hand approaching coral polyps in a reef aquarium, illustrating the question of whether touching coral is harmful"
 imageWidth: 1200
 imageHeight: 800

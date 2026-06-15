@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-06-23"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/sick-mystery-snail.webp"
 imageAlt: "A mystery snail with its body partially retracted into its shell, resting on aquarium substrate near a thermometer"
 imageWidth: 1200
 imageHeight: 800

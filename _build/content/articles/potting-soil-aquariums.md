@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2030-01-30"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/potting-soil-aquariums.webp"
 imageAlt: "A layered aquarium substrate with a dark soil base capped by a layer of sand, with plants rooted into it"
 imageWidth: 1200
 imageHeight: 800

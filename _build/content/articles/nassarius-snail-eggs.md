@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-07-11"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/nassarius-snail-eggs.webp"
 imageAlt: "A cluster of small oval Nassarius snail egg capsules attached to aquarium glass"
 imageWidth: 1200
 imageHeight: 800

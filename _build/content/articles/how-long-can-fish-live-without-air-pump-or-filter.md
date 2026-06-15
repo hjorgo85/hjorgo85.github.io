@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-02-02"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-long-can-fish-live-without-air-pump-or-filter.webp"
 imageAlt: "An aquarium with a filter and air pump turned off during a power outage, with a flashlight nearby"
 imageWidth: 1200
 imageHeight: 800

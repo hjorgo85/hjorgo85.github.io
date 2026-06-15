@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-10-04"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/endlers-5-gallon-tank.webp"
 imageAlt: "Small, colorful Endler's livebearers swimming in a heavily planted nano aquarium"
 imageWidth: 1200
 imageHeight: 800

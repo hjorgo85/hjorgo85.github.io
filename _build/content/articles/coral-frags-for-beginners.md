@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-05-28"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/coral-frags-for-beginners.webp"
 imageAlt: "A small coral frag mounted on a frag plug, recently placed in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

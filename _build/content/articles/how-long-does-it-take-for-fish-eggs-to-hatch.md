@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-04-25"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-long-does-it-take-for-fish-eggs-to-hatch.webp"
 imageAlt: "A cluster of small translucent fish eggs attached to an aquarium plant leaf"
 imageWidth: 1200
 imageHeight: 800

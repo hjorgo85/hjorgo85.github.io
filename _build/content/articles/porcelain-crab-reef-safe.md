@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-08-08"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/porcelain-crab-reef-safe.webp"
 imageAlt: "A small white and orange-spotted porcelain crab perched on the tentacles of a sea anemone"
 imageWidth: 1200
 imageHeight: 800

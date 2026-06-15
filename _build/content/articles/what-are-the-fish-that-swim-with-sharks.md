@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-09-20"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-are-the-fish-that-swim-with-sharks.webp"
 imageAlt: "A freshwater aquarium stocked with several fish commonly given 'shark' common names"
 imageWidth: 1200
 imageHeight: 800

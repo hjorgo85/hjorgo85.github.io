@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-07-25"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-often-do-emerald-crabs-molt.webp"
 imageAlt: "An emerald green crab next to its empty, shed exoskeleton on live rock in a reef tank"
 imageWidth: 1200
 imageHeight: 800

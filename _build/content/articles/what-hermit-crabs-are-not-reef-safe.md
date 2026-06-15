@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-08-22"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-hermit-crabs-are-not-reef-safe.webp"
 imageAlt: "A small blue leg hermit crab crawling across live rock near a snail shell in a reef tank"
 imageWidth: 1200
 imageHeight: 800

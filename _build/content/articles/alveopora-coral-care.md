@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-02-06"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/alveopora-coral-care.webp"
 imageAlt: "An Alveopora coral with long, daisy-like polyps extended on stalks in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

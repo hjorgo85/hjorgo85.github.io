@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2028-09-27"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/cabomba-vs-hornwort.webp"
 imageAlt: "Cabomba and hornwort stem plants side by side in a planted aquarium, showing their different leaf textures"
 imageWidth: 1200
 imageHeight: 800
