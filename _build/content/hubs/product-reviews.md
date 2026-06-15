@@ -6,7 +6,7 @@ type: "hub"
 intro: "Aquarium equipment marketing rarely mentions the caveats that matter once you're actually running the gear — noise levels, mounting quirks, long-term reliability. This section covers equipment we've used or researched in depth, with the trade-offs spelled out, not just the highlight reel."
 groups:
   - title: "Equipment Reviews"
-    slugs: ["jebao-rw-4-review", "caribsea-bio-magnet-clarifier", "fluval-chi-aquarium-light-not-working", "amiracle-wet-dry-filter-for-aquariums", "kessil-a80-vs-ai-prime-16-hd", "fluval-biomax-vs-seachem-matrix", "fluval-fx6-air-trapped", "microbe-lift-review", "is-top-fin-a-good-brand", "are-aqueon-tanks-good"]
+    slugs: ["jebao-rw-4-review", "caribsea-bio-magnet-clarifier", "fluval-chi-aquarium-light-not-working", "amiracle-wet-dry-filter-for-aquariums", "kessil-a80-vs-ai-prime-16-hd", "fluval-biomax-vs-seachem-matrix", "fluval-fx6-air-trapped", "microbe-lift-review", "is-top-fin-a-good-brand", "are-aqueon-tanks-good", "bridgelux-led-vs-cree", "kessil-a350w-vs-a360w", "jebao-rw-vs-wp", "aquaclear-110-vs-emperor-400", "oceanic-aquarium"]
   - title: "Tank Size & Setup Comparisons"
     slugs: ["75-vs-90-gallon-aquarium", "65-gallon-hexagon-aquarium"]
   - title: "Plant & Treatment Comparisons"

@@ -88,6 +88,8 @@ Aqueon and [Top Fin](/is-top-fin-a-good-brand/) end up being a useful comparison
 
 The practical takeaway is the same for both brands: **the tank itself is rarely the limiting factor**; the equipment bundled or sold alongside it is where it pays to evaluate against your actual (or eventual) setup rather than the kit's stated tank size alone.
 
+It's worth noting that this comparison doesn't extend to every aquarium brand — some, like [Oceanic](/oceanic-aquarium/), are positioned around a different core product entirely (reef-ready tanks with a built-in overflow box), which addresses a setup need that standard Aqueon or Top Fin kits generally don't.
+
 ## Hood Lights on All-in-One Kits
 
 Kits with a **light built into the hood or lid** put that light closer to the water — and the humid air above it — than a standalone fixture would be. If a kit's hood light ever stops working, the troubleshooting path is the same one that applies to integrated hood lighting from any manufacturer: our [aquarium hood light troubleshooting guide](/aquarium-hood-light-not-working/) covers checking power first (including GFCI trips, which can silently cut power to a hood light with no visible sign at the fixture), isolating a bulb/LED issue from the fixture's internal electronics, and recognizing partial failures like dimming or dead sections as a different issue from total failure. This is a characteristic of the **integrated hood light format itself**, not something specific to any one brand's kits.

@@ -88,6 +88,8 @@ If you've checked water level, distinguished bio-wheel from impeller noise, rule
 
 The fix here is a **replacement impeller assembly** — these are sold separately for Penguin/BioWheel filters at low cost, and replacing just this part restores normal operation without needing to replace the housing, motor, or bio-wheel.
 
+If you're weighing a full filter replacement instead of a parts-level fix — for example, because the tank has outgrown the filter rather than because of this noise issue specifically — our [AquaClear 110 vs. Emperor 400 comparison](/aquaclear-110-vs-emperor-400/) covers how the Emperor's bio-wheel design (the same general technology discussed here) stacks up against AquaClear's sponge-based approach for larger tanks.
+
 ## Quick Reference
 
 - [ ] Top off the tank's water level first — this resolves the most common cause of sudden filter noise

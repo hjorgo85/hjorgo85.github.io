@@ -78,7 +78,7 @@ These point to different things:
 
 ## When It's a Replacement Situation
 
-If power delivery is confirmed good, the button responds normally after a thorough dry-out, and the LEDs still don't light (fully or partially), the light unit itself has failed. Because the Chi's light is built into the lid as a single assembly rather than a fixture with a swappable bulb or tube, **replacing the lid/light assembly is the practical path** at that point — there isn't a smaller component-level fix the way there might be on a tube-based fixture.
+If power delivery is confirmed good, the button responds normally after a thorough dry-out, and the LEDs still don't light (fully or partially), the light unit itself has failed. Because the Chi's light is built into the lid as a single assembly rather than a fixture with a swappable bulb or tube, **replacing the lid/light assembly is the practical path** at that point — there isn't a smaller component-level fix the way there might be on a tube-based fixture. Hobbyists comfortable with a DIY approach sometimes build a replacement light from individual LED chips rather than buying a new lid — our [Bridgelux vs. Cree comparison](/bridgelux-led-vs-cree/) covers what that alternative path actually involves.
 
 ## Quick Reference
 

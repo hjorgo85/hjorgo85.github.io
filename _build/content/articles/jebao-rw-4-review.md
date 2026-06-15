@@ -42,7 +42,7 @@ affiliateProducts:
     asin: "B01N5JOEM4"
     image: "/assets/img/placeholder.svg"
     description: "Wired-controller wave maker with wave, pulse, and feed modes — a budget-friendly way to add randomized flow to a reef tank."
-related: ["yellowtail-damselfish", "common-clownfish", "firefish"]
+related: ["yellowtail-damselfish", "common-clownfish", "firefish", "jebao-rw-vs-wp"]
 ---
 
 Good water movement is one of the most underrated requirements in a reef tank — corals need randomized, varying flow to thrive, and a single powerhead pointed in one direction usually isn't enough once a tank matures. Wave makers like the Jebao RW-4 exist to solve this at a fraction of the cost of high-end options like EcoTech's VorTech series. This review covers what the RW-4 actually does well, where it falls short, and who it makes sense for.
@@ -95,3 +95,5 @@ As with most budget powerheads, the most common long-term complaint is motor lon
 ## Verdict
 
 The Jebao RW-4 delivers the core thing a wave maker needs to do — create varied, randomized flow — at a price point that makes adding (or upgrading) flow in a reef tank accessible. The noise-at-max-flow and magnet-thickness caveats aren't dealbreakers, but they're exactly the kind of detail that's easy to miss until after you've already mounted the thing — so check your tank's glass spec and plan your flow settings with both in mind before you buy.
+
+Jebao's newer WP series addresses both of these caveats to some degree — our [Jebao RW vs. WP comparison](/jebao-rw-vs-wp/) covers what's actually changed between generations, and whether it's worth choosing WP over RW (or upgrading an existing RW pump) based on which of these caveats matters most to your setup.

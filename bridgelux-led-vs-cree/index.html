@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bridgelux vs. Cree LEDs for DIY Aquarium Lighting: What Actually Differs | Sea Life Planet</title>
+<meta name="description" content="Bridgelux COB arrays and Cree discrete high-power LEDs are two of the most common chip choices for DIY reef and planted tank lighting builds — here&#x27;s how they actually differ in practice.">
+<link rel="canonical" href="https://sealifeplanet.com/bridgelux-led-vs-cree/">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Bridgelux vs. Cree LEDs for DIY Aquarium Lighting: What Actually Differs">
+<meta property="og:description" content="Bridgelux COB arrays and Cree discrete high-power LEDs are two of the most common chip choices for DIY reef and planted tank lighting builds — here&#x27;s how they actually differ in practice.">
+<meta property="og:url" content="https://sealifeplanet.com/bridgelux-led-vs-cree/">
+<meta property="og:site_name" content="Sea Life Planet">
+<meta property="og:image" content="https://sealifeplanet.com/assets/img/placeholder.svg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sealifeplanet">
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://sealifeplanet.com/#organization",
+      "name": "Sea Life Planet",
+      "url": "https://sealifeplanet.com/",
+      "logo": "https://sealifeplanet.com/assets/img/favicon.svg",
+      "sameAs": [
+        "https://www.facebook.com/sealifeplanet",
+        "https://www.instagram.com/sealifeplanet",
+        "https://www.youtube.com/@sealifeplanet",
+        "https://www.pinterest.com/sealifeplanet"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sealifeplanet.com/#website",
+      "url": "https://sealifeplanet.com/",
+      "name": "Sea Life Planet",
+      "description": "Sea Life Planet is a marine-biology-backed guide to fishkeeping — species profiles, tank setup, water chemistry, and gear reviews for freshwater and saltwater aquarists.",
+      "publisher": {
+        "@id": "https://sealifeplanet.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://sealifeplanet.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sealifeplanet.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Aquarium Equipment Reviews",
+          "item": "https://sealifeplanet.com/product-reviews/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bridgelux vs. Cree LEDs for DIY Aquarium Lighting: What Actually Differs",
+          "item": "https://sealifeplanet.com/bridgelux-led-vs-cree/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://sealifeplanet.com/bridgelux-led-vs-cree/#article",
+      "headline": "Bridgelux vs. Cree LEDs for DIY Aquarium Lighting: What Actually Differs",
+      "description": "Bridgelux COB arrays and Cree discrete high-power LEDs are two of the most common chip choices for DIY reef and planted tank lighting builds — here's how they actually differ in practice.",
+      "image": "https://sealifeplanet.com/assets/img/placeholder.svg",
+      "datePublished": "2031-11-05",
+      "dateModified": "2026-06-15",
+      "author": {
+        "@type": "Person",
+        "name": "Hektor Jorgo",
+        "description": "Hektor is a co-founder of Sea Life Planet and has kept reef and freshwater aquariums for over 15 years. He holds a background in marine biology and focuses on species care accuracy, water chemistry, and tank husbandry.",
+        "url": "https://sealifeplanet.com/about/"
+      },
+      "publisher": {
+        "@id": "https://sealifeplanet.com/#organization"
+      },
+      "mainEntityOfPage": "https://sealifeplanet.com/bridgelux-led-vs-cree/"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What's the actual difference between a Bridgelux COB and a Cree LED for aquarium lighting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's mainly a difference in how the LEDs are packaged, not a simple 'better vs. worse' comparison. A Bridgelux COB (chip-on-board) packages many individual LED dies onto a single small substrate, producing one bright, compact light source from what is effectively dozens of tiny emitters working together. A Cree high-power LED (from families like the XP-G, XT-E, or XHP series) is typically used as an individual discrete emitter — a DIY build using Cree chips often arranges several of these individually-packaged emitters across a board, rather than relying on one dense cluster. The practical difference shows up in heat concentration (a COB's heat is concentrated in a small footprint and needs a correspondingly substantial heatsink) and channel flexibility (an array of individual emitters can more easily be wired into multiple independently-controllable color channels than a single COB, which often has fewer effective channels)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is better for a DIY reef light build?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on what you're optimizing for. A COB-based build (Bridgelux or similar) tends to be simpler — fewer individual components to wire, often fewer driver channels, and a very high lumen output from a small footprint, which can suit builds prioritizing raw intensity and simplicity over fine spectral control. A discrete-emitter build (Cree or similar) tends to favor spectrum tuning — spreading multiple emitters across more color channels (royal blue, cool white, UV, etc.) gives more control over the final spectrum, at the cost of more components, more driver channels, and generally more build complexity. Neither is the 'correct' choice in isolation — it comes down to whether the build's goal is maximum output with minimal complexity or maximum spectral flexibility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the LED chip brand matter as much as the fixture's overall design?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally, no — and this is one of the more common misconceptions in DIY lighting discussions. The chip is one component in a system that also includes the lens (which determines beam spread and shimmer, the same factor that differentiates the Kessil A80 from the AI Prime 16HD), the heatsink and thermal management (which affects long-term LED lifespan and output stability), and the driver/controller (which determines dimming, scheduling, and channel control). A build using high-quality Cree emitters with a poor heatsink and a basic single-channel driver can underperform a build using Bridgelux COBs paired with good thermal design and a capable multi-channel driver. The chip brand is a real factor, but it's one of several, and not usually the deciding one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If I'm just buying a commercial fixture, does any of this matter to me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Less directly — for a commercial fixture, the brand on the box (and that brand's overall fixture design) is the more relevant comparison than the underlying LED chip brand. Commercial fixtures from brands like Kessil, AI, and others integrate whatever chips they've chosen into a complete package with their own lens, driver, and control system — the kind of complete-package comparison covered in our Kessil A350W vs. A360W and Kessil A80 vs. AI Prime 16HD guides, and relevant to troubleshooting integrated lighting like in our hood light troubleshooting guide and Fluval Chi light guide. The chip-brand-level comparison in this guide is mainly useful if you're sourcing components for a DIY build yourself, where you're making those lens/heatsink/driver decisions individually rather than buying them bundled."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav">
+    <a href="/" class="logo">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+      Sea Life Planet
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-links" id="primary-nav">
+      <li><a href="/saltwater/">Saltwater</a></li>
+      <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
+      <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
+      <li><a href="/turtles/">Turtles</a></li>
+      <li><a href="/equipment-troubleshooting/">Equipment</a></li>
+      <li><a href="/product-reviews/">Product Reviews</a></li>
+      <li><a href="/aquarium-plants/">Aquarium Plants</a></li>
+      <li><a href="/fish-facts-faqs/">Fish Facts &amp; FAQs</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/contact-us/">Contact</a></li>
+    </ul>
+  </div>
+</header>
+<main id="main">
+  <div class="container article-wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/product-reviews/">Aquarium Equipment Reviews</a></li>
+        <li aria-current="page">Bridgelux vs. Cree LEDs for DIY Aquarium Lighting: What Actually Differs</li>
+      </ol>
+    </nav>
+    <div class="article-grid">
+      <article>
+        <header class="article-header">
+          <h1>Bridgelux vs. Cree LEDs for DIY Aquarium Lighting: What Actually Differs</h1>
+          <div class="article-meta">
+            <span class="author"><img src="/assets/img/authors/avatar-placeholder.svg" alt="Hektor Jorgo" width="28" height="28" loading="lazy"> By Hektor Jorgo</span>
+            <span>Published <time datetime="2031-11-05">November 5, 2031</time></span>
+            <span>Updated <time datetime="2026-06-15">June 15, 2026</time></span>
+            <span>5 min read</span>
+          </div>
+        </header>
+
+        <figure class="article-hero">
+          <img src="/assets/img/placeholder.svg" alt="Close-up of LED chips mounted on a heatsink for a DIY aquarium light build" width="1200" height="800" loading="eager" fetchpriority="high">
+          
+        </figure>
+
+        <nav class="toc" aria-label="Table of contents">
+  <h2>What You'll Learn</h2>
+  <ol>
+    <li><a href="#short-answer">Short Answer</a></li>
+    <li><a href="#two-different-packaging-approaches">Two Different Packaging Approaches</a></li>
+    <li><a href="#heat-management-a-real-practical-difference">Heat Management: A Real Practical Difference</a></li>
+    <li><a href="#spectrum-and-channel-control">Spectrum and Channel Control</a></li>
+    <li><a href="#binning-consistency">Binning Consistency</a></li>
+    <li><a href="#the-chip-isnt-the-whole-story">The Chip Isn&amp;#39;t the Whole Story</a></li>
+    <li><a href="#if-youre-buying-a-commercial-fixture-instead">If You&amp;#39;re Buying a Commercial Fixture Instead</a></li>
+    <li><a href="#quick-reference">Quick Reference</a></li>
+  </ol>
+</nav>
+
+
+        <div class="quick-facts">
+          <h2>Quick Facts</h2>
+          <dl>
+            <dt>Bridgelux Format</dt>
+            <dd>Best known for COB (chip-on-board) arrays — many individual LED dies packaged together as one bright, compact light source</dd>
+            <dt>Cree Format</dt>
+            <dd>Best known for discrete high-power LED packages (single emitters) used individually or in multi-chip arrays</dd>
+            <dt>Heat Density</dt>
+            <dd>COB arrays concentrate significant heat into a small area, requiring a substantial heatsink and good thermal interface</dd>
+            <dt>Spectrum/Channel Control</dt>
+            <dd>Arrays built from multiple discrete emitters generally allow more individual color channels than a single COB</dd>
+            <dt>Binning Consistency</dt>
+            <dd>Cree has a long-standing reputation for tight binning — consistent color and output between individual chips</dd>
+            <dt>Driver Complexity</dt>
+            <dd>COB-based builds often use fewer, simpler drivers; multi-channel discrete-emitter builds need more drivers/channels for full spectrum tuning</dd>
+            <dt>Where Both Show Up</dt>
+            <dd>Both chip types appear in DIY builds and in some commercial fixtures — the chip brand alone doesn&#x27;t determine fixture quality</dd>
+            <dt>The Bigger Factor</dt>
+            <dd>Lens design, heatsink, and driver/controller quality generally affect real-world results more than which chip brand sits behind the lens</dd>
+          </dl>
+        </div>
+
+        <div class="article-content">
+          <p>Spend any time reading DIY aquarium lighting build threads, and two names come up constantly: Bridgelux and Cree. Both make LED chips used in reef and planted tank lighting builds — but &quot;Bridgelux vs. Cree&quot; isn&#39;t really a head-to-head between two competing versions of the same product. It&#39;s closer to a comparison between two different ways of packaging LEDs, each with its own trade-offs.</p>
+<h2 id="short-answer">Short Answer</h2>
+<p><strong>Bridgelux is best known for COB (chip-on-board) arrays — many tiny LED dies packaged onto one substrate to create a single bright, compact source — while Cree is best known for discrete high-power LED packages used as individual emitters, often arranged across a board in a DIY build.</strong> The practical differences come down to <strong>heat concentration</strong> (a COB packs significant heat into a small area and needs a substantial heatsink) and <strong>channel/spectrum flexibility</strong> (an array of individual emitters generally supports more independent color channels than a single COB). Neither format is universally &quot;better&quot; — the right choice depends on whether a build prioritizes simplicity and raw output (COB) or spectral tuning flexibility (discrete emitters).</p>
+<h2 id="two-different-packaging-approaches">Two Different Packaging Approaches</h2>
+<p>It helps to think of these less as &quot;Brand A vs. Brand B&quot; and more as <strong>two different answers to &quot;how do you package a lot of LED output into a usable light source?&quot;</strong></p>
+<p><strong>COB (chip-on-board)</strong> — the format Bridgelux is well known for — takes many individual LED dies and packages them together on a single small substrate. The result is one component that produces a large amount of light from a compact footprint. From a build perspective, this can mean fewer individual parts to mount and wire.</p>
+<p><strong>Discrete high-power emitters</strong> — the format Cree is well known for, in families like the XP-G, XT-E, and XHP series — package each LED as its own individual component. A DIY build using these typically arranges <strong>multiple individual emitters</strong> across a board, rather than relying on one dense cluster.</p>
+<h2 id="heat-management-a-real-practical-difference">Heat Management: A Real Practical Difference</h2>
+<p>Because a COB concentrates a large amount of LED output into a small physical area, the <strong>heat density</strong> in that area is correspondingly high. This isn&#39;t a flaw — it&#39;s a direct consequence of the format — but it means a COB-based build needs a <strong>heatsink and thermal interface sized for that concentration</strong>, not just for the total wattage in the abstract. A build using discrete emitters spread across a larger board area distributes heat generation more broadly, which can simplify heatsink design even at similar total output.</p>
+<p>Either format can be built reliably with appropriate thermal design — but underestimating a COB&#39;s heat density specifically (treating it like the total wattage is &quot;spread out&quot; the way it would be with discrete emitters) is a common DIY mistake.</p>
+<h2 id="spectrum-and-channel-control">Spectrum and Channel Control</h2>
+<p>For builds where <strong>spectral tuning</strong> matters — adjusting the balance of royal blue, cool white, UV, and other channels independently — an array built from <strong>multiple discrete emitters</strong> generally offers more flexibility. Each emitter (or group of emitters) can be wired to its own driver channel, allowing independent control. A single COB, by contrast, often has fewer effective channels, since the individual dies within it aren&#39;t typically wired for independent external control.</p>
+<p>This is the same general &quot;concentrated source vs. spread/flexible source&quot; trade-off that shows up in commercial fixture comparisons — our <a href="/kessil-a80-vs-ai-prime-16-hd/">Kessil A80 vs. AI Prime 16HD guide</a> covers a parallel version of this trade-off (point-source shimmer vs. wide-angle even coverage) at the fixture level rather than the chip level.</p>
+<h2 id="binning-consistency">Binning Consistency</h2>
+<p><strong>Binning</strong> refers to how manufacturers sort LEDs by actual output and color characteristics before sale — tighter binning means less variation between individual chips of the same nominal spec. <strong>Cree has a long-standing reputation for tight binning</strong>, which matters for builds using many individual emitters where color consistency across the array is important. This is a genuine practical consideration for discrete-emitter builds specifically, since visible color variation between emitters in the same fixture is more noticeable than it would be within a single COB (where the dies are already packaged together as one unit).</p>
+<h2 id="the-chip-isnt-the-whole-story">The Chip Isn&#39;t the Whole Story</h2>
+<p>It&#39;s worth being clear-eyed about how much the <strong>chip choice alone</strong> actually determines the outcome. A complete lighting build (or fixture) also depends heavily on:</p>
+<ul>
+<li><strong>Lens design</strong> — determines beam spread, shimmer, and coverage footprint, as covered in our <a href="/kessil-a80-vs-ai-prime-16-hd/">Kessil A80 vs. AI Prime 16HD</a> and <a href="/kessil-a350w-vs-a360w/">Kessil A350W vs. A360W</a> guides</li>
+<li><strong>Heatsink and thermal management</strong> — affects long-term output stability and LED lifespan, regardless of chip brand</li>
+<li><strong>Driver/controller</strong> — determines dimming range, scheduling, and how many channels can actually be controlled independently</li>
+</ul>
+<p>A build with excellent chips but a weak heatsink or a basic single-channel driver can underperform a build with a less prestigious chip paired with strong thermal design and a capable driver. The chip brand is a real factor in a DIY build&#39;s component list, but it&#39;s rarely the single deciding factor in how the finished light performs.</p>
+<h2 id="if-youre-buying-a-commercial-fixture-instead">If You&#39;re Buying a Commercial Fixture Instead</h2>
+<p>For most aquarists buying a finished fixture rather than building one, this chip-level comparison is less directly relevant — what matters is the <strong>complete package</strong> a given brand has put together, which is why fixture-level comparisons (like <a href="/kessil-a80-vs-ai-prime-16-hd/">Kessil A80 vs. AI Prime 16HD</a> or <a href="/kessil-a350w-vs-a360w/">Kessil A350W vs. A360W</a>) and troubleshooting guides for integrated lighting (like our <a href="/aquarium-hood-light-not-working/">hood light</a> and <a href="/fluval-chi-aquarium-light-not-working/">Fluval Chi</a> guides) are the more useful starting points. This guide is most relevant if you&#39;re sourcing the components for a DIY build yourself, where lens, heatsink, and driver decisions are yours to make individually.</p>
+<h2 id="quick-reference">Quick Reference</h2>
+<ul>
+<li><input disabled="" type="checkbox"> Bridgelux is best known for COB arrays — many LED dies on one compact substrate</li>
+<li><input disabled="" type="checkbox"> Cree is best known for discrete high-power emitters, often arranged individually across a board</li>
+<li><input disabled="" type="checkbox"> COB designs concentrate heat into a small area and need a correspondingly substantial heatsink</li>
+<li><input disabled="" type="checkbox"> Discrete-emitter arrays generally allow more independent color channels for spectrum tuning</li>
+<li><input disabled="" type="checkbox"> Cree has a strong reputation for tight binning — useful where color consistency across many emitters matters</li>
+<li><input disabled="" type="checkbox"> Lens, heatsink, and driver quality affect real-world results as much as (or more than) chip brand</li>
+<li><input disabled="" type="checkbox"> For a commercial fixture purchase, fixture-level comparisons matter more than the underlying chip brand</li>
+</ul>
+
+        </div>
+
+
+        <section class="faq-section" id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <details class="faq-item">
+    <summary>What&#x27;s the actual difference between a Bridgelux COB and a Cree LED for aquarium lighting?</summary>
+    <div class="faq-answer"><p><strong>It&#39;s mainly a difference in how the LEDs are packaged, not a simple &#39;better vs. worse&#39; comparison.</strong> A <strong>Bridgelux COB (chip-on-board)</strong> packages many individual LED dies onto a single small substrate, producing one bright, compact light source from what is effectively dozens of tiny emitters working together. A <strong>Cree high-power LED</strong> (from families like the XP-G, XT-E, or XHP series) is typically used as an <strong>individual discrete emitter</strong> — a DIY build using Cree chips often arranges several of these individually-packaged emitters across a board, rather than relying on one dense cluster. The practical difference shows up in <strong>heat concentration</strong> (a COB&#39;s heat is concentrated in a small footprint and needs a correspondingly substantial heatsink) and <strong>channel flexibility</strong> (an array of individual emitters can more easily be wired into multiple independently-controllable color channels than a single COB, which often has fewer effective channels).</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Which is better for a DIY reef light build?</summary>
+    <div class="faq-answer"><p><strong>It depends on what you&#39;re optimizing for.</strong> A <strong>COB-based build</strong> (Bridgelux or similar) tends to be <strong>simpler</strong> — fewer individual components to wire, often fewer driver channels, and a very high lumen output from a small footprint, which can suit builds prioritizing raw intensity and simplicity over fine spectral control. A <strong>discrete-emitter build</strong> (Cree or similar) tends to favor <strong>spectrum tuning</strong> — spreading multiple emitters across more color channels (royal blue, cool white, UV, etc.) gives more control over the final spectrum, at the cost of more components, more driver channels, and generally more build complexity. Neither is the &#39;correct&#39; choice in isolation — it comes down to whether the build&#39;s goal is <strong>maximum output with minimal complexity</strong> or <strong>maximum spectral flexibility</strong>.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Does the LED chip brand matter as much as the fixture&#x27;s overall design?</summary>
+    <div class="faq-answer"><p><strong>Generally, no — and this is one of the more common misconceptions in DIY lighting discussions.</strong> The chip is one component in a system that also includes the <strong>lens</strong> (which determines beam spread and shimmer, the same factor that differentiates <a href="/kessil-a80-vs-ai-prime-16-hd/">the Kessil A80 from the AI Prime 16HD</a>), the <strong>heatsink and thermal management</strong> (which affects long-term LED lifespan and output stability), and the <strong>driver/controller</strong> (which determines dimming, scheduling, and channel control). A build using high-quality Cree emitters with a poor heatsink and a basic single-channel driver can underperform a build using Bridgelux COBs paired with good thermal design and a capable multi-channel driver. The chip brand is a real factor, but it&#39;s one of several, and not usually the deciding one.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>If I&#x27;m just buying a commercial fixture, does any of this matter to me?</summary>
+    <div class="faq-answer"><p><strong>Less directly — for a commercial fixture, the brand on the box (and that brand&#39;s overall fixture design) is the more relevant comparison than the underlying LED chip brand.</strong> Commercial fixtures from brands like Kessil, AI, and others integrate whatever chips they&#39;ve chosen into a complete package with their own lens, driver, and control system — the kind of complete-package comparison covered in our <a href="/kessil-a350w-vs-a360w/">Kessil A350W vs. A360W</a> and <a href="/kessil-a80-vs-ai-prime-16-hd/">Kessil A80 vs. AI Prime 16HD</a> guides, and relevant to troubleshooting integrated lighting like in our <a href="/aquarium-hood-light-not-working/">hood light troubleshooting guide</a> and <a href="/fluval-chi-aquarium-light-not-working/">Fluval Chi light guide</a>. The chip-brand-level comparison in this guide is mainly useful if you&#39;re sourcing components for a DIY build yourself, where you&#39;re making those lens/heatsink/driver decisions individually rather than buying them bundled.</p></div>
+  </details>
+</section>
+
+
+        <section class="sources">
+          <h2>Sources &amp; Further Reading</h2>
+          <ol>
+            <li><a href="https://www.reef2reef.com/forums/diy-projects.45/" rel="noopener" target="_blank">DIY LED Lighting Build Discussion — Reef2Reef DIY Projects</a></li>
+            <li><a href="https://www.practicalfishkeeping.co.uk/" rel="noopener" target="_blank">LED Lighting Fundamentals for Reef Tanks — Practical Fishkeeping</a></li>
+          </ol>
+        </section>
+
+        <div class="author-box">
+  <img src="/assets/img/authors/avatar-placeholder.svg" alt="Hektor Jorgo" width="64" height="64" loading="lazy">
+  <div>
+    <h3>About the Author: Hektor Jorgo</h3>
+    <p><strong>Co-Founder &amp; Marine Biologist</strong></p>
+    <p>Hektor is a co-founder of Sea Life Planet and has kept reef and freshwater aquariums for over 15 years. He holds a background in marine biology and focuses on species care accuracy, water chemistry, and tank husbandry.</p>
+  </div>
+</div>
+
+      </article>
+
+      <aside class="sidebar">
+        <div class="sidebar-box">
+          <h3>Related Guides</h3>
+          <ul>
+            <li><a href="/kessil-a350w-vs-a360w/">Kessil A350W vs. A360W: Choosing Between Kessil&#x27;s A-Series Tiers</a></li>
+            <li><a href="/kessil-a80-vs-ai-prime-16-hd/">Kessil A80 vs. AI Prime 16HD: Which Nano Reef Light Fits Your Tank?</a></li>
+            <li><a href="/fluval-chi-aquarium-light-not-working/">Fluval Chi Aquarium Light Not Working: Common Causes and Fixes</a></li>
+            <li><a href="/aquarium-hood-light-not-working/">Aquarium Hood Light Not Working: How to Troubleshoot It</a></li>
+            <li><a href="/how-much-white-light-do-corals-need/">How Much White Light Do Corals Need?</a></li>
+            <li><a href="/best-lighting-for-40-gallon-breeder/">Best Lighting for a 40-Gallon Breeder Tank</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-box">
+          <h3>Explore Aquarium Equipment Reviews</h3>
+          <ul>
+            <li><a href="/product-reviews/">All Aquarium Equipment Reviews Guides</a></li>
+            <li><a href="/fish-types/">All Fish Species Guides</a></li>
+            <li><a href="/product-reviews/">Aquarium Gear Reviews</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <section class="related-articles">
+      <h2>Related Articles</h2>
+      <div class="grid grid-3">
+        <a class="card" href="/kessil-a350w-vs-a360w/">
+          <img src="/assets/img/placeholder.svg" alt="A Kessil point-source LED reef light mounted on a gooseneck arm above a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Aquarium Equipment Reviews</span>
+            <h3>Kessil A350W vs. A360W: Choosing Between Kessil&#x27;s A-Series Tiers</h3>
+            <p>If you&#x27;re trying to decide between two tiers in Kessil&#x27;s A-series lineup, the decision usually comes down to tank depth and which corals dominate the stocking plan — not a fundamental design difference.</p>
+          </div>
+        </a>
+        <a class="card" href="/kessil-a80-vs-ai-prime-16-hd/">
+          <img src="/assets/img/placeholder.svg" alt="A small reef aquarium lit by a compact LED fixture mounted on a gooseneck arm above the water" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Aquarium Equipment Reviews</span>
+            <h3>Kessil A80 vs. AI Prime 16HD: Which Nano Reef Light Fits Your Tank?</h3>
+            <p>Both the Kessil A80 and AI Prime 16HD are well-regarded nano reef lights, but their core design philosophies differ — the A80&#x27;s point-source LED creates strong shimmer with a narrower spread, while the Prime 16HD&#x27;s wide-angle lens favors even coverage.</p>
+          </div>
+        </a>
+        <a class="card" href="/fluval-chi-aquarium-light-not-working/">
+          <img src="/assets/img/placeholder.svg" alt="A Fluval Chi all-in-one aquarium with its integrated LED light unit built into the lid" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Aquarium Equipment Reviews</span>
+            <h3>Fluval Chi Aquarium Light Not Working: Common Causes and Fixes</h3>
+            <p>A Fluval Chi light that&#x27;s stopped working is usually a condensation, power, or button issue rather than a fully dead LED array — and the fix depends on which one.</p>
+          </div>
+        </a>
+        <a class="card" href="/aquarium-hood-light-not-working/">
+          <img src="/assets/img/placeholder.svg" alt="An aquarium hood with an integrated light fixture that is not illuminated" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Equipment &amp; Troubleshooting</span>
+            <h3>Aquarium Hood Light Not Working: How to Troubleshoot It</h3>
+            <p>A hood light that won&#x27;t turn on is usually a power issue, a dead bulb or LED, a tripped GFCI, or condensation getting where it shouldn&#x27;t — here&#x27;s how to work through it.</p>
+          </div>
+        </a>
+        <a class="card" href="/how-much-white-light-do-corals-need/">
+          <img src="/assets/img/placeholder.svg" alt="A reef tank lit with a mix of white and blue LED lighting over coral colonies" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Equipment &amp; Troubleshooting</span>
+            <h3>How Much White Light Do Corals Need?</h3>
+            <p>Corals rely on white light&#x27;s broad spectrum for the photosynthesis their zooxanthellae perform — the right amount depends on coral type, with acclimation mattering as much as intensity.</p>
+          </div>
+        </a>
+        <a class="card" href="/best-lighting-for-40-gallon-breeder/">
+          <img src="/assets/img/placeholder.svg" alt="A 40-gallon breeder aquarium with a wide LED light fixture spanning the tank&#x27;s width" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Equipment &amp; Troubleshooting</span>
+            <h3>Best Lighting for a 40-Gallon Breeder Tank</h3>
+            <p>The 40-gallon breeder&#x27;s extra width (and shallower depth) compared to a standard 40-gallon means coverage matters as much as intensity when choosing a light.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-disclosure">Sea Life Planet is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from qualifying purchases — at no extra cost to you. Read our full <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.</p>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+          Sea Life Planet
+        </div>
+        <p>Practical, expert-checked guides for freshwater &amp; saltwater aquariums</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/sealifeplanet" aria-label="Facebook" rel="me noopener" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3l-.5 3H13v6.95c5.05-.5 9-4.76 9-9.95z"/></svg></a>
+          <a href="https://www.instagram.com/sealifeplanet" aria-label="Instagram" rel="me noopener" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3h10zm-5 3.5A4.5 4.5 0 1 0 16.5 12 4.5 4.5 0 0 0 12 7.5zm0 2A2.5 2.5 0 1 1 9.5 12 2.5 2.5 0 0 1 12 9.5zM17.5 6a1 1 0 1 0 1 1 1 1 0 0 0-1-1z"/></svg></a>
+          <a href="https://www.youtube.com/@sealifeplanet" aria-label="YouTube" rel="me noopener" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2s-.21-1.5-.87-2.16c-.83-.87-1.76-.87-2.18-.92C15.6 4 12 4 12 4h-.01s-3.6 0-6.55.12c-.42.05-1.35.05-2.18.92-.66.66-.87 2.16-.87 2.16S2.18 9 2.18 10.8v1.39C2.18 13.99 2.4 15.79 2.4 15.79s.21 1.5.87 2.16c.83.87 1.92.84 2.4.93 1.74.17 7.33.22 7.33.22s3.6-.01 6.55-.13c.42-.05 1.35-.05 2.18-.92.66-.66.87-2.16.87-2.16s.22-1.8.22-3.6v-1.39c0-1.8-.22-3.6-.22-3.6zM9.96 14.98v-5.7l5.4 2.86-5.4 2.84z"/></svg></a>
+          <a href="https://www.pinterest.com/sealifeplanet" aria-label="Pinterest" rel="me noopener" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.6 7.86 6.3 9.36-.09-.8-.16-2.02.03-2.89.18-.78 1.16-4.95 1.16-4.95s-.3-.59-.3-1.46c0-1.37.79-2.39 1.78-2.39.84 0 1.24.63 1.24 1.38 0 .84-.54 2.1-.81 3.27-.23.98.49 1.78 1.46 1.78 1.75 0 3.1-1.85 3.1-4.5 0-2.35-1.69-4-4.1-4-2.79 0-4.43 2.09-4.43 4.26 0 .84.32 1.74.72 2.23.08.1.09.18.07.28-.08.31-.25 1-.28 1.14-.04.18-.15.22-.34.13-1.26-.59-2.05-2.43-2.05-3.91 0-3.18 2.31-6.11 6.67-6.11 3.5 0 6.22 2.49 6.22 5.83 0 3.48-2.19 6.28-5.24 6.28-1.02 0-1.98-.53-2.31-1.16 0 0-.5 1.93-.63 2.4-.23.86-.84 1.94-1.25 2.6.94.29 1.94.45 2.98.45 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="/saltwater/">Saltwater Fishkeeping</a></li>
+          <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
+          <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
+          <li><a href="/turtles/">Turtle Care</a></li>
+          <li><a href="/equipment-troubleshooting/">Equipment &amp; Troubleshooting</a></li>
+          <li><a href="/product-reviews/">Product Reviews</a></li>
+          <li><a href="/aquarium-plants/">Aquarium Plants &amp; Algae</a></li>
+          <li><a href="/fish-facts-faqs/">Fish Facts &amp; FAQs</a></li>
+          <li><a href="/fish-types/">All Fish Species Guides</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact-us/">Contact</a></li>
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/terms-of-service/">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sea Life Planet. All rights reserved.</p>
+      <p>Built with care for fishkeepers, by fishkeepers.</p>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
