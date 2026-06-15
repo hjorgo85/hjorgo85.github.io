@@ -61,6 +61,8 @@ Mbuna cichlids should be fed a diet that's **predominantly plant-based** — a h
 
 This is a meaningfully different feeding ecology from many other popular aquarium cichlids — Central and South American cichlids, for example, often include more animal protein in their natural diets and tolerate (or in some cases benefit from) richer foods. The problem is that "cichlid food" as a marketing category often doesn't distinguish between these groups, and a Mbuna fed like a more omnivorous/carnivorous cichlid is being fed against its digestive system's design.
 
+It's also worth noting that "African cichlid" doesn't mean "Mbuna" — Lake Malawi's rocky-shore Mbuna are just one part of Africa's cichlid diversity. Haplochromine cichlids from the Lake Victoria basin, like the [Kyoga Flameback](/kyoga-flameback/), share the same general hard, alkaline water preferences but don't have the same intensely herbivorous, algae-grazing feeding ecology that makes Mbuna diet so specific — a useful distinction if you're shopping for "African cichlid food" and want to know whether the Mbuna-specific guidance here actually applies to your fish.
+
 ## The Big Risk: Malawi Bloat
 
 "Malawi bloat" is the name commonly given to a cluster of symptoms — abdominal swelling, loss of appetite, rapid or labored breathing, and frequently progressive decline — seen in Lake Malawi cichlids, most often Mbuna. It's one of the most discussed health issues in the African cichlid hobby, and while the underlying mechanisms can involve the digestive tract and sometimes a parasitic component, **diet is consistently identified as the most significant and most controllable risk factor**.
