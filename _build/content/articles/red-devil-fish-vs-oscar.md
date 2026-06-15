@@ -59,6 +59,8 @@ sources:
 
 Both species commonly reach **12-16 inches** in a well-maintained home aquarium and can live well over a decade — which means the tank decision made when a fish is a 2-inch juvenile needs to account for what it'll be years later. Both are also **large, messy eaters**, producing a bioload that requires filtration sized well beyond what a "minimum gallons per fish" calculator might suggest. Setups built around either species commonly lean on high-capacity biological filtration — the kind of approach covered in our [Amiracle wet/dry filter review](/amiracle-wet-dry-filter-for-aquariums/), where the extra biological capacity of a sump-based system becomes genuinely useful rather than just a nice-to-have.
 
+A slightly smaller but related comparison point: [Jack Dempseys](/how-fast-do-jack-dempseys-grow/) typically top out around 8-10 inches — a bit below red devils and Oscars, but close enough that the same "plan the tank around adult size, not juvenile size" planning applies just as much.
+
 ## Tankmates: Where the Species Actually Diverge
 
 This is the question that should drive the choice between the two:

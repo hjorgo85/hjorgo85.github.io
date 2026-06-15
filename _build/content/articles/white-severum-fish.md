@@ -76,6 +76,10 @@ A **55-gallon tank** is a reasonable minimum for an adult white severum (~8 inch
 
 Severums have a reputation as one of the **more peaceful larger cichlids** — they're territorial to a degree, but generally lack the relentless aggression of many Central American cichlid species. This, combined with tolerance for similar water conditions, is why severums (white or wild-type) are frequently recommended as **discus tankmates**, a pairing discussed from the discus side in our [55-gallon discus tank guide](/55-gallon-discus-tank/). The size and water-quality considerations in that guide apply just as much to a severum sharing the tank as to a second discus.
 
+## Not the Only Severum Color Morph
+
+The white severum isn't the only selectively bred color variant of Heros severus — the [red-headed severum](/redheaded-severum-fish/) takes the opposite approach, keeping a gold or green body while concentrating bold red-orange coloration on the head. Both are color morphs of the same species with identical care needs, so the choice between them comes down entirely to which look you prefer.
+
 ## Diet: Plant Matter Matters
 
 Like [Astatheros robertsoni](/astatheros-robertsoni/), white severums have a **real plant-eating tendency** as part of their natural diet. Practically, this means:

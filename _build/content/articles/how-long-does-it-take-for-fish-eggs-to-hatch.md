@@ -75,7 +75,7 @@ If you're watching for eggs from guppies, mollies, platies, or other livebearers
 
 ## The Big Exception #2: Annual Killifish and Diapause
 
-At the opposite extreme, **annual killifish** — species adapted to habitats that dry up seasonally — lay eggs that can enter **diapause**, a dormant developmental pause that allows the egg to survive being buried in dry substrate for an extended period. Depending on the species and conditions, this can mean **weeks to several months** before hatching, and in the hobby these eggs are often deliberately collected, stored in slightly damp peat, and rehydrated on a schedule to trigger hatching — a completely different process from "eggs in the tank hatch in a few days."
+At the opposite extreme, **annual killifish** — species adapted to habitats that dry up seasonally — lay eggs that can enter **diapause**, a dormant developmental pause that allows the egg to survive being buried in dry substrate for an extended period. Depending on the species and conditions, this can mean **weeks to several months** before hatching, and in the hobby these eggs are often deliberately collected, stored in slightly damp peat, and rehydrated on a schedule to trigger hatching — a completely different process from "eggs in the tank hatch in a few days." The [Argentine pearl fish](/argentine-pearl-fish/) is a good example of this strategy in practice, with a breeding routine built almost entirely around collecting, storing, and re-wetting diapause eggs.
 
 ## Managing Eggs While You Wait
 

@@ -77,7 +77,7 @@ Often **secondary to an injury** — a scratched eye that doesn't heal cleanly c
 
 ### Parasites and Other Causes
 
-Less commonly, eye flukes (a type of parasitic flatworm) or other parasites can cause eye cloudiness, sometimes alongside other symptoms like scratching against decor. **Cataracts** — a more gradual clouding of the lens itself, sometimes linked to age, genetics, or long-term nutritional gaps — are a different and generally less urgent presentation, typically developing slowly rather than appearing suddenly.
+Less commonly, eye flukes (a type of parasitic flatworm) or other parasites can cause eye cloudiness, sometimes alongside other symptoms like scratching against decor. Our [guide to combating parasites in aquarium fish](/combating-parasites-in-aquarium-fish/) covers how to recognize these accompanying signs — flashing, clamped fins, visible spots — which help distinguish a parasite-related cause from the water-quality and injury causes covered above. **Cataracts** — a more gradual clouding of the lens itself, sometimes linked to age, genetics, or long-term nutritional gaps — are a different and generally less urgent presentation, typically developing slowly rather than appearing suddenly.
 
 ## How to Diagnose What's Causing It
 

@@ -27,6 +27,8 @@ groups:
     slugs: ["how-long-does-it-take-for-fish-eggs-to-hatch", "easiest-freshwater-fish-to-breed", "corydoras-panda-breeding", "rainbowfish-fry", "otocinclus-fry"]
   - title: "Cichlid Species Guides"
     slugs: ["red-tiger-motaguense", "amatitlania-nanolutea", "astatheros-robertsoni", "kyoga-flameback", "white-severum-fish"]
+  - title: "Freshwater Species Spotlights & Health"
+    slugs: ["redheaded-severum-fish", "how-fast-do-jack-dempseys-grow", "coolest-freshwater-aquarium-fish", "combating-parasites-in-aquarium-fish", "argentine-pearl-fish"]
 faq:
   - q: "What's the best freshwater fish for a first tank?"
     a: "It depends on tank size and goals, but fish that are frequently recommended for genuinely beginner-friendly setups include bettas (in a properly heated, filtered 5+ gallon tank — see our [betta care guide](/betta-fish-care-guide/)), certain peaceful schooling tetras, and corydoras catfish. The common thread among good beginner choices is tolerance for a range of parameters and availability of clear, accurate care information — which, unfortunately, doesn't always match what's printed on store packaging."
