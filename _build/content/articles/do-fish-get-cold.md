@@ -79,6 +79,8 @@ A **gradual** shift to a different (but still tolerable) temperature is generall
 
 "Room temperature" isn't a meaningful target on its own — it depends entirely on what's being kept. Tropical species generally need consistent warmth (hence heaters being standard equipment), while coldwater species evolved for cooler, sometimes more variable conditions and can be stressed by sustained warmth. Species-specific requirements — like the temperature range covered in our [arowana water temperature guide](/arowana-water-temperature/) — are the right starting point, not a generic "comfortable" number. A properly functioning heater, where one is needed, is what keeps a tank within that species-appropriate range — see our [guide to aquarium heater lifespan](/how-long-do-aquarium-heaters-last/) for what affects how long that equipment lasts.
 
+Outdoor ponds add another wrinkle: fish there have no heater at all, and depend on the pond's depth and the water's slow temperature changes to survive seasonal swings that would be dangerous if sudden. A pond that's been stable for years can still lose fish to an unusually sharp cold snap — one of several reasons floating fish sometimes show up in established ponds, which ties into our [guide to how fish end up in ponds](/how-do-fish-get-in-ponds/) in the first place.
+
 ## Quick Reference
 
 - [ ] Most fish are ectothermic — body temperature follows the water, not internally regulated

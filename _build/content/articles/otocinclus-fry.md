@@ -72,7 +72,7 @@ If it happens, the most visible sign is **small, round, semi-translucent eggs** 
 
 ## Raising the Fry: The Food Problem
 
-The hardest part of raising otocinclus fry isn't water quality or temperature — it's **food size**. Oto fry are tiny, and in their first days they rely on grazing **biofilm** (the thin layer of microorganisms that builds up on glass, decor, and [plant leaves](/algae-on-java-fern/) in any established tank) much the way adult otos graze [algae](/algae/). A tank with **existing biofilm and algae** gives fry something to eat from day one; a spotless, newly-set-up tank does not. As fry grow, they can gradually move on to crushed algae wafers and blanched vegetables — but this early window is where most fry losses happen, even when eggs hatch successfully.
+The hardest part of raising otocinclus fry isn't water quality or temperature — it's **food size**. Oto fry are tiny, and in their first days they rely on grazing **biofilm** (the thin layer of microorganisms that builds up on glass, decor, and [plant leaves](/algae-on-java-fern/) in any established tank) much the way adult otos graze [algae](/algae/). A tank with **existing biofilm and algae** gives fry something to eat from day one; a spotless, newly-set-up tank does not. As fry grow, they can gradually move on to crushed algae wafers and blanched vegetables — but this early window is where most fry losses happen, even when eggs hatch successfully. This "what can even fit in a tiny mouth" problem isn't unique to otocinclus — our broader [guide to what small fish eat](/what-does-a-small-fish-eat/) covers the same size-driven feeding progression across species.
 
 ## Should You Try to Encourage It?
 

@@ -67,7 +67,7 @@ Because rainbowfish spawn continuously rather than in one event, **daily collect
 
 ## Hatching and the First Critical Days
 
-Eggs typically hatch in **7-12 days**. Once fry emerge, the first few days are the most demanding part of the entire process: rainbowfish fry have **very small mouths** and need food sized accordingly — **infusoria** or **green water** (water dense with cultured single-celled algae) are the standard first foods. This is a smaller food size than many other fry can start on, and fry that don't find enough food in this window often don't make it, even when the eggs themselves hatched without issue. This stage is broadly comparable in difficulty to the food bottleneck faced by [otocinclus fry](/otocinclus-fry/), though for different underlying reasons (mouth size vs. food-type availability).
+Eggs typically hatch in **7-12 days**. Once fry emerge, the first few days are the most demanding part of the entire process: rainbowfish fry have **very small mouths** and need food sized accordingly — **infusoria** or **green water** (water dense with cultured single-celled algae) are the standard first foods. This is a smaller food size than many other fry can start on, and fry that don't find enough food in this window often don't make it, even when the eggs themselves hatched without issue. This stage is broadly comparable in difficulty to the food bottleneck faced by [otocinclus fry](/otocinclus-fry/), though for different underlying reasons (mouth size vs. food-type availability). The general progression from infusoria to brine shrimp to crushed adult food, and why mouth size drives all of it, is covered more broadly in our [guide to what small fish eat](/what-does-a-small-fish-eat/).
 
 ## Growing On: From Infusoria to Brine Shrimp
 

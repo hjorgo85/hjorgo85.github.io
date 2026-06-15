@@ -7,6 +7,8 @@ intro: "Some of the most common fish-related questions aren't about a specific s
 groups:
   - title: "Fish Biology & Senses"
     slugs: ["why-cant-fish-breathe-air", "do-fish-get-cold", "do-fish-float-when-they-die", "can-fish-get-drunk", "what-do-fish-see-from-inside-the-tank"]
+  - title: "Fish Behavior & Common Questions"
+    slugs: ["why-do-fish-jump-out-of-the-water", "can-salt-water-fish-live-in-freshwater", "what-does-a-small-fish-eat", "how-do-fish-get-in-ponds", "does-fishing-hurt-fish"]
 faq:
   - q: "Why do these questions matter for someone keeping fish, not just out of curiosity?"
     a: "A lot of practical fishkeeping decisions trace back to these basics. Understanding [why fish can't breathe air](/why-cant-fish-breathe-air/) explains why surface gasping is a water-quality signal worth acting on. Understanding [how temperature affects fish](/do-fish-get-cold/) explains why sudden temperature swings during water changes matter more than people expect. Even something like [what a fish sees from inside the tank](/what-do-fish-see-from-inside-the-tank/) connects to real considerations about tank placement and reducing stress. The biology isn't just trivia — it's the reasoning behind a lot of the 'best practices' that get repeated without always being explained."

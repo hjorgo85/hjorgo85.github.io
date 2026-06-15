@@ -78,6 +78,10 @@ These are **specific adaptations** found in a relatively small number of fish gr
 
 For most fish, repeated trips to the surface with a gulping motion is a sign of **low dissolved oxygen in the water** — the fish is seeking out the surface layer, where oxygen exchange with the air above tends to keep concentrations highest, covered in more depth in our guide on [how long fish can survive without an air pump or filter](/how-long-can-fish-live-without-air-pump-or-filter/). This is different from labyrinth fish making routine surface trips as part of normal behavior — for fish without that adaptation, persistent surface gasping is worth treating as a water-quality signal rather than normal behavior.
 
+## Why This Matters Beyond the Tank
+
+This isn't purely academic — it's the reason a few common real-world situations are more urgent than they might look. A fish that [jumps out of an open tank](/why-do-fish-jump-out-of-the-water/) needs to be returned to water quickly, for exactly the reasons above. The same principle is why minimizing air exposure is one of the most important parts of catch-and-release handling, covered in our [guide to whether fishing hurts fish](/does-fishing-hurt-fish/) — every minute a fish spends out of water is a minute its gills are collapsing and drying out, regardless of how gently it's otherwise handled.
+
 ## Quick Reference
 
 - [ ] Gills need water's buoyancy to keep their filaments spread apart and moist

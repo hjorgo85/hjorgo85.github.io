@@ -66,6 +66,12 @@ Decomposition produces gases as bacteria break down tissue, and these gases accu
 
 Because of this timing, **a fish that's recently died is often not floating yet** — it may be resting on the substrate, tucked behind decor, or hidden in plants. If a fish has gone missing, checking these spots thoroughly (rather than assuming it somehow left the tank, jumped out, or was eaten without a trace) is a reasonable first step, especially within the first day or so after it was last seen. An undiscovered fish decomposing in the tank can also affect water chemistry — contributing organic load that can influence ammonia levels, similar in principle to other organic inputs covered in our [cycling and water chemistry guide](/high-nitrites-and-nitrates-during-cycle/) — so finding it matters for the tank's water quality as well as for knowing what happened.
 
+## A Missing Fish Could Also Have Jumped Out
+
+Checking the bottom and decor covers most "missing fish" situations, but it's also worth glancing at the floor around the tank — especially for species known for it. A fish that [jumps out of an open tank](/why-do-fish-jump-out-of-the-water/) won't be floating or sunk anywhere inside the aquarium at all, which can make a missing-fish search inside the tank come up empty even though the fish hasn't decomposed or hidden. This is one of several reasons a secure lid matters beyond the obvious.
+
+This timing also comes up outside home aquariums — floating fish in an outdoor pond, for instance, are one of the clues used to figure out [how fish ended up in a pond](/how-do-fish-get-in-ponds/) in the first place, since a die-off among an existing population looks different from fish that recently arrived.
+
 ## Don't Confuse This With a Live Fish Floating
 
 A **dead fish floating** (from decomposition gas) is a completely different situation from a **live fish floating involuntarily** or struggling to maintain normal swimming position — the latter points toward a **swim bladder issue**, the organ fish use for buoyancy control. A live fish with a swim bladder problem will still be responsive — moving, reacting, attempting to swim — even if it can't maintain normal position. If there's any movement or response, you're looking at a live fish with a buoyancy problem, not a deceased one, and that's a different (and more actionable) situation.

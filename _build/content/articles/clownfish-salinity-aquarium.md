@@ -41,7 +41,7 @@ faq:
     a: "A refractometer is the better choice and is what most experienced reef keepers rely on. Swing-arm hydrometers are cheaper but commonly read 0.001-0.003 SG off — which sounds small but is significant for sensitive corals and invertebrates, even though it matters less for clownfish specifically. If you only own a hydrometer, calibrate it against a refractometer reading periodically, or invest in a refractometer and calibration fluid — it's a one-time cost that removes a recurring source of error."
   - q: "Why did my clownfish get stressed after a water change?"
     a: "The most common cause is a salinity mismatch between your tank water and the newly mixed saltwater used for the change — if the new water's specific gravity differs noticeably from the tank's (often because the new batch wasn't mixed and measured carefully, or because evaporation had concentrated the tank water beforehand), the fish experiences a sudden osmotic shift. Clownfish tolerate this better than most reef inhabitants, but repeated swings still add up as a stressor. Always measure both the tank and the new saltwater batch with the same instrument before adding it."
-related: ["common-clownfish", "why-do-clownfish-turn-black", "clownfish-ich", "maroon-clownfish-premnas-biaculeatus", "specific-gravity-reef-tank"]
+related: ["common-clownfish", "why-do-clownfish-turn-black", "clownfish-ich", "maroon-clownfish-premnas-biaculeatus", "specific-gravity-reef-tank", "can-salt-water-fish-live-in-freshwater"]
 sources:
   - label: "Amphiprion ocellaris — FishBase"
     url: "https://www.fishbase.se/summary/Amphiprion-ocellaris.html"
@@ -70,6 +70,8 @@ Practically, this means:
 - This tolerance gap is exactly why **hyposalinity can be used to treat fish without destroying a reef tank's invertebrates — but only in a separate quarantine or treatment tank**, never in the display tank itself.
 
 This doesn't mean salinity is unimportant for clownfish — chronic instability is still a measurable stressor that can suppress immune function and make fish more susceptible to disease, including marine ich, which is covered in detail in our [clownfish ich guide](/clownfish-ich/). It means clownfish have a wider margin for error than the corals and inverts sharing their tank.
+
+This osmoregulator/osmoconformer distinction is also why clownfish — like virtually all marine fish — can't simply be moved to a freshwater tank, even though they tolerate salinity *swings* within seawater better than most reef invertebrates. Tolerating a range of salt concentrations in seawater is a very different thing from reversing the entire direction of water movement across the gills, which is what a freshwater environment would require. Our [guide to whether saltwater fish can live in freshwater](/can-salt-water-fish-live-in-freshwater/) covers why that's a much bigger jump than anything discussed here.
 
 ## Hyposalinity as an Ich Treatment: What It Is and Isn't
 

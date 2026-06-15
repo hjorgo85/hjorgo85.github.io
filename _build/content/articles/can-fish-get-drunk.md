@@ -67,7 +67,7 @@ This is why aquarists tend to be careful about:
 - **Sprays and aerosols** used near an open tank — cleaning products, air fresheners, and similar
 - **Anything dissolved or settled onto the water's surface** that wasn't put there deliberately
 
-None of this is about fish being unusually "fragile" — it's a direct consequence of **how efficient gill absorption is**, the same property that makes respiration possible in the first place.
+None of this is about fish being unusually "fragile" — it's a direct consequence of **how efficient gill absorption is**, the same property that makes respiration possible in the first place. The same concern applies outside the aquarium hobby too — anglers handling a fish during catch-and-release can transfer sunscreen, repellent, or other substances from their hands through this same pathway, one of several handling factors covered in our [guide to whether fishing hurts fish](/does-fishing-hurt-fish/).
 
 ## The Flip Side: This Is How Medications Work
 
