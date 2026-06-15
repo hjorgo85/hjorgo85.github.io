@@ -57,7 +57,7 @@ sources:
 
 ## Where Top Fin Tends to Hold Up Well
 
-For **tanks, decor, gravel, and basic accessories**, the gap between house brands and name brands is usually small. A glass tank is a glass tank; decor is largely aesthetic with few functional differentiators; basic flake or pellet food covers similar nutritional ground across brands at this tier. These are the categories where buying the house brand is most likely to save money without a meaningful downside — which is also why tank "starter kits" (often bundling a tank, basic filter, and a few accessories under one brand) are a common entry point for new keepers.
+For **tanks, decor, gravel, and basic accessories**, the gap between house brands and name brands is usually small. A glass tank is a glass tank; decor is largely aesthetic with few functional differentiators; basic flake or pellet food covers similar nutritional ground across brands at this tier. These are the categories where buying the house brand is most likely to save money without a meaningful downside — which is also why tank "starter kits" (often bundling a tank, basic filter, and a few accessories under one brand) are a common entry point for new keepers. This isn't unique to Top Fin — our [look at whether Aqueon tanks are good](/are-aqueon-tanks-good/) covers a different, more widely-distributed brand that follows essentially the same pattern: solid on the tank and kit basics, with the more interesting evaluation happening in the technical categories below.
 
 ## Where Name Brands Tend to Pull Ahead
 

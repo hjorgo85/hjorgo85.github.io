@@ -76,7 +76,7 @@ Before treating "taller is better" as a given, it's worth weighing the practical
 - **Maintenance reach** — every inch of added height makes reaching the substrate, the bottom of the glass, and low-placed decor or plants more awkward. This is a real, ongoing cost that's easy to underweight when comparing tanks on a showroom floor (where you're not the one doing weekly maintenance).
 - **Footprint commitment** — if the footprint is genuinely the same, the room/stand footprint requirement doesn't change, which is one less variable to plan around compared to a 90-gallon with different floor dimensions.
 
-Tanks at this size also start to make sump-based filtration more worthwhile — the added biological capacity of a [wet/dry filter](/amiracle-wet-dry-filter-for-aquariums/) becomes more relevant as bioload increases with tank size, somewhat independent of which dimension (75 vs. 90 gallons) the extra volume goes into.
+Tanks at this size also start to make sump-based filtration more worthwhile — the added biological capacity of a [wet/dry filter](/amiracle-wet-dry-filter-for-aquariums/) becomes more relevant as bioload increases with tank size, somewhat independent of which dimension (75 vs. 90 gallons) the extra volume goes into. If a sump is part of the plan for either size, our [aquarium sump size calculator guide](/aquarium-sump-size-calculator/) walks through how display volume, drain-down water, and equipment space all factor into sizing the sump itself — and notably, the same footprint between a 75 and 90-gallon tank means the drain-down volume calculation can end up quite similar for both, even though the 90-gallon holds more water overall.
 
 ## Quick Reference
 

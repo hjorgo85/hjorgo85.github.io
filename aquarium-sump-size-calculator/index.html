@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aquarium Sump Size Calculator: How to Size a Sump for Your Tank | Sea Life Planet</title>
+<meta name="description" content="There&#x27;s no single &#x27;right&#x27; sump size — but there is a logical process for sizing one. Here&#x27;s how to work through display volume, overflow capacity, equipment space, and drain-down water to land on a sump size that actually works.">
+<link rel="canonical" href="https://sealifeplanet.com/aquarium-sump-size-calculator/">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Aquarium Sump Size Calculator: How to Size a Sump for Your Tank">
+<meta property="og:description" content="There&#x27;s no single &#x27;right&#x27; sump size — but there is a logical process for sizing one. Here&#x27;s how to work through display volume, overflow capacity, equipment space, and drain-down water to land on a sump size that actually works.">
+<meta property="og:url" content="https://sealifeplanet.com/aquarium-sump-size-calculator/">
+<meta property="og:site_name" content="Sea Life Planet">
+<meta property="og:image" content="https://sealifeplanet.com/assets/img/placeholder.svg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@sealifeplanet">
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://sealifeplanet.com/#organization",
+      "name": "Sea Life Planet",
+      "url": "https://sealifeplanet.com/",
+      "logo": "https://sealifeplanet.com/assets/img/favicon.svg",
+      "sameAs": [
+        "https://www.facebook.com/sealifeplanet",
+        "https://www.instagram.com/sealifeplanet",
+        "https://www.youtube.com/@sealifeplanet",
+        "https://www.pinterest.com/sealifeplanet"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sealifeplanet.com/#website",
+      "url": "https://sealifeplanet.com/",
+      "name": "Sea Life Planet",
+      "description": "Sea Life Planet is a marine-biology-backed guide to fishkeeping — species profiles, tank setup, water chemistry, and gear reviews for freshwater and saltwater aquarists.",
+      "publisher": {
+        "@id": "https://sealifeplanet.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://sealifeplanet.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sealifeplanet.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Equipment & Troubleshooting",
+          "item": "https://sealifeplanet.com/equipment-troubleshooting/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Aquarium Sump Size Calculator: How to Size a Sump for Your Tank",
+          "item": "https://sealifeplanet.com/aquarium-sump-size-calculator/"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://sealifeplanet.com/aquarium-sump-size-calculator/#article",
+      "headline": "Aquarium Sump Size Calculator: How to Size a Sump for Your Tank",
+      "description": "There's no single 'right' sump size — but there is a logical process for sizing one. Here's how to work through display volume, overflow capacity, equipment space, and drain-down water to land on a sump size that actually works.",
+      "image": "https://sealifeplanet.com/assets/img/placeholder.svg",
+      "datePublished": "2031-10-08",
+      "dateModified": "2026-06-15",
+      "author": {
+        "@type": "Person",
+        "name": "Hektor Jorgo",
+        "description": "Hektor is a co-founder of Sea Life Planet and has kept reef and freshwater aquariums for over 15 years. He holds a background in marine biology and focuses on species care accuracy, water chemistry, and tank husbandry.",
+        "url": "https://sealifeplanet.com/about/"
+      },
+      "publisher": {
+        "@id": "https://sealifeplanet.com/#organization"
+      },
+      "mainEntityOfPage": "https://sealifeplanet.com/aquarium-sump-size-calculator/"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is there a simple formula for sump size?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There's a commonly cited starting point — sizing the sump at roughly 20-30% of the display tank's volume — but treating this as a formula that produces a single correct answer oversells what it actually is. It's a rough heuristic that happens to work out reasonably often, not a calculation that accounts for the factors that actually determine whether a sump is adequate: how much water drains down when the pumps stop, how much space equipment takes up, and how the overflow and return plumbing are sized. Two tanks of identical volume can have very different actual sump requirements depending on their overflow design and the equipment being run. The percentage is a useful sanity check on a finished plan, not a substitute for working through the actual factors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does 'water draining down during a power outage' matter so much for sump sizing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because it's usually the single largest swing in water volume the sump has to handle, and it happens automatically with no warning. While the system is running, water is constantly being pumped from the sump back up to the display, while display water drains back down to the sump — the levels in both reach a working equilibrium. The moment power is lost, the return pump stops, but gravity keeps draining the display down to its overflow's drain point until the display reaches a lower equilibrium (or empties down to where the overflow can no longer drain). All of that extra water has to go somewhere — and it goes into the sump. If the sump doesn't have enough empty headroom above its normal running water level to absorb that volume, it overflows onto the floor during every power outage. Sizing for this isn't optional; it's arguably the single most important number in the entire calculation, more important than the overall 20-30% heuristic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does equipment placement affect sump size?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every piece of equipment housed in the sump — a heater, protein skimmer (for saltwater), refugium section, auto top-off (ATO) reservoir or float switch, media baskets or bags, and the return pump itself — takes up physical volume and usually requires its own section or compartment, typically separated by baffles (partition walls within the sump). A sump sized purely on a volume percentage without accounting for what's actually going to live inside it often turns out to be too cramped in practice, even if the raw gallon figure looked adequate on paper. It helps to sketch out, even roughly, which compartment each piece of equipment will occupy before finalizing a sump's dimensions — this is the same kind of 'plan the whole system, not just one number' thinking that applies to comparing tank sizes for a display tank in the first place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What limits how big a sump can be?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mainly the stand footprint it needs to fit inside, and to a lesser extent the plumbing path between the display and the sump. A sump is constrained by the same physical stand that's holding up the display tank, so its dimensions need to fit within that footprint alongside anything else stored on the stand. The display tank's own construction can matter too — a tank with a center brace across its top opening affects how overflow and return plumbing can be routed, which indirectly shapes what's practical for the sump on the receiving end. In practice, sump size is as much a function of what stand and plumbing layout you're working with as it is a function of the display tank's volume alone."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav">
+    <a href="/" class="logo">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+      Sea Life Planet
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-links" id="primary-nav">
+      <li><a href="/saltwater/">Saltwater</a></li>
+      <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
+      <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
+      <li><a href="/turtles/">Turtles</a></li>
+      <li><a href="/equipment-troubleshooting/">Equipment</a></li>
+      <li><a href="/product-reviews/">Product Reviews</a></li>
+      <li><a href="/aquarium-plants/">Aquarium Plants</a></li>
+      <li><a href="/fish-facts-faqs/">Fish Facts &amp; FAQs</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/contact-us/">Contact</a></li>
+    </ul>
+  </div>
+</header>
+<main id="main">
+  <div class="container article-wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/equipment-troubleshooting/">Equipment &amp; Troubleshooting</a></li>
+        <li aria-current="page">Aquarium Sump Size Calculator: How to Size a Sump for Your Tank</li>
+      </ol>
+    </nav>
+    <div class="article-grid">
+      <article>
+        <header class="article-header">
+          <h1>Aquarium Sump Size Calculator: How to Size a Sump for Your Tank</h1>
+          <div class="article-meta">
+            <span class="author"><img src="/assets/img/authors/avatar-placeholder.svg" alt="Hektor Jorgo" width="28" height="28" loading="lazy"> By Hektor Jorgo</span>
+            <span>Published <time datetime="2031-10-08">October 8, 2031</time></span>
+            <span>Updated <time datetime="2026-06-15">June 15, 2026</time></span>
+            <span>5 min read</span>
+          </div>
+        </header>
+
+        <figure class="article-hero">
+          <img src="/assets/img/placeholder.svg" alt="Aquarium sump tank below a display tank, divided into compartments for filtration media, equipment, and a return pump" width="1200" height="800" loading="eager" fetchpriority="high">
+          
+        </figure>
+
+        <nav class="toc" aria-label="Table of contents">
+  <h2>What You'll Learn</h2>
+  <ol>
+    <li><a href="#short-answer">Short Answer</a></li>
+    <li><a href="#step-1-start-with-the-drain-down-volume">Step 1: Start With the Drain-Down Volume</a></li>
+    <li><a href="#step-2-account-for-equipment-space">Step 2: Account for Equipment Space</a></li>
+    <li><a href="#step-3-check-overflow-and-return-plumbing-capacity">Step 3: Check Overflow and Return Plumbing Capacity</a></li>
+    <li><a href="#step-4-check-the-stand-footprint">Step 4: Check the Stand Footprint</a></li>
+    <li><a href="#worked-example">Worked Example</a></li>
+    <li><a href="#quick-reference">Quick Reference</a></li>
+  </ol>
+</nav>
+
+
+        <div class="quick-facts">
+          <h2>Quick Facts</h2>
+          <dl>
+            <dt>What a Sump Is</dt>
+            <dd>A separate tank, usually below the display, that holds filtration media, equipment, and water that drains down from the display</dd>
+            <dt>Common Rule of Thumb</dt>
+            <dd>Sump volume is often suggested at roughly 20-30% of display volume, though this is a starting point, not a fixed rule</dd>
+            <dt>Biggest Sizing Driver</dt>
+            <dd>How much water drains down from the display when pumps turn off (power outage scenario) — the sump must hold this without overflowing</dd>
+            <dt>Overflow Capacity</dt>
+            <dd>The sump&#x27;s drain-side plumbing and overflow must be able to handle the return pump&#x27;s full flow rate, with margin</dd>
+            <dt>Equipment Space</dt>
+            <dd>Heaters, protein skimmers, refugiums, ATO reservoirs, and media baskets all take up real space inside the sump</dd>
+            <dt>Baffle Sections</dt>
+            <dd>Most sumps are divided into compartments (baffles) for drain area, equipment/media area, and return pump area</dd>
+            <dt>Footprint Limits</dt>
+            <dd>Sump size is often constrained by stand footprint and any center bracing on the display tank above</dd>
+            <dt>Oversizing</dt>
+            <dd>A modestly oversized sump is rarely a problem and adds a buffer against evaporation and drain-down miscalculations</dd>
+          </dl>
+        </div>
+
+        <div class="article-content">
+          <p>Search for &quot;sump size calculator&quot; and you&#39;ll find plenty of quick percentage-based answers — but a sump that&#39;s sized purely on a percentage of display volume can still be the wrong size in practice. Sizing a sump properly means working through a short list of factors, most of which have nothing to do with a simple percentage.</p>
+<h2 id="short-answer">Short Answer</h2>
+<p><strong>A commonly cited starting point is sizing a sump at roughly 20-30% of the display tank&#39;s volume — but the number that actually matters most is how much water drains down from the display into the sump when the return pump stops (such as during a power outage), because the sump has to absorb that volume without overflowing.</strong> Beyond that, equipment space (heater, skimmer, refugium, ATO reservoir, media) and the stand footprint the sump has to physically fit into are the other major factors. The percentage heuristic is a sanity check, not a calculation.</p>
+<h2 id="step-1-start-with-the-drain-down-volume">Step 1: Start With the Drain-Down Volume</h2>
+<p>This is the most important calculation, and it&#39;s the one most &quot;quick&quot; sump sizing guides skip entirely.</p>
+<p>While a sump-fed system is running, the display tank and the sump are both holding water at a <strong>stable, equilibrium level</strong> — water flows from the display down to the sump via the overflow, and the return pump sends water back up to the display, at matching rates.</p>
+<p><strong>The moment power is lost, that balance breaks immediately.</strong> The return pump stops sending water up, but gravity keeps draining the display down through the overflow until the display reaches a new, lower equilibrium — typically wherever the overflow&#39;s drain opening sits, or lower. All of the water that drains out of the display during that process has to land in the sump.</p>
+<p>If the sump doesn&#39;t have <strong>enough empty space above its normal running water level</strong> to hold that volume, the result is an overflow onto the floor — every single time the power goes out, with zero warning.</p>
+<p><strong>How to estimate it</strong>: calculate the volume of water in the display tank between its normal operating water level and the lowest level the overflow would allow it to drain to. That volume (plus a safety margin) is the <strong>minimum empty headroom</strong> the sump needs above its normal running level.</p>
+<h2 id="step-2-account-for-equipment-space">Step 2: Account for Equipment Space</h2>
+<p>A sump isn&#39;t just an empty box of water — it&#39;s typically divided into <strong>compartments (baffles)</strong> that each serve a purpose:</p>
+<ul>
+<li><strong>Drain/intake section</strong> — where water from the display first arrives, often where mechanical filtration (socks, pads) sits</li>
+<li><strong>Equipment/refugium section</strong> — heater, protein skimmer (saltwater), refugium for macroalgae or extra biological filtration, media baskets</li>
+<li><strong>Return section</strong> — where the return pump sits, drawing from the lowest, calmest water</li>
+</ul>
+<p>Each of these takes up real volume that <strong>isn&#39;t available water capacity</strong> in the way an empty tank&#39;s volume would be. A sump that looks adequately sized as an empty box can feel cramped once a heater, skimmer, and ATO float switch are all competing for space in the same compartment. It&#39;s worth sketching out roughly which equipment goes where <strong>before</strong> finalizing dimensions, rather than buying a sump and then discovering there&#39;s nowhere to put the skimmer.</p>
+<h2 id="step-3-check-overflow-and-return-plumbing-capacity">Step 3: Check Overflow and Return Plumbing Capacity</h2>
+<p>The sump&#39;s size doesn&#39;t help if the <strong>plumbing connecting it to the display</strong> can&#39;t move water at the rate the system needs. As covered in our <a href="/how-does-an-aquarium-overflow-box-work/">guide to how an aquarium overflow box works</a>, the overflow (drain side) needs to be able to handle <strong>at least the return pump&#39;s full flow rate</strong>, ideally with margin — an overflow that can&#39;t keep up with the return pump causes the display&#39;s water level to rise, which is its own problem entirely separate from sump volume. The same &quot;match the components to each other, not just to the tank&quot; logic applies to choosing the return pump itself — oversizing it relative to what the overflow and sump can actually handle creates a mismatch, similar in spirit to <a href="/can-a-filter-be-too-big-for-a-fish-tank/">oversizing a filter relative to a tank&#39;s needs</a>.</p>
+<p>This is also where the display tank&#39;s own construction becomes relevant: a tank with a <a href="/what-is-aquarium-bracing/">center brace</a> across its top affects how overflow and return plumbing can physically be routed through the top of the tank, which in turn affects what&#39;s practical on the sump side.</p>
+<h2 id="step-4-check-the-stand-footprint">Step 4: Check the Stand Footprint</h2>
+<p>A sump has to physically <strong>fit inside the stand</strong> beneath the display — alongside the return pump, any controllers, and whatever else lives on the stand. This is often the <strong>practical ceiling</strong> on sump size, regardless of what the drain-down and equipment calculations suggest would be ideal. If you&#39;re <a href="/75-vs-90-gallon-aquarium/">comparing tank sizes</a> for a new setup and planning to run a sump, it&#39;s worth checking stand footprint options for each size under consideration — a larger display tank doesn&#39;t automatically come with a stand that has more usable interior space for a sump.</p>
+<h2 id="worked-example">Worked Example</h2>
+<p>For a hypothetical <strong>65-gallon display</strong> running a sump-fed system:</p>
+<ol>
+<li><strong>20-30% heuristic</strong>: suggests roughly 13-20 gallons as a starting ballpark</li>
+<li><strong>Drain-down volume</strong>: depends entirely on the overflow&#39;s drain height relative to normal water level — this needs to be checked against the specific tank and overflow, not assumed</li>
+<li><strong>Equipment space</strong>: heater, plus skimmer/refugium if applicable, plus ATO reservoir — easily several gallons of &quot;occupied&quot; space within the sump</li>
+<li><strong>Stand footprint</strong>: sets the outer dimensional limits regardless of the above</li>
+</ol>
+<p>The takeaway from this example isn&#39;t a specific number — it&#39;s that <strong>the 20-30% figure is a starting point that the other three steps will adjust</strong>, sometimes significantly, in either direction.</p>
+<h2 id="quick-reference">Quick Reference</h2>
+<ul>
+<li><input disabled="" type="checkbox"> Start with the 20-30%-of-display-volume heuristic as a rough baseline, not a final answer</li>
+<li><input disabled="" type="checkbox"> Calculate drain-down volume (water that drains to the sump if the return pump stops) — this is the critical number</li>
+<li><input disabled="" type="checkbox"> Ensure the sump has enough empty headroom above its running water level to absorb that drain-down volume</li>
+<li><input disabled="" type="checkbox"> Plan compartments/baffles for drain, equipment, and return sections before finalizing dimensions</li>
+<li><input disabled="" type="checkbox"> Confirm overflow and return plumbing can handle the return pump&#39;s full flow rate with margin</li>
+<li><input disabled="" type="checkbox"> Check the display tank&#39;s bracing/top layout for how plumbing can be routed</li>
+<li><input disabled="" type="checkbox"> Confirm the sump fits within the actual stand footprint, with room for the return pump and controllers</li>
+<li><input disabled="" type="checkbox"> When in doubt, oversize modestly rather than undersize — extra headroom is rarely wasted</li>
+</ul>
+
+        </div>
+
+
+        <section class="faq-section" id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <details class="faq-item">
+    <summary>Is there a simple formula for sump size?</summary>
+    <div class="faq-answer"><p>There&#39;s a commonly cited <strong>starting point</strong> — sizing the sump at roughly <strong>20-30% of the display tank&#39;s volume</strong> — but treating this as a formula that produces a single correct answer oversells what it actually is. It&#39;s a rough heuristic that happens to work out reasonably often, <strong>not</strong> a calculation that accounts for the factors that actually determine whether a sump is adequate: how much water drains down when the pumps stop, how much space equipment takes up, and how the overflow and return plumbing are sized. Two tanks of identical volume can have very different actual sump requirements depending on their overflow design and the equipment being run. The percentage is a useful sanity check on a finished plan, not a substitute for working through the actual factors.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>Why does &#x27;water draining down during a power outage&#x27; matter so much for sump sizing?</summary>
+    <div class="faq-answer"><p>Because it&#39;s usually the <strong>single largest swing in water volume</strong> the sump has to handle, and it happens automatically with <strong>no warning</strong>. While the system is running, water is constantly being pumped from the sump back up to the display, while display water drains back down to the sump — the levels in both reach a working equilibrium. The moment <strong>power is lost</strong>, the return pump stops, but <strong>gravity keeps draining the display down to its overflow&#39;s drain point</strong> until the display reaches a lower equilibrium (or empties down to where the overflow can no longer drain). All of that extra water has to go <em>somewhere</em> — and it goes into the sump. If the sump doesn&#39;t have enough <strong>empty headroom above its normal running water level</strong> to absorb that volume, it overflows onto the floor during every power outage. Sizing for this isn&#39;t optional; it&#39;s arguably the single most important number in the entire calculation, more important than the overall 20-30% heuristic.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>How does equipment placement affect sump size?</summary>
+    <div class="faq-answer"><p>Every piece of equipment housed in the sump — a <strong>heater</strong>, <strong>protein skimmer</strong> (for saltwater), <strong>refugium section</strong>, <strong>auto top-off (ATO) reservoir or float switch</strong>, <strong>media baskets or bags</strong>, and the <strong>return pump</strong> itself — takes up physical volume and usually requires its own section or compartment, typically separated by baffles (partition walls within the sump). A sump sized purely on a volume percentage without accounting for what&#39;s actually going to live inside it often turns out to be <strong>too cramped in practice</strong>, even if the raw gallon figure looked adequate on paper. It helps to sketch out, even roughly, which compartment each piece of equipment will occupy before finalizing a sump&#39;s dimensions — this is the same kind of &#39;plan the whole system, not just one number&#39; thinking that applies to <a href="/75-vs-90-gallon-aquarium/">comparing tank sizes</a> for a display tank in the first place.</p></div>
+  </details>
+  <details class="faq-item">
+    <summary>What limits how big a sump can be?</summary>
+    <div class="faq-answer"><p>Mainly the <strong>stand footprint</strong> it needs to fit inside, and to a lesser extent the <strong>plumbing path</strong> between the display and the sump. A sump is constrained by the same physical stand that&#39;s holding up the display tank, so its dimensions need to fit within that footprint alongside anything else stored on the stand. The display tank&#39;s own construction can matter too — a tank with a <a href="/what-is-aquarium-bracing/">center brace</a> across its top opening affects how overflow and return plumbing can be routed, which indirectly shapes what&#39;s practical for the sump on the receiving end. In practice, sump size is as much a function of <strong>what stand and plumbing layout you&#39;re working with</strong> as it is a function of the display tank&#39;s volume alone.</p></div>
+  </details>
+</section>
+
+
+        <section class="sources">
+          <h2>Sources &amp; Further Reading</h2>
+          <ol>
+            <li><a href="https://www.reef2reef.com/forums/diy-projects.23/" rel="noopener" target="_blank">Sump Design and Plumbing Basics — Reef2Reef</a></li>
+            <li><a href="https://www.practicalfishkeeping.co.uk/" rel="noopener" target="_blank">Aquarium Filtration Systems Overview — Practical Fishkeeping</a></li>
+          </ol>
+        </section>
+
+        <div class="author-box">
+  <img src="/assets/img/authors/avatar-placeholder.svg" alt="Hektor Jorgo" width="64" height="64" loading="lazy">
+  <div>
+    <h3>About the Author: Hektor Jorgo</h3>
+    <p><strong>Co-Founder &amp; Marine Biologist</strong></p>
+    <p>Hektor is a co-founder of Sea Life Planet and has kept reef and freshwater aquariums for over 15 years. He holds a background in marine biology and focuses on species care accuracy, water chemistry, and tank husbandry.</p>
+  </div>
+</div>
+
+      </article>
+
+      <aside class="sidebar">
+        <div class="sidebar-box">
+          <h3>Related Guides</h3>
+          <ul>
+            <li><a href="/how-does-an-aquarium-overflow-box-work/">How Does an Aquarium Overflow Box Work?</a></li>
+            <li><a href="/75-vs-90-gallon-aquarium/">75-Gallon vs. 90-Gallon Aquarium: What the Extra Size Actually Gets You</a></li>
+            <li><a href="/what-is-aquarium-bracing/">What Is Aquarium Bracing? Why Your Tank&#x27;s Top Rim Matters</a></li>
+            <li><a href="/can-a-filter-be-too-big-for-a-fish-tank/">Can a Filter Be Too Big for a Fish Tank?</a></li>
+            <li><a href="/65-gallon-hexagon-aquarium/">65-Gallon Hexagon Aquarium: Pros, Cons &amp; What to Know Before Buying</a></li>
+            <li><a href="/can-a-fish-tank-hang-over-stand/">Can a Fish Tank Hang Over Its Stand? Overhang Safety Explained</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-box">
+          <h3>Explore Equipment &amp; Troubleshooting</h3>
+          <ul>
+            <li><a href="/equipment-troubleshooting/">All Equipment &amp; Troubleshooting Guides</a></li>
+            <li><a href="/fish-types/">All Fish Species Guides</a></li>
+            <li><a href="/product-reviews/">Aquarium Gear Reviews</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <section class="related-articles">
+      <h2>Related Articles</h2>
+      <div class="grid grid-3">
+        <a class="card" href="/how-does-an-aquarium-overflow-box-work/">
+          <img src="/assets/img/placeholder.svg" alt="An aquarium overflow box mounted on the back wall of a tank, draining water down to a sump below" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Equipment &amp; Troubleshooting</span>
+            <h3>How Does an Aquarium Overflow Box Work?</h3>
+            <p>An overflow box lets water flow by gravity from the main tank into a sump, where a return pump sends it back up — here&#x27;s how the siphon and standpipe actually work.</p>
+          </div>
+        </a>
+        <a class="card" href="/75-vs-90-gallon-aquarium/">
+          <img src="/assets/img/placeholder.svg" alt="Two aquariums side by side, a 75-gallon and a taller 90-gallon of the same footprint, on sturdy stands" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Aquarium Equipment Reviews</span>
+            <h3>75-Gallon vs. 90-Gallon Aquarium: What the Extra Size Actually Gets You</h3>
+            <p>Whether a 90-gallon is meaningfully &#x27;bigger&#x27; than a 75-gallon for your purposes depends on which dimension the extra 15 gallons goes into.</p>
+          </div>
+        </a>
+        <a class="card" href="/what-is-aquarium-bracing/">
+          <img src="/assets/img/placeholder.svg" alt="Close-up of an aquarium&#x27;s top rim showing a plastic center brace spanning across the glass" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Equipment &amp; Troubleshooting</span>
+            <h3>What Is Aquarium Bracing? Why Your Tank&#x27;s Top Rim Matters</h3>
+            <p>That strip of plastic or glass running across the top of your tank — sometimes right through the middle — isn&#x27;t there for looks. It&#x27;s structural, and understanding what it does changes how you plan lids, sumps, and equipment.</p>
+          </div>
+        </a>
+        <a class="card" href="/can-a-filter-be-too-big-for-a-fish-tank/">
+          <img src="/assets/img/placeholder.svg" alt="A large hang-on-back filter mounted on a small aquarium with visible surface current" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Equipment &amp; Troubleshooting</span>
+            <h3>Can a Filter Be Too Big for a Fish Tank?</h3>
+            <p>A filter rated for more gallons than your tank holds isn&#x27;t automatically a problem — but the current it creates can be, especially for bettas, fry, shrimp, and delicate plants.</p>
+          </div>
+        </a>
+        <a class="card" href="/65-gallon-hexagon-aquarium/">
+          <img src="/assets/img/placeholder.svg" alt="Hexagon-shaped aquarium with six glass panels forming a wide hexagonal footprint, viewed from above at an angle" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Aquarium Equipment Reviews</span>
+            <h3>65-Gallon Hexagon Aquarium: Pros, Cons &amp; What to Know Before Buying</h3>
+            <p>A hexagon tank&#x27;s six-sided footprint gives it a distinctive look and unusual sightlines — but it also changes the math on stands, filtration placement, and how much of the tank is actually usable for fish.</p>
+          </div>
+        </a>
+        <a class="card" href="/can-a-fish-tank-hang-over-stand/">
+          <img src="/assets/img/placeholder.svg" alt="Aquarium sitting on a stand with its glass bottom edge extending slightly beyond the stand&#x27;s top surface" loading="lazy" width="400" height="300">
+          <div class="card-body">
+            <span class="card-tag">Equipment &amp; Troubleshooting</span>
+            <h3>Can a Fish Tank Hang Over Its Stand? Overhang Safety Explained</h3>
+            <p>A tank that&#x27;s slightly bigger than its stand&#x27;s top surface is more common than you&#x27;d think — but how much overhang is actually fine, and at what point does it become a structural problem?</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-disclosure">Sea Life Planet is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from qualifying purchases — at no extra cost to you. Read our full <a href="/affiliate-disclosure/">Affiliate Disclosure</a>.</p>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+          Sea Life Planet
+        </div>
+        <p>Practical, expert-checked guides for freshwater &amp; saltwater aquariums</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/sealifeplanet" aria-label="Facebook" rel="me noopener" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3l-.5 3H13v6.95c5.05-.5 9-4.76 9-9.95z"/></svg></a>
+          <a href="https://www.instagram.com/sealifeplanet" aria-label="Instagram" rel="me noopener" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3h10zm-5 3.5A4.5 4.5 0 1 0 16.5 12 4.5 4.5 0 0 0 12 7.5zm0 2A2.5 2.5 0 1 1 9.5 12 2.5 2.5 0 0 1 12 9.5zM17.5 6a1 1 0 1 0 1 1 1 1 0 0 0-1-1z"/></svg></a>
+          <a href="https://www.youtube.com/@sealifeplanet" aria-label="YouTube" rel="me noopener" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2s-.21-1.5-.87-2.16c-.83-.87-1.76-.87-2.18-.92C15.6 4 12 4 12 4h-.01s-3.6 0-6.55.12c-.42.05-1.35.05-2.18.92-.66.66-.87 2.16-.87 2.16S2.18 9 2.18 10.8v1.39C2.18 13.99 2.4 15.79 2.4 15.79s.21 1.5.87 2.16c.83.87 1.92.84 2.4.93 1.74.17 7.33.22 7.33.22s3.6-.01 6.55-.13c.42-.05 1.35-.05 2.18-.92.66-.66.87-2.16.87-2.16s.22-1.8.22-3.6v-1.39c0-1.8-.22-3.6-.22-3.6zM9.96 14.98v-5.7l5.4 2.86-5.4 2.84z"/></svg></a>
+          <a href="https://www.pinterest.com/sealifeplanet" aria-label="Pinterest" rel="me noopener" target="_blank"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.6 7.86 6.3 9.36-.09-.8-.16-2.02.03-2.89.18-.78 1.16-4.95 1.16-4.95s-.3-.59-.3-1.46c0-1.37.79-2.39 1.78-2.39.84 0 1.24.63 1.24 1.38 0 .84-.54 2.1-.81 3.27-.23.98.49 1.78 1.46 1.78 1.75 0 3.1-1.85 3.1-4.5 0-2.35-1.69-4-4.1-4-2.79 0-4.43 2.09-4.43 4.26 0 .84.32 1.74.72 2.23.08.1.09.18.07.28-.08.31-.25 1-.28 1.14-.04.18-.15.22-.34.13-1.26-.59-2.05-2.43-2.05-3.91 0-3.18 2.31-6.11 6.67-6.11 3.5 0 6.22 2.49 6.22 5.83 0 3.48-2.19 6.28-5.24 6.28-1.02 0-1.98-.53-2.31-1.16 0 0-.5 1.93-.63 2.4-.23.86-.84 1.94-1.25 2.6.94.29 1.94.45 2.98.45 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="/saltwater/">Saltwater Fishkeeping</a></li>
+          <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
+          <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
+          <li><a href="/turtles/">Turtle Care</a></li>
+          <li><a href="/equipment-troubleshooting/">Equipment &amp; Troubleshooting</a></li>
+          <li><a href="/product-reviews/">Product Reviews</a></li>
+          <li><a href="/aquarium-plants/">Aquarium Plants &amp; Algae</a></li>
+          <li><a href="/fish-facts-faqs/">Fish Facts &amp; FAQs</a></li>
+          <li><a href="/fish-types/">All Fish Species Guides</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/contact-us/">Contact</a></li>
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/terms-of-service/">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sea Life Planet. All rights reserved.</p>
+      <p>Built with care for fishkeepers, by fishkeepers.</p>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

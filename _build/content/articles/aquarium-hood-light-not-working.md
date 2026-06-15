@@ -87,7 +87,7 @@ A light that turns on but isn't quite right is a different situation from one th
 
 Either way, **reduced output affects whatever the light supports** — plant growth, coral coloration, or simply how the tank looks — even before the reduction is obvious to the eye, which is worth keeping in mind if you're noticing other changes in the tank around the same time. For a reef tank, a failed integrated hood light is also a common trigger for upgrading to a standalone fixture entirely — our [Kessil A80 vs. AI Prime 16HD comparison](/kessil-a80-vs-ai-prime-16-hd/) covers two popular options for that kind of upgrade.
 
-All-in-one kits with the light built directly into the lid add an extra wrinkle to this troubleshooting, since the light sits much closer to the water than on a conventional hood — our [Fluval Chi light troubleshooting guide](/fluval-chi-aquarium-light-not-working/) covers how that proximity changes which causes are most likely.
+All-in-one kits with the light built directly into the lid add an extra wrinkle to this troubleshooting, since the light sits much closer to the water than on a conventional hood — our [Fluval Chi light troubleshooting guide](/fluval-chi-aquarium-light-not-working/) covers how that proximity changes which causes are most likely, and the same considerations apply to the integrated hood lights bundled with [Aqueon all-in-one tank kits](/are-aqueon-tanks-good/) and similar bundles from other brands.
 
 ## Quick Reference
 

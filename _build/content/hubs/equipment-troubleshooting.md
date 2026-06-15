@@ -15,6 +15,8 @@ groups:
     slugs: ["aquarium-pump-not-working", "how-long-should-you-run-an-air-pump-in-a-fish-tank", "aquarium-bubble-wand-not-working", "how-does-an-air-pump-work-in-an-aquarium"]
   - title: "Heaters & Overflow Boxes: Setup and Troubleshooting"
     slugs: ["how-does-an-aquarium-overflow-box-work", "aquarium-heater-light-on-but-heater-not-working", "how-long-do-aquarium-heaters-last"]
+  - title: "Tank Stands, Bracing & Sump Sizing"
+    slugs: ["can-a-fish-tank-hang-over-stand", "what-is-aquarium-bracing", "aquarium-sump-size-calculator"]
   - title: "Brand-Specific Equipment: Common Problems"
     slugs: ["penn-plax-cascade-canister-aquarium-filter", "hygger-aquarium-gravel-cleaner-not-working", "juwel-aquarium-lights-not-working", "penguin-bio-wheel-200-impeller-noise"]
   - title: "Water Chemistry & Cycling"
