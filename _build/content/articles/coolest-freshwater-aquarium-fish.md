@@ -75,6 +75,10 @@ The [dragon goby](/dragon-goby/) looks like very little else commonly kept in fr
 
 The [Argentine pearl fish](/argentine-pearl-fish/) makes this list almost entirely on biology rather than looks (though it's an attractive fish too). As an **annual killifish**, its eggs are adapted to survive dry periods in their natural habitat by entering a **dormant state (diapause)** that can last weeks to months — a strategy covered in more depth in our [guide to fish egg hatching times](/how-long-does-it-take-for-fish-eggs-to-hatch/), where it stands out as the major exception to "eggs hatch within days."
 
+## Two More Oddballs: A Surface Glider and a Living Leaf
+
+Two species worth adding to this list come from opposite ends of the "ambush predator" spectrum. The [African butterfly fish](/african-butterfly-fish/) has broad, wing-like pectoral fins that let it glide above the water when launching itself at insects from the surface — and the same fins make it a notorious jumper in an uncovered tank. The [Amazon leaffish](/amazon-leaffish/) goes the opposite direction entirely: rather than gliding or striking from the surface, it disguises itself so completely as a drifting dead leaf — shape, color, and even the angle it holds itself at — that prey often doesn't recognize it as a fish at all until it's too late. Both are genuinely strange-looking fish once you know what to look for, and both come with feeding requirements (live insects for one, live fish fry for the other) that are worth understanding before buying.
+
 ## Quick Reference
 
 - [ ] Red tiger motaguense: hybrid trade-name cichlid with individual-to-individual color variation
@@ -83,4 +87,6 @@ The [Argentine pearl fish](/argentine-pearl-fish/) makes this list almost entire
 - [ ] Dragon goby: an unusual-looking, burrowing goby that doesn't fit typical "community fish" categories
 - [ ] Rainbowfish: schooling fish with genuine iridescent coloration and continuous breeding behavior
 - [ ] Argentine pearl fish: an annual killifish with dormant, diapause-capable eggs
+- [ ] African butterfly fish: a surface-gliding ambush predator with wing-like fins and a strong jumping instinct
+- [ ] Amazon leaffish: a live-food predator that camouflages itself as a drifting dead leaf
 - [ ] Each species links to a full care guide covering tank size, diet, and tankmates

@@ -101,7 +101,7 @@ Planning for a solo or species-only setup from the outset — rather than discov
 
 One of the most important — and most often overlooked — aspects of GSP care is that **salinity requirements aren't static**. Juveniles are commonly kept in lower-salinity brackish water, sometimes close to freshwater, and can appear to do well in this range for a period. However, **as green spotted puffers mature, their salinity needs trend toward more marine-like conditions**, and long-term health is generally better supported by gradually increasing salinity over the fish's first one to two years rather than maintaining juvenile-level salinity indefinitely.
 
-This pattern — where a fish's needs at the size and age it's typically sold don't reflect its needs as an adult — comes up elsewhere on this site too, including with the [dragon goby](/dragon-goby/) and its brackish requirements, and with large centerpiece fish like the [red jardini arowana](/red-jardini-arowana/), where adult size dramatically exceeds what's apparent at purchase.
+This pattern — where a fish's needs at the size and age it's typically sold don't reflect its needs as an adult — comes up elsewhere on this site too, including with the [dragon goby](/dragon-goby/) and its brackish requirements, and with large centerpiece fish like the [red jardini arowana](/red-jardini-arowana/), where adult size dramatically exceeds what's apparent at purchase. For the broader fundamentals of brackish tank setup — salinity ranges, equipment, and other commonly mislabeled "freshwater" species — see our [brackish water aquarium fish guide](/brackish-water-aquarium-fish/).
 
 ## Common Health Issues
 

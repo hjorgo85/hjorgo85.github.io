@@ -81,7 +81,7 @@ As the name suggests, the dragon goby is a true member of the goby family (Gobii
 
 The salinity row above is the detail most often missing from generic "freshwater" care information for this species. While dragon gobies can survive in fully freshwater tanks for extended periods, **adding aquarium salt to reach a low brackish range** is widely considered better for long-term health, reflecting the estuarine habitats this species actually comes from.
 
-This flexibility isn't something most fish have — the dragon goby is one of the relatively small number of **euryhaline** species able to adjust its internal salt and water balance across a range of salinities, a trait covered in more general terms in our [guide to whether saltwater fish can live in freshwater](/can-salt-water-fish-live-in-freshwater/). Even so, any salinity adjustment for an established dragon goby should be done gradually, the same as for any euryhaline species moving between salinity levels.
+This flexibility isn't something most fish have — the dragon goby is one of the relatively small number of **euryhaline** species able to adjust its internal salt and water balance across a range of salinities, a trait covered in more general terms in our [guide to whether saltwater fish can live in freshwater](/can-salt-water-fish-live-in-freshwater/). Even so, any salinity adjustment for an established dragon goby should be done gradually, the same as for any euryhaline species moving between salinity levels. For the broader fundamentals of setting up and maintaining a brackish tank — salinity targets, equipment, and other species that share this fish's water chemistry needs — see our [brackish water aquarium guide](/brackish-water-aquarium-fish/).
 
 ## Diet and Feeding
 

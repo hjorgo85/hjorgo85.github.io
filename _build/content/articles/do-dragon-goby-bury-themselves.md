@@ -39,7 +39,7 @@ faq:
     a: "It's worth distinguishing **normal burrowing** (a fish that still comes out to feed, has normal coloration when visible, and emerges periodically) from **excessive hiding that's part of a broader pattern** of concern — reduced or absent feeding response, color loss, labored breathing, or other symptoms alongside the hiding. On its own, extensive burrowing is not a red flag for this species — it's closer to the dragon goby's version of a betta resting near the surface, or a [banjo catfish](/how-to-care-for-asian-banjo-catfish/) staying buried during the day. If a dragon goby that previously came out to feed stops responding to food entirely, or other symptoms appear, that's a reason to check water parameters and the fish's overall condition — but burrowing itself, even extensively, is the expected default for this species."
   - q: "Will burrowing disturb my plants or other tank decor?"
     a: "It can, and this is worth planning for during tank setup rather than discovering after the fact. A dragon goby pushing through several inches of sand can **shift plant roots, uproot lightly-anchored plants, and destabilize decor that's resting on top of the substrate** rather than on the tank bottom itself. Practical approaches include choosing plants that can be anchored to driftwood or rock rather than planted directly in sand, placing heavier decor pieces so they rest on the glass bottom with sand built up around them (rather than balanced on top of sand), and generally expecting that a dragon goby tank's substrate layout will be more dynamic over time than a tank without a dedicated burrower."
-related: ["dragon-goby", "what-can-i-feed-my-dragon-goby-fish", "stingray-pleco", "how-to-care-for-asian-banjo-catfish", "water-cow-goby-fish"]
+related: ["dragon-goby", "what-can-i-feed-my-dragon-goby-fish", "stingray-pleco", "how-to-care-for-asian-banjo-catfish", "water-cow-goby-fish", "four-eyed-fish"]
 sources:
   - label: "Gobioides broussonnetii — FishBase"
     url: "https://www.fishbase.se/summary/Gobioides-broussonnetii.html"
@@ -62,6 +62,8 @@ A few factors combine to make burrowing the dragon goby's default behavior rathe
 - **General temperament** — this is a fish that's more reclusive than actively exploratory; burrowing fits a generally low-key, low-activity lifestyle compared to actively swimming community fish
 
 New dragon gobies often bury themselves almost constantly for the first days to weeks in a new tank — an acclimation response that typically eases (though doesn't disappear) as the fish settles in.
+
+It's worth contrasting this with another brackish-water "oddball" that takes the opposite approach to safety: the [four-eyed fish](/four-eyed-fish/) spends virtually all its time at the surface, eyes split to watch above and below the water at once, rather than disappearing beneath the substrate. Both strategies — burying out of sight versus staying at the surface and watching constantly — are normal, species-typical responses to growing up in predator-rich estuarine habitats; they're just opposite solutions to the same underlying problem.
 
 ## Substrate Requirements for Safe Burrowing
 

@@ -39,7 +39,7 @@ faq:
     a: "Not strictly — many dragon gobies do well long-term on a combination of sinking pellets/wafers and occasional frozen foods (which are generally easier to source and store consistently than live foods). However, **live foods can be particularly useful for newly acquired or reluctant feeders**, since movement can trigger a feeding response in a fish that might otherwise overlook a motionless pellet. If a dragon goby is reluctant to eat prepared foods after settling in, trying a live food (such as live blackworms) is a reasonable troubleshooting step before assuming a more serious problem — similar in spirit to how live or frozen foods are sometimes used to encourage feeding in other reluctant or specialized feeders, like the small Asian stream catfish discussed in our [banjo catfish guide](/how-to-care-for-asian-banjo-catfish/)."
   - q: "How often should I feed a dragon goby?"
     a: "**Once or twice daily, in small amounts**, is a reasonable starting point — similar to general feeding guidance for many freshwater fish, where small, frequent feedings are generally preferable to large, infrequent ones for both digestion and water quality reasons. A mature sand bed with established microfauna can supplement a dragon goby's diet somewhat between feedings, similar in principle to how a sand-sifting marine species like the [cow goby](/water-cow-goby-fish/) relies on its substrate as an ongoing food source, though prepared/sinking foods should still form the core of the diet rather than relying on the substrate alone. Watch body condition over time (a dragon goby that appears to be losing weight despite apparently normal feeding is worth investigating further) as a practical check on whether the feeding routine is working."
-related: ["dragon-goby", "do-dragon-goby-bury-themselves", "pleco-poop-information", "bloated-cory-catfish", "green-spotted-pufferfish"]
+related: ["dragon-goby", "do-dragon-goby-bury-themselves", "pleco-poop-information", "bloated-cory-catfish", "green-spotted-pufferfish", "amazon-leaffish"]
 sources:
   - label: "Gobioides broussonnetii — FishBase"
     url: "https://www.fishbase.se/summary/Gobioides-broussonnetii.html"
@@ -67,6 +67,8 @@ Several factors combine to make this species seem more difficult to feed than it
 - **Frozen bloodworms and blackworms** — widely available, easy to store, and generally well accepted once a dragon goby is settled
 - **Live blackworms** — particularly useful for encouraging feeding in reluctant or newly acquired fish, since movement can trigger a feeding response
 - **Spirulina-based foods** — for some dietary variety, reflecting the partly algae/detritus-based component of this species' natural diet
+
+As feeding challenges go, a dragon goby that's slow to find sinking food is a relatively mild case. For comparison, the [Amazon leaffish](/amazon-leaffish/) is a species where the feeding requirement isn't about food placement at all — it's a near-obligate live-food predator that often won't recognize a motionless pellet as food regardless of where it lands.
 
 ## Feeding Technique: Getting Food to a Buried Fish
 

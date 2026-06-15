@@ -83,7 +83,7 @@ Put a freshwater fish in saltwater, and the reverse happens: its body suddenly s
 
 ## The Exception: Euryhaline Fish
 
-A relatively small number of species — called **euryhaline** fish — have evolved the physiological machinery to actively switch their osmoregulation depending on the salinity they're in. Some well-known examples include mollies, certain goby species adapted to brackish estuaries (like the [dragon goby](/dragon-goby/), often kept in brackish aquarium setups), and salmon, which migrate between freshwater rivers and the ocean as part of their natural life cycle.
+A relatively small number of species — called **euryhaline** fish — have evolved the physiological machinery to actively switch their osmoregulation depending on the salinity they're in. Some well-known examples include mollies, certain goby species adapted to brackish estuaries (like the [dragon goby](/dragon-goby/), often kept in brackish aquarium setups), and salmon, which migrate between freshwater rivers and the ocean as part of their natural life cycle. Another striking example is the [four-eyed fish](/four-eyed-fish/), an estuarine species whose split-pupil eyes are themselves an adaptation to a life spent moving between water and air right at a brackish surface.
 
 Even for these species, the switch isn't instant. A gradual acclimation — often over days to weeks — gives the fish's gills and kidneys time to adjust their salt and water handling. A sudden change, even for a tolerant species, causes significant stress.
 

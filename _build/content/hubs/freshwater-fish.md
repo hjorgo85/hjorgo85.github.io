@@ -23,6 +23,8 @@ groups:
     slugs: ["endlers-5-gallon-tank", "neon-tetra-fungus", "black-skirt-tetra-being-aggressive", "dwarf-gouramis", "why-do-goldfish-look-deformed"]
   - title: "Brackish & Specialty Freshwater Fish"
     slugs: ["dragon-goby", "do-dragon-goby-bury-themselves", "what-can-i-feed-my-dragon-goby-fish", "green-spotted-pufferfish", "how-to-care-for-altum-angelfish", "reef-sand-freshwater-tank"]
+  - title: "Brackish Tanks, Paludariums & Surface-Dwelling Oddballs"
+    slugs: ["brackish-water-aquarium-fish", "brackish-water-paludarium", "four-eyed-fish", "african-butterfly-fish", "amazon-leaffish"]
   - title: "Breeding & Fry Care"
     slugs: ["how-long-does-it-take-for-fish-eggs-to-hatch", "easiest-freshwater-fish-to-breed", "corydoras-panda-breeding", "rainbowfish-fry", "otocinclus-fry"]
   - title: "Cichlid Species Guides"
