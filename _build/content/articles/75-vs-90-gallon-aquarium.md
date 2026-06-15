@@ -72,7 +72,7 @@ For **long, horizontally-swimming fish** — species whose space needs are mainl
 
 Before treating "taller is better" as a given, it's worth weighing the practical side:
 
-- **Weight** — a filled 90-gallon is noticeably heavier than a filled 75-gallon of the same footprint, simply because of the additional water volume. Stands and floors rated for a 75-gallon shouldn't be assumed to handle a 90-gallon without checking weight ratings.
+- **Weight** — a filled 90-gallon is noticeably heavier than a filled 75-gallon of the same footprint, simply because of the additional water volume. Stands and floors rated for a 75-gallon shouldn't be assumed to handle a 90-gallon without checking weight ratings — our [guide to how much a filled 75-gallon weighs](/how-much-does-a-75-gallon-fish-tank-weigh/) breaks down where that weight actually comes from (water, tank, substrate, decor), which gives a sense of how much more a taller 90-gallon adds on top.
 - **Maintenance reach** — every inch of added height makes reaching the substrate, the bottom of the glass, and low-placed decor or plants more awkward. This is a real, ongoing cost that's easy to underweight when comparing tanks on a showroom floor (where you're not the one doing weekly maintenance).
 - **Footprint commitment** — if the footprint is genuinely the same, the room/stand footprint requirement doesn't change, which is one less variable to plan around compared to a 90-gallon with different floor dimensions.
 
