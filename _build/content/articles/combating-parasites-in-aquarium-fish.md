@@ -75,7 +75,7 @@ Parasites are one of the most common categories of aquarium fish health problems
 
 Treatment isn't one-size-fits-all:
 
-- **Ich** — commonly treated with medication, often alongside a **temperature increase** (within the safe range for the species involved), which can interfere with part of the parasite's life cycle
+- **Ich** — commonly treated with medication, often alongside a **temperature increase** (within the safe range for the species involved), which can interfere with part of the parasite's life cycle. A [UV sterilizer](/uv-sterilizer-for-ich/) can be a useful supplementary measure alongside this — it can kill the parasite's free-swimming stage as water passes through, reducing spread and reinfection, though it doesn't replace medication for an active outbreak
 - **Velvet and flukes** — typically addressed with medications targeted at external parasites specifically
 - **Internal worms** — require **oral or water-based antiparasitic medications** formulated for internal parasites, a different category of treatment entirely from what's used for external issues
 - **Supportive care** — for African cichlids showing digestive distress or bloating symptoms, our [Epsom salt guide](/epsom-salt-for-african-cichlids/) covers a commonly used supportive measure, though it supplements rather than replaces an appropriate antiparasitic medication when a parasite is the actual cause

@@ -72,6 +72,8 @@ New tank owners reaching for a clarifier are often dealing with one of two thing
 
 If you've added a polishing pad and the cloudiness hasn't budged after a day or two, it's worth considering whether you're dealing with the second kind — in which case patience (and avoiding the temptation to do a large water change that resets the cycling progress) is the more useful response than additional filtration.
 
+It's also worth distinguishing cloudy water from a **surface film** — a thin, often oily-looking sheen sitting on top of otherwise clear water. That's a different phenomenon with a different fix (surface agitation rather than mechanical filtration media), covered in our [guide to protein film](/how-to-get-rid-of-protein-film-in-a-fish-tank/).
+
 ## Maintenance Reality
 
 Because of its denser fiber structure, this type of media clogs faster than standard floss if it's bearing the full debris load — which shows up as reduced flow through the filter sooner than you might expect from other mechanical media. Rinsing it out under running water restores most of its capacity, but it will eventually need replacing once it stops rinsing clean. Pairing it with a coarser pre-filter, as covered above, is the simplest way to keep its maintenance interval reasonable rather than needing attention every few days.

@@ -19,6 +19,8 @@ groups:
     slugs: ["penn-plax-cascade-canister-aquarium-filter", "hygger-aquarium-gravel-cleaner-not-working", "juwel-aquarium-lights-not-working", "penguin-bio-wheel-200-impeller-noise"]
   - title: "Water Chemistry & Cycling"
     slugs: ["high-nitrites-and-nitrates-during-cycle", "does-seachem-prime-go-bad", "how-long-does-prime-take-to-work-in-an-aquarium", "how-long-does-zeolite-take-to-work-aquarium", "how-to-add-nitrate-to-an-aquarium"]
+  - title: "Water Color, Smell & Surface Issues"
+    slugs: ["fish-tank-water-red-tint", "why-is-my-fish-tank-water-orange", "fish-tank-water-smells-earthy", "how-to-get-rid-of-protein-film-in-a-fish-tank", "uv-sterilizer-for-ich"]
 faq:
   - q: "My filter seems to be running, but something feels off — where do I start?"
     a: "Start with **what changed recently**. If the filter was just cleaned, our guide on [filters not working properly after cleaning](/aquarium-filter-not-working-after-cleaning/) covers the most common causes — trapped air, an unseated impeller, or a temporary biological 'mini-cycle.' If nothing was recently touched but flow or distribution seems uneven, [intake and outlet placement](/canister-filter-inlet-outlet-placement/) is worth a look, since it affects dead spots and debris distribution even when the filter itself is working correctly."
