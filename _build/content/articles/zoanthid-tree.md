@@ -41,7 +41,7 @@ faq:
     a: "The same general factors that apply to **zoanthids generally**: reasonable lighting and flow appropriate for the specific zoanthid morphs on the tree (different morphs can have different preferences — our guides on [Bam Bam zoanthids](/bam-bam-zoanthid-care/) and [Utter Chaos zoas](/utter-chaos-zoa-coral-care/) cover two popular examples), plus **stability** — a tree with several frags attached can be top-heavy or easily knocked over, so placing it somewhere it won't get bumped by maintenance tools, fish, or flow from a pump is worth considering. It's also worth planning for **growth**: zoanthid colonies on a tree will expand over time, and a tree that looked appropriately spaced when frags were small can become crowded as colonies grow into each other, similar to the spacing considerations discussed for [LPS corals](/lps-corals-for-beginners/)."
   - q: "How are frags attached to a zoanthid tree, and what happens as they grow?"
     a: "Frags are typically attached using **reef-safe cyanoacrylate (super) glue** — covered in our [super glue guide](/super-glue-reef-tank/) — or sometimes epoxy putty, the same methods used for mounting any coral frag, as discussed in our [coral frags for beginners guide](/coral-frags-for-beginners/). Over time, zoanthid colonies on a tree will **grow and spread** across their mounting point and potentially onto the tree structure itself or neighboring frags. When a colony outgrows its spot, options include **re-fragging** a piece to start a new mount elsewhere (similar in concept to the propagation discussed in our [hammer coral fragging guide](/how-to-frag-hammer-coral/), though zoanthids are generally easier to frag than LPS) or relocating the whole frag to display rock with more room. Neither outcome is a problem — it's a normal part of a thriving zoanthid colony's growth."
-related: ["bam-bam-zoanthid-care", "utter-chaos-zoa-coral-care", "coral-frags-for-beginners", "super-glue-reef-tank", "lps-corals-for-beginners"]
+related: ["bam-bam-zoanthid-care", "utter-chaos-zoa-coral-care", "coral-frags-for-beginners", "super-glue-reef-tank", "lps-corals-for-beginners", "brown-button-polyps"]
 sources:
   - label: "Zoanthid & Soft Coral Care — Reef2Reef"
     url: "https://www.reef2reef.com/forums/softies-gorgonians-zoanthids.91/"
@@ -58,6 +58,8 @@ If you've spent any time browsing photos of reef tanks online, you've probably s
 ## What a Zoanthid Tree Actually Is
 
 A zoanthid tree is, structurally, just a **frag rack with multiple branches or mounting points**, scaled to hold many small frags on one base. As covered in our [coral frags guide](/coral-frags-for-beginners/), a frag is a small piece of coral mounted to grow as its own colony — and **zoanthids** are particularly well-suited to this kind of multi-frag display because they're small, colorful, and very commonly sold or traded as **single-polyp or small-cluster frags**. A tree gives each of those small frags its own dedicated spot, rather than crowding them together on a single piece of display rock.
+
+Larger, fleshier relatives in the same broad zoanthid group — like [brown button polyps](/brown-button-polyps/) — are less commonly mounted on a tree, mostly because their bigger oral discs and faster encrusting growth tend to suit a dedicated rock or frag plug better than a small branch tip, but the same basic mounting and spacing logic still applies.
 
 ## Why Reef Keepers Use Them
 

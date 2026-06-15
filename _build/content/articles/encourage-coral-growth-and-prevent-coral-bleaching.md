@@ -59,6 +59,8 @@ Coral growth and coral bleaching sound like opposite topics — one about thrivi
 
 Bleaching is a loss of **zooxanthellae** — the photosynthetic algae living in coral tissue — or a loss of their pigments, leaving coral tissue **pale, white, or translucent** with the skeleton visible underneath. This is the same zooxanthellae relationship covered in our [how corals eat](/how-do-corals-eat/) overview, and a related process is discussed for anemones in our [zooxanthellae expulsion guide](/anemone-expelling-zooxanthellae/). Bleaching is often associated with **sudden environmental shifts** — temperature swings, sudden lighting changes, water quality changes — that disrupt this relationship. **A bleached coral isn't necessarily dead** — its tissue may still be alive, just under significant stress and missing a major energy source, the broader stress framework covered in our [coral stress guide](/how-can-i-tell-if-my-corals-are-stressed-or-unhealthy/).
 
+For SPS corals specifically, white patches don't always mean bleaching — they can also signal faster-moving tissue loss or predation, which call for very different responses. Our guide on [why montipora turns white](/montipora-turning-white/) walks through how to tell bleaching apart from those other causes on a coral where the distinction matters a lot.
+
 ## What Actually Encourages Growth
 
 The same factors that come up repeatedly across our LPS and coral basics guides:

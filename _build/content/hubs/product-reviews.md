@@ -13,6 +13,8 @@ groups:
     slugs: ["cabomba-vs-hornwort", "methylene-blue-vs-malachite-green", "flame-moss-vs-java-moss", "seachem-stability-vs-tetra-safestart"]
   - title: "Fish Species Comparisons"
     slugs: ["johanni-vs-maingano", "red-devil-fish-vs-oscar"]
+  - title: "Coral & Substrate Comparisons"
+    slugs: ["frogspawn-vs-hammer-coral", "crushed-coral-vs-live-sand"]
 faq:
   - q: "Do you only review products you've personally used?"
     a: "We prioritize hands-on testing where possible, and clearly note when a review is based on extended use vs. research compiled from manufacturer documentation and the broader hobbyist community. Either way, our reviews focus on practical trade-offs — noise, reliability, mounting, compatibility — not just spec sheets."

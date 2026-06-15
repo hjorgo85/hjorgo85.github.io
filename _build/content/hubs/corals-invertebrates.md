@@ -17,6 +17,8 @@ groups:
     slugs: ["zoanthid-tree", "bam-bam-zoanthid-care", "utter-chaos-zoa-coral-care", "kenya-tree-coral-not-opening", "xenia-coral-dying", "what-to-feed-mushroom-corals", "sea-whip-coral-care", "branching-coral-care"]
   - title: "Coral Tank Setup & Health"
     slugs: ["does-touching-coral-kill-it", "how-can-i-tell-if-my-corals-are-stressed-or-unhealthy", "encourage-coral-growth-and-prevent-coral-bleaching", "when-to-add-corals-to-new-tank", "coral-only-tank", "how-many-corals-in-a-10-gallon-tank", "what-are-some-compatible-tank-mates-for-corals"]
+  - title: "Coral Health, Bleaching & Growth Rates"
+    slugs: ["brown-button-polyps", "montipora-turning-white", "green-star-polyps-growth-rate"]
   - title: "Coral Sourcing, Identification & Crushed Coral Chemistry"
     slugs: ["crushed-coral", "how-much-crushed-coral-to-raise-ph", "can-you-put-coral-in-a-freshwater-tank", "can-you-take-coral-from-the-beach", "how-to-dry-coral", "how-to-tell-if-coral-is-dyed"]
   - title: "Brackish & Freshwater Crab Species"

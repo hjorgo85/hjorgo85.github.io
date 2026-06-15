@@ -51,6 +51,8 @@ sources:
 
 Fragging a hammer coral sounds more dramatic than it usually is in practice — most of the actual work is in the preparation and the waiting, not the cut itself.
 
+The same approach applies to frogspawn coral, hammer coral's close *Euphyllia* relative — our [frogspawn vs. hammer coral guide](/frogspawn-vs-hammer-coral/) covers how the two compare, but the fragging process itself doesn't change between them.
+
 ## Short Answer
 
 **Fragging a hammer coral means separating one or more heads from a multi-head colony by cutting through the skeleton between them**, ideally after the coral's tissue has retracted to minimize damage to living tissue at the cut site. The basic process: **confirm the colony has enough established heads to spare**, let tissue retract (naturally or with a brief dip), cut through bare/thin skeleton with bone cutters or a Dremel-type tool, dip the resulting frags, and give them time in a **lower-flow, lower-light recovery spot** before returning them to normal display conditions. The mechanics are straightforward — the bigger factors are **timing** (don't frag a colony that's too small or already stressed) and **patience** during recovery.

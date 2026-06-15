@@ -67,7 +67,7 @@ A minimum of **30 gallons** is generally recommended, less because of the fish's
 
 ### Aquascaping — The Sand Bed Is the Priority
 
-This is the section that matters most for this species. *A. phalaena* needs **a fine sand bed at least 2-3 inches deep across a meaningful portion of the tank floor** — not a thin dusting, and not crushed coral, which is too coarse for the sifting behavior this fish relies on for both feeding and natural behavior.
+This is the section that matters most for this species. *A. phalaena* needs **a fine sand bed at least 2-3 inches deep across a meaningful portion of the tank floor** — not a thin dusting, and not crushed coral, which is too coarse for the sifting behavior this fish relies on for both feeding and natural behavior. Our [crushed coral vs. live sand comparison](/crushed-coral-vs-live-sand/) goes into more depth on why substrate choice matters so much for sand-sifting species like this one.
 
 Rockwork should leave open sand areas rather than covering the entire bottom — a common aquascaping approach that prioritizes rock coverage for corals can inadvertently leave a sand-sifting goby with very little usable substrate. If your tank design is rock-dominant, this is a fish to reconsider, or to plan sand areas around specifically.
 

@@ -61,7 +61,7 @@ Across the coral care guides on this site, a few of the same questions keep comi
 
 **Coloration** — stable color vs. **paling/bleaching** (loss of zooxanthellae, covered in our [coral bleaching guide](/encourage-coral-growth-and-prevent-coral-bleaching/)) or unusual darkening. Lighting changes are a common contributor here — our guide on [how much white light corals need](/how-much-white-light-do-corals-need/) covers how intensity and acclimation affect coloration specifically.
 
-**Tissue condition** — intact tissue vs. **recession, bare skeleton, or a "melting"/sloughing appearance**, the kind of progressive change covered in our [brain coral skeleton guide](/brain-coral-skeleton/).
+**Tissue condition** — intact tissue vs. **recession, bare skeleton, or a "melting"/sloughing appearance**, the kind of progressive change covered in our [brain coral skeleton guide](/brain-coral-skeleton/). For SPS corals, white or bare patches can mean several different things — our guide on [why montipora turns white](/montipora-turning-white/) walks through telling bleaching, rapid tissue loss, and predation apart on a coral where that distinction is especially important.
 
 **Mucus production** — some mucus production is normal for many corals, but **excess** can be a stress response, relevant to the mucus coat discussion in our [does touching coral kill it guide](/does-touching-coral-kill-it/).
 

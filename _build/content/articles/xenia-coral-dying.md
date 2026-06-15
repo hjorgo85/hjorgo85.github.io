@@ -41,7 +41,7 @@ faq:
     a: "**Temporary changes in pulsing rate are common and not necessarily concerning** — Xenia's pulsing can slow or pause in response to things like feeding, lighting changes, or general tank disturbances, similar to how [other corals show temporary changes in polyp extension](/kenya-tree-coral-not-opening/) in response to environmental changes. A **crash** is distinguished by **progression over days** — pulsing that doesn't resume, followed by visible tissue changes (deflation, recession, or the colony appearing to 'melt' or detach), often affecting **multiple colonies** rather than just one. The same general monitoring approach covered in our [brain coral skeleton guide](/brain-coral-skeleton/) applies: a single observation of reduced pulsing isn't informative on its own, but **a consistent trend over several days, especially across multiple Xenia colonies**, is more indicative of a broader issue."
   - q: "If my Xenia is declining, what else besides a 'crash' should I consider?"
     a: "**A few other possibilities are worth ruling out before assuming a tank-wide crash is underway.** Some **nudibranch species specifically target Xenia** as a food source — a localized decline limited to one colony, especially with any visible small organisms on or near the coral, could point to predation rather than a broader issue (a different mechanism than the [pest identification discussed for other reef hitchhikers](/amphipods-reef-tank/), but worth checking for in the same spirit). **Physical damage** — from handling, flow, or contact with another animal — can also cause localized decline. And **allelopathy from a neighboring coral** that's grown into contact, the kind of competitive interaction discussed in our [chalice coral guide](/how-do-chalice-corals-grow/), could affect Xenia near the contact point specifically. If decline is **limited to one colony or area** rather than spreading across multiple Xenia colonies in the tank, these more localized explanations are worth investigating before concluding it's a broader crash."
-related: ["kenya-tree-coral-not-opening", "sick-anemone", "do-corals-have-brains", "brain-coral-skeleton", "what-to-feed-mushroom-corals"]
+related: ["kenya-tree-coral-not-opening", "sick-anemone", "do-corals-have-brains", "brain-coral-skeleton", "what-to-feed-mushroom-corals", "green-star-polyps-growth-rate"]
 sources:
   - label: "Soft Coral Care & Troubleshooting — Reef2Reef"
     url: "https://www.reef2reef.com/forums/softies-gorgonians-zoanthids.91/"
@@ -50,6 +50,8 @@ sources:
 ---
 
 Xenia has two reputations that seem to contradict each other: it's one of the fastest-growing, most "weedy" corals in the hobby — and it's also one of the corals most associated with sudden, unexplained mass die-offs. Both reputations are earned.
+
+It's worth comparing Xenia to another notoriously fast grower, [green star polyps](/green-star-polyps-growth-rate/) — GSP shares Xenia's reputation for rapid, sometimes invasive growth, but generally doesn't share its reputation for sudden crashes, which is a useful reminder that "grows fast" and "is reliable long-term" are separate questions.
 
 ## Short Answer
 

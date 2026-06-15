@@ -41,7 +41,7 @@ faq:
     a: "**Growth rate can vary between coral species, individual colonies, and tank placement — slower relative growth isn't automatically a sign of a problem.** If your torch coral otherwise looks healthy — tentacles extending normally, good coloration, [no signs of recession](/brain-coral-skeleton/) — but simply seems to be adding heads more slowly than, say, a [hammer coral](/how-do-hammer-corals-grow/) in the same tank, this could reflect **normal species-level or individual variation** rather than anything wrong with the torch specifically. If you want to investigate further, comparing the torch's **placement** (lighting and flow at that specific spot) against faster-growing corals in the tank might reveal a localized difference — but a torch coral that's otherwise thriving doesn't need its growth rate 'fixed' just because it's on the slower end."
   - q: "Can I frag a torch coral once it has multiple heads?"
     a: "**Yes — once a torch coral colony has developed multiple heads, individual heads can potentially be separated into new frags**, following a similar general approach to [fragging hammer corals](/how-to-frag-hammer-coral/) — both are Euphyllia species with broadly similar branching growth forms. The key considerations are similar across Euphyllia fragging: allowing tissue to retract before cutting the skeleton between heads, using appropriate tools (bone cutters or a Dremel-type tool with a cutting wheel are commonly used), and giving the resulting frags time to recover in a low-stress environment afterward. Fragging is generally something to consider only once a colony has **multiple well-established heads** — fragging a colony that's still developing its first additional heads removes growth that took a long time to develop."
-related: ["lps-corals-for-beginners", "how-do-hammer-corals-grow", "how-to-frag-hammer-coral", "alveopora-coral-care", "does-coral-dip-kill-aiptasia"]
+related: ["lps-corals-for-beginners", "how-do-hammer-corals-grow", "how-to-frag-hammer-coral", "alveopora-coral-care", "does-coral-dip-kill-aiptasia", "frogspawn-vs-hammer-coral"]
 sources:
   - label: "LPS Coral Care & Identification — Reef2Reef"
     url: "https://www.reef2reef.com/forums/lps-corals.90/"
@@ -50,6 +50,8 @@ sources:
 ---
 
 Torch coral growth is one of those things that's easy to feel impatient about — the day-to-day view rarely looks different, and yet colonies that started as single heads do eventually become the multi-head centerpieces that show up in tank photos months and years later.
+
+Torch coral is one of three closely related *Euphyllia* species often discussed together — see our [frogspawn vs. hammer coral comparison](/frogspawn-vs-hammer-coral/) for how torch fits alongside its two relatives, including why their growth rates and care needs line up so closely.
 
 ## Short Answer
 
