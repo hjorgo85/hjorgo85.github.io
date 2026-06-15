@@ -84,6 +84,10 @@ If the goal is visual interest, cover, and territory division — the functional
 - **Crushed coral or aragonite substrate** — functional (buffering) and can be paired with sand for a natural look, as discussed in our [peacock cichlid stocking guide](/75-gallon-peacock-cichlid-tank/).
 - **Ceramic or resin cichlid caves and pots** — purpose-made for cichlid tanks, provide territory/breeding sites with zero effect on water chemistry.
 
+## Not All Driftwood Is the Same — But the Chemistry Is
+
+Keepers shopping for driftwood will run into a range of named types — Malaysian driftwood, Mopani wood, and others — each with its own look and handling quirks, covered in our [Malaysian driftwood vs. Mopani comparison](/malaysian-driftwood-vs-mopani/). For an African cichlid tank, though, the **specific type of driftwood doesn't change the underlying issue** — all of them leach tannins and work against hard, alkaline water to some degree. Choosing a "better" driftwood type doesn't solve the fundamental mismatch; it's a question of whether driftwood belongs in this kind of tank at all, not which driftwood.
+
 ## How to Use Driftwood Cautiously If You Want It
 
 1. **Pre-soak or boil the driftwood** for as long as practical before adding it — this leaches out a meaningful amount of tannins upfront.

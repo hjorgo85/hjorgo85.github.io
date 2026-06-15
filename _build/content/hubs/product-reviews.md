@@ -11,10 +11,10 @@ groups:
     slugs: ["75-vs-90-gallon-aquarium", "65-gallon-hexagon-aquarium"]
   - title: "Plant & Treatment Comparisons"
     slugs: ["cabomba-vs-hornwort", "methylene-blue-vs-malachite-green", "flame-moss-vs-java-moss", "seachem-stability-vs-tetra-safestart"]
-  - title: "Fish Species Comparisons"
-    slugs: ["johanni-vs-maingano", "red-devil-fish-vs-oscar"]
+  - title: "Species Comparisons"
+    slugs: ["johanni-vs-maingano", "red-devil-fish-vs-oscar", "livingstonii-vs-venustus", "nerite-snails-vs-mystery-snails"]
   - title: "Coral & Substrate Comparisons"
-    slugs: ["frogspawn-vs-hammer-coral", "crushed-coral-vs-live-sand"]
+    slugs: ["frogspawn-vs-hammer-coral", "crushed-coral-vs-live-sand", "malaysian-driftwood-vs-mopani"]
 faq:
   - q: "Do you only review products you've personally used?"
     a: "We prioritize hands-on testing where possible, and clearly note when a review is based on extended use vs. research compiled from manufacturer documentation and the broader hobbyist community. Either way, our reviews focus on practical trade-offs — noise, reliability, mounting, compatibility — not just spec sheets."

@@ -79,6 +79,10 @@ Both johanni and maingano are **herbivorous Mbuna grazers**, and both carry the 
 
 Johanni and maingano are commonly kept in the same tank, and the **coloration difference actually helps** here — males of visibly different species/color patterns are somewhat less likely to fixate on each other as rivals than multiple similarly-colored species would be. The same general rules apply as for any multi-species Mbuna stocking plan: adequate size, heavy rockwork, and a high enough total fish count to spread out aggression. If either species shows early bloat-like symptoms, our [Epsom salt guide for African cichlids](/epsom-salt-for-african-cichlids/) covers a commonly used first response.
 
+## Beyond Mbuna: Larger Predatory Haps
+
+Johanni and maingano are both Mbuna — smaller, herbivorous, rock-dwelling cichlids. Some keepers eventually look to add (or build a separate tank around) larger, more predatory Lake Malawi haps, which come with a different set of considerations around size, diet, and tankmate selection. Our [livingstonii vs. venustus comparison](/livingstonii-vs-venustus/) covers two of the more notable species in that category — both considerably larger than johanni or maingano, and both predatory enough that they're not safe tankmates for Mbuna-sized fish once mature.
+
 ## Quick Reference
 
 - [ ] Johanni: dramatic male/female color difference (blue/black males, orange-yellow females/juveniles)

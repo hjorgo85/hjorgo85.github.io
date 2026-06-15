@@ -41,7 +41,7 @@ faq:
     a: "Cyanoacrylate cures via a reaction with moisture, which means water actually speeds up curing rather than preventing it. Underwater, a gel CA glue typically forms a secure initial bond within 10-30 seconds — enough to hold a frag in place without needing to hold it manually — and reaches a fuller cure within a few minutes. This is faster than curing in open air, which depends on ambient humidity."
   - q: "Can I use super glue to fix a crack in my aquarium?"
     a: "No — cyanoacrylate is not a structural aquarium sealant and shouldn't be used for tank seams, cracks, or anything load-bearing on the tank itself. It's well suited to attaching frags to plugs/rock and light aquascaping tasks, but structural repairs to the tank need a proper aquarium-rated silicone sealant and, for anything beyond a minor cosmetic issue, professional assessment of whether the tank is still safe to use."
-related: ["pla-safe-reef-tank", "sponges-reef-tank", "raise-alkalinity-reef-tank", "specific-gravity-reef-tank", "acceptable-tds-reef-tank"]
+related: ["pla-safe-reef-tank", "sponges-reef-tank", "raise-alkalinity-reef-tank", "specific-gravity-reef-tank", "acceptable-tds-reef-tank", "malaysian-driftwood-vs-mopani"]
 sources:
   - label: "Frag Attachment & Aquascaping — Bulk Reef Supply"
     url: "https://www.bulkreefsupply.com/"
@@ -78,6 +78,8 @@ Not every tube labeled "super glue" is equally well-suited to aquarium use, most
 5. **Avoid excess glue near coral tissue.** CA cures quickly but isn't instant, and a coral's polyps can be irritated by direct contact with curing glue. Apply glue to the base/skeleton area, not onto living tissue.
 
 For securing loose rockwork — a common need any time you're adjusting aquascaping while addressing issues like [sponge](/sponges-reef-tank/) overgrowth or repositioning pieces — the same gel CA glue works for rock-to-rock bonds, though epoxy putty is sometimes preferred for larger structural joins that need to bear more weight.
+
+This same gel cyanoacrylate isn't limited to reef tanks, either — freshwater aquascapers commonly reach for it to anchor driftwood pieces together or to a base rock, including the kinds of wood compared in our [Malaysian driftwood vs. Mopani guide](/malaysian-driftwood-vs-mopani/). The chemistry and application are identical; only the hardscape material changes.
 
 ## What to Avoid
 

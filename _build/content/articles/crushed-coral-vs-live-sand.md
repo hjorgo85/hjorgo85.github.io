@@ -75,6 +75,10 @@ If your stocking plan includes any species that **sifts sand as a feeding behavi
 
 Generally, **no** — not because of any chemical incompatibility, but because substrates with different particle sizes tend to **separate over time** rather than blend, as water movement and livestock activity sort particles by size into an uneven bed. If a stocking plan seems to call for both a buffering substrate and a fine sand bed for sand-sifting or burrowing species — similar to the substrate considerations covered for the brackish [dragon goby](/dragon-goby/) — it's more practical to pick the substrate that best serves your **primary livestock's needs** (almost always fine sand, if sand-sifting or burrowing species are involved) and handle buffering through other means.
 
+## Substrate and Hardscape Work Together (or Against Each Other)
+
+Substrate choice doesn't exist in isolation from the rest of an aquascape. A buffering, hardness-raising substrate like crushed coral and a tannin-leaching hardscape element like driftwood pull water chemistry in **opposite directions** — the same tension covered from the driftwood side in our [Malaysian driftwood vs. Mopani comparison](/malaysian-driftwood-vs-mopani/). Neither choice is "wrong" on its own, but pairing them means each is working to undo some of what the other is doing, which is worth factoring in before committing to both.
+
 ## Quick Reference
 
 - [ ] Both substrates are calcium carbonate, but particle size — not chemistry — drives most practical differences
