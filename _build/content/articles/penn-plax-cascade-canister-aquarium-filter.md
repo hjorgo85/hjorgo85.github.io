@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-11-09"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/penn-plax-cascade-canister-aquarium-filter.webp"
 imageAlt: "A Penn Plax Cascade canister filter sitting beneath an aquarium with intake and output hoses connected"
 imageWidth: 1200
 imageHeight: 800

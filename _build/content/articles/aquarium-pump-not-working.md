@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-07-20"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/aquarium-pump-not-working.webp"
 imageAlt: "An aquarium air pump connected to airline tubing and an airstone in a fish tank"
 imageWidth: 1200
 imageHeight: 800

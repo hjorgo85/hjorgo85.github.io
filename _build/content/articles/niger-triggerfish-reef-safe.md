@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-11-29"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/niger-triggerfish-reef-safe.webp"
 imageAlt: "Niger triggerfish (Odonus niger) with blue-green body and red tooth mark swimming mid-water in a large reef aquarium"
 imageWidth: 1200
 imageHeight: 800

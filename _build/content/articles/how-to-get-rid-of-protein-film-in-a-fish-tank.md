@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2030-06-05"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-to-get-rid-of-protein-film-in-a-fish-tank.webp"
 imageAlt: "A thin oily film visible on the surface of aquarium water, with ripples from a filter outflow nearby"
 imageWidth: 1200
 imageHeight: 800

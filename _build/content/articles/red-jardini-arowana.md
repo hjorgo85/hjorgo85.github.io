@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-08-09"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/red-jardini-arowana.webp"
 imageAlt: "A Red Jardini arowana swimming near the surface of a large aquarium"
 imageWidth: 1200
 imageHeight: 800

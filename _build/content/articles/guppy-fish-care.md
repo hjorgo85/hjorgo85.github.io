@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-01-25"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/guppy-fish-care.webp"
 imageAlt: "Brightly colored male guppies with flowing tails swimming in a planted aquarium"
 imageWidth: 1200
 imageHeight: 800

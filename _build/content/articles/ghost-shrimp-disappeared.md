@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-04-28"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/ghost-shrimp-disappeared.webp"
 imageAlt: "A translucent ghost shrimp partially hidden among aquarium plants and decorations"
 imageWidth: 1200
 imageHeight: 800

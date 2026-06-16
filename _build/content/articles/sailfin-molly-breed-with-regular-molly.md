@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-03-22"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/sailfin-molly-breed-with-regular-molly.webp"
 imageAlt: "A sailfin molly and a shortfin molly swimming together in a community aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-12-13"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/betta-fish.webp"
 imageAlt: "Several betta fish of different fin types and colors in side-by-side aquarium displays"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2031-10-08"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/aquarium-sump-size-calculator.webp"
 imageAlt: "Aquarium sump tank below a display tank, divided into compartments for filtration media, equipment, and a return pump"
 imageWidth: 1200
 imageHeight: 800

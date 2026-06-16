@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-12-27"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/betta-fish-fungal-infections.webp"
 imageAlt: "A betta fish with a small patch of cottony fungal growth near its fin edge"
 imageWidth: 1200
 imageHeight: 800

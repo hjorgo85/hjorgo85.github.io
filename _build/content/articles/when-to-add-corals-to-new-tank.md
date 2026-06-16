@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-03-18"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/when-to-add-corals-to-new-tank.webp"
 imageAlt: "A newly set up reef aquarium with live rock and sand, before corals have been added"
 imageWidth: 1200
 imageHeight: 800

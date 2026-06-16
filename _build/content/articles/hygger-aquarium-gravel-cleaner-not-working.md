@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-10-26"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/hygger-aquarium-gravel-cleaner-not-working.webp"
 imageAlt: "A battery-powered aquarium gravel cleaner with its intake tube resting in the substrate of a fish tank"
 imageWidth: 1200
 imageHeight: 800

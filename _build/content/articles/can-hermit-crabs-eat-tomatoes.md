@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-02-17"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-hermit-crabs-eat-tomatoes.webp"
 imageAlt: "A small piece of tomato placed on sand substrate near a land hermit crab"
 imageWidth: 1200
 imageHeight: 800

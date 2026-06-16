@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-04-16"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-do-hammer-corals-eat.webp"
 imageAlt: "A hammer coral with extended tentacles capturing a piece of food in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

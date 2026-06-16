@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2023-02-07"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/angelfish-skin-peeling.webp"
 imageAlt: "A freshwater angelfish with visible vertical stress bars swimming near plants"
 imageWidth: 1200
 imageHeight: 800

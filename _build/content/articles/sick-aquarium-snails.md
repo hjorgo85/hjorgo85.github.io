@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-07-07"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/sick-aquarium-snails.webp"
 imageAlt: "Several different aquarium snail species — including a ramshorn and a nerite snail — on a piece of driftwood"
 imageWidth: 1200
 imageHeight: 800

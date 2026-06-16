@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-10-15"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/kenya-tree-coral-not-opening.webp"
 imageAlt: "A Kenya tree coral with polyps closed and the branches contracted, in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

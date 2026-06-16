@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-11-12"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-to-feed-mushroom-corals.webp"
 imageAlt: "A cluster of mushroom corals (Discosoma) with flat, disc-shaped polyps open in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

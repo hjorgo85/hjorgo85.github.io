@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-03-19"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/problems-with-high-magnesium-in-a-reef-tank.webp"
 imageAlt: "Magnesium test kit reagents and a titration syringe next to a reef tank sump, used to check the ideal 1250-1350 ppm range"
 imageWidth: 1200
 imageHeight: 800

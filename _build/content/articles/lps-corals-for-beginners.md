@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-01-23"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/lps-corals-for-beginners.webp"
 imageAlt: "Several large-polyp stony corals, including hammer and torch corals, growing on rockwork in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

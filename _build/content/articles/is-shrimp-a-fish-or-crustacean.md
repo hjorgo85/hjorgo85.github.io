@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-03-31"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/is-shrimp-a-fish-or-crustacean.webp"
 imageAlt: "A small freshwater shrimp with visible jointed legs and exoskeleton resting on a leaf"
 imageWidth: 1200
 imageHeight: 800

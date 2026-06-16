@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2023-05-02"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-can-i-feed-my-dragon-goby-fish.webp"
 imageAlt: "A dragon goby emerging from sand to take a sinking food pellet"
 imageWidth: 1200
 imageHeight: 800

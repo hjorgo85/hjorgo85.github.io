@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2031-02-12"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/royal-gramma.webp"
 imageAlt: "A royal gramma fish with its distinctive purple front half and yellow back half near a reef cave"
 imageWidth: 1200
 imageHeight: 800

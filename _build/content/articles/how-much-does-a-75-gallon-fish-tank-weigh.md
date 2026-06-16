@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2030-03-27"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-much-does-a-75-gallon-fish-tank-weigh.webp"
 imageAlt: "A large 75-gallon aquarium filled with water, substrate, and decor sitting on a sturdy stand"
 imageWidth: 1200
 imageHeight: 800

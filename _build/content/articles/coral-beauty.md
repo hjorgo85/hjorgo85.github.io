@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2026-08-18"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/coral-beauty.webp"
 imageAlt: "Coral beauty angelfish (Centropyge bispinosa) with a deep purple body and orange-yellow highlights swimming near live rock"
 imageWidth: 1200
 imageHeight: 800

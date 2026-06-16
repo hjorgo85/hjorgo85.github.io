@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2031-01-15"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/aiptasia-or-feather-duster.webp"
 imageAlt: "Side-by-side comparison of an aiptasia anemone and a feather duster worm in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

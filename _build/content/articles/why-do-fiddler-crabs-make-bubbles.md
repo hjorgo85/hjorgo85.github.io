@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-11-11"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/why-do-fiddler-crabs-make-bubbles.webp"
 imageAlt: "A fiddler crab on damp sand with small bubbles visible near its mouthparts"
 imageWidth: 1200
 imageHeight: 800

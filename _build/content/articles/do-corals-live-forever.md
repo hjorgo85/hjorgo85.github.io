@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-07-09"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/do-corals-live-forever.webp"
 imageAlt: "A large, long-established coral colony on a reef, illustrating the long potential lifespan of coral colonies"
 imageWidth: 1200
 imageHeight: 800

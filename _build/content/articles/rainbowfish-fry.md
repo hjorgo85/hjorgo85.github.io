@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-05-23"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/rainbowfish-fry.webp"
 imageAlt: "A pair of brightly colored rainbowfish swimming near fine-leaved aquarium plants"
 imageWidth: 1200
 imageHeight: 800

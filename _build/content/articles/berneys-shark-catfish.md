@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-07-12"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/berneys-shark-catfish.webp"
 imageAlt: "A Berney's catfish, an Australian native shark catfish, swimming in a large aquarium"
 imageWidth: 1200
 imageHeight: 800

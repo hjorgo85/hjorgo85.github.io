@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2030-07-17"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/do-fish-get-cold.webp"
 imageAlt: "A thermometer in an aquarium showing the water temperature, with a fish swimming nearby"
 imageWidth: 1200
 imageHeight: 800

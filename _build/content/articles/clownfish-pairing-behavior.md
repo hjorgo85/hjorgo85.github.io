@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2021-11-18"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/clownfish-pairing-behavior.webp"
 imageAlt: "Pair of clownfish of different sizes hovering together near host anemone tentacles, showing size-based pair hierarchy"
 imageWidth: 1200
 imageHeight: 800

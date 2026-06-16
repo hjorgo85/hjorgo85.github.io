@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-08-03"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-long-should-you-run-an-air-pump-in-a-fish-tank.webp"
 imageAlt: "An aquarium air pump and airstone running continuously in a community fish tank"
 imageWidth: 1200
 imageHeight: 800

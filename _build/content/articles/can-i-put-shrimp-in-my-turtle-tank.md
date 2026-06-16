@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-09-29"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-i-put-shrimp-in-my-turtle-tank.webp"
 imageAlt: "A small freshwater turtle in an aquarium with rocks and plants, with a ghost shrimp visible nearby"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2031-10-22"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/are-aqueon-tanks-good.webp"
 imageAlt: "Aqueon glass aquarium kit with hood, light, and filter on a store shelf alongside similar tank kits"
 imageWidth: 1200
 imageHeight: 800

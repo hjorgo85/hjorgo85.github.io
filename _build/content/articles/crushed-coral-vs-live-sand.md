@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2031-06-04"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/crushed-coral-vs-live-sand.webp"
 imageAlt: "Side-by-side comparison of coarse crushed coral substrate and fine live sand in an aquarium"
 imageWidth: 1200
 imageHeight: 800

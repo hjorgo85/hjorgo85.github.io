@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-03-30"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-deep-should-my-aquarium-filter-intake-be.webp"
 imageAlt: "An aquarium filter intake strainer positioned a few inches above the substrate in a planted tank"
 imageWidth: 1200
 imageHeight: 800

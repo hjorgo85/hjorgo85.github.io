@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-08-15"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/maroon-clownfish-premnas-biaculeatus.webp"
 imageAlt: "Maroon clownfish (Premnas biaculeatus) with white bars hosting in a bubble-tip anemone"
 imageWidth: 1200
 imageHeight: 800

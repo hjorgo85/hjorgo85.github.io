@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-08-06"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-do-corals-eat.webp"
 imageAlt: "A coral polyp with tentacles extended, capturing food particles from the water"
 imageWidth: 1200
 imageHeight: 800

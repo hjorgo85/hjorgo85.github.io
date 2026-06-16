@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2030-07-31"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/do-fish-float-when-they-die.webp"
 imageAlt: "An empty aquarium with calm water, illustrating a tank that needs checking for a fish that may have sunk out of sight"
 imageWidth: 1200
 imageHeight: 800

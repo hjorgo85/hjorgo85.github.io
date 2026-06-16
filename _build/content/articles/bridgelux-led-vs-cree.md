@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2031-11-05"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/bridgelux-led-vs-cree.webp"
 imageAlt: "Close-up of LED chips mounted on a heatsink for a DIY aquarium light build"
 imageWidth: 1200
 imageHeight: 800

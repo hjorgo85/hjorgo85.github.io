@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-11-15"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/dwarf-gouramis.webp"
 imageAlt: "A colorful male dwarf gourami swimming among plants in a community aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-09-17"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/bam-bam-zoanthid-care.webp"
 imageAlt: "A cluster of Bam Bam zoanthid polyps, showing their characteristic vivid orange and green coloration"
 imageWidth: 1200
 imageHeight: 800

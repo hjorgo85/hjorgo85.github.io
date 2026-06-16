@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2031-04-23"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/montipora-turning-white.webp"
 imageAlt: "A montipora coral colony with a section of bare white skeleton visible where tissue has receded"
 imageWidth: 1200
 imageHeight: 800

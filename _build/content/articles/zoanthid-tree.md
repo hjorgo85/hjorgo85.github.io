@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-09-03"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/zoanthid-tree.webp"
 imageAlt: "A branching acrylic frag rack, often called a zoanthid tree, holding multiple colorful zoanthid frags"
 imageWidth: 1200
 imageHeight: 800
