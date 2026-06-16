@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-08-05"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/best-fish-for-reef-tank.webp"
 imageAlt: "Clownfish, firefish, and cardinalfish swimming together among corals in a reef tank"
 imageWidth: 1200
 imageHeight: 800

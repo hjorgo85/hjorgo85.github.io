@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2031-02-26"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/gobies-fish.webp"
 imageAlt: "A small goby fish perched on rock near the substrate in an aquarium"
 imageWidth: 1200
 imageHeight: 800

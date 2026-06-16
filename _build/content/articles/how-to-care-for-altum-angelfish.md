@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2023-05-30"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-to-care-for-altum-angelfish.webp"
 imageAlt: "A tall-bodied altum angelfish swimming among driftwood and leaf litter in a blackwater-style aquarium"
 imageWidth: 1200
 imageHeight: 800

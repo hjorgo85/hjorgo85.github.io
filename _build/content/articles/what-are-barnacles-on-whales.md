@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2030-12-18"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-are-barnacles-on-whales.webp"
 imageAlt: "A whale's skin showing patches of attached barnacles"
 imageWidth: 1200
 imageHeight: 800

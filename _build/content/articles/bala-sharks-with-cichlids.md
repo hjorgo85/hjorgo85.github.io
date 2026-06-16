@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2021-12-15"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/bala-sharks-with-cichlids.webp"
 imageAlt: "A school of silver Bala sharks swimming in a large planted aquarium"
 imageWidth: 1200
 imageHeight: 800

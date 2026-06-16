@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-06-21"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/orange-coralline-algae.webp"
 imageAlt: "Orange coralline algae crusting over live rock in a reef aquarium alongside purple patches"
 imageWidth: 1200
 imageHeight: 800

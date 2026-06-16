@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-07-21"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-mystery-snails-live-in-cold-water.webp"
 imageAlt: "A mystery snail on aquarium glass next to a thermometer reading in the mid-70s Fahrenheit"
 imageWidth: 1200
 imageHeight: 800

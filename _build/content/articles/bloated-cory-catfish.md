@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-05-31"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/bloated-cory-catfish.webp"
 imageAlt: "A corydoras catfish with a visibly swollen abdomen resting on aquarium substrate"
 imageWidth: 1200
 imageHeight: 800

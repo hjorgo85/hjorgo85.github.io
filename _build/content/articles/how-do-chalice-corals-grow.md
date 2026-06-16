@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-04-02"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-do-chalice-corals-grow.webp"
 imageAlt: "A colorful chalice coral with an encrusting, plating growth form and distinct polyp eyes across its surface"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/turtles/"
 author: "hektor-jorgo"
 datePublished: "2026-11-24"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-i-keep-a-turtle-in-a-30-gallon-tank.webp"
 imageAlt: "A 30-gallon aquarium set up as a turtle tank with a basking platform and shallow water"
 imageWidth: 1200
 imageHeight: 800

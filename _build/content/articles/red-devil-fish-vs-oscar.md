@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2029-03-14"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/red-devil-fish-vs-oscar.webp"
 imageAlt: "A large red cichlid and a large mottled cichlid with an eyespot near the tail, each in a spacious aquarium"
 imageWidth: 1200
 imageHeight: 800

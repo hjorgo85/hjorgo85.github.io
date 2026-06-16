@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-04-12"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-to-trim-hornwort.webp"
 imageAlt: "Scissors trimming a healthy green sprig of hornwort in a planted aquarium"
 imageWidth: 1200
 imageHeight: 800

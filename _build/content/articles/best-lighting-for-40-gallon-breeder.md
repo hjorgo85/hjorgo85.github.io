@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-07-06"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/best-lighting-for-40-gallon-breeder.webp"
 imageAlt: "A 40-gallon breeder aquarium with a wide LED light fixture spanning the tank's width"
 imageWidth: 1200
 imageHeight: 800

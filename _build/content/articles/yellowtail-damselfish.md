@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2024-05-10"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/yellowtail-damselfish.webp"
 imageAlt: "Yellowtail damselfish (Chrysiptera parasema) swimming over live rock in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

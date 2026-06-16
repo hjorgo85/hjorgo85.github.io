@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-04-02"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/domino-damselfish.webp"
 imageAlt: "Domino damselfish (Dascyllus trimaculatus) with black body and three white spots swimming near rockwork"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2031-03-26"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/bioluminescent-aquarium-fish.webp"
 imageAlt: "A reef aquarium under blue LED lighting showing corals and fish glowing in vivid colors"
 imageWidth: 1200
 imageHeight: 800

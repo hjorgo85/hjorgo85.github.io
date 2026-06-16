@@ -9,7 +9,7 @@ categoryUrl: "/turtles/"
 author: "hektor-jorgo"
 datePublished: "2026-12-08"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-i-put-seashells-in-my-turtle-tank.webp"
 imageAlt: "Decorative seashells arranged on the substrate of a freshwater turtle tank"
 imageWidth: 1200
 imageHeight: 800

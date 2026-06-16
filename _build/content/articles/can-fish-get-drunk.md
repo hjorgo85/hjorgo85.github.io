@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2030-08-14"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-fish-get-drunk.webp"
 imageAlt: "A fish swimming near the surface of an aquarium, with a bottle of cleaning spray sitting nearby on a shelf"
 imageWidth: 1200
 imageHeight: 800

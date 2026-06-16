@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2023-02-21"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/koi-fish-skin-peeling.webp"
 imageAlt: "A koi swimming near the surface of an outdoor pond, showing a patch of pale discoloration on its side"
 imageWidth: 1200
 imageHeight: 800

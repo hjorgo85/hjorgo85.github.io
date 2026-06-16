@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2027-12-07"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/saltwater-aquarium-fish.webp"
 imageAlt: "A variety of saltwater aquarium fish including a clownfish, damselfish, and tang swimming among live rock"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2031-07-02"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/brackish-water-paludarium.webp"
 imageAlt: "Paludarium with a sloped sand bank, mangrove-style roots, and shallow brackish water housing fiddler crabs"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2029-02-14"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/flame-moss-vs-java-moss.webp"
 imageAlt: "Two types of aquarium moss attached to driftwood, one growing in upright spiraling strands and the other as a dense flat mat"
 imageWidth: 1200
 imageHeight: 800

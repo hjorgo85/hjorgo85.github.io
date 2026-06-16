@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2029-01-31"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/fluval-fx6-air-trapped.webp"
 imageAlt: "A Fluval FX6 canister filter with its media basket stack partially removed for inspection"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-04-14"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/will-crayfish-eat-snails.webp"
 imageAlt: "A freshwater crayfish on aquarium substrate near an empty snail shell"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-01-09"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-corals-do-clown-fish-host.webp"
 imageAlt: "A clownfish nestled among the tentacles of a host anemone in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

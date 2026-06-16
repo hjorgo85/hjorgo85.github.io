@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-02-22"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/guppy-tuberculosis.webp"
 imageAlt: "An emaciated guppy with faded coloration, a symptom sometimes associated with fish tuberculosis"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-11-14"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/anemone-expelling-zooxanthellae.webp"
 imageAlt: "Brownish particles drifting in the water near a sea anemone in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

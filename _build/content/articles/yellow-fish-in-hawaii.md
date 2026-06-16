@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2031-03-12"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/yellow-fish-in-hawaii.webp"
 imageAlt: "A bright yellow tang swimming over a Hawaiian coral reef"
 imageWidth: 1200
 imageHeight: 800

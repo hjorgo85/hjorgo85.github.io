@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2029-02-28"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/microbe-lift-review.webp"
 imageAlt: "A bottle of liquid bacterial supplement being added to an aquarium during setup"
 imageWidth: 1200
 imageHeight: 800

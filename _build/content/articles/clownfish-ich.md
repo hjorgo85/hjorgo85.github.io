@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-09-12"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/clownfish-ich.webp"
 imageAlt: "Clownfish showing white spots on its body consistent with marine ich infection"
 imageWidth: 1200
 imageHeight: 800

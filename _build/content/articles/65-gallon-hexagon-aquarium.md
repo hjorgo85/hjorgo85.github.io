@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2031-08-27"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/65-gallon-hexagon-aquarium.webp"
 imageAlt: "Hexagon-shaped aquarium with six glass panels forming a wide hexagonal footprint, viewed from above at an angle"
 imageWidth: 1200
 imageHeight: 800

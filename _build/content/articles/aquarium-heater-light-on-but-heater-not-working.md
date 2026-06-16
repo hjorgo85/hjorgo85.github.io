@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-09-28"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/aquarium-heater-light-on-but-heater-not-working.webp"
 imageAlt: "An aquarium heater submerged in a tank with its indicator light visible"
 imageWidth: 1200
 imageHeight: 800

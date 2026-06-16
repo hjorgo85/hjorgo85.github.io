@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2029-03-28"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/is-top-fin-a-good-brand.webp"
 imageAlt: "A range of house-brand aquarium products including a tank, filter, heater, and food containers on a store shelf"
 imageWidth: 1200
 imageHeight: 800

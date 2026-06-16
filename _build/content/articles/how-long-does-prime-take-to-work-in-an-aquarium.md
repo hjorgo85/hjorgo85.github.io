@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2029-12-19"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-long-does-prime-take-to-work-in-an-aquarium.webp"
 imageAlt: "A person adding drops of water conditioner to an aquarium with a dropper bottle"
 imageWidth: 1200
 imageHeight: 800

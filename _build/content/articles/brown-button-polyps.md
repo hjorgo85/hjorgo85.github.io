@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2031-04-09"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/brown-button-polyps.webp"
 imageAlt: "A colony of brown button polyps with flat round oral discs spread across live rock"
 imageWidth: 1200
 imageHeight: 800

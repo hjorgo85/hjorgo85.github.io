@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2031-06-18"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/brackish-water-aquarium-fish.webp"
 imageAlt: "Brackish aquarium with mangrove roots, sandy substrate, and fish near the water's surface"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-06-28"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/colombian-shark-catfish.webp"
 imageAlt: "A group of Colombian shark catfish swimming together in a large aquarium"
 imageWidth: 1200
 imageHeight: 800

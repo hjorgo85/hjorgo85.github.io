@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-04-05"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/american-flagfish.webp"
 imageAlt: "A male American flagfish displaying its red and blue-green coloration in a planted aquarium"
 imageWidth: 1200
 imageHeight: 800

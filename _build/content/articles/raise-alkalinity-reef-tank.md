@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-02-08"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/raise-alkalinity-reef-tank.webp"
 imageAlt: "Reef tank alkalinity test kit with titration syringe and color-change reagent next to a glass of aquarium water"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-10-31"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/why-is-my-anemone-shrinking.webp"
 imageAlt: "A bubble tip anemone that appears smaller and more contracted than usual in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

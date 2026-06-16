@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2030-10-09"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-does-a-small-fish-eat.webp"
 imageAlt: "Tiny fish fry feeding on microscopic food particles in an aquarium"
 imageWidth: 1200
 imageHeight: 800

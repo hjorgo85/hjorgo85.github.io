@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2030-10-23"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-do-fish-get-in-ponds.webp"
 imageAlt: "Small fish visible in a backyard garden pond"
 imageWidth: 1200
 imageHeight: 800

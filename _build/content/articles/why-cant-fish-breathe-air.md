@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2030-07-03"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/why-cant-fish-breathe-air.webp"
 imageAlt: "A close-up of a fish's gill structure, showing thin filaments designed to function underwater"
 imageWidth: 1200
 imageHeight: 800

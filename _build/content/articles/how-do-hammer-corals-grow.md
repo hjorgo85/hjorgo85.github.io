@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-03-05"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-do-hammer-corals-grow.webp"
 imageAlt: "A hammer coral with anchor-shaped polyp tips extended across multiple heads in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

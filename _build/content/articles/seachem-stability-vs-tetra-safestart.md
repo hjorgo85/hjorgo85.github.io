@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2029-04-11"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/seachem-stability-vs-tetra-safestart.webp"
 imageAlt: "Two bottles of liquid bacterial supplement next to a new aquarium being set up"
 imageWidth: 1200
 imageHeight: 800

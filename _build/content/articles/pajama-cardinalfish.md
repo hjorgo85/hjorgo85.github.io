@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-11-15"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/pajama-cardinalfish.webp"
 imageAlt: "Pajama cardinalfish (Sphaeramia nematoptera) with yellow head, dark eye band, and red-spotted rear body"
 imageWidth: 1200
 imageHeight: 800

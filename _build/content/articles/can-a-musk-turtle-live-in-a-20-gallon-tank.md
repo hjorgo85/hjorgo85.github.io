@@ -9,7 +9,7 @@ categoryUrl: "/turtles/"
 author: "hektor-jorgo"
 datePublished: "2026-11-10"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-a-musk-turtle-live-in-a-20-gallon-tank.webp"
 imageAlt: "A small common musk turtle resting on the bottom of a shallow aquarium near rockwork"
 imageWidth: 1200
 imageHeight: 800

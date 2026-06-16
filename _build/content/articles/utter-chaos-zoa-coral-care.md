@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-10-01"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/utter-chaos-zoa-coral-care.webp"
 imageAlt: "A colony of Utter Chaos zoanthid polyps showing variegated, multi-colored patterning"
 imageWidth: 1200
 imageHeight: 800

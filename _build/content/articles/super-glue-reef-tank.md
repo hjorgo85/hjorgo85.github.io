@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-05-27"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/super-glue-reef-tank.webp"
 imageAlt: "Tube of gel cyanoacrylate super glue being used to attach a coral frag to a ceramic plug"
 imageWidth: 1200
 imageHeight: 800

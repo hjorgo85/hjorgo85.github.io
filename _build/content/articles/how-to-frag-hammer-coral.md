@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-03-19"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-to-frag-hammer-coral.webp"
 imageAlt: "A hammer coral frag being cut from a larger colony using bone cutters, with several heads visible"
 imageWidth: 1200
 imageHeight: 800
