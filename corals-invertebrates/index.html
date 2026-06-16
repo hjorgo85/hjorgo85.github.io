@@ -661,16 +661,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/">Saltwater</a></li>
       <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/" aria-current="page">Corals &amp; Invertebrates</a></li>
@@ -682,8 +679,85 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" aria-current="page" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
   <div class="hub-hero">
     <div class="container">
@@ -699,6 +773,7 @@
   </div>
 
   <div class="container section">
+
     <div class="article-content">
       <h2 id="reef-tanks-run-on-more-than-fish">Reef Tanks Run on More Than Fish</h2>
 <p>Corals, cleanup crew invertebrates, and the occasional uninvited hitchhiker are a normal part of reef tank life — and most of the time, that&#39;s a good thing. A tank with a healthy population of amphipods, copepods, and other small invertebrates is generally a sign of a mature, stable system, not a problem to solve. The challenge is usually <strong>identification</strong>: telling apart the hitchhikers that are helping (cleanup crew, fish food) from the ones that can cause real problems (aiptasia, certain predatory crabs, mantis shrimp).</p>
@@ -708,11 +783,19 @@
 
     </div>
 
-    <section class="related-articles">
+    <!-- Filter tabs injected by JS when there are multiple groups -->
+    <div class="hub-filter-bar" id="hub-filters" role="tablist" aria-label="Filter articles" style="display:none"></div>
+
+    <section class="related-articles hub-group reveal" data-group-index="0" data-group-title="Reef Tank Cleanup Crew &amp; Hitchhikers">
       <h2>Reef Tank Cleanup Crew &amp; Hitchhikers</h2>
       <div class="grid grid-3">
         <a class="card" href="/amphipods-reef-tank/">
-          <img src="/assets/img/articles/amphipods-reef-tank.webp" alt="A small amphipod crustacean crawling across live rock in a reef tank, illuminated by blue lighting" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/amphipods-reef-tank.webp" alt="A small amphipod crustacean crawling across live rock in a reef tank, illuminated by blue lighting" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Amphipods in a Reef Tank: Pest, Food Source, or Healthy Sign?</h3>
@@ -720,7 +803,12 @@
           </div>
         </a>
         <a class="card" href="/nassarius-snail-eggs/">
-          <img src="/assets/img/articles/nassarius-snail-eggs.webp" alt="A cluster of small oval Nassarius snail egg capsules attached to aquarium glass" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/nassarius-snail-eggs.webp" alt="A cluster of small oval Nassarius snail egg capsules attached to aquarium glass" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Nassarius Snail Eggs: What They Look Like and What to Do</h3>
@@ -728,7 +816,12 @@
           </div>
         </a>
         <a class="card" href="/how-often-do-emerald-crabs-molt/">
-          <img src="/assets/img/articles/how-often-do-emerald-crabs-molt.webp" alt="An emerald green crab next to its empty, shed exoskeleton on live rock in a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-often-do-emerald-crabs-molt.webp" alt="An emerald green crab next to its empty, shed exoskeleton on live rock in a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Often Do Emerald Crabs Molt? Normal Behavior vs. a Dead Crab</h3>
@@ -736,7 +829,12 @@
           </div>
         </a>
         <a class="card" href="/porcelain-crab-reef-safe/">
-          <img src="/assets/img/articles/porcelain-crab-reef-safe.webp" alt="A small white and orange-spotted porcelain crab perched on the tentacles of a sea anemone" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/porcelain-crab-reef-safe.webp" alt="A small white and orange-spotted porcelain crab perched on the tentacles of a sea anemone" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Are Porcelain Crabs Reef Safe? Diet, Anemone Hosts &amp; Tank Mates</h3>
@@ -744,7 +842,12 @@
           </div>
         </a>
         <a class="card" href="/what-hermit-crabs-are-not-reef-safe/">
-          <img src="/assets/img/articles/what-hermit-crabs-are-not-reef-safe.webp" alt="A small blue leg hermit crab crawling across live rock near a snail shell in a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-hermit-crabs-are-not-reef-safe.webp" alt="A small blue leg hermit crab crawling across live rock near a snail shell in a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Which Hermit Crabs Aren&#x27;t Reef-Safe? Species and Real Risks to Know</h3>
@@ -752,7 +855,12 @@
           </div>
         </a>
         <a class="card" href="/does-coral-dip-kill-aiptasia/">
-          <img src="/assets/img/articles/does-coral-dip-kill-aiptasia.webp" alt="A coral frag being dipped in a container of treatment solution before being added to a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/does-coral-dip-kill-aiptasia.webp" alt="A coral frag being dipped in a container of treatment solution before being added to a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Does Coral Dip Kill Aiptasia? What Dipping Can and Can&#x27;t Do</h3>
@@ -760,7 +868,12 @@
           </div>
         </a>
         <a class="card" href="/best-mantis-shrimp-tank-mates/">
-          <img src="/assets/img/articles/best-mantis-shrimp-tank-mates.webp" alt="A mantis shrimp with large folded raptorial claws peeking out from a crevice in live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/best-mantis-shrimp-tank-mates.webp" alt="A mantis shrimp with large folded raptorial claws peeking out from a crevice in live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Best Mantis Shrimp Tank Mates (and Why There Usually Aren&#x27;t Any)</h3>
@@ -769,11 +882,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="1" data-group-title="Anemones, BTA Color Morphs &amp; Clownfish Hosting">
       <h2>Anemones, BTA Color Morphs &amp; Clownfish Hosting</h2>
       <div class="grid grid-3">
         <a class="card" href="/sick-anemone/">
-          <img src="/assets/img/articles/sick-anemone.webp" alt="A sea anemone with deflated, drooping tentacles in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/sick-anemone.webp" alt="A sea anemone with deflated, drooping tentacles in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>My Anemone Looks Sick: How to Tell What&#x27;s Wrong</h3>
@@ -781,7 +899,12 @@
           </div>
         </a>
         <a class="card" href="/anemone-mouth-open/">
-          <img src="/assets/img/articles/anemone-mouth-open.webp" alt="A sea anemone with its central mouth opening visibly distended in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/anemone-mouth-open.webp" alt="A sea anemone with its central mouth opening visibly distended in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Is It Normal for an Anemone&#x27;s Mouth to Be Open?</h3>
@@ -789,7 +912,12 @@
           </div>
         </a>
         <a class="card" href="/why-is-my-anemone-shrinking/">
-          <img src="/assets/img/articles/why-is-my-anemone-shrinking.webp" alt="A bubble tip anemone that appears smaller and more contracted than usual in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/why-is-my-anemone-shrinking.webp" alt="A bubble tip anemone that appears smaller and more contracted than usual in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Why Is My Anemone Shrinking? Common Causes</h3>
@@ -797,7 +925,12 @@
           </div>
         </a>
         <a class="card" href="/anemone-expelling-zooxanthellae/">
-          <img src="/assets/img/articles/anemone-expelling-zooxanthellae.webp" alt="Brownish particles drifting in the water near a sea anemone in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/anemone-expelling-zooxanthellae.webp" alt="Brownish particles drifting in the water near a sea anemone in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Why Is My Anemone Expelling Brown Stuff? (Zooxanthellae &amp; Bleaching)</h3>
@@ -805,7 +938,12 @@
           </div>
         </a>
         <a class="card" href="/anemone-with-purple-tips/">
-          <img src="/assets/img/articles/anemone-with-purple-tips.webp" alt="A bubble tip anemone with tentacles showing distinct purple coloration at the tips" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/anemone-with-purple-tips.webp" alt="A bubble tip anemone with tentacles showing distinct purple coloration at the tips" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Anemone with Purple Tips: Likely ID and What to Know</h3>
@@ -813,7 +951,12 @@
           </div>
         </a>
         <a class="card" href="/black-widow-anemone-or-rose-bta/">
-          <img src="/assets/img/articles/black-widow-anemone-or-rose-bta.webp" alt="A dark reddish-pink bubble tip anemone with tentacles spread in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/black-widow-anemone-or-rose-bta.webp" alt="A dark reddish-pink bubble tip anemone with tentacles spread in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Black Widow Anemone or Rose BTA? How to Tell Them Apart</h3>
@@ -821,7 +964,12 @@
           </div>
         </a>
         <a class="card" href="/colorado-sunburst-anemone/">
-          <img src="/assets/img/articles/colorado-sunburst-anemone.webp" alt="A bright orange and yellow bubble tip anemone displaying a sunburst color pattern in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/colorado-sunburst-anemone.webp" alt="A bright orange and yellow bubble tip anemone displaying a sunburst color pattern in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Colorado Sunburst Anemone: What This BTA Color Morph Is</h3>
@@ -829,7 +977,12 @@
           </div>
         </a>
         <a class="card" href="/what-corals-do-clown-fish-host/">
-          <img src="/assets/img/articles/what-corals-do-clown-fish-host.webp" alt="A clownfish nestled among the tentacles of a host anemone in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-corals-do-clown-fish-host.webp" alt="A clownfish nestled among the tentacles of a host anemone in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>What Corals (and Anemones) Do Clownfish Actually Host?</h3>
@@ -838,11 +991,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="2" data-group-title="LPS Coral Care: Hammer, Torch, Chalice &amp; Brain Corals">
       <h2>LPS Coral Care: Hammer, Torch, Chalice &amp; Brain Corals</h2>
       <div class="grid grid-3">
         <a class="card" href="/lps-corals-for-beginners/">
-          <img src="/assets/img/articles/lps-corals-for-beginners.webp" alt="Several large-polyp stony corals, including hammer and torch corals, growing on rockwork in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/lps-corals-for-beginners.webp" alt="Several large-polyp stony corals, including hammer and torch corals, growing on rockwork in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>LPS Corals for Beginners: What to Know Before You Start</h3>
@@ -850,7 +1008,12 @@
           </div>
         </a>
         <a class="card" href="/alveopora-coral-care/">
-          <img src="/assets/img/articles/alveopora-coral-care.webp" alt="An Alveopora coral with long, daisy-like polyps extended on stalks in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/alveopora-coral-care.webp" alt="An Alveopora coral with long, daisy-like polyps extended on stalks in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Alveopora Coral Care: Why It&#x27;s Trickier Than It Looks</h3>
@@ -858,7 +1021,12 @@
           </div>
         </a>
         <a class="card" href="/how-fast-do-torch-corals-grow/">
-          <img src="/assets/img/articles/how-fast-do-torch-corals-grow.webp" alt="A torch coral with long, flowing tentacles and multiple heads extended in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-fast-do-torch-corals-grow.webp" alt="A torch coral with long, flowing tentacles and multiple heads extended in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Fast Do Torch Corals Grow? Growth Rate and What Affects It</h3>
@@ -866,7 +1034,12 @@
           </div>
         </a>
         <a class="card" href="/how-do-hammer-corals-grow/">
-          <img src="/assets/img/articles/how-do-hammer-corals-grow.webp" alt="A hammer coral with anchor-shaped polyp tips extended across multiple heads in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-do-hammer-corals-grow.webp" alt="A hammer coral with anchor-shaped polyp tips extended across multiple heads in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Do Hammer Corals Grow? Growth Pattern and Care Basics</h3>
@@ -874,7 +1047,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-frag-hammer-coral/">
-          <img src="/assets/img/articles/how-to-frag-hammer-coral.webp" alt="A hammer coral frag being cut from a larger colony using bone cutters, with several heads visible" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-frag-hammer-coral.webp" alt="A hammer coral frag being cut from a larger colony using bone cutters, with several heads visible" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How to Frag a Hammer Coral: Step-by-Step Approach</h3>
@@ -882,7 +1060,12 @@
           </div>
         </a>
         <a class="card" href="/how-do-chalice-corals-grow/">
-          <img src="/assets/img/articles/how-do-chalice-corals-grow.webp" alt="A colorful chalice coral with an encrusting, plating growth form and distinct polyp eyes across its surface" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-do-chalice-corals-grow.webp" alt="A colorful chalice coral with an encrusting, plating growth form and distinct polyp eyes across its surface" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Do Chalice Corals Grow? Growth Form and Care Notes</h3>
@@ -890,7 +1073,12 @@
           </div>
         </a>
         <a class="card" href="/what-do-hammer-corals-eat/">
-          <img src="/assets/img/articles/what-do-hammer-corals-eat.webp" alt="A hammer coral with extended tentacles capturing a piece of food in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-do-hammer-corals-eat.webp" alt="A hammer coral with extended tentacles capturing a piece of food in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>What Do Hammer Corals Eat? A Practical Feeding Guide</h3>
@@ -898,7 +1086,12 @@
           </div>
         </a>
         <a class="card" href="/brain-coral-skeleton/">
-          <img src="/assets/img/articles/brain-coral-skeleton.webp" alt="A brain coral skeleton showing its characteristic meandering ridge-and-valley pattern" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/brain-coral-skeleton.webp" alt="A brain coral skeleton showing its characteristic meandering ridge-and-valley pattern" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Brain Coral Skeleton: What It Is and What It Can Mean</h3>
@@ -906,7 +1099,12 @@
           </div>
         </a>
         <a class="card" href="/how-fast-do-acan-corals-grow/">
-          <img src="/assets/img/articles/how-fast-do-acan-corals-grow.webp" alt="A colony of Acan (Acanthastrea) coral with large fleshy polyps in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-fast-do-acan-corals-grow.webp" alt="A colony of Acan (Acanthastrea) coral with large fleshy polyps in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Fast Do Acan Corals Grow? What to Expect</h3>
@@ -914,7 +1112,12 @@
           </div>
         </a>
         <a class="card" href="/how-do-duncan-corals-reproduce/">
-          <img src="/assets/img/articles/how-do-duncan-corals-reproduce.webp" alt="A Duncan coral colony with multiple polyp heads extended from a shared branching skeleton base" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-do-duncan-corals-reproduce.webp" alt="A Duncan coral colony with multiple polyp heads extended from a shared branching skeleton base" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Do Duncan Corals Reproduce? Branching and Budding Explained</h3>
@@ -922,7 +1125,12 @@
           </div>
         </a>
         <a class="card" href="/diploria-coral-care/">
-          <img src="/assets/img/articles/diploria-coral-care.webp" alt="A Diploria brain coral colony showing its characteristic maze-like ridged surface pattern" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/diploria-coral-care.webp" alt="A Diploria brain coral colony showing its characteristic maze-like ridged surface pattern" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Diploria Coral Care: Caribbean Brain Coral Basics</h3>
@@ -930,7 +1138,12 @@
           </div>
         </a>
         <a class="card" href="/flower-pot-coral-dying/">
-          <img src="/assets/img/articles/flower-pot-coral-dying.webp" alt="A flower pot coral (Goniopora) with extended fluffy polyps in a reef tank, alongside an area of receding tissue" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/flower-pot-coral-dying.webp" alt="A flower pot coral (Goniopora) with extended fluffy polyps in a reef tank, alongside an area of receding tissue" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Flower Pot Coral (Goniopora) Dying: Why It&#x27;s So Hard to Keep Alive</h3>
@@ -939,11 +1152,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="3" data-group-title="Coral Basics: What Coral Is, How It Lives &amp; How It Eats">
       <h2>Coral Basics: What Coral Is, How It Lives &amp; How It Eats</h2>
       <div class="grid grid-3">
         <a class="card" href="/corals/">
-          <img src="/assets/img/articles/corals.webp" alt="Close-up of a coral colony showing individual polyps extended over its skeleton" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/corals.webp" alt="Close-up of a coral colony showing individual polyps extended over its skeleton" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>What Is Coral? A Beginner&#x27;s Guide to Reef-Building Animals</h3>
@@ -951,7 +1169,12 @@
           </div>
         </a>
         <a class="card" href="/coral-frags-for-beginners/">
-          <img src="/assets/img/articles/coral-frags-for-beginners.webp" alt="A small coral frag mounted on a frag plug, recently placed in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/coral-frags-for-beginners.webp" alt="A small coral frag mounted on a frag plug, recently placed in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Coral Frags for Beginners: What to Know Before You Buy</h3>
@@ -959,7 +1182,12 @@
           </div>
         </a>
         <a class="card" href="/do-corals-move/">
-          <img src="/assets/img/articles/do-corals-move.webp" alt="A coral polyp with tentacles extended, illustrating the kind of movement corals are capable of" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/do-corals-move.webp" alt="A coral polyp with tentacles extended, illustrating the kind of movement corals are capable of" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Do Corals Move? What Coral Movement Actually Looks Like</h3>
@@ -967,7 +1195,12 @@
           </div>
         </a>
         <a class="card" href="/do-corals-have-brains/">
-          <img src="/assets/img/articles/do-corals-have-brains.webp" alt="A coral polyp with extended tentacles, reacting to its surroundings without a centralized nervous system" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/do-corals-have-brains.webp" alt="A coral polyp with extended tentacles, reacting to its surroundings without a centralized nervous system" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Do Corals Have Brains? Coral Nervous Systems Explained</h3>
@@ -975,7 +1208,12 @@
           </div>
         </a>
         <a class="card" href="/do-corals-live-forever/">
-          <img src="/assets/img/articles/do-corals-live-forever.webp" alt="A large, long-established coral colony on a reef, illustrating the long potential lifespan of coral colonies" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/do-corals-live-forever.webp" alt="A large, long-established coral colony on a reef, illustrating the long potential lifespan of coral colonies" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Do Corals Live Forever? Colony Age vs. Individual Polyps</h3>
@@ -983,7 +1221,12 @@
           </div>
         </a>
         <a class="card" href="/how-long-do-corals-live/">
-          <img src="/assets/img/articles/how-long-do-corals-live.webp" alt="A healthy, well-established coral colony in a reef aquarium, illustrating long-term coral keeping" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-long-do-corals-live.webp" alt="A healthy, well-established coral colony in a reef aquarium, illustrating long-term coral keeping" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Long Do Corals Live? Wild Reefs vs. Home Aquariums</h3>
@@ -991,7 +1234,12 @@
           </div>
         </a>
         <a class="card" href="/how-do-corals-eat/">
-          <img src="/assets/img/articles/how-do-corals-eat.webp" alt="A coral polyp with tentacles extended, capturing food particles from the water" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-do-corals-eat.webp" alt="A coral polyp with tentacles extended, capturing food particles from the water" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Do Corals Eat? Coral Feeding Explained</h3>
@@ -999,7 +1247,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-target-feed-corals/">
-          <img src="/assets/img/articles/how-to-target-feed-corals.webp" alt="A reef keeper using a pipette to target-feed a coral with extended polyps" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-target-feed-corals.webp" alt="A reef keeper using a pipette to target-feed a coral with extended polyps" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How to Target Feed Corals: A Practical Guide</h3>
@@ -1008,11 +1261,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="4" data-group-title="Soft Coral &amp; Zoanthid Care">
       <h2>Soft Coral &amp; Zoanthid Care</h2>
       <div class="grid grid-3">
         <a class="card" href="/zoanthid-tree/">
-          <img src="/assets/img/articles/zoanthid-tree.webp" alt="A branching acrylic frag rack, often called a zoanthid tree, holding multiple colorful zoanthid frags" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/zoanthid-tree.webp" alt="A branching acrylic frag rack, often called a zoanthid tree, holding multiple colorful zoanthid frags" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Zoanthid Tree: What It Is and Why Reef Keepers Use One</h3>
@@ -1020,7 +1278,12 @@
           </div>
         </a>
         <a class="card" href="/bam-bam-zoanthid-care/">
-          <img src="/assets/img/articles/bam-bam-zoanthid-care.webp" alt="A cluster of Bam Bam zoanthid polyps, showing their characteristic vivid orange and green coloration" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/bam-bam-zoanthid-care.webp" alt="A cluster of Bam Bam zoanthid polyps, showing their characteristic vivid orange and green coloration" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Bam Bam Zoanthid Care: What This Color Morph Needs</h3>
@@ -1028,7 +1291,12 @@
           </div>
         </a>
         <a class="card" href="/utter-chaos-zoa-coral-care/">
-          <img src="/assets/img/articles/utter-chaos-zoa-coral-care.webp" alt="A colony of Utter Chaos zoanthid polyps showing variegated, multi-colored patterning" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/utter-chaos-zoa-coral-care.webp" alt="A colony of Utter Chaos zoanthid polyps showing variegated, multi-colored patterning" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Utter Chaos Zoa Care: Coloration, Spacing &amp; Palythoa Notes</h3>
@@ -1036,7 +1304,12 @@
           </div>
         </a>
         <a class="card" href="/kenya-tree-coral-not-opening/">
-          <img src="/assets/img/articles/kenya-tree-coral-not-opening.webp" alt="A Kenya tree coral with polyps closed and the branches contracted, in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/kenya-tree-coral-not-opening.webp" alt="A Kenya tree coral with polyps closed and the branches contracted, in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Kenya Tree Coral Not Opening? Common Causes and What to Check</h3>
@@ -1044,7 +1317,12 @@
           </div>
         </a>
         <a class="card" href="/xenia-coral-dying/">
-          <img src="/assets/img/articles/xenia-coral-dying.webp" alt="A colony of Xenia coral with pulsing tentacles, in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/xenia-coral-dying.webp" alt="A colony of Xenia coral with pulsing tentacles, in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Xenia Coral Dying? Why &#x27;Xenia Crash&#x27; Happens and What to Check</h3>
@@ -1052,7 +1330,12 @@
           </div>
         </a>
         <a class="card" href="/what-to-feed-mushroom-corals/">
-          <img src="/assets/img/articles/what-to-feed-mushroom-corals.webp" alt="A cluster of mushroom corals (Discosoma) with flat, disc-shaped polyps open in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-to-feed-mushroom-corals.webp" alt="A cluster of mushroom corals (Discosoma) with flat, disc-shaped polyps open in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>What to Feed Mushroom Corals (And Whether You Need To)</h3>
@@ -1060,7 +1343,12 @@
           </div>
         </a>
         <a class="card" href="/sea-whip-coral-care/">
-          <img src="/assets/img/articles/sea-whip-coral-care.webp" alt="A sea whip gorgonian with long, thin branching polyps extended in flow within a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/sea-whip-coral-care.webp" alt="A sea whip gorgonian with long, thin branching polyps extended in flow within a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Sea Whip Coral Care: Feeding, Flow &amp; Why They&#x27;re Different</h3>
@@ -1068,7 +1356,12 @@
           </div>
         </a>
         <a class="card" href="/branching-coral-care/">
-          <img src="/assets/img/placeholder.svg" alt="Several branching coral colonies with tree-like growth forms in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/placeholder.svg" alt="Several branching coral colonies with tree-like growth forms in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Branching Coral Care: What &#x27;Branching&#x27; Actually Tells You</h3>
@@ -1077,11 +1370,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="5" data-group-title="Coral Tank Setup &amp; Health">
       <h2>Coral Tank Setup &amp; Health</h2>
       <div class="grid grid-3">
         <a class="card" href="/does-touching-coral-kill-it/">
-          <img src="/assets/img/articles/does-touching-coral-kill-it.webp" alt="A hand approaching coral polyps in a reef aquarium, illustrating the question of whether touching coral is harmful" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/does-touching-coral-kill-it.webp" alt="A hand approaching coral polyps in a reef aquarium, illustrating the question of whether touching coral is harmful" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Does Touching Coral Kill It? What Actually Happens</h3>
@@ -1089,7 +1387,12 @@
           </div>
         </a>
         <a class="card" href="/how-can-i-tell-if-my-corals-are-stressed-or-unhealthy/">
-          <img src="/assets/img/articles/how-can-i-tell-if-my-corals-are-stressed-or-unhealthy.webp" alt="A reef aquarium with multiple coral colonies of different types, illustrating signs of coral health" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-can-i-tell-if-my-corals-are-stressed-or-unhealthy.webp" alt="A reef aquarium with multiple coral colonies of different types, illustrating signs of coral health" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Can I Tell If My Corals Are Stressed or Unhealthy?</h3>
@@ -1097,7 +1400,12 @@
           </div>
         </a>
         <a class="card" href="/encourage-coral-growth-and-prevent-coral-bleaching/">
-          <img src="/assets/img/articles/encourage-coral-growth-and-prevent-coral-bleaching.webp" alt="Healthy, colorful coral colonies with full polyp extension in a well-lit reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/encourage-coral-growth-and-prevent-coral-bleaching.webp" alt="Healthy, colorful coral colonies with full polyp extension in a well-lit reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How to Encourage Coral Growth and Prevent Coral Bleaching</h3>
@@ -1105,7 +1413,12 @@
           </div>
         </a>
         <a class="card" href="/when-to-add-corals-to-new-tank/">
-          <img src="/assets/img/articles/when-to-add-corals-to-new-tank.webp" alt="A newly set up reef aquarium with live rock and sand, before corals have been added" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/when-to-add-corals-to-new-tank.webp" alt="A newly set up reef aquarium with live rock and sand, before corals have been added" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>When to Add Corals to a New Tank: Timing It Right</h3>
@@ -1113,7 +1426,12 @@
           </div>
         </a>
         <a class="card" href="/coral-only-tank/">
-          <img src="/assets/img/articles/coral-only-tank.webp" alt="A reef aquarium with a variety of coral colonies and no fish visible" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/coral-only-tank.webp" alt="A reef aquarium with a variety of coral colonies and no fish visible" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can You Have a Coral-Only Tank? What Changes Without Fish</h3>
@@ -1121,7 +1439,12 @@
           </div>
         </a>
         <a class="card" href="/how-many-corals-in-a-10-gallon-tank/">
-          <img src="/assets/img/articles/how-many-corals-in-a-10-gallon-tank.webp" alt="A small 10-gallon reef aquarium with a handful of coral colonies on aquascaped rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-many-corals-in-a-10-gallon-tank.webp" alt="A small 10-gallon reef aquarium with a handful of coral colonies on aquascaped rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Many Corals Can Go in a 10-Gallon Tank?</h3>
@@ -1129,7 +1452,12 @@
           </div>
         </a>
         <a class="card" href="/what-are-some-compatible-tank-mates-for-corals/">
-          <img src="/assets/img/articles/what-are-some-compatible-tank-mates-for-corals.webp" alt="A reef aquarium showing fish and cleanup crew invertebrates alongside coral colonies" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-are-some-compatible-tank-mates-for-corals.webp" alt="A reef aquarium showing fish and cleanup crew invertebrates alongside coral colonies" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Compatible Tank Mates for Corals: What &#x27;Reef-Safe&#x27; Actually Means</h3>
@@ -1138,11 +1466,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="6" data-group-title="Coral Health, Bleaching &amp; Growth Rates">
       <h2>Coral Health, Bleaching &amp; Growth Rates</h2>
       <div class="grid grid-3">
         <a class="card" href="/brown-button-polyps/">
-          <img src="/assets/img/articles/brown-button-polyps.webp" alt="A colony of brown button polyps with flat round oral discs spread across live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/brown-button-polyps.webp" alt="A colony of brown button polyps with flat round oral discs spread across live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Brown Button Polyps: Identification, Care &amp; the Palytoxin Warning</h3>
@@ -1150,7 +1483,12 @@
           </div>
         </a>
         <a class="card" href="/montipora-turning-white/">
-          <img src="/assets/img/articles/montipora-turning-white.webp" alt="A montipora coral colony with a section of bare white skeleton visible where tissue has receded" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/montipora-turning-white.webp" alt="A montipora coral colony with a section of bare white skeleton visible where tissue has receded" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Why Is My Montipora Turning White? Bleaching, RTN &amp; Predation</h3>
@@ -1158,7 +1496,12 @@
           </div>
         </a>
         <a class="card" href="/green-star-polyps-growth-rate/">
-          <img src="/assets/img/articles/green-star-polyps-growth-rate.webp" alt="A mat of green star polyps with bright green polyps extended over a purple encrusting base" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/green-star-polyps-growth-rate.webp" alt="A mat of green star polyps with bright green polyps extended over a purple encrusting base" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Green Star Polyps Growth Rate: Why GSP Spreads So Fast (and How to Control It)</h3>
@@ -1167,11 +1510,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="7" data-group-title="Coral Sourcing, Identification &amp; Crushed Coral Chemistry">
       <h2>Coral Sourcing, Identification &amp; Crushed Coral Chemistry</h2>
       <div class="grid grid-3">
         <a class="card" href="/crushed-coral/">
-          <img src="/assets/img/articles/crushed-coral.webp" alt="Coarse white crushed coral substrate in an aquarium, showing angular calcium carbonate fragments" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/crushed-coral.webp" alt="Coarse white crushed coral substrate in an aquarium, showing angular calcium carbonate fragments" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>What Is Crushed Coral? Aquarium Uses Explained</h3>
@@ -1179,7 +1527,12 @@
           </div>
         </a>
         <a class="card" href="/how-much-crushed-coral-to-raise-ph/">
-          <img src="/assets/img/articles/how-much-crushed-coral-to-raise-ph.webp" alt="A media bag of crushed coral placed inside an aquarium canister filter compartment" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-much-crushed-coral-to-raise-ph.webp" alt="A media bag of crushed coral placed inside an aquarium canister filter compartment" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Much Crushed Coral to Raise pH? A Practical Starting Point</h3>
@@ -1187,7 +1540,12 @@
           </div>
         </a>
         <a class="card" href="/can-you-put-coral-in-a-freshwater-tank/">
-          <img src="/assets/img/articles/can-you-put-coral-in-a-freshwater-tank.webp" alt="A bleached white coral skeleton ornament placed in a freshwater aquarium with plants and gravel" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-you-put-coral-in-a-freshwater-tank.webp" alt="A bleached white coral skeleton ornament placed in a freshwater aquarium with plants and gravel" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can You Put Coral in a Freshwater Tank?</h3>
@@ -1195,7 +1553,12 @@
           </div>
         </a>
         <a class="card" href="/can-you-take-coral-from-the-beach/">
-          <img src="/assets/img/articles/can-you-take-coral-from-the-beach.webp" alt="A bleached white coral skeleton fragment lying on a sandy beach near the waterline" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-you-take-coral-from-the-beach.webp" alt="A bleached white coral skeleton fragment lying on a sandy beach near the waterline" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can You Take Coral From the Beach? Laws, Ethics &amp; Alternatives</h3>
@@ -1203,7 +1566,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-dry-coral/">
-          <img src="/assets/img/articles/how-to-dry-coral.webp" alt="A cleaned, bleached white coral skeleton drying on a towel in indirect sunlight" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-dry-coral.webp" alt="A cleaned, bleached white coral skeleton drying on a towel in indirect sunlight" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How to Dry Coral: Cleaning and Preparing Coral Skeletons for Display</h3>
@@ -1211,7 +1579,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-tell-if-coral-is-dyed/">
-          <img src="/assets/img/articles/how-to-tell-if-coral-is-dyed.webp" alt="Brightly dyed coral skeleton pieces in unnatural blue and pink tones displayed for sale" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-tell-if-coral-is-dyed.webp" alt="Brightly dyed coral skeleton pieces in unnatural blue and pink tones displayed for sale" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How to Tell If Coral Is Dyed: Spotting Artificially Colored Skeletons</h3>
@@ -1220,11 +1593,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="8" data-group-title="Brackish &amp; Freshwater Crab Species">
       <h2>Brackish &amp; Freshwater Crab Species</h2>
       <div class="grid grid-3">
         <a class="card" href="/blue-crabs-freshwater/">
-          <img src="/assets/img/articles/blue-crabs-freshwater.webp" alt="A blue crab (Callinectes sapidus) in shallow estuary water where a river meets the sea" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/blue-crabs-freshwater.webp" alt="A blue crab (Callinectes sapidus) in shallow estuary water where a river meets the sea" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can Blue Crabs Live in Freshwater? Salinity Tolerance Explained</h3>
@@ -1232,7 +1610,12 @@
           </div>
         </a>
         <a class="card" href="/freshwater-crabs-for-aquariums/">
-          <img src="/assets/img/articles/freshwater-crabs-for-aquariums.webp" alt="A small crab perched on a piece of driftwood that breaks the water&#x27;s surface in a paludarium-style tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/freshwater-crabs-for-aquariums.webp" alt="A small crab perched on a piece of driftwood that breaks the water&#x27;s surface in a paludarium-style tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Freshwater Crabs for Aquariums: What &#x27;Freshwater Crab&#x27; Actually Means</h3>
@@ -1240,7 +1623,12 @@
           </div>
         </a>
         <a class="card" href="/can-mud-crabs-take-off-a-finger/">
-          <img src="/assets/img/articles/can-mud-crabs-take-off-a-finger.webp" alt="A large mud crab with prominent thick claws being handled with a gloved hand" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-mud-crabs-take-off-a-finger.webp" alt="A large mud crab with prominent thick claws being handled with a gloved hand" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can Mud Crabs Take Off a Finger? Bite Strength and Handling Safety</h3>
@@ -1248,7 +1636,12 @@
           </div>
         </a>
         <a class="card" href="/can-saltwater-crabs-live-in-freshwater/">
-          <img src="/assets/img/articles/can-saltwater-crabs-live-in-freshwater.webp" alt="A crab partially submerged at the boundary where saltwater and freshwater meet in an estuary" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-saltwater-crabs-live-in-freshwater.webp" alt="A crab partially submerged at the boundary where saltwater and freshwater meet in an estuary" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can Saltwater Crabs Live in Freshwater? It Depends on the Species</h3>
@@ -1256,7 +1649,12 @@
           </div>
         </a>
         <a class="card" href="/what-is-the-best-food-diet-for-fiddler-crabs/">
-          <img src="/assets/img/articles/what-is-the-best-food-diet-for-fiddler-crabs.webp" alt="A fiddler crab foraging on damp sand near the water&#x27;s edge in a paludarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-is-the-best-food-diet-for-fiddler-crabs.webp" alt="A fiddler crab foraging on damp sand near the water&#x27;s edge in a paludarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>What Is the Best Food/Diet for Fiddler Crabs?</h3>
@@ -1264,7 +1662,12 @@
           </div>
         </a>
         <a class="card" href="/red-claw-crabs-diet/">
-          <img src="/assets/img/articles/red-claw-crabs-diet.webp" alt="A red claw crab with distinctive red-tipped claws resting on driftwood above the waterline in a paludarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/red-claw-crabs-diet.webp" alt="A red claw crab with distinctive red-tipped claws resting on driftwood above the waterline in a paludarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Red Claw Crab Diet: What Perisesarma bidens Actually Eats</h3>
@@ -1272,7 +1675,12 @@
           </div>
         </a>
         <a class="card" href="/why-do-fiddler-crabs-make-bubbles/">
-          <img src="/assets/img/articles/why-do-fiddler-crabs-make-bubbles.webp" alt="A fiddler crab on damp sand with small bubbles visible near its mouthparts" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/why-do-fiddler-crabs-make-bubbles.webp" alt="A fiddler crab on damp sand with small bubbles visible near its mouthparts" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Why Do Fiddler Crabs Make Bubbles? Normal Gill-Moistening Behavior</h3>
@@ -1280,7 +1688,12 @@
           </div>
         </a>
         <a class="card" href="/fiddler-crabs-and-mudskippers/">
-          <img src="/assets/img/articles/fiddler-crabs-and-mudskippers.webp" alt="A fiddler crab and a mudskipper sharing a muddy bank in a paludarium setup" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/fiddler-crabs-and-mudskippers.webp" alt="A fiddler crab and a mudskipper sharing a muddy bank in a paludarium setup" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Fiddler Crabs and Mudskippers: Can They Live Together?</h3>
@@ -1288,7 +1701,12 @@
           </div>
         </a>
         <a class="card" href="/can-red-claw-crabs-and-fiddler-crabs-live-together/">
-          <img src="/assets/img/articles/can-red-claw-crabs-and-fiddler-crabs-live-together.webp" alt="A red claw crab and a fiddler crab on opposite sides of a paludarium&#x27;s land area" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-red-claw-crabs-and-fiddler-crabs-live-together.webp" alt="A red claw crab and a fiddler crab on opposite sides of a paludarium&#x27;s land area" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can Red Claw Crabs and Fiddler Crabs Live Together?</h3>
@@ -1296,7 +1714,12 @@
           </div>
         </a>
         <a class="card" href="/are-fiddler-crabs-reef-safe/">
-          <img src="/assets/img/articles/are-fiddler-crabs-reef-safe.webp" alt="A fiddler crab on a muddy bank, with a coral reef tank shown separately in the background for contrast" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/are-fiddler-crabs-reef-safe.webp" alt="A fiddler crab on a muddy bank, with a coral reef tank shown separately in the background for contrast" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Are Fiddler Crabs Reef Safe? Why the Question Doesn&#x27;t Quite Apply</h3>
@@ -1305,11 +1728,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="9" data-group-title="Land Hermit Crab Care: Setup, Diet &amp; Habits">
       <h2>Land Hermit Crab Care: Setup, Diet &amp; Habits</h2>
       <div class="grid grid-3">
         <a class="card" href="/do-hermit-crabs-need-saltwater/">
-          <img src="/assets/img/articles/do-hermit-crabs-need-saltwater.webp" alt="A land hermit crab terrarium with separate dishes of fresh water and saltwater on a sand substrate" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/do-hermit-crabs-need-saltwater.webp" alt="A land hermit crab terrarium with separate dishes of fresh water and saltwater on a sand substrate" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Do Hermit Crabs Need Saltwater? Land Hermit Crab Water Setup Explained</h3>
@@ -1317,7 +1745,12 @@
           </div>
         </a>
         <a class="card" href="/can-hermit-crabs-live-in-freshwater/">
-          <img src="/assets/img/articles/can-hermit-crabs-live-in-freshwater.webp" alt="A land hermit crab on dry sand substrate near a shallow water dish in a terrarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-hermit-crabs-live-in-freshwater.webp" alt="A land hermit crab on dry sand substrate near a shallow water dish in a terrarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can Hermit Crabs Live in Freshwater? Why Land Hermit Crabs Need a Dry Terrarium</h3>
@@ -1325,7 +1758,12 @@
           </div>
         </a>
         <a class="card" href="/do-hermit-crabs-poop/">
-          <img src="/assets/img/articles/do-hermit-crabs-poop.webp" alt="A land hermit crab terrarium with sand substrate being spot-cleaned with a small scoop" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/do-hermit-crabs-poop.webp" alt="A land hermit crab terrarium with sand substrate being spot-cleaned with a small scoop" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Do Hermit Crabs Poop? What&#x27;s Normal in a Terrarium</h3>
@@ -1333,7 +1771,12 @@
           </div>
         </a>
         <a class="card" href="/can-hermit-crabs-eat-tomatoes/">
-          <img src="/assets/img/articles/can-hermit-crabs-eat-tomatoes.webp" alt="A small piece of tomato placed on sand substrate near a land hermit crab" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-hermit-crabs-eat-tomatoes.webp" alt="A small piece of tomato placed on sand substrate near a land hermit crab" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can Hermit Crabs Eat Tomatoes? Safe Foods and Feeding Basics</h3>
@@ -1341,7 +1784,12 @@
           </div>
         </a>
         <a class="card" href="/do-hermit-crabs-need-a-heat-lamp/">
-          <img src="/assets/img/articles/do-hermit-crabs-need-a-heat-lamp.webp" alt="A land hermit crab terrarium with an under-tank heater and a thermometer/hygrometer mounted on the glass" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/do-hermit-crabs-need-a-heat-lamp.webp" alt="A land hermit crab terrarium with an under-tank heater and a thermometer/hygrometer mounted on the glass" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Do Hermit Crabs Need a Heat Lamp? Temperature and Humidity Basics</h3>
@@ -1350,11 +1798,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="10" data-group-title="Shrimp &amp; Crayfish: Behavior, Reef Tanks &amp; Brackish Water">
       <h2>Shrimp &amp; Crayfish: Behavior, Reef Tanks &amp; Brackish Water</h2>
       <div class="grid grid-3">
         <a class="card" href="/shrimp-poop-in-my-aquarium/">
-          <img src="/assets/img/articles/shrimp-poop-in-my-aquarium.webp" alt="A small freshwater shrimp on aquarium substrate with a thin dark waste trail visible behind it" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/shrimp-poop-in-my-aquarium.webp" alt="A small freshwater shrimp on aquarium substrate with a thin dark waste trail visible behind it" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Shrimp Poop in My Aquarium: What It Looks Like and What to Do</h3>
@@ -1362,7 +1815,12 @@
           </div>
         </a>
         <a class="card" href="/is-shrimp-a-fish-or-crustacean/">
-          <img src="/assets/img/articles/is-shrimp-a-fish-or-crustacean.webp" alt="A small freshwater shrimp with visible jointed legs and exoskeleton resting on a leaf" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/is-shrimp-a-fish-or-crustacean.webp" alt="A small freshwater shrimp with visible jointed legs and exoskeleton resting on a leaf" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Is a Shrimp a Fish or a Crustacean? Basic Classification Explained</h3>
@@ -1370,7 +1828,12 @@
           </div>
         </a>
         <a class="card" href="/will-crayfish-eat-snails/">
-          <img src="/assets/img/articles/will-crayfish-eat-snails.webp" alt="A freshwater crayfish on aquarium substrate near an empty snail shell" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/will-crayfish-eat-snails.webp" alt="A freshwater crayfish on aquarium substrate near an empty snail shell" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Will Crayfish Eat Snails? What to Expect in a Mixed Tank</h3>
@@ -1378,7 +1841,12 @@
           </div>
         </a>
         <a class="card" href="/ghost-shrimp-disappeared/">
-          <img src="/assets/img/articles/ghost-shrimp-disappeared.webp" alt="A translucent ghost shrimp partially hidden among aquarium plants and decorations" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/ghost-shrimp-disappeared.webp" alt="A translucent ghost shrimp partially hidden among aquarium plants and decorations" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>My Ghost Shrimp Disappeared — Where Did It Go?</h3>
@@ -1386,7 +1854,12 @@
           </div>
         </a>
         <a class="card" href="/shrimp-reef-tank/">
-          <img src="/assets/img/articles/shrimp-reef-tank.webp" alt="A cleaner shrimp with long white antennae perched on coral rock in a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/shrimp-reef-tank.webp" alt="A cleaner shrimp with long white antennae perched on coral rock in a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Shrimp in a Reef Tank: Which Species Work and Which Don&#x27;t</h3>
@@ -1394,7 +1867,12 @@
           </div>
         </a>
         <a class="card" href="/baby-cleaner-shrimp/">
-          <img src="/assets/img/articles/baby-cleaner-shrimp.webp" alt="A cleaner shrimp carrying a visible mass of greenish eggs under its abdomen" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/baby-cleaner-shrimp.webp" alt="A cleaner shrimp carrying a visible mass of greenish eggs under its abdomen" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Baby Cleaner Shrimp: Can They Survive and Grow in a Home Tank?</h3>
@@ -1402,7 +1880,12 @@
           </div>
         </a>
         <a class="card" href="/can-ghost-shrimp-live-in-brackish-water/">
-          <img src="/assets/img/placeholder.svg" alt="A translucent ghost shrimp in a shallow tank with a hydrometer visible in the background" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/placeholder.svg" alt="A translucent ghost shrimp in a shallow tank with a hydrometer visible in the background" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can Ghost Shrimp Live in Brackish Water?</h3>
@@ -1411,11 +1894,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="11" data-group-title="Aquarium Snails: Health, Cold Water &amp; Reef Cleanup Crew">
       <h2>Aquarium Snails: Health, Cold Water &amp; Reef Cleanup Crew</h2>
       <div class="grid grid-3">
         <a class="card" href="/sick-mystery-snail/">
-          <img src="/assets/img/articles/sick-mystery-snail.webp" alt="A mystery snail with its body partially retracted into its shell, resting on aquarium substrate near a thermometer" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/sick-mystery-snail.webp" alt="A mystery snail with its body partially retracted into its shell, resting on aquarium substrate near a thermometer" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Sick Mystery Snail? Signs to Watch For and What They Mean</h3>
@@ -1423,7 +1911,12 @@
           </div>
         </a>
         <a class="card" href="/sick-aquarium-snails/">
-          <img src="/assets/img/articles/sick-aquarium-snails.webp" alt="Several different aquarium snail species — including a ramshorn and a nerite snail — on a piece of driftwood" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/sick-aquarium-snails.webp" alt="Several different aquarium snail species — including a ramshorn and a nerite snail — on a piece of driftwood" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Sick Aquarium Snails: Common Health Issues Across Species</h3>
@@ -1431,7 +1924,12 @@
           </div>
         </a>
         <a class="card" href="/can-mystery-snails-live-in-cold-water/">
-          <img src="/assets/img/articles/can-mystery-snails-live-in-cold-water.webp" alt="A mystery snail on aquarium glass next to a thermometer reading in the mid-70s Fahrenheit" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-mystery-snails-live-in-cold-water.webp" alt="A mystery snail on aquarium glass next to a thermometer reading in the mid-70s Fahrenheit" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can Mystery Snails Live in Cold Water?</h3>
@@ -1439,7 +1937,12 @@
           </div>
         </a>
         <a class="card" href="/snails-reef-tank/">
-          <img src="/assets/img/articles/snails-reef-tank.webp" alt="Several small marine snails grazing on algae across live rock in a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/snails-reef-tank.webp" alt="Several small marine snails grazing on algae across live rock in a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Snails for a Reef Tank: Cleanup Crew Species and What They Do</h3>
@@ -1448,11 +1951,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="12" data-group-title="Other Reef Invertebrates &amp; Cross-Tank Questions">
       <h2>Other Reef Invertebrates &amp; Cross-Tank Questions</h2>
       <div class="grid grid-3">
         <a class="card" href="/sand-sifting-starfish-lifespan/">
-          <img src="/assets/img/articles/sand-sifting-starfish-lifespan.webp" alt="A sand sifting starfish partially buried in the substrate of a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/sand-sifting-starfish-lifespan.webp" alt="A sand sifting starfish partially buried in the substrate of a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Sand Sifting Starfish Lifespan: Why They Often Don&#x27;t Last Long</h3>
@@ -1460,7 +1968,12 @@
           </div>
         </a>
         <a class="card" href="/can-i-put-shrimp-in-my-turtle-tank/">
-          <img src="/assets/img/articles/can-i-put-shrimp-in-my-turtle-tank.webp" alt="A small freshwater turtle in an aquarium with rocks and plants, with a ghost shrimp visible nearby" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-i-put-shrimp-in-my-turtle-tank.webp" alt="A small freshwater turtle in an aquarium with rocks and plants, with a ghost shrimp visible nearby" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can I Put Shrimp in My Turtle Tank?</h3>
@@ -1469,11 +1982,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="13" data-group-title="Marine Invertebrate Identification &amp; Facts">
       <h2>Marine Invertebrate Identification &amp; Facts</h2>
       <div class="grid grid-3">
         <a class="card" href="/is-conch-a-mollusk-or-crustacean/">
-          <img src="/assets/img/articles/is-conch-a-mollusk-or-crustacean.webp" alt="A large spiral conch shell on sand with the soft-bodied snail partially visible" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/is-conch-a-mollusk-or-crustacean.webp" alt="A large spiral conch shell on sand with the soft-bodied snail partially visible" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Is a Conch a Mollusk or a Crustacean? Clearing Up the Confusion</h3>
@@ -1481,7 +1999,12 @@
           </div>
         </a>
         <a class="card" href="/are-barnacles-poisonous/">
-          <img src="/assets/img/articles/are-barnacles-poisonous.webp" alt="Barnacles attached to a rock at the shoreline" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/are-barnacles-poisonous.webp" alt="Barnacles attached to a rock at the shoreline" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Are Barnacles Poisonous? What Happens If You Touch or Eat One</h3>
@@ -1489,7 +2012,12 @@
           </div>
         </a>
         <a class="card" href="/what-are-barnacles-on-whales/">
-          <img src="/assets/img/articles/what-are-barnacles-on-whales.webp" alt="A whale&#x27;s skin showing patches of attached barnacles" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-are-barnacles-on-whales.webp" alt="A whale&#x27;s skin showing patches of attached barnacles" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>What Are Barnacles on Whales? The Hitchhikers Explained</h3>
@@ -1497,7 +2025,12 @@
           </div>
         </a>
         <a class="card" href="/red-feather-duster-worm/">
-          <img src="/assets/img/articles/red-feather-duster-worm.webp" alt="A red feather duster worm with its feathery crown extended in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/red-feather-duster-worm.webp" alt="A red feather duster worm with its feathery crown extended in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Red Feather Duster Worm Care: Tank Conditions, Feeding &amp; Behavior</h3>
@@ -1505,7 +2038,12 @@
           </div>
         </a>
         <a class="card" href="/aiptasia-or-feather-duster/">
-          <img src="/assets/img/articles/aiptasia-or-feather-duster.webp" alt="Side-by-side comparison of an aiptasia anemone and a feather duster worm in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/aiptasia-or-feather-duster.webp" alt="Side-by-side comparison of an aiptasia anemone and a feather duster worm in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Aiptasia or Feather Duster? How to Tell Them Apart</h3>

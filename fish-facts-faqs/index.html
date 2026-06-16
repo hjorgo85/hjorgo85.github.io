@@ -175,16 +175,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/">Saltwater</a></li>
       <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
@@ -196,8 +193,85 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" aria-current="page" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
   <div class="hub-hero">
     <div class="container">
@@ -213,6 +287,7 @@
   </div>
 
   <div class="container section">
+
     <div class="article-content">
       <h2 id="what-this-section-covers">What This Section Covers</h2>
 <p>These are the questions that come up when you&#39;re just sitting and watching your tank — why a fish does what it does, what it can actually perceive, how its body works compared to ours. Each guide gives a direct, biology-based answer rather than a one-line guess, and connects back to practical fishkeeping considerations where relevant.</p>
@@ -220,11 +295,19 @@
 
     </div>
 
-    <section class="related-articles">
+    <!-- Filter tabs injected by JS when there are multiple groups -->
+    <div class="hub-filter-bar" id="hub-filters" role="tablist" aria-label="Filter articles" style="display:none"></div>
+
+    <section class="related-articles hub-group reveal" data-group-index="0" data-group-title="Fish Biology &amp; Senses">
       <h2>Fish Biology &amp; Senses</h2>
       <div class="grid grid-3">
         <a class="card" href="/why-cant-fish-breathe-air/">
-          <img src="/assets/img/articles/why-cant-fish-breathe-air.webp" alt="A close-up of a fish&#x27;s gill structure, showing thin filaments designed to function underwater" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/why-cant-fish-breathe-air.webp" alt="A close-up of a fish&#x27;s gill structure, showing thin filaments designed to function underwater" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>Why Can&#x27;t Fish Breathe Air? How Gills Actually Work</h3>
@@ -232,7 +315,12 @@
           </div>
         </a>
         <a class="card" href="/do-fish-get-cold/">
-          <img src="/assets/img/articles/do-fish-get-cold.webp" alt="A thermometer in an aquarium showing the water temperature, with a fish swimming nearby" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/do-fish-get-cold.webp" alt="A thermometer in an aquarium showing the water temperature, with a fish swimming nearby" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>Do Fish Get Cold? How Temperature Actually Affects Them</h3>
@@ -240,7 +328,12 @@
           </div>
         </a>
         <a class="card" href="/do-fish-float-when-they-die/">
-          <img src="/assets/img/articles/do-fish-float-when-they-die.webp" alt="An empty aquarium with calm water, illustrating a tank that needs checking for a fish that may have sunk out of sight" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/do-fish-float-when-they-die.webp" alt="An empty aquarium with calm water, illustrating a tank that needs checking for a fish that may have sunk out of sight" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>Do Fish Float When They Die? What Actually Happens</h3>
@@ -248,7 +341,12 @@
           </div>
         </a>
         <a class="card" href="/can-fish-get-drunk/">
-          <img src="/assets/img/articles/can-fish-get-drunk.webp" alt="A fish swimming near the surface of an aquarium, with a bottle of cleaning spray sitting nearby on a shelf" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-fish-get-drunk.webp" alt="A fish swimming near the surface of an aquarium, with a bottle of cleaning spray sitting nearby on a shelf" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>Can Fish Get Drunk? What Happens When Substances Enter Their Water</h3>
@@ -256,7 +354,12 @@
           </div>
         </a>
         <a class="card" href="/what-do-fish-see-from-inside-the-tank/">
-          <img src="/assets/img/articles/what-do-fish-see-from-inside-the-tank.webp" alt="A view from underwater looking up toward the surface of an aquarium, showing a compressed view of the room above" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-do-fish-see-from-inside-the-tank.webp" alt="A view from underwater looking up toward the surface of an aquarium, showing a compressed view of the room above" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>What Do Fish See From Inside the Tank? Fish Vision Explained</h3>
@@ -264,7 +367,12 @@
           </div>
         </a>
         <a class="card" href="/bioluminescent-aquarium-fish/">
-          <img src="/assets/img/articles/bioluminescent-aquarium-fish.webp" alt="A reef aquarium under blue LED lighting showing corals and fish glowing in vivid colors" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/bioluminescent-aquarium-fish.webp" alt="A reef aquarium under blue LED lighting showing corals and fish glowing in vivid colors" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>Bioluminescent Aquarium Fish: Fact, Fiction &amp; Fluorescence</h3>
@@ -273,11 +381,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="1" data-group-title="Fish Behavior &amp; Common Questions">
       <h2>Fish Behavior &amp; Common Questions</h2>
       <div class="grid grid-3">
         <a class="card" href="/why-do-fish-jump-out-of-the-water/">
-          <img src="/assets/img/articles/why-do-fish-jump-out-of-the-water.webp" alt="A fish leaping above the surface of an aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/why-do-fish-jump-out-of-the-water.webp" alt="A fish leaping above the surface of an aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>Why Do Fish Jump Out of the Water? Causes and How to Prevent It</h3>
@@ -285,7 +398,12 @@
           </div>
         </a>
         <a class="card" href="/can-salt-water-fish-live-in-freshwater/">
-          <img src="/assets/img/articles/can-salt-water-fish-live-in-freshwater.webp" alt="Side-by-side comparison of a saltwater and freshwater aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-salt-water-fish-live-in-freshwater.webp" alt="Side-by-side comparison of a saltwater and freshwater aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>Can Saltwater Fish Live in Freshwater? Osmoregulation Explained</h3>
@@ -293,7 +411,12 @@
           </div>
         </a>
         <a class="card" href="/what-does-a-small-fish-eat/">
-          <img src="/assets/img/articles/what-does-a-small-fish-eat.webp" alt="Tiny fish fry feeding on microscopic food particles in an aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-does-a-small-fish-eat.webp" alt="Tiny fish fry feeding on microscopic food particles in an aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>What Does a Small Fish Eat? Diet Basics for Tiny Fish and Fry</h3>
@@ -301,7 +424,12 @@
           </div>
         </a>
         <a class="card" href="/how-do-fish-get-in-ponds/">
-          <img src="/assets/img/articles/how-do-fish-get-in-ponds.webp" alt="Small fish visible in a backyard garden pond" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-do-fish-get-in-ponds.webp" alt="Small fish visible in a backyard garden pond" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>How Do Fish Get in Ponds? The Surprisingly Mundane Answer</h3>
@@ -309,7 +437,12 @@
           </div>
         </a>
         <a class="card" href="/does-fishing-hurt-fish/">
-          <img src="/assets/img/articles/does-fishing-hurt-fish.webp" alt="A fish being released back into water after being caught" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/does-fishing-hurt-fish.webp" alt="A fish being released back into water after being caught" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Fish Facts &amp; FAQs</span>
             <h3>Does Fishing Hurt Fish? What the Science Says About Pain in Fish</h3>

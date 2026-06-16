@@ -277,16 +277,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/">Saltwater</a></li>
       <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
@@ -298,8 +295,85 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" aria-current="page" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
   <div class="hub-hero">
     <div class="container">
@@ -315,6 +389,7 @@
   </div>
 
   <div class="container section">
+
     <div class="article-content">
       <h2 id="what-this-section-covers">What This Section Covers</h2>
 <p>Aquarium plants and algae are two sides of the same coin — both are responding to the same light and nutrient conditions in your tank, which is why plant health and algae control are covered together here. Whether you&#39;re trying to identify a growth you&#39;ve found, figure out why a plant isn&#39;t thriving, or just understand what&#39;s &quot;normal&quot; versus what needs adjusting, this section focuses on practical identification and fixes rather than generic advice.</p>
@@ -324,11 +399,19 @@
 
     </div>
 
-    <section class="related-articles">
+    <!-- Filter tabs injected by JS when there are multiple groups -->
+    <div class="hub-filter-bar" id="hub-filters" role="tablist" aria-label="Filter articles" style="display:none"></div>
+
+    <section class="related-articles hub-group reveal" data-group-index="0" data-group-title="Algae Identification &amp; Control">
       <h2>Algae Identification &amp; Control</h2>
       <div class="grid grid-3">
         <a class="card" href="/algae/">
-          <img src="/assets/img/articles/algae.webp" alt="Green algae growth on the glass and decor of a planted freshwater aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/algae.webp" alt="Green algae growth on the glass and decor of a planted freshwater aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Algae in Aquariums: Types, Causes, and How to Get It Under Control</h3>
@@ -336,7 +419,12 @@
           </div>
         </a>
         <a class="card" href="/how-long-does-it-take-for-algae-to-grow/">
-          <img src="/assets/img/articles/how-long-does-it-take-for-algae-to-grow.webp" alt="A thin brown algae film developing on the glass of a newly set up aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-long-does-it-take-for-algae-to-grow.webp" alt="A thin brown algae film developing on the glass of a newly set up aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>How Long Does It Take for Algae to Grow in an Aquarium?</h3>
@@ -344,7 +432,12 @@
           </div>
         </a>
         <a class="card" href="/calothrix-algae/">
-          <img src="/assets/img/articles/calothrix-algae.webp" alt="Dark tufted cyanobacteria growth on aquarium hardscape, often confused with black beard algae" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/calothrix-algae.webp" alt="Dark tufted cyanobacteria growth on aquarium hardscape, often confused with black beard algae" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Calothrix Algae: Identification and How to Get Rid of It</h3>
@@ -352,7 +445,12 @@
           </div>
         </a>
         <a class="card" href="/grey-algae/">
-          <img src="/assets/img/articles/grey-algae.webp" alt="A thin grey diatom film coating the glass and decor of a recently set up aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/grey-algae.webp" alt="A thin grey diatom film coating the glass and decor of a recently set up aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Grey Algae in Your Aquarium: What It Is and How to Remove It</h3>
@@ -360,7 +458,12 @@
           </div>
         </a>
         <a class="card" href="/lawnmower-blenny-and-hair-algae/">
-          <img src="/assets/img/articles/lawnmower-blenny-and-hair-algae.webp" alt="A lawnmower blenny grazing on turf algae across live rock in a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/lawnmower-blenny-and-hair-algae.webp" alt="A lawnmower blenny grazing on turf algae across live rock in a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Lawnmower Blenny and Hair Algae: What It Eats, and What It Won&#x27;t</h3>
@@ -368,7 +471,12 @@
           </div>
         </a>
         <a class="card" href="/how-fast-do-algae-eaters-grow/">
-          <img src="/assets/img/articles/how-fast-do-algae-eaters-grow.webp" alt="A small algae-eating fish grazing on algae-covered aquarium glass next to a larger adult of the same species" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-fast-do-algae-eaters-grow.webp" alt="A small algae-eating fish grazing on algae-covered aquarium glass next to a larger adult of the same species" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>How Fast Do Algae Eaters Grow? Why It Matters for Stocking</h3>
@@ -377,11 +485,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="1" data-group-title="Live Plant Care: Anubias &amp; Hornwort">
       <h2>Live Plant Care: Anubias &amp; Hornwort</h2>
       <div class="grid grid-3">
         <a class="card" href="/anubias-rot/">
-          <img src="/assets/img/articles/anubias-rot.webp" alt="An anubias plant with its rhizome mounted on driftwood above the substrate" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/anubias-rot.webp" alt="An anubias plant with its rhizome mounted on driftwood above the substrate" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Anubias Rot: Why It Happens and How to Stop It</h3>
@@ -389,7 +502,12 @@
           </div>
         </a>
         <a class="card" href="/can-anubias-grow-out-of-water/">
-          <img src="/assets/img/articles/can-anubias-grow-out-of-water.webp" alt="Anubias growing emersed on hardscape above the waterline in a paludarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-anubias-grow-out-of-water.webp" alt="Anubias growing emersed on hardscape above the waterline in a paludarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Can Anubias Grow Out of Water? Emersed Growth Explained</h3>
@@ -397,7 +515,12 @@
           </div>
         </a>
         <a class="card" href="/hornwort-turning-brown/">
-          <img src="/assets/img/articles/hornwort-turning-brown.webp" alt="A sprig of hornwort with green new growth at the tips and browning needles lower down" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/hornwort-turning-brown.webp" alt="A sprig of hornwort with green new growth at the tips and browning needles lower down" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Hornwort Turning Brown: Causes and How to Fix It</h3>
@@ -405,7 +528,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-trim-hornwort/">
-          <img src="/assets/img/articles/how-to-trim-hornwort.webp" alt="Scissors trimming a healthy green sprig of hornwort in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-trim-hornwort.webp" alt="Scissors trimming a healthy green sprig of hornwort in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>How to Trim Hornwort (And Why It&#x27;s Worth Doing Regularly)</h3>
@@ -413,7 +541,12 @@
           </div>
         </a>
         <a class="card" href="/amazon-sword-runners/">
-          <img src="/assets/img/articles/amazon-sword-runners.webp" alt="An Amazon sword plant sending out a horizontal runner with a small plantlet forming at the end" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/amazon-sword-runners.webp" alt="An Amazon sword plant sending out a horizontal runner with a small plantlet forming at the end" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Amazon Sword Runners: What They Are and How to Use Them</h3>
@@ -421,7 +554,12 @@
           </div>
         </a>
         <a class="card" href="/plant-substrate-for-aquariums/">
-          <img src="/assets/img/articles/plant-substrate-for-aquariums.webp" alt="Layered aquarium substrate with a dark nutrient-rich base layer capped by fine gravel, with plants rooted into it" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/plant-substrate-for-aquariums.webp" alt="Layered aquarium substrate with a dark nutrient-rich base layer capped by fine gravel, with plants rooted into it" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Aquarium Plant Substrate: Do You Actually Need a Special One?</h3>
@@ -430,11 +568,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="2" data-group-title="Reef Tank Plants, Algae &amp; Coralline ID">
       <h2>Reef Tank Plants, Algae &amp; Coralline ID</h2>
       <div class="grid grid-3">
         <a class="card" href="/17-plants-in-the-coral-reef/">
-          <img src="/assets/img/articles/17-plants-in-the-coral-reef.webp" alt="Coralline algae, macroalgae, and turf algae growing across live rock on a coral reef" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/17-plants-in-the-coral-reef.webp" alt="Coralline algae, macroalgae, and turf algae growing across live rock on a coral reef" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>17 Types of Plants and Algae Found in Coral Reefs (And What They Mean for a Reef Tank)</h3>
@@ -442,7 +585,12 @@
           </div>
         </a>
         <a class="card" href="/orange-coralline-algae/">
-          <img src="/assets/img/articles/orange-coralline-algae.webp" alt="Orange coralline algae crusting over live rock in a reef aquarium alongside purple patches" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/orange-coralline-algae.webp" alt="Orange coralline algae crusting over live rock in a reef aquarium alongside purple patches" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Orange Coralline Algae: A Normal Color, Not a Different Problem</h3>
@@ -450,7 +598,12 @@
           </div>
         </a>
         <a class="card" href="/lawnmower-blenny-and-hair-algae/">
-          <img src="/assets/img/articles/lawnmower-blenny-and-hair-algae.webp" alt="A lawnmower blenny grazing on turf algae across live rock in a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/lawnmower-blenny-and-hair-algae.webp" alt="A lawnmower blenny grazing on turf algae across live rock in a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Lawnmower Blenny and Hair Algae: What It Eats, and What It Won&#x27;t</h3>
@@ -458,7 +611,12 @@
           </div>
         </a>
         <a class="card" href="/raise-alkalinity-reef-tank/">
-          <img src="/assets/img/articles/raise-alkalinity-reef-tank.webp" alt="Reef tank alkalinity test kit with titration syringe and color-change reagent next to a glass of aquarium water" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/raise-alkalinity-reef-tank.webp" alt="Reef tank alkalinity test kit with titration syringe and color-change reagent next to a glass of aquarium water" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>How to Raise Alkalinity in a Reef Tank Safely</h3>
@@ -466,7 +624,12 @@
           </div>
         </a>
         <a class="card" href="/diatoms-reef-tank/">
-          <img src="/assets/img/articles/diatoms-reef-tank.webp" alt="Brown diatom film coating the sand bed and lower rockwork of a newly set up reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/diatoms-reef-tank.webp" alt="Brown diatom film coating the sand bed and lower rockwork of a newly set up reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Diatoms in a Reef Tank: Why the Brown Dust Shows Up and How to Handle It</h3>
@@ -475,11 +638,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="3" data-group-title="Planted Tank Setup &amp; New Tank Basics">
       <h2>Planted Tank Setup &amp; New Tank Basics</h2>
       <div class="grid grid-3">
         <a class="card" href="/planted-75-gallon-aquarium/">
-          <img src="/assets/img/articles/planted-75-gallon-aquarium.webp" alt="A well-planted 75-gallon aquarium with a mix of sword plants, hornwort, and anubias mounted on driftwood" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/planted-75-gallon-aquarium.webp" alt="A well-planted 75-gallon aquarium with a mix of sword plants, hornwort, and anubias mounted on driftwood" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Setting Up a 75-Gallon Planted Aquarium: What to Plan For</h3>
@@ -487,7 +655,12 @@
           </div>
         </a>
         <a class="card" href="/plant-substrate-for-aquariums/">
-          <img src="/assets/img/articles/plant-substrate-for-aquariums.webp" alt="Layered aquarium substrate with a dark nutrient-rich base layer capped by fine gravel, with plants rooted into it" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/plant-substrate-for-aquariums.webp" alt="Layered aquarium substrate with a dark nutrient-rich base layer capped by fine gravel, with plants rooted into it" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Aquarium Plant Substrate: Do You Actually Need a Special One?</h3>
@@ -495,7 +668,12 @@
           </div>
         </a>
         <a class="card" href="/algae-on-java-fern/">
-          <img src="/assets/img/articles/algae-on-java-fern.webp" alt="Java fern leaves in a planted aquarium with small green spots of algae on the older leaves" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/algae-on-java-fern.webp" alt="Java fern leaves in a planted aquarium with small green spots of algae on the older leaves" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Algae on Java Fern: Why It Happens and What Actually Helps</h3>
@@ -503,7 +681,12 @@
           </div>
         </a>
         <a class="card" href="/best-plants-for-nitrite-control/">
-          <img src="/assets/img/articles/best-plants-for-nitrite-control.webp" alt="Fast-growing hornwort and floating plants in a planted aquarium during the early weeks of setup" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/best-plants-for-nitrite-control.webp" alt="Fast-growing hornwort and floating plants in a planted aquarium during the early weeks of setup" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Best Plants for Nitrite Control: What Plants Can (and Can&#x27;t) Do</h3>
@@ -511,7 +694,12 @@
           </div>
         </a>
         <a class="card" href="/how-fast-do-algae-eaters-grow/">
-          <img src="/assets/img/articles/how-fast-do-algae-eaters-grow.webp" alt="A small algae-eating fish grazing on algae-covered aquarium glass next to a larger adult of the same species" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-fast-do-algae-eaters-grow.webp" alt="A small algae-eating fish grazing on algae-covered aquarium glass next to a larger adult of the same species" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>How Fast Do Algae Eaters Grow? Why It Matters for Stocking</h3>
@@ -520,11 +708,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="4" data-group-title="Substrate, Soil &amp; Tank Weight">
       <h2>Substrate, Soil &amp; Tank Weight</h2>
       <div class="grid grid-3">
         <a class="card" href="/potting-soil-aquariums/">
-          <img src="/assets/img/articles/potting-soil-aquariums.webp" alt="A layered aquarium substrate with a dark soil base capped by a layer of sand, with plants rooted into it" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/potting-soil-aquariums.webp" alt="A layered aquarium substrate with a dark soil base capped by a layer of sand, with plants rooted into it" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Potting Soil in Aquariums: The &#x27;Dirted Tank&#x27; Method Explained</h3>
@@ -532,7 +725,12 @@
           </div>
         </a>
         <a class="card" href="/how-much-sand-for-a-20-gallon-tank/">
-          <img src="/assets/img/articles/how-much-sand-for-a-20-gallon-tank.webp" alt="A 20-gallon aquarium with a layer of light-colored sand substrate being added before planting" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-much-sand-for-a-20-gallon-tank.webp" alt="A 20-gallon aquarium with a layer of light-colored sand substrate being added before planting" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>How Much Sand Do You Need for a 20-Gallon Tank?</h3>
@@ -540,7 +738,12 @@
           </div>
         </a>
         <a class="card" href="/aquarium-laterite/">
-          <img src="/assets/img/articles/aquarium-laterite.webp" alt="Reddish-brown laterite clay granules being layered into aquarium substrate beneath a layer of gravel" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/aquarium-laterite.webp" alt="Reddish-brown laterite clay granules being layered into aquarium substrate beneath a layer of gravel" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Aquarium Laterite: What It Is and How to Use It in a Planted Tank</h3>
@@ -548,7 +751,12 @@
           </div>
         </a>
         <a class="card" href="/is-crayola-play-sand-aquarium-safe/">
-          <img src="/assets/img/articles/is-crayola-play-sand-aquarium-safe.webp" alt="A bag of play sand being poured into an aquarium as substrate, with rinsing equipment nearby" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/is-crayola-play-sand-aquarium-safe.webp" alt="A bag of play sand being poured into an aquarium as substrate, with rinsing equipment nearby" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Is Crayola Play Sand Safe for an Aquarium?</h3>
@@ -556,7 +764,12 @@
           </div>
         </a>
         <a class="card" href="/how-much-does-a-75-gallon-fish-tank-weigh/">
-          <img src="/assets/img/articles/how-much-does-a-75-gallon-fish-tank-weigh.webp" alt="A large 75-gallon aquarium filled with water, substrate, and decor sitting on a sturdy stand" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-much-does-a-75-gallon-fish-tank-weigh.webp" alt="A large 75-gallon aquarium filled with water, substrate, and decor sitting on a sturdy stand" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Much Does a 75-Gallon Fish Tank Weigh When Filled?</h3>
@@ -564,7 +777,12 @@
           </div>
         </a>
         <a class="card" href="/mondo-grass-aquatic/">
-          <img src="/assets/img/articles/mondo-grass-aquatic.webp" alt="Dark green grass-like mondo grass foliage growing as a groundcover, with a separate underwater grass-carpet aquarium in the background" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/mondo-grass-aquatic.webp" alt="Dark green grass-like mondo grass foliage growing as a groundcover, with a separate underwater grass-carpet aquarium in the background" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Plants &amp; Algae</span>
             <h3>Is Mondo Grass an Aquatic Plant? What Happens If You Submerge It</h3>

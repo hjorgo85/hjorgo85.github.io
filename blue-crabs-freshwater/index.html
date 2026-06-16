@@ -138,16 +138,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/">Saltwater</a></li>
       <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
@@ -159,8 +156,85 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
   <div class="container article-wrap">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
@@ -319,7 +393,12 @@
       <h2>Related Articles</h2>
       <div class="grid grid-3">
         <a class="card" href="/can-saltwater-crabs-live-in-freshwater/">
-          <img src="/assets/img/articles/can-saltwater-crabs-live-in-freshwater.webp" alt="A crab partially submerged at the boundary where saltwater and freshwater meet in an estuary" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-saltwater-crabs-live-in-freshwater.webp" alt="A crab partially submerged at the boundary where saltwater and freshwater meet in an estuary" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can Saltwater Crabs Live in Freshwater? It Depends on the Species</h3>
@@ -327,7 +406,12 @@
           </div>
         </a>
         <a class="card" href="/freshwater-crabs-for-aquariums/">
-          <img src="/assets/img/articles/freshwater-crabs-for-aquariums.webp" alt="A small crab perched on a piece of driftwood that breaks the water&#x27;s surface in a paludarium-style tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/freshwater-crabs-for-aquariums.webp" alt="A small crab perched on a piece of driftwood that breaks the water&#x27;s surface in a paludarium-style tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Freshwater Crabs for Aquariums: What &#x27;Freshwater Crab&#x27; Actually Means</h3>
@@ -335,7 +419,12 @@
           </div>
         </a>
         <a class="card" href="/can-mud-crabs-take-off-a-finger/">
-          <img src="/assets/img/articles/can-mud-crabs-take-off-a-finger.webp" alt="A large mud crab with prominent thick claws being handled with a gloved hand" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-mud-crabs-take-off-a-finger.webp" alt="A large mud crab with prominent thick claws being handled with a gloved hand" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>Can Mud Crabs Take Off a Finger? Bite Strength and Handling Safety</h3>
@@ -343,7 +432,12 @@
           </div>
         </a>
         <a class="card" href="/dragon-goby/">
-          <img src="/assets/img/articles/dragon-goby.webp" alt="A dragon goby partially buried in sand substrate with only its head visible" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/dragon-goby.webp" alt="A dragon goby partially buried in sand substrate with only its head visible" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Dragon Goby (Violet Goby) Care Guide: Tank Size, Substrate &amp; Diet</h3>
@@ -351,7 +445,12 @@
           </div>
         </a>
         <a class="card" href="/green-spotted-pufferfish/">
-          <img src="/assets/img/articles/green-spotted-pufferfish.webp" alt="A green spotted pufferfish with a yellow-green spotted back and white belly resting near plants" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/green-spotted-pufferfish.webp" alt="A green spotted pufferfish with a yellow-green spotted back and white belly resting near plants" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Green Spotted Pufferfish Care Guide: Salinity, Diet &amp; Tank Mates</h3>

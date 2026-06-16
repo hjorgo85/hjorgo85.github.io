@@ -391,16 +391,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/" aria-current="page">Saltwater</a></li>
       <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
@@ -412,8 +409,85 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" aria-current="page" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
   <div class="hub-hero">
     <div class="container">
@@ -429,6 +503,7 @@
   </div>
 
   <div class="container section">
+
     <div class="article-content">
       <h2 id="getting-started-in-saltwater">Getting Started in Saltwater</h2>
 <p>The single biggest difference between freshwater and saltwater fishkeeping isn&#39;t the salt itself — it&#39;s the <strong>margin for error</strong>. Saltwater fish and invertebrates are generally less tolerant of ammonia, nitrite, and unstable parameters than common freshwater species, which means the upfront process of fully cycling a tank (establishing the beneficial bacteria that process fish waste) matters more, not less, when starting out.</p>
@@ -439,11 +514,19 @@
 
     </div>
 
-    <section class="related-articles">
+    <!-- Filter tabs injected by JS when there are multiple groups -->
+    <div class="hub-filter-bar" id="hub-filters" role="tablist" aria-label="Filter articles" style="display:none"></div>
+
+    <section class="related-articles hub-group reveal" data-group-index="0" data-group-title="Beginner-Friendly Saltwater Fish">
       <h2>Beginner-Friendly Saltwater Fish</h2>
       <div class="grid grid-3">
         <a class="card" href="/yellowtail-damselfish/">
-          <img src="/assets/img/articles/yellowtail-damselfish.webp" alt="Yellowtail damselfish (Chrysiptera parasema) swimming over live rock in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/yellowtail-damselfish.webp" alt="Yellowtail damselfish (Chrysiptera parasema) swimming over live rock in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Yellowtail Damselfish Care Guide: Tank Setup, Diet &amp; Breeding</h3>
@@ -451,7 +534,12 @@
           </div>
         </a>
         <a class="card" href="/common-clownfish/">
-          <img src="/assets/img/placeholder.svg" alt="Pair of common clownfish (Amphiprion ocellaris) swimming near a host anemone" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/placeholder.svg" alt="Pair of common clownfish (Amphiprion ocellaris) swimming near a host anemone" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Common Clownfish Care Guide: Tank Size, Diet, Tank Mates &amp; Anemones</h3>
@@ -459,7 +547,12 @@
           </div>
         </a>
         <a class="card" href="/firefish/">
-          <img src="/assets/img/articles/firefish.webp" alt="Firefish goby (Nemateleotris magnifica) hovering near a rock crevice with its dorsal fin raised" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/firefish.webp" alt="Firefish goby (Nemateleotris magnifica) hovering near a rock crevice with its dorsal fin raised" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Firefish Goby Care Guide: Tank Setup, Jumping Risk &amp; Tank Mates</h3>
@@ -468,11 +561,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="1" data-group-title="Damselfish Species Guides">
       <h2>Damselfish Species Guides</h2>
       <div class="grid grid-3">
         <a class="card" href="/azure-damselfish/">
-          <img src="/assets/img/articles/azure-damselfish.webp" alt="Azure damselfish (Chrysiptera hemicyanea) with bright blue body and yellow belly hovering near live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/azure-damselfish.webp" alt="Azure damselfish (Chrysiptera hemicyanea) with bright blue body and yellow belly hovering near live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Azure Damselfish Care Guide: Tank Setup, Diet &amp; Behavior</h3>
@@ -480,7 +578,12 @@
           </div>
         </a>
         <a class="card" href="/blue-devil-damselfish/">
-          <img src="/assets/img/articles/blue-devil-damselfish.webp" alt="Blue devil damselfish (Chrysiptera cyanea) male with vivid blue body and orange-tipped tail near coral" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/blue-devil-damselfish.webp" alt="Blue devil damselfish (Chrysiptera cyanea) male with vivid blue body and orange-tipped tail near coral" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Blue Devil Damselfish Care Guide: Tank Setup, Diet &amp; Breeding</h3>
@@ -488,7 +591,12 @@
           </div>
         </a>
         <a class="card" href="/domino-damselfish/">
-          <img src="/assets/img/articles/domino-damselfish.webp" alt="Domino damselfish (Dascyllus trimaculatus) with black body and three white spots swimming near rockwork" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/domino-damselfish.webp" alt="Domino damselfish (Dascyllus trimaculatus) with black body and three white spots swimming near rockwork" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Domino Damselfish Care Guide: Tank Setup, Diet &amp; Breeding</h3>
@@ -497,11 +605,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="2" data-group-title="Reef Fish Species Profiles">
       <h2>Reef Fish Species Profiles</h2>
       <div class="grid grid-3">
         <a class="card" href="/flame-angelfish/">
-          <img src="/assets/img/articles/flame-angelfish.webp" alt="Flame angelfish (Centropyge loricula) with vivid red-orange body and dark vertical stripes swimming near live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/flame-angelfish.webp" alt="Flame angelfish (Centropyge loricula) with vivid red-orange body and dark vertical stripes swimming near live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Flame Angelfish Care Guide: Tank Setup, Diet &amp; Reef Compatibility</h3>
@@ -509,7 +622,12 @@
           </div>
         </a>
         <a class="card" href="/coral-beauty/">
-          <img src="/assets/img/articles/coral-beauty.webp" alt="Coral beauty angelfish (Centropyge bispinosa) with a deep purple body and orange-yellow highlights swimming near live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/coral-beauty.webp" alt="Coral beauty angelfish (Centropyge bispinosa) with a deep purple body and orange-yellow highlights swimming near live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Coral Beauty Angelfish Care Guide: Tank Setup, Diet &amp; Reef Compatibility</h3>
@@ -517,7 +635,12 @@
           </div>
         </a>
         <a class="card" href="/banggai-cardinalfish/">
-          <img src="/assets/img/articles/banggai-cardinalfish.webp" alt="Banggai cardinalfish (Pterapogon kauderni) with elongated fins and white-spotted black bands hovering near rockwork" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/banggai-cardinalfish.webp" alt="Banggai cardinalfish (Pterapogon kauderni) with elongated fins and white-spotted black bands hovering near rockwork" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Banggai Cardinalfish Care Guide: Tank Setup, Diet &amp; Breeding</h3>
@@ -525,7 +648,12 @@
           </div>
         </a>
         <a class="card" href="/pearlscale-butterflyfish-reef-safe/">
-          <img src="/assets/img/articles/pearlscale-butterflyfish-reef-safe.webp" alt="Pearlscale butterflyfish (Chaetodon xanthurus) with white pearl-patterned body and orange-yellow tail swimming over reef rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/pearlscale-butterflyfish-reef-safe.webp" alt="Pearlscale butterflyfish (Chaetodon xanthurus) with white pearl-patterned body and orange-yellow tail swimming over reef rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Pearlscale Butterflyfish: Is It Reef Safe? Care Guide &amp; Compatibility</h3>
@@ -534,11 +662,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="3" data-group-title="Clownfish Care &amp; Behavior">
       <h2>Clownfish Care &amp; Behavior</h2>
       <div class="grid grid-3">
         <a class="card" href="/maroon-clownfish-premnas-biaculeatus/">
-          <img src="/assets/img/articles/maroon-clownfish-premnas-biaculeatus.webp" alt="Maroon clownfish (Premnas biaculeatus) with white bars hosting in a bubble-tip anemone" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/maroon-clownfish-premnas-biaculeatus.webp" alt="Maroon clownfish (Premnas biaculeatus) with white bars hosting in a bubble-tip anemone" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Maroon Clownfish (Premnas biaculeatus) Care Guide: Size, Aggression &amp; Anemones</h3>
@@ -546,7 +679,12 @@
           </div>
         </a>
         <a class="card" href="/clownfish-pairing-behavior/">
-          <img src="/assets/img/articles/clownfish-pairing-behavior.webp" alt="Pair of clownfish of different sizes hovering together near host anemone tentacles, showing size-based pair hierarchy" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/clownfish-pairing-behavior.webp" alt="Pair of clownfish of different sizes hovering together near host anemone tentacles, showing size-based pair hierarchy" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Clownfish Pairing Behavior: How Clownfish Form Bonded Pairs</h3>
@@ -554,7 +692,12 @@
           </div>
         </a>
         <a class="card" href="/why-do-clownfish-turn-black/">
-          <img src="/assets/img/articles/why-do-clownfish-turn-black.webp" alt="Clownfish with darkened, blackened body coloration next to its normal bright orange coloration" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/why-do-clownfish-turn-black.webp" alt="Clownfish with darkened, blackened body coloration next to its normal bright orange coloration" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Why Do Clownfish Turn Black? (And Lose Their Orange Color)</h3>
@@ -562,7 +705,12 @@
           </div>
         </a>
         <a class="card" href="/clownfish-losing-color-here-is-why/">
-          <img src="/assets/img/articles/clownfish-losing-color-here-is-why.webp" alt="A clownfish with noticeably faded, pale orange coloration swimming near rockwork" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/clownfish-losing-color-here-is-why.webp" alt="A clownfish with noticeably faded, pale orange coloration swimming near rockwork" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Clownfish Losing Color: Here&#x27;s Why (and What to Do)</h3>
@@ -570,7 +718,12 @@
           </div>
         </a>
         <a class="card" href="/clownfish-ich/">
-          <img src="/assets/img/articles/clownfish-ich.webp" alt="Clownfish showing white spots on its body consistent with marine ich infection" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/clownfish-ich.webp" alt="Clownfish showing white spots on its body consistent with marine ich infection" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Clownfish Ich vs. Brooklynella: Symptoms, Treatment &amp; Quarantine</h3>
@@ -578,7 +731,12 @@
           </div>
         </a>
         <a class="card" href="/clownfish-salinity-aquarium/">
-          <img src="/assets/img/articles/clownfish-salinity-aquarium.webp" alt="Clownfish swimming in clear aquarium water with a refractometer and hydrometer shown for salinity measurement" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/clownfish-salinity-aquarium.webp" alt="Clownfish swimming in clear aquarium water with a refractometer and hydrometer shown for salinity measurement" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Clownfish Salinity Requirements: Ideal Range, Measurement &amp; Safe Changes</h3>
@@ -587,11 +745,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="4" data-group-title="Pufferfish &amp; Triggerfish">
       <h2>Pufferfish &amp; Triggerfish</h2>
       <div class="grid grid-3">
         <a class="card" href="/pufferfish-care/">
-          <img src="/assets/img/articles/pufferfish-care.webp" alt="Valentini puffer (Canthigaster valentini) with white body, dark saddle markings, and orange-spotted fins resting near live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/pufferfish-care.webp" alt="Valentini puffer (Canthigaster valentini) with white body, dark saddle markings, and orange-spotted fins resting near live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Valentini Puffer Care Guide: Tank Setup, Diet &amp; Behavior</h3>
@@ -599,7 +762,12 @@
           </div>
         </a>
         <a class="card" href="/is-valentini-puffer-reef-safe/">
-          <img src="/assets/img/articles/is-valentini-puffer-reef-safe.webp" alt="Valentini puffer (Canthigaster valentini) swimming near a cleanup crew snail and LPS coral in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/is-valentini-puffer-reef-safe.webp" alt="Valentini puffer (Canthigaster valentini) swimming near a cleanup crew snail and LPS coral in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Is the Valentini Puffer Reef Safe? Coral &amp; Invert Compatibility</h3>
@@ -607,7 +775,12 @@
           </div>
         </a>
         <a class="card" href="/can-valentini-pufferfish-share-a-tank-with-clownfish/">
-          <img src="/assets/img/articles/can-valentini-pufferfish-share-a-tank-with-clownfish.webp" alt="Valentini pufferfish (Canthigaster valentini) with saddle-like dark markings swimming near a pair of orange clownfish on live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-valentini-pufferfish-share-a-tank-with-clownfish.webp" alt="Valentini pufferfish (Canthigaster valentini) with saddle-like dark markings swimming near a pair of orange clownfish on live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Can a Valentini Pufferfish Live With Clownfish? Compatibility Guide</h3>
@@ -615,7 +788,12 @@
           </div>
         </a>
         <a class="card" href="/niger-triggerfish-reef-safe/">
-          <img src="/assets/img/articles/niger-triggerfish-reef-safe.webp" alt="Niger triggerfish (Odonus niger) with blue-green body and red tooth mark swimming mid-water in a large reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/niger-triggerfish-reef-safe.webp" alt="Niger triggerfish (Odonus niger) with blue-green body and red tooth mark swimming mid-water in a large reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Niger Triggerfish (Odonus niger): Care, Tank Size &amp; Is It Reef Safe?</h3>
@@ -624,11 +802,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="5" data-group-title="Reef Water Chemistry">
       <h2>Reef Water Chemistry</h2>
       <div class="grid grid-3">
         <a class="card" href="/acceptable-tds-reef-tank/">
-          <img src="/assets/img/articles/acceptable-tds-reef-tank.webp" alt="TDS meter pen showing a 0 ppm reading at the output of a reef aquarium RO/DI water filtration unit" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/acceptable-tds-reef-tank.webp" alt="TDS meter pen showing a 0 ppm reading at the output of a reef aquarium RO/DI water filtration unit" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Acceptable TDS for Reef Tank Source Water: Ideal Readings &amp; TDS Creep</h3>
@@ -636,7 +819,12 @@
           </div>
         </a>
         <a class="card" href="/raise-alkalinity-reef-tank/">
-          <img src="/assets/img/articles/raise-alkalinity-reef-tank.webp" alt="Reef tank alkalinity test kit with titration syringe and color-change reagent next to a glass of aquarium water" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/raise-alkalinity-reef-tank.webp" alt="Reef tank alkalinity test kit with titration syringe and color-change reagent next to a glass of aquarium water" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>How to Raise Alkalinity in a Reef Tank Safely</h3>
@@ -644,7 +832,12 @@
           </div>
         </a>
         <a class="card" href="/specific-gravity-reef-tank/">
-          <img src="/assets/img/articles/specific-gravity-reef-tank.webp" alt="Refractometer measuring the specific gravity of reef tank water with calibration fluid bottle alongside" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/specific-gravity-reef-tank.webp" alt="Refractometer measuring the specific gravity of reef tank water with calibration fluid bottle alongside" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Ideal Specific Gravity for a Reef Tank: Target Range &amp; How to Measure It</h3>
@@ -652,7 +845,12 @@
           </div>
         </a>
         <a class="card" href="/problems-with-high-magnesium-in-a-reef-tank/">
-          <img src="/assets/img/articles/problems-with-high-magnesium-in-a-reef-tank.webp" alt="Magnesium test kit reagents and a titration syringe next to a reef tank sump, used to check the ideal 1250-1350 ppm range" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/problems-with-high-magnesium-in-a-reef-tank.webp" alt="Magnesium test kit reagents and a titration syringe next to a reef tank sump, used to check the ideal 1250-1350 ppm range" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Problems With High Magnesium in a Reef Tank (and How to Fix It)</h3>
@@ -660,7 +858,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-mix-red-sea-coral-pro-salt/">
-          <img src="/assets/img/articles/how-to-mix-red-sea-coral-pro-salt.webp" alt="A container of Red Sea Coral Pro Salt being mixed into RO/DI water with a powerhead for circulation" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-mix-red-sea-coral-pro-salt.webp" alt="A container of Red Sea Coral Pro Salt being mixed into RO/DI water with a powerhead for circulation" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>How to Mix Red Sea Coral Pro Salt the Right Way</h3>
@@ -669,11 +872,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="6" data-group-title="Reef Tank Troubleshooting &amp; DIY">
       <h2>Reef Tank Troubleshooting &amp; DIY</h2>
       <div class="grid grid-3">
         <a class="card" href="/diatoms-reef-tank/">
-          <img src="/assets/img/articles/diatoms-reef-tank.webp" alt="Brown diatom film coating the sand bed and lower rockwork of a newly set up reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/diatoms-reef-tank.webp" alt="Brown diatom film coating the sand bed and lower rockwork of a newly set up reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Diatoms in a Reef Tank: Why the Brown Dust Shows Up and How to Handle It</h3>
@@ -681,7 +889,12 @@
           </div>
         </a>
         <a class="card" href="/hydroids-reef-tank/">
-          <img src="/assets/img/articles/hydroids-reef-tank.webp" alt="Close-up of small white feathery hydroid colonies growing on aquarium glass and live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/hydroids-reef-tank.webp" alt="Close-up of small white feathery hydroid colonies growing on aquarium glass and live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Hydroids in a Reef Tank: Identification, Risks &amp; How to Remove Them</h3>
@@ -689,7 +902,12 @@
           </div>
         </a>
         <a class="card" href="/sponges-reef-tank/">
-          <img src="/assets/img/articles/sponges-reef-tank.webp" alt="Brightly colored encrusting sponge growing on live rock in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/sponges-reef-tank.webp" alt="Brightly colored encrusting sponge growing on live rock in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Sponges in a Reef Tank: Helpful Hitchhikers or a Problem?</h3>
@@ -697,7 +915,12 @@
           </div>
         </a>
         <a class="card" href="/super-glue-reef-tank/">
-          <img src="/assets/img/articles/super-glue-reef-tank.webp" alt="Tube of gel cyanoacrylate super glue being used to attach a coral frag to a ceramic plug" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/super-glue-reef-tank.webp" alt="Tube of gel cyanoacrylate super glue being used to attach a coral frag to a ceramic plug" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Is Super Glue Reef Safe? Using Cyanoacrylate for Frags and Aquascaping</h3>
@@ -705,7 +928,12 @@
           </div>
         </a>
         <a class="card" href="/pla-safe-reef-tank/">
-          <img src="/assets/img/articles/pla-safe-reef-tank.webp" alt="3D printed PLA frag rack submerged in a reef aquarium sump holding coral frag plugs" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/pla-safe-reef-tank.webp" alt="3D printed PLA frag rack submerged in a reef aquarium sump holding coral frag plugs" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Is PLA Safe for a Reef Tank? 3D Printed Parts Underwater</h3>
@@ -714,11 +942,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="7" data-group-title="Stocking Guides &amp; Big Fish">
       <h2>Stocking Guides &amp; Big Fish</h2>
       <div class="grid grid-3">
         <a class="card" href="/saltwater-aquarium-fish/">
-          <img src="/assets/img/articles/saltwater-aquarium-fish.webp" alt="A variety of saltwater aquarium fish including a clownfish, damselfish, and tang swimming among live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/saltwater-aquarium-fish.webp" alt="A variety of saltwater aquarium fish including a clownfish, damselfish, and tang swimming among live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Saltwater Aquarium Fish: Types, Tank Styles, and How to Choose</h3>
@@ -726,7 +959,12 @@
           </div>
         </a>
         <a class="card" href="/saltwater-aquarium-fish-for-beginners/">
-          <img src="/assets/img/articles/saltwater-aquarium-fish-for-beginners.webp" alt="Yellowtail damselfish, common clownfish, and firefish swimming together in a beginner saltwater aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/saltwater-aquarium-fish-for-beginners.webp" alt="Yellowtail damselfish, common clownfish, and firefish swimming together in a beginner saltwater aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Best Saltwater Fish for Beginners (and What to Avoid)</h3>
@@ -734,7 +972,12 @@
           </div>
         </a>
         <a class="card" href="/saltwater-fish-for-10-gallon-tank/">
-          <img src="/assets/img/articles/saltwater-fish-for-10-gallon-tank.webp" alt="Small nano saltwater aquarium around 10 gallons with live rock and a single small goby" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/saltwater-fish-for-10-gallon-tank.webp" alt="Small nano saltwater aquarium around 10 gallons with live rock and a single small goby" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Saltwater Fish for a 10-Gallon Tank: What&#x27;s Actually Realistic</h3>
@@ -742,7 +985,12 @@
           </div>
         </a>
         <a class="card" href="/best-fish-for-reef-tank/">
-          <img src="/assets/img/articles/best-fish-for-reef-tank.webp" alt="Clownfish, firefish, and cardinalfish swimming together among corals in a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/best-fish-for-reef-tank.webp" alt="Clownfish, firefish, and cardinalfish swimming together among corals in a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Best Fish for a Reef Tank: Truly Reef-Safe Picks (and Caveats)</h3>
@@ -750,7 +998,12 @@
           </div>
         </a>
         <a class="card" href="/blue-hippo-tang/">
-          <img src="/assets/img/articles/blue-hippo-tang.webp" alt="Blue hippo tang (Paracanthurus hepatus) with bright blue body, black markings, and yellow tail swimming over live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/blue-hippo-tang.webp" alt="Blue hippo tang (Paracanthurus hepatus) with bright blue body, black markings, and yellow tail swimming over live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Blue Hippo Tang (Paracanthurus hepatus) Care Guide: Tank Size, Diet &amp; Tank Mates</h3>
@@ -759,11 +1012,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="8" data-group-title="Wrasses, Gobies &amp; Specialist Species">
       <h2>Wrasses, Gobies &amp; Specialist Species</h2>
       <div class="grid grid-3">
         <a class="card" href="/female-melanurus-wrasse/">
-          <img src="/assets/img/articles/female-melanurus-wrasse.webp" alt="Melanurus wrasse (Halichoeres melanurus) showing green and orange striped coloration over live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/female-melanurus-wrasse.webp" alt="Melanurus wrasse (Halichoeres melanurus) showing green and orange striped coloration over live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Female Melanurus Wrasse: How to Tell Males and Females Apart (and Why It Can Change)</h3>
@@ -771,7 +1029,12 @@
           </div>
         </a>
         <a class="card" href="/bluestreak-cleaner-wrasse-labroides-dimidiatrus/">
-          <img src="/assets/img/placeholder.svg" alt="Bluestreak cleaner wrasse (Labroides dimidiatus) with blue and black striped body cleaning a larger fish" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/placeholder.svg" alt="Bluestreak cleaner wrasse (Labroides dimidiatus) with blue and black striped body cleaning a larger fish" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Bluestreak Cleaner Wrasse (Labroides dimidiatus) Care Guide: Why It&#x27;s Harder Than It Looks</h3>
@@ -779,7 +1042,12 @@
           </div>
         </a>
         <a class="card" href="/water-cow-goby-fish/">
-          <img src="/assets/img/placeholder.svg" alt="Cow goby (Amblygobius phalaena) with mottled brown and cream pattern resting on sand near live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/placeholder.svg" alt="Cow goby (Amblygobius phalaena) with mottled brown and cream pattern resting on sand near live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Cow Goby (Amblygobius phalaena) Care Guide: Tank Size, Sand Bed &amp; Diet</h3>
@@ -787,7 +1055,12 @@
           </div>
         </a>
         <a class="card" href="/chain-link-moray-eel/">
-          <img src="/assets/img/articles/chain-link-moray-eel.webp" alt="Chain link moray eel (Echidna catenata) with chain-like brown and cream pattern peeking out of live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/chain-link-moray-eel.webp" alt="Chain link moray eel (Echidna catenata) with chain-like brown and cream pattern peeking out of live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Chain Link Moray Eel (Echidna catenata) Care Guide: Tank Size, Diet &amp; Reef Compatibility</h3>
@@ -795,7 +1068,12 @@
           </div>
         </a>
         <a class="card" href="/foxface-rabbitfish-stressed/">
-          <img src="/assets/img/articles/foxface-rabbitfish-stressed.webp" alt="Foxface rabbitfish (Siganus vulpinus) with yellow body and dark face mask, showing darkened stress coloration" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/foxface-rabbitfish-stressed.webp" alt="Foxface rabbitfish (Siganus vulpinus) with yellow body and dark face mask, showing darkened stress coloration" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Why Is My Foxface Rabbitfish Stressed? Signs, Causes &amp; What to Do</h3>
@@ -804,11 +1082,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="9" data-group-title="Stocking Plans &amp; Group Sizing">
       <h2>Stocking Plans &amp; Group Sizing</h2>
       <div class="grid grid-3">
         <a class="card" href="/saltwater-fish-for-30-gallon-tank/">
-          <img src="/assets/img/articles/saltwater-fish-for-30-gallon-tank.webp" alt="30-gallon saltwater aquarium with clownfish, firefish, and live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/saltwater-fish-for-30-gallon-tank.webp" alt="30-gallon saltwater aquarium with clownfish, firefish, and live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Saltwater Fish for a 30-Gallon Tank: What Actually Fits</h3>
@@ -816,7 +1099,12 @@
           </div>
         </a>
         <a class="card" href="/pajama-cardinalfish/">
-          <img src="/assets/img/articles/pajama-cardinalfish.webp" alt="Pajama cardinalfish (Sphaeramia nematoptera) with yellow head, dark eye band, and red-spotted rear body" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/pajama-cardinalfish.webp" alt="Pajama cardinalfish (Sphaeramia nematoptera) with yellow head, dark eye band, and red-spotted rear body" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>Pajama Cardinalfish (Sphaeramia nematoptera) Care Guide: Tank Size, Diet &amp; Tank Mates</h3>
@@ -824,7 +1112,12 @@
           </div>
         </a>
         <a class="card" href="/how-many-azure-damselfish-should-i-get/">
-          <img src="/assets/img/articles/how-many-azure-damselfish-should-i-get.webp" alt="Multiple azure damselfish with blue and yellow coloration spread across rockwork in a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-many-azure-damselfish-should-i-get.webp" alt="Multiple azure damselfish with blue and yellow coloration spread across rockwork in a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fish</span>
             <h3>How Many Azure Damselfish Should I Get? Group Size by Tank Size</h3>
@@ -833,11 +1126,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="10" data-group-title="Mandarin Dragonets, Gobies &amp; Reef Fish Profiles">
       <h2>Mandarin Dragonets, Gobies &amp; Reef Fish Profiles</h2>
       <div class="grid grid-3">
         <a class="card" href="/mandarin-fish/">
-          <img src="/assets/img/articles/mandarin-fish.webp" alt="A mandarin fish (mandarin dragonet) with its psychedelic blue and orange pattern resting on live rock" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/mandarin-fish.webp" alt="A mandarin fish (mandarin dragonet) with its psychedelic blue and orange pattern resting on live rock" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fishkeeping</span>
             <h3>Mandarin Fish (Mandarin Dragonet): Care, Diet &amp; Feeding Challenges</h3>
@@ -845,7 +1143,12 @@
           </div>
         </a>
         <a class="card" href="/royal-gramma/">
-          <img src="/assets/img/articles/royal-gramma.webp" alt="A royal gramma fish with its distinctive purple front half and yellow back half near a reef cave" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/royal-gramma.webp" alt="A royal gramma fish with its distinctive purple front half and yellow back half near a reef cave" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fishkeeping</span>
             <h3>Royal Gramma: Care, Temperament &amp; Tank Mates</h3>
@@ -853,7 +1156,12 @@
           </div>
         </a>
         <a class="card" href="/gobies-fish/">
-          <img src="/assets/img/articles/gobies-fish.webp" alt="A small goby fish perched on rock near the substrate in an aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/gobies-fish.webp" alt="A small goby fish perched on rock near the substrate in an aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fishkeeping</span>
             <h3>Gobies: What Makes a Fish a Goby, and Why Are There So Many Kinds?</h3>
@@ -861,7 +1169,12 @@
           </div>
         </a>
         <a class="card" href="/yellow-fish-in-hawaii/">
-          <img src="/assets/img/articles/yellow-fish-in-hawaii.webp" alt="A bright yellow tang swimming over a Hawaiian coral reef" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/yellow-fish-in-hawaii.webp" alt="A bright yellow tang swimming over a Hawaiian coral reef" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Saltwater Fishkeeping</span>
             <h3>The Yellow Fish in Hawaii: Meet the Yellow Tang</h3>

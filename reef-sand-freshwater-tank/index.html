@@ -138,16 +138,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/">Saltwater</a></li>
       <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
@@ -159,8 +156,85 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
   <div class="container article-wrap">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
@@ -338,7 +412,12 @@
       <h2>Related Articles</h2>
       <div class="grid grid-3">
         <a class="card" href="/driftwood-cichlid-tank/">
-          <img src="/assets/img/articles/driftwood-cichlid-tank.webp" alt="A piece of driftwood in an aquarium, with tannins visibly tinting the water a light brown" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/driftwood-cichlid-tank.webp" alt="A piece of driftwood in an aquarium, with tannins visibly tinting the water a light brown" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Driftwood in a Cichlid Tank: Does It Work With African Cichlids?</h3>
@@ -346,7 +425,12 @@
           </div>
         </a>
         <a class="card" href="/epsom-salt-for-african-cichlids/">
-          <img src="/assets/img/articles/epsom-salt-for-african-cichlids.webp" alt="A small container of Epsom salt next to an aquarium, used for treating constipation in African cichlids" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/epsom-salt-for-african-cichlids.webp" alt="A small container of Epsom salt next to an aquarium, used for treating constipation in African cichlids" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Epsom Salt for African Cichlids: When It Helps and How to Use It</h3>
@@ -354,7 +438,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-care-for-altum-angelfish/">
-          <img src="/assets/img/articles/how-to-care-for-altum-angelfish.webp" alt="A tall-bodied altum angelfish swimming among driftwood and leaf litter in a blackwater-style aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-care-for-altum-angelfish.webp" alt="A tall-bodied altum angelfish swimming among driftwood and leaf litter in a blackwater-style aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Altum Angelfish Care Guide: Tank Height, Soft Water &amp; Group Size</h3>
@@ -362,7 +451,12 @@
           </div>
         </a>
         <a class="card" href="/green-spotted-pufferfish/">
-          <img src="/assets/img/articles/green-spotted-pufferfish.webp" alt="A green spotted pufferfish with a yellow-green spotted back and white belly resting near plants" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/green-spotted-pufferfish.webp" alt="A green spotted pufferfish with a yellow-green spotted back and white belly resting near plants" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Green Spotted Pufferfish Care Guide: Salinity, Diet &amp; Tank Mates</h3>
@@ -370,7 +464,12 @@
           </div>
         </a>
         <a class="card" href="/75-gallon-peacock-cichlid-tank/">
-          <img src="/assets/img/articles/75-gallon-peacock-cichlid-tank.webp" alt="Colorful male peacock cichlids (Aulonocara) swimming over a sand substrate in a 75-gallon aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/75-gallon-peacock-cichlid-tank.webp" alt="Colorful male peacock cichlids (Aulonocara) swimming over a sand substrate in a 75-gallon aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>75-Gallon Peacock Cichlid Tank: How Many Fish and What Setup Works</h3>
@@ -378,7 +477,12 @@
           </div>
         </a>
         <a class="card" href="/crushed-coral/">
-          <img src="/assets/img/articles/crushed-coral.webp" alt="Coarse white crushed coral substrate in an aquarium, showing angular calcium carbonate fragments" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/crushed-coral.webp" alt="Coarse white crushed coral substrate in an aquarium, showing angular calcium carbonate fragments" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>What Is Crushed Coral? Aquarium Uses Explained</h3>

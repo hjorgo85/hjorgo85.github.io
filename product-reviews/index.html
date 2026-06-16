@@ -277,16 +277,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/">Saltwater</a></li>
       <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
@@ -298,8 +295,85 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" aria-current="page" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
   <div class="hub-hero">
     <div class="container">
@@ -315,6 +389,7 @@
   </div>
 
   <div class="container section">
+
     <div class="article-content">
       <h2 id="how-we-review-equipment">How We Review Equipment</h2>
 <p>Our equipment reviews focus on the details that actually affect day-to-day reefkeeping or fishkeeping: noise levels in a real room (not a lab), mounting and installation quirks, controller usability, and what tends to go wrong over months of use — not just a feature list copied from the manufacturer&#39;s page.</p>
@@ -323,11 +398,19 @@
 
     </div>
 
-    <section class="related-articles">
+    <!-- Filter tabs injected by JS when there are multiple groups -->
+    <div class="hub-filter-bar" id="hub-filters" role="tablist" aria-label="Filter articles" style="display:none"></div>
+
+    <section class="related-articles hub-group reveal" data-group-index="0" data-group-title="Equipment Reviews">
       <h2>Equipment Reviews</h2>
       <div class="grid grid-3">
         <a class="card" href="/jebao-rw-4-review/">
-          <img src="/assets/img/articles/jebao-rw-4-review.webp" alt="Jebao RW-4 wave maker pump mounted inside a reef aquarium with its external controller" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/jebao-rw-4-review.webp" alt="Jebao RW-4 wave maker pump mounted inside a reef aquarium with its external controller" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Product Reviews</span>
             <h3>Jebao RW-4 Wave Maker Review: Is It Worth It for a Reef Tank?</h3>
@@ -335,7 +418,12 @@
           </div>
         </a>
         <a class="card" href="/caribsea-bio-magnet-clarifier/">
-          <img src="/assets/img/articles/caribsea-bio-magnet-clarifier.webp" alt="Fine white filter media pad being placed into the mechanical filtration stage of an aquarium canister filter" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/caribsea-bio-magnet-clarifier.webp" alt="Fine white filter media pad being placed into the mechanical filtration stage of an aquarium canister filter" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>CaribSea Bio-Magnet Clarifier: What It Does (and Doesn&#x27;t Fix)</h3>
@@ -343,7 +431,12 @@
           </div>
         </a>
         <a class="card" href="/fluval-chi-aquarium-light-not-working/">
-          <img src="/assets/img/articles/fluval-chi-aquarium-light-not-working.webp" alt="A Fluval Chi all-in-one aquarium with its integrated LED light unit built into the lid" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/fluval-chi-aquarium-light-not-working.webp" alt="A Fluval Chi all-in-one aquarium with its integrated LED light unit built into the lid" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Fluval Chi Aquarium Light Not Working: Common Causes and Fixes</h3>
@@ -351,7 +444,12 @@
           </div>
         </a>
         <a class="card" href="/amiracle-wet-dry-filter-for-aquariums/">
-          <img src="/assets/img/articles/amiracle-wet-dry-filter-for-aquariums.webp" alt="An Amiracle wet/dry trickle filter with a drip plate over bio-media, installed in an aquarium sump" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/amiracle-wet-dry-filter-for-aquariums.webp" alt="An Amiracle wet/dry trickle filter with a drip plate over bio-media, installed in an aquarium sump" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Amiracle Wet/Dry Filter for Aquariums: Is It Worth the Sump Space?</h3>
@@ -359,7 +457,12 @@
           </div>
         </a>
         <a class="card" href="/kessil-a80-vs-ai-prime-16-hd/">
-          <img src="/assets/img/articles/kessil-a80-vs-ai-prime-16-hd.webp" alt="A small reef aquarium lit by a compact LED fixture mounted on a gooseneck arm above the water" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/kessil-a80-vs-ai-prime-16-hd.webp" alt="A small reef aquarium lit by a compact LED fixture mounted on a gooseneck arm above the water" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Kessil A80 vs. AI Prime 16HD: Which Nano Reef Light Fits Your Tank?</h3>
@@ -367,7 +470,12 @@
           </div>
         </a>
         <a class="card" href="/fluval-biomax-vs-seachem-matrix/">
-          <img src="/assets/img/articles/fluval-biomax-vs-seachem-matrix.webp" alt="Two types of porous ceramic and rock-like biological filter media side by side in a filter tray" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/fluval-biomax-vs-seachem-matrix.webp" alt="Two types of porous ceramic and rock-like biological filter media side by side in a filter tray" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Fluval BioMax vs. Seachem Matrix: Which Biological Media Is Right for Your Filter?</h3>
@@ -375,7 +483,12 @@
           </div>
         </a>
         <a class="card" href="/fluval-fx6-air-trapped/">
-          <img src="/assets/img/articles/fluval-fx6-air-trapped.webp" alt="A Fluval FX6 canister filter with its media basket stack partially removed for inspection" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/fluval-fx6-air-trapped.webp" alt="A Fluval FX6 canister filter with its media basket stack partially removed for inspection" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Fluval FX6 Air Trapped: Why It Happens and How to Fix It</h3>
@@ -383,7 +496,12 @@
           </div>
         </a>
         <a class="card" href="/microbe-lift-review/">
-          <img src="/assets/img/articles/microbe-lift-review.webp" alt="A bottle of liquid bacterial supplement being added to an aquarium during setup" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/microbe-lift-review.webp" alt="A bottle of liquid bacterial supplement being added to an aquarium during setup" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Microbe-Lift Review: Are Their Bacterial Supplements Worth Using?</h3>
@@ -391,7 +509,12 @@
           </div>
         </a>
         <a class="card" href="/is-top-fin-a-good-brand/">
-          <img src="/assets/img/articles/is-top-fin-a-good-brand.webp" alt="A range of house-brand aquarium products including a tank, filter, heater, and food containers on a store shelf" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/is-top-fin-a-good-brand.webp" alt="A range of house-brand aquarium products including a tank, filter, heater, and food containers on a store shelf" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Is Top Fin a Good Brand? An Honest Look at PetSmart&#x27;s House Line</h3>
@@ -399,7 +522,12 @@
           </div>
         </a>
         <a class="card" href="/are-aqueon-tanks-good/">
-          <img src="/assets/img/articles/are-aqueon-tanks-good.webp" alt="Aqueon glass aquarium kit with hood, light, and filter on a store shelf alongside similar tank kits" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/are-aqueon-tanks-good.webp" alt="Aqueon glass aquarium kit with hood, light, and filter on a store shelf alongside similar tank kits" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Are Aqueon Tanks Good? A Practical Look at the Brand</h3>
@@ -407,7 +535,12 @@
           </div>
         </a>
         <a class="card" href="/bridgelux-led-vs-cree/">
-          <img src="/assets/img/articles/bridgelux-led-vs-cree.webp" alt="Close-up of LED chips mounted on a heatsink for a DIY aquarium light build" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/bridgelux-led-vs-cree.webp" alt="Close-up of LED chips mounted on a heatsink for a DIY aquarium light build" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Bridgelux vs. Cree LEDs for DIY Aquarium Lighting: What Actually Differs</h3>
@@ -415,7 +548,12 @@
           </div>
         </a>
         <a class="card" href="/kessil-a350w-vs-a360w/">
-          <img src="/assets/img/articles/kessil-a350w-vs-a360w.webp" alt="A Kessil point-source LED reef light mounted on a gooseneck arm above a reef tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/kessil-a350w-vs-a360w.webp" alt="A Kessil point-source LED reef light mounted on a gooseneck arm above a reef tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Kessil A350W vs. A360W: Choosing Between Kessil&#x27;s A-Series Tiers</h3>
@@ -423,7 +561,12 @@
           </div>
         </a>
         <a class="card" href="/jebao-rw-vs-wp/">
-          <img src="/assets/img/articles/jebao-rw-vs-wp.webp" alt="A Jebao wave maker pump mounted inside a reef aquarium with its external magnetic mount visible" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/jebao-rw-vs-wp.webp" alt="A Jebao wave maker pump mounted inside a reef aquarium with its external magnetic mount visible" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Jebao RW vs. WP Series: What Changed Between Wave Maker Generations</h3>
@@ -431,7 +574,12 @@
           </div>
         </a>
         <a class="card" href="/aquaclear-110-vs-emperor-400/">
-          <img src="/assets/img/placeholder.svg" alt="Two hang-on-back aquarium filters mounted side by side on the rim of a large fish tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/placeholder.svg" alt="Two hang-on-back aquarium filters mounted side by side on the rim of a large fish tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>AquaClear 110 vs. Emperor 400: Comparing Two Large Hang-On-Back Filters</h3>
@@ -439,7 +587,12 @@
           </div>
         </a>
         <a class="card" href="/oceanic-aquarium/">
-          <img src="/assets/img/articles/oceanic-aquarium.webp" alt="A reef-ready glass aquarium with a built-in corner overflow box, set up for a sump-based filtration system" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/oceanic-aquarium.webp" alt="A reef-ready glass aquarium with a built-in corner overflow box, set up for a sump-based filtration system" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Oceanic Aquariums: Brand Overview and What &#x27;Reef-Ready&#x27; Means</h3>
@@ -448,11 +601,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="1" data-group-title="Tank Size &amp; Setup Comparisons">
       <h2>Tank Size &amp; Setup Comparisons</h2>
       <div class="grid grid-3">
         <a class="card" href="/75-vs-90-gallon-aquarium/">
-          <img src="/assets/img/articles/75-vs-90-gallon-aquarium.webp" alt="Two aquariums side by side, a 75-gallon and a taller 90-gallon of the same footprint, on sturdy stands" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/75-vs-90-gallon-aquarium.webp" alt="Two aquariums side by side, a 75-gallon and a taller 90-gallon of the same footprint, on sturdy stands" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>75-Gallon vs. 90-Gallon Aquarium: What the Extra Size Actually Gets You</h3>
@@ -460,7 +618,12 @@
           </div>
         </a>
         <a class="card" href="/65-gallon-hexagon-aquarium/">
-          <img src="/assets/img/articles/65-gallon-hexagon-aquarium.webp" alt="Hexagon-shaped aquarium with six glass panels forming a wide hexagonal footprint, viewed from above at an angle" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/65-gallon-hexagon-aquarium.webp" alt="Hexagon-shaped aquarium with six glass panels forming a wide hexagonal footprint, viewed from above at an angle" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>65-Gallon Hexagon Aquarium: Pros, Cons &amp; What to Know Before Buying</h3>
@@ -469,11 +632,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="2" data-group-title="Plant &amp; Treatment Comparisons">
       <h2>Plant &amp; Treatment Comparisons</h2>
       <div class="grid grid-3">
         <a class="card" href="/cabomba-vs-hornwort/">
-          <img src="/assets/img/articles/cabomba-vs-hornwort.webp" alt="Cabomba and hornwort stem plants side by side in a planted aquarium, showing their different leaf textures" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/cabomba-vs-hornwort.webp" alt="Cabomba and hornwort stem plants side by side in a planted aquarium, showing their different leaf textures" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Cabomba vs. Hornwort: Which Fast-Growing Plant Fits Your Tank?</h3>
@@ -481,7 +649,12 @@
           </div>
         </a>
         <a class="card" href="/methylene-blue-vs-malachite-green/">
-          <img src="/assets/img/articles/methylene-blue-vs-malachite-green.webp" alt="Bottles of blue and green aquarium medication next to a hospital tank setup" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/methylene-blue-vs-malachite-green.webp" alt="Bottles of blue and green aquarium medication next to a hospital tank setup" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Methylene Blue vs. Malachite Green: Which Treatment Fits Your Problem?</h3>
@@ -489,7 +662,12 @@
           </div>
         </a>
         <a class="card" href="/flame-moss-vs-java-moss/">
-          <img src="/assets/img/articles/flame-moss-vs-java-moss.webp" alt="Two types of aquarium moss attached to driftwood, one growing in upright spiraling strands and the other as a dense flat mat" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/flame-moss-vs-java-moss.webp" alt="Two types of aquarium moss attached to driftwood, one growing in upright spiraling strands and the other as a dense flat mat" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Flame Moss vs. Java Moss: Which Aquarium Moss Fits Your Aquascape?</h3>
@@ -497,7 +675,12 @@
           </div>
         </a>
         <a class="card" href="/seachem-stability-vs-tetra-safestart/">
-          <img src="/assets/img/articles/seachem-stability-vs-tetra-safestart.webp" alt="Two bottles of liquid bacterial supplement next to a new aquarium being set up" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/seachem-stability-vs-tetra-safestart.webp" alt="Two bottles of liquid bacterial supplement next to a new aquarium being set up" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Seachem Stability vs. Tetra SafeStart: Which Bacterial Supplement Should You Use?</h3>
@@ -506,11 +689,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="3" data-group-title="Species Comparisons">
       <h2>Species Comparisons</h2>
       <div class="grid grid-3">
         <a class="card" href="/johanni-vs-maingano/">
-          <img src="/assets/img/articles/johanni-vs-maingano.webp" alt="A blue Mbuna cichlid with dark vertical stripes swimming over rockwork in a Lake Malawi-style aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/johanni-vs-maingano.webp" alt="A blue Mbuna cichlid with dark vertical stripes swimming over rockwork in a Lake Malawi-style aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Johanni vs. Maingano: How These Two Blue Mbuna Cichlids Actually Differ</h3>
@@ -518,7 +706,12 @@
           </div>
         </a>
         <a class="card" href="/red-devil-fish-vs-oscar/">
-          <img src="/assets/img/articles/red-devil-fish-vs-oscar.webp" alt="A large red cichlid and a large mottled cichlid with an eyespot near the tail, each in a spacious aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/red-devil-fish-vs-oscar.webp" alt="A large red cichlid and a large mottled cichlid with an eyespot near the tail, each in a spacious aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Red Devil Cichlid vs. Oscar: Which Big Cichlid Fits Your Tank?</h3>
@@ -526,7 +719,12 @@
           </div>
         </a>
         <a class="card" href="/livingstonii-vs-venustus/">
-          <img src="/assets/img/articles/livingstonii-vs-venustus.webp" alt="A large mottled Lake Malawi hap cichlid with giraffe-like blotches resting near the substrate of an aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/livingstonii-vs-venustus.webp" alt="A large mottled Lake Malawi hap cichlid with giraffe-like blotches resting near the substrate of an aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Livingstonii vs. Venustus: Two Predatory Lake Malawi Haps Compared</h3>
@@ -534,7 +732,12 @@
           </div>
         </a>
         <a class="card" href="/nerite-snails-vs-mystery-snails/">
-          <img src="/assets/img/articles/nerite-snails-vs-mystery-snails.webp" alt="A striped nerite snail and a larger gold mystery snail on the glass of a planted freshwater aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/nerite-snails-vs-mystery-snails.webp" alt="A striped nerite snail and a larger gold mystery snail on the glass of a planted freshwater aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Nerite Snails vs. Mystery Snails: Which Cleanup Crew Fits Your Tank?</h3>
@@ -543,11 +746,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="4" data-group-title="Coral &amp; Substrate Comparisons">
       <h2>Coral &amp; Substrate Comparisons</h2>
       <div class="grid grid-3">
         <a class="card" href="/frogspawn-vs-hammer-coral/">
-          <img src="/assets/img/articles/frogspawn-vs-hammer-coral.webp" alt="Side-by-side comparison of frogspawn coral with branching tentacle tips and hammer coral with anchor-shaped tentacle tips" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/frogspawn-vs-hammer-coral.webp" alt="Side-by-side comparison of frogspawn coral with branching tentacle tips and hammer coral with anchor-shaped tentacle tips" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Frogspawn vs. Hammer Coral: How to Tell These Euphyllia Apart</h3>
@@ -555,7 +763,12 @@
           </div>
         </a>
         <a class="card" href="/crushed-coral-vs-live-sand/">
-          <img src="/assets/img/articles/crushed-coral-vs-live-sand.webp" alt="Side-by-side comparison of coarse crushed coral substrate and fine live sand in an aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/crushed-coral-vs-live-sand.webp" alt="Side-by-side comparison of coarse crushed coral substrate and fine live sand in an aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Crushed Coral vs. Live Sand: Which Substrate Is Right for Your Tank?</h3>
@@ -563,7 +776,12 @@
           </div>
         </a>
         <a class="card" href="/malaysian-driftwood-vs-mopani/">
-          <img src="/assets/img/articles/malaysian-driftwood-vs-mopani.webp" alt="Two pieces of aquarium driftwood side by side, one dark twisted Malaysian driftwood and one two-toned tan and brown Mopani wood" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/malaysian-driftwood-vs-mopani.webp" alt="Two pieces of aquarium driftwood side by side, one dark twisted Malaysian driftwood and one two-toned tan and brown Mopani wood" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Malaysian Driftwood vs. Mopani Wood: Which Is Right for Your Aquascape?</h3>

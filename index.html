@@ -59,16 +59,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/">Saltwater</a></li>
       <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
@@ -80,67 +77,198 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
-  <section class="hero">
-    <div class="container">
+
+  <!-- HERO -->
+  <section class="hero-home">
+    <div class="hero-bubbles" aria-hidden="true">
+      <span class="bubble b1"></span>
+      <span class="bubble b2"></span>
+      <span class="bubble b3"></span>
+      <span class="bubble b4"></span>
+      <span class="bubble b5"></span>
+      <span class="bubble b6"></span>
+      <span class="bubble b7"></span>
+      <span class="bubble b8"></span>
+      <span class="bubble b9"></span>
+      <span class="bubble b10"></span>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-eyebrow">Marine Biology-Backed Guides</div>
       <h1>Practical Aquarium Care Guides, Backed by Real Tank Experience</h1>
       <p>Species profiles, tank setup, and equipment reviews for freshwater and saltwater fishkeepers — written to answer the questions you actually have, not just the ones that are easy to Google.</p>
       <div class="btn-group">
-        <a class="btn btn-accent" href="/fish-types/">Browse Species Guides</a>
-        <a class="btn btn-outline" href="/product-reviews/" style="color:#fff;border-color:#fff;">Equipment Reviews</a>
+        <a class="btn btn-accent btn-lg" href="/fish-types/">Browse Species Guides</a>
+        <a class="btn btn-ghost btn-lg" href="/product-reviews/">Equipment Reviews</a>
       </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>310+</strong><span>Expert Guides</span></div>
+        <div class="hero-stat"><strong>8</strong><span>Categories</span></div>
+        <div class="hero-stat"><strong>Free</strong><span>Always</span></div>
+      </div>
+    </div>
+    <div class="hero-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,30 C240,60 480,0 720,30 C960,60 1200,0 1440,30 L1440,60 L0,60 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
-  <section class="section">
+  <!-- CATEGORIES -->
+  <section class="section categories-section">
     <div class="container">
       <div class="section-header">
         <h2>Explore by Category</h2>
         <p>Find care guides organized by tank type and topic.</p>
       </div>
-      <div class="grid grid-4">
-        <a class="category-tile" href="/saltwater/">
-          <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg></span>
+      <div class="category-grid">
+        <a class="category-card cat-0 reveal" href="/saltwater/">
+          <div class="cat-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg></div>
           <h3>Saltwater Fishkeeping</h3>
+          <svg class="cat-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
         </a>
-        <a class="category-tile" href="/freshwater-fish/">
-          <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5c3 4 6 7.5 6 11a6 6 0 0 1-12 0c0-3.5 3-7 6-11z"/></svg></span>
+        <a class="category-card cat-1 reveal" href="/freshwater-fish/">
+          <div class="cat-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5c3 4 6 7.5 6 11a6 6 0 0 1-12 0c0-3.5 3-7 6-11z"/></svg></div>
           <h3>Freshwater Fish</h3>
+          <svg class="cat-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
         </a>
-        <a class="category-tile" href="/corals-invertebrates/">
-          <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4c-7 0-13 4-15 11 2 1 5 2 8 1 6-1.5 9-6.5 9-12 0 0-1-0.1-2 0z"/><path d="M5 19c2-4 5-6.5 9-8"/></svg></span>
+        <a class="category-card cat-2 reveal" href="/corals-invertebrates/">
+          <div class="cat-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4c-7 0-13 4-15 11 2 1 5 2 8 1 6-1.5 9-6.5 9-12 0 0-1-0.1-2 0z"/><path d="M5 19c2-4 5-6.5 9-8"/></svg></div>
           <h3>Corals &amp; Invertebrates</h3>
+          <svg class="cat-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
         </a>
-        <a class="category-tile" href="/turtles/">
-          <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8c4 0 7 2.5 7 6s-3 4-7 4-7-1.5-7-4 3-6 7-6z"/><path d="M12 8V5.5M10 5.5c0-1 .9-1.8 2-1.8s2 .8 2 1.8"/><path d="M4 13.5c-1 0-1.8.6-1.8 1.6M20 13.5c1 0 1.8.6 1.8 1.6M6.5 18.5c-.4 1-1.3 1.5-2.3 1.5M17.5 18.5c.4 1 1.3 1.5 2.3 1.5"/></svg></span>
+        <a class="category-card cat-3 reveal" href="/turtles/">
+          <div class="cat-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8c4 0 7 2.5 7 6s-3 4-7 4-7-1.5-7-4 3-6 7-6z"/><path d="M12 8V5.5M10 5.5c0-1 .9-1.8 2-1.8s2 .8 2 1.8"/><path d="M4 13.5c-1 0-1.8.6-1.8 1.6M20 13.5c1 0 1.8.6 1.8 1.6M6.5 18.5c-.4 1-1.3 1.5-2.3 1.5M17.5 18.5c.4 1 1.3 1.5 2.3 1.5"/></svg></div>
           <h3>Turtle Care</h3>
+          <svg class="cat-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
         </a>
-        <a class="category-tile" href="/equipment-troubleshooting/">
-          <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.3 2.3-2-2 2.3-2.3z"/></svg></span>
+        <a class="category-card cat-4 reveal" href="/equipment-troubleshooting/">
+          <div class="cat-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.3 2.3-2-2 2.3-2.3z"/></svg></div>
           <h3>Equipment &amp; Troubleshooting</h3>
+          <svg class="cat-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
         </a>
-        <a class="category-tile" href="/fish-types/">
-          <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H12v18H5.5A1.5 1.5 0 0 1 4 19.5v-15z"/><path d="M20 4.5A1.5 1.5 0 0 0 18.5 3H12v18h6.5a1.5 1.5 0 0 0 1.5-1.5v-15z"/></svg></span>
+        <a class="category-card cat-5 reveal" href="/fish-types/">
+          <div class="cat-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H12v18H5.5A1.5 1.5 0 0 1 4 19.5v-15z"/><path d="M20 4.5A1.5 1.5 0 0 0 18.5 3H12v18h6.5a1.5 1.5 0 0 0 1.5-1.5v-15z"/></svg></div>
           <h3>All Species Guides</h3>
+          <svg class="cat-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
         </a>
-        <a class="category-tile" href="/product-reviews/">
-          <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="20" r="1.4" fill="currentColor" stroke="none"/><path d="M2.5 3h2l2.6 12.6a1.8 1.8 0 0 0 1.8 1.4h9.2a1.8 1.8 0 0 0 1.76-1.43L21.5 7H6"/></svg></span>
+        <a class="category-card cat-6 reveal" href="/product-reviews/">
+          <div class="cat-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="20" r="1.4" fill="currentColor" stroke="none"/><path d="M2.5 3h2l2.6 12.6a1.8 1.8 0 0 0 1.8 1.4h9.2a1.8 1.8 0 0 0 1.76-1.43L21.5 7H6"/></svg></div>
           <h3>Equipment Reviews</h3>
+          <svg class="cat-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
         </a>
-        <a class="category-tile" href="/aquarium-plants/">
-          <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4c-7 0-13 4-15 11 2 1 5 2 8 1 6-1.5 9-6.5 9-12 0 0-1-0.1-2 0z"/><path d="M5 19c2-4 5-6.5 9-8"/></svg></span>
+        <a class="category-card cat-7 reveal" href="/aquarium-plants/">
+          <div class="cat-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4c-7 0-13 4-15 11 2 1 5 2 8 1 6-1.5 9-6.5 9-12 0 0-1-0.1-2 0z"/><path d="M5 19c2-4 5-6.5 9-8"/></svg></div>
           <h3>Aquarium Plants &amp; Algae</h3>
+          <svg class="cat-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
         </a>
-        <a class="category-tile" href="/fish-facts-faqs/">
-          <span class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg></span>
+        <a class="category-card cat-8 reveal" href="/fish-facts-faqs/">
+          <div class="cat-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg></div>
           <h3>Fish Facts &amp; FAQs</h3>
+          <svg class="cat-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
         </a>
       </div>
     </div>
   </section>
 
+  <!-- FEATURED ARTICLES -->
   <section class="section section-alt">
     <div class="container">
       <div class="section-header">
@@ -148,38 +276,61 @@
         <p>Start here — our most comprehensive care guides and reviews.</p>
       </div>
       <div class="grid grid-3">
-        <a class="card" href="/yellowtail-damselfish/">
-          <img src="/assets/img/articles/yellowtail-damselfish.webp" alt="Yellowtail damselfish (Chrysiptera parasema) swimming over live rock in a reef aquarium" loading="lazy" width="400" height="300">
-          <div class="card-body">
-            <span class="card-tag">Saltwater Fish</span>
-            <h3>Yellowtail Damselfish Care Guide: Tank Setup, Diet &amp; Breeding</h3>
-            <p>A hardy, vividly colored beginner reef fish — here&#x27;s how to set up its tank, feed it correctly, and what to expect if it spawns.</p>
-          </div>
-        </a>
-        <a class="card" href="/betta-fish-care-guide/">
-          <img src="/assets/img/placeholder.svg" alt="Vibrant red and blue veiltail betta fish flaring its fins in a planted aquarium" loading="lazy" width="400" height="300">
-          <div class="card-body">
-            <span class="card-tag">Freshwater Fish</span>
-            <h3>Betta Fish Care Guide: Tank Size, Water Temperature &amp; Tank Mates</h3>
-            <p>Bettas are sold as &#x27;low maintenance,&#x27; but a healthy betta needs more than a bowl. Here&#x27;s what tank size, heating, and filtration actually look like in practice.</p>
-          </div>
-        </a>
-        <a class="card" href="/jebao-rw-4-review/">
-          <img src="/assets/img/articles/jebao-rw-4-review.webp" alt="Jebao RW-4 wave maker pump mounted inside a reef aquarium with its external controller" loading="lazy" width="400" height="300">
-          <div class="card-body">
-            <span class="card-tag">Product Reviews</span>
-            <h3>Jebao RW-4 Wave Maker Review: Is It Worth It for a Reef Tank?</h3>
-            <p>A budget wave maker that punches above its price — with a few quirks you should know about before buying.</p>
-          </div>
-        </a>
+        <div class="reveal"><a class="card" href="/yellowtail-damselfish/">
+  <div class="card-img-wrap">
+    <img src="/assets/img/articles/yellowtail-damselfish.webp" alt="Yellowtail damselfish (Chrysiptera parasema) swimming over live rock in a reef aquarium" loading="lazy" width="600" height="400">
+    <div class="card-overlay" aria-hidden="true">
+      <span class="card-read-more">Read Guide →</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-tag">Saltwater Fish</span>
+    <h3>Yellowtail Damselfish Care Guide: Tank Setup, Diet &amp; Breeding</h3>
+    <p>A hardy, vividly colored beginner reef fish — here&#x27;s how to set up its tank, feed it correctly, and what to expect if it spawns.</p>
+  </div>
+</a>
+</div>
+        <div class="reveal"><a class="card" href="/betta-fish-care-guide/">
+  <div class="card-img-wrap">
+    <img src="/assets/img/placeholder.svg" alt="Vibrant red and blue veiltail betta fish flaring its fins in a planted aquarium" loading="lazy" width="600" height="400">
+    <div class="card-overlay" aria-hidden="true">
+      <span class="card-read-more">Read Guide →</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-tag">Freshwater Fish</span>
+    <h3>Betta Fish Care Guide: Tank Size, Water Temperature &amp; Tank Mates</h3>
+    <p>Bettas are sold as &#x27;low maintenance,&#x27; but a healthy betta needs more than a bowl. Here&#x27;s what tank size, heating, and filtration actually look like in practice.</p>
+  </div>
+</a>
+</div>
+        <div class="reveal"><a class="card" href="/jebao-rw-4-review/">
+  <div class="card-img-wrap">
+    <img src="/assets/img/articles/jebao-rw-4-review.webp" alt="Jebao RW-4 wave maker pump mounted inside a reef aquarium with its external controller" loading="lazy" width="600" height="400">
+    <div class="card-overlay" aria-hidden="true">
+      <span class="card-read-more">Read Guide →</span>
+    </div>
+  </div>
+  <div class="card-body">
+    <span class="card-tag">Product Reviews</span>
+    <h3>Jebao RW-4 Wave Maker Review: Is It Worth It for a Reef Tank?</h3>
+    <p>A budget wave maker that punches above its price — with a few quirks you should know about before buying.</p>
+  </div>
+</a>
+</div>
+      </div>
+      <div class="section-cta">
+        <a href="/fish-types/" class="btn btn-primary">Browse All Guides</a>
       </div>
     </div>
   </section>
 
+  <!-- WHY SEA LIFE PLANET -->
   <section class="section">
     <div class="container">
-      <div class="article-content">
-        <h2 id="why-sea-life-planet">Why Sea Life Planet</h2>
+      <div class="why-grid">
+        <div class="why-content reveal">
+          <h2 id="why-sea-life-planet">Why Sea Life Planet</h2>
 <p>Most aquarium content online falls into one of two categories: generic listicles recycled across dozens of sites, or marketing copy from the stores selling the fish and equipment. Neither tends to mention the details that matter once the fish is actually in your tank — the real minimum tank size, the heater you&#39;ll actually need, or the tank mate combination that looked fine on paper but didn&#39;t work out.</p>
 <p>Sea Life Planet is built around <strong>species and equipment guides written from direct tank experience</strong>, reviewed for accuracy against current sources, and updated when our understanding (or the hobby&#39;s best practices) changes. Every guide includes:</p>
 <ul>
@@ -191,9 +342,41 @@
 <p>If you&#39;re choosing your next fish, start with <a href="/saltwater/">Saltwater Fishkeeping</a> or <a href="/freshwater-fish/">Freshwater Fish</a> to browse guides by category, or jump straight to <a href="/fish-types/">All Species Guides</a> for the full list. If you&#39;re setting up or upgrading equipment, our <a href="/product-reviews/">Equipment Reviews</a> cover the practical trade-offs — noise, reliability, mounting — that spec sheets don&#39;t.</p>
 <p>Learn more about who&#39;s behind Sea Life Planet on our <a href="/about/">About page</a>.</p>
 
+        </div>
+        <div class="why-features">
+          <div class="feature-item reveal">
+            <div class="feature-icon">✓</div>
+            <div>
+              <strong>Quick Facts on Every Guide</strong>
+              <p>Scientific name, realistic tank size, water parameters, and temperament at a glance.</p>
+            </div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-icon">✓</div>
+            <div>
+              <strong>Honest Compatibility Notes</strong>
+              <p>Including the combinations that don't work, not just the ones that do.</p>
+            </div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-icon">✓</div>
+            <div>
+              <strong>Updated Regularly</strong>
+              <p>Guides reviewed for accuracy and updated when best practices in the hobby change.</p>
+            </div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-icon">✓</div>
+            <div>
+              <strong>Dedicated FAQ Sections</strong>
+              <p>Every guide includes a FAQ covering the questions you actually have about that species.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+
 </main>
 <footer class="site-footer">
   <div class="container">

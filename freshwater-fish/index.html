@@ -505,16 +505,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/">Saltwater</a></li>
       <li><a href="/freshwater-fish/" aria-current="page">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
@@ -526,8 +523,85 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" aria-current="page" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
   <div class="hub-hero">
     <div class="container">
@@ -543,6 +617,7 @@
   </div>
 
   <div class="container section">
+
     <div class="article-content">
       <h2 id="what-this-section-covers">What This Section Covers</h2>
 <p>Freshwater fishkeeping spans an enormous range — from a single betta in a 5-gallon tank to large planted community tanks with dozens of species. Rather than generic &quot;top 10 beginner fish&quot; lists, our freshwater guides focus on <strong>what a specific species actually needs</strong>, including the gaps between store/packaging information and real-world requirements (tank size, heating, water parameters, and realistic tank mate options).</p>
@@ -552,11 +627,19 @@
 
     </div>
 
-    <section class="related-articles">
+    <!-- Filter tabs injected by JS when there are multiple groups -->
+    <div class="hub-filter-bar" id="hub-filters" role="tablist" aria-label="Filter articles" style="display:none"></div>
+
+    <section class="related-articles hub-group reveal" data-group-index="0" data-group-title="Popular Freshwater Fish">
       <h2>Popular Freshwater Fish</h2>
       <div class="grid grid-3">
         <a class="card" href="/betta-fish-care-guide/">
-          <img src="/assets/img/placeholder.svg" alt="Vibrant red and blue veiltail betta fish flaring its fins in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/placeholder.svg" alt="Vibrant red and blue veiltail betta fish flaring its fins in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Betta Fish Care Guide: Tank Size, Water Temperature &amp; Tank Mates</h3>
@@ -565,11 +648,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="1" data-group-title="Betta Fish: Varieties &amp; Health">
       <h2>Betta Fish: Varieties &amp; Health</h2>
       <div class="grid grid-3">
         <a class="card" href="/betta-fish/">
-          <img src="/assets/img/articles/betta-fish.webp" alt="Several betta fish of different fin types and colors in side-by-side aquarium displays" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/betta-fish.webp" alt="Several betta fish of different fin types and colors in side-by-side aquarium displays" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Betta Fish Types, Fin Shapes, and Color Varieties Explained</h3>
@@ -577,7 +665,12 @@
           </div>
         </a>
         <a class="card" href="/betta-fish-fungal-infections/">
-          <img src="/assets/img/articles/betta-fish-fungal-infections.webp" alt="A betta fish with a small patch of cottony fungal growth near its fin edge" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/betta-fish-fungal-infections.webp" alt="A betta fish with a small patch of cottony fungal growth near its fin edge" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Betta Fish Fungal Infections: Symptoms, Causes &amp; Treatment</h3>
@@ -585,7 +678,12 @@
           </div>
         </a>
         <a class="card" href="/betta-fish-skin-peeling/">
-          <img src="/assets/img/articles/betta-fish-skin-peeling.webp" alt="Close-up of a betta fish showing a patch of skin discoloration along its side" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/betta-fish-skin-peeling.webp" alt="Close-up of a betta fish showing a patch of skin discoloration along its side" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Why Is My Betta&#x27;s Skin Peeling? Causes and What to Do</h3>
@@ -594,11 +692,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="2" data-group-title="Fish Skin Peeling: Causes Across Species">
       <h2>Fish Skin Peeling: Causes Across Species</h2>
       <div class="grid grid-3">
         <a class="card" href="/fish-skin-peeling/">
-          <img src="/assets/img/articles/fish-skin-peeling.webp" alt="Close-up of a freshwater fish showing a patch of skin discoloration along its flank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/fish-skin-peeling.webp" alt="Close-up of a freshwater fish showing a patch of skin discoloration along its flank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Why Is My Fish&#x27;s Skin Peeling? Common Causes Across Species</h3>
@@ -606,7 +709,12 @@
           </div>
         </a>
         <a class="card" href="/angelfish-skin-peeling/">
-          <img src="/assets/img/articles/angelfish-skin-peeling.webp" alt="A freshwater angelfish with visible vertical stress bars swimming near plants" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/angelfish-skin-peeling.webp" alt="A freshwater angelfish with visible vertical stress bars swimming near plants" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Why Is My Angelfish&#x27;s Skin Peeling? Causes and What to Check</h3>
@@ -614,7 +722,12 @@
           </div>
         </a>
         <a class="card" href="/koi-fish-skin-peeling/">
-          <img src="/assets/img/articles/koi-fish-skin-peeling.webp" alt="A koi swimming near the surface of an outdoor pond, showing a patch of pale discoloration on its side" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/koi-fish-skin-peeling.webp" alt="A koi swimming near the surface of an outdoor pond, showing a patch of pale discoloration on its side" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Why Is My Koi&#x27;s Skin Peeling? Ulcers, Parasites &amp; Pond Factors</h3>
@@ -622,7 +735,12 @@
           </div>
         </a>
         <a class="card" href="/oscar-fish-skin-peeling-off/">
-          <img src="/assets/img/articles/oscar-fish-skin-peeling-off.webp" alt="An Oscar fish showing small pits along its head and lateral line" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/oscar-fish-skin-peeling-off.webp" alt="An Oscar fish showing small pits along its head and lateral line" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Why Is My Oscar Fish&#x27;s Skin Peeling Off? Hole-in-the-Head &amp; Other Causes</h3>
@@ -630,7 +748,12 @@
           </div>
         </a>
         <a class="card" href="/goldfish-skin-peeling/">
-          <img src="/assets/img/articles/goldfish-skin-peeling.webp" alt="A goldfish swimming in a planted aquarium, showing a small pale patch on its side" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/goldfish-skin-peeling.webp" alt="A goldfish swimming in a planted aquarium, showing a small pale patch on its side" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Why Is My Goldfish&#x27;s Skin Peeling? Causes and What to Check First</h3>
@@ -639,11 +762,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="3" data-group-title="African Cichlid Tanks">
       <h2>African Cichlid Tanks</h2>
       <div class="grid grid-3">
         <a class="card" href="/best-food-for-mbuna-cichlids/">
-          <img src="/assets/img/articles/best-food-for-mbuna-cichlids.webp" alt="Brightly colored Mbuna cichlids grazing on algae-covered rocks in a Lake Malawi-style aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/best-food-for-mbuna-cichlids.webp" alt="Brightly colored Mbuna cichlids grazing on algae-covered rocks in a Lake Malawi-style aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Best Food for Mbuna Cichlids: Why Diet Matters More Than for Almost Any Other Fish</h3>
@@ -651,7 +779,12 @@
           </div>
         </a>
         <a class="card" href="/75-gallon-peacock-cichlid-tank/">
-          <img src="/assets/img/articles/75-gallon-peacock-cichlid-tank.webp" alt="Colorful male peacock cichlids (Aulonocara) swimming over a sand substrate in a 75-gallon aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/75-gallon-peacock-cichlid-tank.webp" alt="Colorful male peacock cichlids (Aulonocara) swimming over a sand substrate in a 75-gallon aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>75-Gallon Peacock Cichlid Tank: How Many Fish and What Setup Works</h3>
@@ -659,7 +792,12 @@
           </div>
         </a>
         <a class="card" href="/cichlids-with-cloudy-eyes/">
-          <img src="/assets/img/articles/cichlids-with-cloudy-eyes.webp" alt="Close-up of a cichlid with a cloudy, hazy film over one eye" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/cichlids-with-cloudy-eyes.webp" alt="Close-up of a cichlid with a cloudy, hazy film over one eye" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Cichlids With Cloudy Eyes: Causes, Treatment &amp; When to Worry</h3>
@@ -667,7 +805,12 @@
           </div>
         </a>
         <a class="card" href="/epsom-salt-for-african-cichlids/">
-          <img src="/assets/img/articles/epsom-salt-for-african-cichlids.webp" alt="A small container of Epsom salt next to an aquarium, used for treating constipation in African cichlids" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/epsom-salt-for-african-cichlids.webp" alt="A small container of Epsom salt next to an aquarium, used for treating constipation in African cichlids" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Epsom Salt for African Cichlids: When It Helps and How to Use It</h3>
@@ -675,7 +818,12 @@
           </div>
         </a>
         <a class="card" href="/driftwood-cichlid-tank/">
-          <img src="/assets/img/articles/driftwood-cichlid-tank.webp" alt="A piece of driftwood in an aquarium, with tannins visibly tinting the water a light brown" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/driftwood-cichlid-tank.webp" alt="A piece of driftwood in an aquarium, with tannins visibly tinting the water a light brown" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Driftwood in a Cichlid Tank: Does It Work With African Cichlids?</h3>
@@ -683,7 +831,12 @@
           </div>
         </a>
         <a class="card" href="/bala-sharks-with-cichlids/">
-          <img src="/assets/img/articles/bala-sharks-with-cichlids.webp" alt="A school of silver Bala sharks swimming in a large planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/bala-sharks-with-cichlids.webp" alt="A school of silver Bala sharks swimming in a large planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Bala Sharks With Cichlids: Why This Common Pairing Usually Doesn&#x27;t Work</h3>
@@ -691,7 +844,12 @@
           </div>
         </a>
         <a class="card" href="/peacock-eel-with-cichlids/">
-          <img src="/assets/img/articles/peacock-eel-with-cichlids.webp" alt="A peacock eel (Macrognathus siamensis) partially buried in sand substrate" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/peacock-eel-with-cichlids.webp" alt="A peacock eel (Macrognathus siamensis) partially buried in sand substrate" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Peacock Eel With Cichlids: Is This a Workable Combination?</h3>
@@ -700,11 +858,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="4" data-group-title="Livebearers &amp; Community Fish">
       <h2>Livebearers &amp; Community Fish</h2>
       <div class="grid grid-3">
         <a class="card" href="/guppy-fish-care/">
-          <img src="/assets/img/articles/guppy-fish-care.webp" alt="Brightly colored male guppies with flowing tails swimming in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/guppy-fish-care.webp" alt="Brightly colored male guppies with flowing tails swimming in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Guppy Fish Care: Tank Size, Water Parameters &amp; Breeding Basics</h3>
@@ -712,7 +875,12 @@
           </div>
         </a>
         <a class="card" href="/split-tail-guppy/">
-          <img src="/assets/img/articles/split-tail-guppy.webp" alt="A double-tail (split-tail) guppy showing its divided caudal fin" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/split-tail-guppy.webp" alt="A double-tail (split-tail) guppy showing its divided caudal fin" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Split-Tail (Double Tail) Guppy: What It Is and Whether to Breed It</h3>
@@ -720,7 +888,12 @@
           </div>
         </a>
         <a class="card" href="/guppy-tuberculosis/">
-          <img src="/assets/img/articles/guppy-tuberculosis.webp" alt="An emaciated guppy with faded coloration, a symptom sometimes associated with fish tuberculosis" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/guppy-tuberculosis.webp" alt="An emaciated guppy with faded coloration, a symptom sometimes associated with fish tuberculosis" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Guppy Tuberculosis (Fish TB): Symptoms, Treatment &amp; Human Risk</h3>
@@ -728,7 +901,12 @@
           </div>
         </a>
         <a class="card" href="/sailfin-molly/">
-          <img src="/assets/img/articles/sailfin-molly.webp" alt="A male sailfin molly displaying its large dorsal sail fin in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/sailfin-molly.webp" alt="A male sailfin molly displaying its large dorsal sail fin in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Sailfin Molly Care Guide: Tank Size, Water Parameters &amp; the Sailfin Display</h3>
@@ -736,7 +914,12 @@
           </div>
         </a>
         <a class="card" href="/black-molly/">
-          <img src="/assets/img/articles/black-molly.webp" alt="A solid black molly fish swimming in a planted freshwater aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/black-molly.webp" alt="A solid black molly fish swimming in a planted freshwater aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Black Molly Care Guide: Tank Size, Water Parameters &amp; Color Changes</h3>
@@ -744,7 +927,12 @@
           </div>
         </a>
         <a class="card" href="/sailfin-molly-breed-with-regular-molly/">
-          <img src="/assets/img/articles/sailfin-molly-breed-with-regular-molly.webp" alt="A sailfin molly and a shortfin molly swimming together in a community aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/sailfin-molly-breed-with-regular-molly.webp" alt="A sailfin molly and a shortfin molly swimming together in a community aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Can Sailfin Mollies Breed With Regular Mollies? What to Expect</h3>
@@ -752,7 +940,12 @@
           </div>
         </a>
         <a class="card" href="/american-flagfish/">
-          <img src="/assets/img/articles/american-flagfish.webp" alt="A male American flagfish displaying its red and blue-green coloration in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/american-flagfish.webp" alt="A male American flagfish displaying its red and blue-green coloration in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>American Flagfish Care Guide: The Algae-Eater With a Temper</h3>
@@ -760,7 +953,12 @@
           </div>
         </a>
         <a class="card" href="/are-american-flagfish-aggressive/">
-          <img src="/assets/img/articles/are-american-flagfish-aggressive.webp" alt="A male American flagfish displaying territorial posturing toward another fish near aquarium plants" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/are-american-flagfish-aggressive.webp" alt="A male American flagfish displaying territorial posturing toward another fish near aquarium plants" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Are American Flagfish Aggressive? What to Expect and How to Manage It</h3>
@@ -769,11 +967,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="5" data-group-title="Catfish &amp; Bottom Dwellers">
       <h2>Catfish &amp; Bottom Dwellers</h2>
       <div class="grid grid-3">
         <a class="card" href="/stingray-pleco/">
-          <img src="/assets/img/articles/stingray-pleco.webp" alt="A boldly spotted L-number pleco resting on driftwood, the pattern sometimes marketed as &#x27;stingray pleco&#x27;" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/stingray-pleco.webp" alt="A boldly spotted L-number pleco resting on driftwood, the pattern sometimes marketed as &#x27;stingray pleco&#x27;" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Stingray Pleco Care: What This Trade Name Actually Means</h3>
@@ -781,7 +984,12 @@
           </div>
         </a>
         <a class="card" href="/pleco-poop-information/">
-          <img src="/assets/img/articles/pleco-poop-information.webp" alt="A pleco resting near the substrate of an aquarium, with visible waste nearby" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/pleco-poop-information.webp" alt="A pleco resting near the substrate of an aquarium, with visible waste nearby" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Pleco Poop: What&#x27;s Normal, What Colors Mean, and Bioload Basics</h3>
@@ -789,7 +997,12 @@
           </div>
         </a>
         <a class="card" href="/bloated-cory-catfish/">
-          <img src="/assets/img/articles/bloated-cory-catfish.webp" alt="A corydoras catfish with a visibly swollen abdomen resting on aquarium substrate" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/bloated-cory-catfish.webp" alt="A corydoras catfish with a visibly swollen abdomen resting on aquarium substrate" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Bloated Cory Catfish: Causes, Dropsy Warning Signs &amp; Treatment</h3>
@@ -797,7 +1010,12 @@
           </div>
         </a>
         <a class="card" href="/channel-catfish-tank-conditions/">
-          <img src="/assets/img/articles/channel-catfish-tank-conditions.webp" alt="A channel catfish in shallow water, illustrating its size relative to typical aquarium fish" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/channel-catfish-tank-conditions.webp" alt="A channel catfish in shallow water, illustrating its size relative to typical aquarium fish" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Channel Catfish Tank Conditions: Why This Fish Doesn&#x27;t Belong in Most Aquariums</h3>
@@ -805,7 +1023,12 @@
           </div>
         </a>
         <a class="card" href="/colombian-shark-catfish/">
-          <img src="/assets/img/articles/colombian-shark-catfish.webp" alt="A group of Colombian shark catfish swimming together in a large aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/colombian-shark-catfish.webp" alt="A group of Colombian shark catfish swimming together in a large aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Colombian Shark Catfish Care Guide: Tank Size, Diet &amp; the Brackish Question</h3>
@@ -813,7 +1036,12 @@
           </div>
         </a>
         <a class="card" href="/berneys-shark-catfish/">
-          <img src="/assets/img/articles/berneys-shark-catfish.webp" alt="A Berney&#x27;s catfish, an Australian native shark catfish, swimming in a large aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/berneys-shark-catfish.webp" alt="A Berney&#x27;s catfish, an Australian native shark catfish, swimming in a large aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Berney&#x27;s Shark Catfish: Care Guide for This Australian Native Species</h3>
@@ -821,7 +1049,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-care-for-asian-banjo-catfish/">
-          <img src="/assets/img/articles/how-to-care-for-asian-banjo-catfish.webp" alt="A small, flattened Asian stream catfish resting on sand substrate in an aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-care-for-asian-banjo-catfish.webp" alt="A small, flattened Asian stream catfish resting on sand substrate in an aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>How to Care for &#x27;Asian Banjo Catfish&#x27; (and What the Name Actually Means)</h3>
@@ -830,11 +1063,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="6" data-group-title="Big Tank Centerpiece Fish">
       <h2>Big Tank Centerpiece Fish</h2>
       <div class="grid grid-3">
         <a class="card" href="/red-jardini-arowana/">
-          <img src="/assets/img/articles/red-jardini-arowana.webp" alt="A Red Jardini arowana swimming near the surface of a large aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/red-jardini-arowana.webp" alt="A Red Jardini arowana swimming near the surface of a large aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Red Jardini Arowana Care Guide: Tank Size, Diet &amp; Long-Term Commitment</h3>
@@ -842,7 +1080,12 @@
           </div>
         </a>
         <a class="card" href="/arowana-water-temperature/">
-          <img src="/assets/img/articles/arowana-water-temperature.webp" alt="A thermometer reading inside a large arowana aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/arowana-water-temperature.webp" alt="A thermometer reading inside a large arowana aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Arowana Water Temperature: Ideal Range and Why Stability Matters</h3>
@@ -850,7 +1093,12 @@
           </div>
         </a>
         <a class="card" href="/55-gallon-discus-tank/">
-          <img src="/assets/img/articles/55-gallon-discus-tank.webp" alt="A group of discus fish swimming in a tall planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/55-gallon-discus-tank.webp" alt="A group of discus fish swimming in a tall planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Is a 55-Gallon Tank Big Enough for Discus?</h3>
@@ -858,7 +1106,12 @@
           </div>
         </a>
         <a class="card" href="/what-are-the-fish-that-swim-with-sharks/">
-          <img src="/assets/img/articles/what-are-the-fish-that-swim-with-sharks.webp" alt="A freshwater aquarium stocked with several fish commonly given &#x27;shark&#x27; common names" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-are-the-fish-that-swim-with-sharks.webp" alt="A freshwater aquarium stocked with several fish commonly given &#x27;shark&#x27; common names" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>What Are the Fish That Swim With Sharks? (And What If You Mean Aquarium &#x27;Sharks&#x27;?)</h3>
@@ -867,11 +1120,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="7" data-group-title="Tetras, Nano Tanks &amp; Common Health Questions">
       <h2>Tetras, Nano Tanks &amp; Common Health Questions</h2>
       <div class="grid grid-3">
         <a class="card" href="/endlers-5-gallon-tank/">
-          <img src="/assets/img/articles/endlers-5-gallon-tank.webp" alt="Small, colorful Endler&#x27;s livebearers swimming in a heavily planted nano aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/endlers-5-gallon-tank.webp" alt="Small, colorful Endler&#x27;s livebearers swimming in a heavily planted nano aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Can Endler&#x27;s Livebearers Live in a 5-Gallon Tank?</h3>
@@ -879,7 +1137,12 @@
           </div>
         </a>
         <a class="card" href="/neon-tetra-fungus/">
-          <img src="/assets/img/articles/neon-tetra-fungus.webp" alt="A neon tetra with faded color swimming away from its school, a sign sometimes mistaken for fungus" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/neon-tetra-fungus.webp" alt="A neon tetra with faded color swimming away from its school, a sign sometimes mistaken for fungus" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>&#x27;Neon Tetra Fungus&#x27;: Is It Actually a Fungal Infection or Neon Tetra Disease?</h3>
@@ -887,7 +1150,12 @@
           </div>
         </a>
         <a class="card" href="/black-skirt-tetra-being-aggressive/">
-          <img src="/assets/img/articles/black-skirt-tetra-being-aggressive.webp" alt="A group of black skirt tetras swimming together in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/black-skirt-tetra-being-aggressive.webp" alt="A group of black skirt tetras swimming together in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Why Is My Black Skirt Tetra Being Aggressive? (And How to Fix It)</h3>
@@ -895,7 +1163,12 @@
           </div>
         </a>
         <a class="card" href="/dwarf-gouramis/">
-          <img src="/assets/img/articles/dwarf-gouramis.webp" alt="A colorful male dwarf gourami swimming among plants in a community aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/dwarf-gouramis.webp" alt="A colorful male dwarf gourami swimming among plants in a community aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Dwarf Gourami Care Guide: Tank Setup, Diet &amp; the DGIV Health Risk</h3>
@@ -903,7 +1176,12 @@
           </div>
         </a>
         <a class="card" href="/why-do-goldfish-look-deformed/">
-          <img src="/assets/img/articles/why-do-goldfish-look-deformed.webp" alt="A fancy goldfish with a rounded body shape swimming in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/why-do-goldfish-look-deformed.webp" alt="A fancy goldfish with a rounded body shape swimming in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Why Do Some Goldfish Look Deformed? Breeding vs. Health Issues</h3>
@@ -912,11 +1190,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="8" data-group-title="Brackish &amp; Specialty Freshwater Fish">
       <h2>Brackish &amp; Specialty Freshwater Fish</h2>
       <div class="grid grid-3">
         <a class="card" href="/dragon-goby/">
-          <img src="/assets/img/articles/dragon-goby.webp" alt="A dragon goby partially buried in sand substrate with only its head visible" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/dragon-goby.webp" alt="A dragon goby partially buried in sand substrate with only its head visible" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Dragon Goby (Violet Goby) Care Guide: Tank Size, Substrate &amp; Diet</h3>
@@ -924,7 +1207,12 @@
           </div>
         </a>
         <a class="card" href="/do-dragon-goby-bury-themselves/">
-          <img src="/assets/img/articles/do-dragon-goby-bury-themselves.webp" alt="A dragon goby with only its head and dorsal fin visible above a sand substrate" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/do-dragon-goby-bury-themselves.webp" alt="A dragon goby with only its head and dorsal fin visible above a sand substrate" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Do Dragon Gobies Bury Themselves? Normal Behavior vs. Warning Signs</h3>
@@ -932,7 +1220,12 @@
           </div>
         </a>
         <a class="card" href="/what-can-i-feed-my-dragon-goby-fish/">
-          <img src="/assets/img/articles/what-can-i-feed-my-dragon-goby-fish.webp" alt="A dragon goby emerging from sand to take a sinking food pellet" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-can-i-feed-my-dragon-goby-fish.webp" alt="A dragon goby emerging from sand to take a sinking food pellet" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>What Can I Feed My Dragon Goby? Diet, Picky Eaters &amp; Feeding Tips</h3>
@@ -940,7 +1233,12 @@
           </div>
         </a>
         <a class="card" href="/green-spotted-pufferfish/">
-          <img src="/assets/img/articles/green-spotted-pufferfish.webp" alt="A green spotted pufferfish with a yellow-green spotted back and white belly resting near plants" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/green-spotted-pufferfish.webp" alt="A green spotted pufferfish with a yellow-green spotted back and white belly resting near plants" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Green Spotted Pufferfish Care Guide: Salinity, Diet &amp; Tank Mates</h3>
@@ -948,7 +1246,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-care-for-altum-angelfish/">
-          <img src="/assets/img/articles/how-to-care-for-altum-angelfish.webp" alt="A tall-bodied altum angelfish swimming among driftwood and leaf litter in a blackwater-style aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-care-for-altum-angelfish.webp" alt="A tall-bodied altum angelfish swimming among driftwood and leaf litter in a blackwater-style aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Altum Angelfish Care Guide: Tank Height, Soft Water &amp; Group Size</h3>
@@ -956,7 +1259,12 @@
           </div>
         </a>
         <a class="card" href="/reef-sand-freshwater-tank/">
-          <img src="/assets/img/articles/reef-sand-freshwater-tank.webp" alt="Close-up of white aragonite reef sand substrate in a freshwater aquarium with rockwork" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/reef-sand-freshwater-tank.webp" alt="Close-up of white aragonite reef sand substrate in a freshwater aquarium with rockwork" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Can You Use Reef Sand in a Freshwater Tank? Hardness, pH &amp; Best Uses</h3>
@@ -965,11 +1273,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="9" data-group-title="Brackish Tanks, Paludariums &amp; Surface-Dwelling Oddballs">
       <h2>Brackish Tanks, Paludariums &amp; Surface-Dwelling Oddballs</h2>
       <div class="grid grid-3">
         <a class="card" href="/brackish-water-aquarium-fish/">
-          <img src="/assets/img/articles/brackish-water-aquarium-fish.webp" alt="Brackish aquarium with mangrove roots, sandy substrate, and fish near the water&#x27;s surface" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/brackish-water-aquarium-fish.webp" alt="Brackish aquarium with mangrove roots, sandy substrate, and fish near the water&#x27;s surface" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Brackish Water Aquarium Fish: Setup, Salinity &amp; Species Guide</h3>
@@ -977,7 +1290,12 @@
           </div>
         </a>
         <a class="card" href="/brackish-water-paludarium/">
-          <img src="/assets/img/articles/brackish-water-paludarium.webp" alt="Paludarium with a sloped sand bank, mangrove-style roots, and shallow brackish water housing fiddler crabs" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/brackish-water-paludarium.webp" alt="Paludarium with a sloped sand bank, mangrove-style roots, and shallow brackish water housing fiddler crabs" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Brackish Water Paludarium: Setup Guide for Mangrove &amp; Estuary-Style Tanks</h3>
@@ -985,7 +1303,12 @@
           </div>
         </a>
         <a class="card" href="/four-eyed-fish/">
-          <img src="/assets/img/articles/four-eyed-fish.webp" alt="Four-eyed fish swimming at the water&#x27;s surface with its distinctive split, protruding eyes visible above the waterline" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/four-eyed-fish.webp" alt="Four-eyed fish swimming at the water&#x27;s surface with its distinctive split, protruding eyes visible above the waterline" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Four-Eyed Fish (Anableps anableps) Care Guide: Tank Setup, Salinity &amp; Split-Pupil Eyes</h3>
@@ -993,7 +1316,12 @@
           </div>
         </a>
         <a class="card" href="/african-butterfly-fish/">
-          <img src="/assets/img/articles/african-butterfly-fish.webp" alt="African butterfly fish with broad wing-like pectoral fins resting near the water&#x27;s surface among floating plants" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/african-butterfly-fish.webp" alt="African butterfly fish with broad wing-like pectoral fins resting near the water&#x27;s surface among floating plants" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>African Butterfly Fish (Pantodon buchholzi) Care Guide: Tank Size, Diet &amp; Jumping</h3>
@@ -1001,7 +1329,12 @@
           </div>
         </a>
         <a class="card" href="/amazon-leaffish/">
-          <img src="/assets/img/articles/amazon-leaffish.webp" alt="Amazon leaffish camouflaged among dead leaf litter, body shape and coloration closely resembling a fallen leaf" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/amazon-leaffish.webp" alt="Amazon leaffish camouflaged among dead leaf litter, body shape and coloration closely resembling a fallen leaf" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Amazon Leaffish (Monocirrhus polyacanthus) Care Guide: Camouflage, Diet &amp; Tank Setup</h3>
@@ -1010,11 +1343,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="10" data-group-title="Breeding &amp; Fry Care">
       <h2>Breeding &amp; Fry Care</h2>
       <div class="grid grid-3">
         <a class="card" href="/how-long-does-it-take-for-fish-eggs-to-hatch/">
-          <img src="/assets/img/articles/how-long-does-it-take-for-fish-eggs-to-hatch.webp" alt="A cluster of small translucent fish eggs attached to an aquarium plant leaf" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-long-does-it-take-for-fish-eggs-to-hatch.webp" alt="A cluster of small translucent fish eggs attached to an aquarium plant leaf" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>How Long Does It Take for Fish Eggs to Hatch? A Species-by-Species Look</h3>
@@ -1022,7 +1360,12 @@
           </div>
         </a>
         <a class="card" href="/easiest-freshwater-fish-to-breed/">
-          <img src="/assets/img/articles/easiest-freshwater-fish-to-breed.webp" alt="A guppy with several free-swimming fry in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/easiest-freshwater-fish-to-breed.webp" alt="A guppy with several free-swimming fry in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>The Easiest Freshwater Fish to Breed at Home</h3>
@@ -1030,7 +1373,12 @@
           </div>
         </a>
         <a class="card" href="/corydoras-panda-breeding/">
-          <img src="/assets/img/placeholder.svg" alt="A panda corydoras catfish resting near the substrate in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/placeholder.svg" alt="A panda corydoras catfish resting near the substrate in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Panda Corydoras Breeding: The Cool Water Change Trigger Explained</h3>
@@ -1038,7 +1386,12 @@
           </div>
         </a>
         <a class="card" href="/rainbowfish-fry/">
-          <img src="/assets/img/articles/rainbowfish-fry.webp" alt="A pair of brightly colored rainbowfish swimming near fine-leaved aquarium plants" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/rainbowfish-fry.webp" alt="A pair of brightly colored rainbowfish swimming near fine-leaved aquarium plants" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Rainbowfish Fry: Breeding, Egg Collection, and Raising the Young</h3>
@@ -1046,7 +1399,12 @@
           </div>
         </a>
         <a class="card" href="/otocinclus-fry/">
-          <img src="/assets/img/articles/otocinclus-fry.webp" alt="A small group of otocinclus catfish grazing on algae-covered glass in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/otocinclus-fry.webp" alt="A small group of otocinclus catfish grazing on algae-covered glass in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Otocinclus Fry: Why Breeding Them Is So Rare (and What to Do If It Happens)</h3>
@@ -1055,11 +1413,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="11" data-group-title="Cichlid Species Guides">
       <h2>Cichlid Species Guides</h2>
       <div class="grid grid-3">
         <a class="card" href="/red-tiger-motaguense/">
-          <img src="/assets/img/articles/red-tiger-motaguense.webp" alt="A large red and orange cichlid with dark vertical barring swimming in an aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/red-tiger-motaguense.webp" alt="A large red and orange cichlid with dark vertical barring swimming in an aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Red Tiger Motaguense Cichlid: What This Hybrid Actually Is</h3>
@@ -1067,7 +1430,12 @@
           </div>
         </a>
         <a class="card" href="/amatitlania-nanolutea/">
-          <img src="/assets/img/articles/amatitlania-nanolutea.webp" alt="A small yellowish cichlid with faint dark markings resting near rocks in a freshwater aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/amatitlania-nanolutea.webp" alt="A small yellowish cichlid with faint dark markings resting near rocks in a freshwater aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Amatitlania nanolutea Care Guide: A Dwarf Central American Cichlid</h3>
@@ -1075,7 +1443,12 @@
           </div>
         </a>
         <a class="card" href="/astatheros-robertsoni/">
-          <img src="/assets/img/articles/astatheros-robertsoni.webp" alt="A medium-sized Central American cichlid with greenish-grey coloration swimming over gravel substrate" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/astatheros-robertsoni.webp" alt="A medium-sized Central American cichlid with greenish-grey coloration swimming over gravel substrate" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Astatheros robertsoni Care Guide: Tank Size, Diet &amp; Temperament</h3>
@@ -1083,7 +1456,12 @@
           </div>
         </a>
         <a class="card" href="/kyoga-flameback/">
-          <img src="/assets/img/articles/kyoga-flameback.webp" alt="A male African cichlid with a bright orange patch along its back swimming over rocky substrate" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/kyoga-flameback.webp" alt="A male African cichlid with a bright orange patch along its back swimming over rocky substrate" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Kyoga Flameback Cichlid: Care Guide for This Lake Victoria Basin Species</h3>
@@ -1091,7 +1469,12 @@
           </div>
         </a>
         <a class="card" href="/white-severum-fish/">
-          <img src="/assets/img/articles/white-severum-fish.webp" alt="A pale white and gold cichlid with a rounded body swimming in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/white-severum-fish.webp" alt="A pale white and gold cichlid with a rounded body swimming in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>White Severum Fish: Care Guide for This Peaceful Color Morph</h3>
@@ -1100,11 +1483,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="12" data-group-title="Freshwater Species Spotlights &amp; Health">
       <h2>Freshwater Species Spotlights &amp; Health</h2>
       <div class="grid grid-3">
         <a class="card" href="/redheaded-severum-fish/">
-          <img src="/assets/img/articles/redheaded-severum-fish.webp" alt="A gold-bodied cichlid with a distinct red-orange patch on its head and forehead swimming in a planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/redheaded-severum-fish.webp" alt="A gold-bodied cichlid with a distinct red-orange patch on its head and forehead swimming in a planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Red-Headed Severum: Care Guide for This Color Morph</h3>
@@ -1112,7 +1500,12 @@
           </div>
         </a>
         <a class="card" href="/how-fast-do-jack-dempseys-grow/">
-          <img src="/assets/img/articles/how-fast-do-jack-dempseys-grow.webp" alt="A dark-bodied cichlid with iridescent blue-green speckling swimming in a rocky aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-fast-do-jack-dempseys-grow.webp" alt="A dark-bodied cichlid with iridescent blue-green speckling swimming in a rocky aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>How Fast Do Jack Dempseys Grow? A Realistic Size Timeline</h3>
@@ -1120,7 +1513,12 @@
           </div>
         </a>
         <a class="card" href="/coolest-freshwater-aquarium-fish/">
-          <img src="/assets/img/articles/coolest-freshwater-aquarium-fish.webp" alt="A collage-style aquarium scene with several brightly colored and unusually patterned freshwater fish" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/coolest-freshwater-aquarium-fish.webp" alt="A collage-style aquarium scene with several brightly colored and unusually patterned freshwater fish" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>The Coolest Freshwater Aquarium Fish (Beyond the Usual Top-10 Lists)</h3>
@@ -1128,7 +1526,12 @@
           </div>
         </a>
         <a class="card" href="/combating-parasites-in-aquarium-fish/">
-          <img src="/assets/img/articles/combating-parasites-in-aquarium-fish.webp" alt="A close-up of an aquarium fish showing small white spots on its fins and body, a common sign of a parasitic infection" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/combating-parasites-in-aquarium-fish.webp" alt="A close-up of an aquarium fish showing small white spots on its fins and body, a common sign of a parasitic infection" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Combating Parasites in Aquarium Fish: Recognition, Prevention, and Treatment</h3>
@@ -1136,7 +1539,12 @@
           </div>
         </a>
         <a class="card" href="/argentine-pearl-fish/">
-          <img src="/assets/img/placeholder.svg" alt="A small, vividly blue killifish with pearl-like spots swimming over a dark peat substrate" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/placeholder.svg" alt="A small, vividly blue killifish with pearl-like spots swimming over a dark peat substrate" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Freshwater Fish</span>
             <h3>Argentine Pearl Fish: The Annual Killifish With Dormant Eggs</h3>

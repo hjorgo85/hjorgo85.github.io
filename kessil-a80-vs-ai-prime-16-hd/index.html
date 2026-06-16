@@ -138,16 +138,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/">Saltwater</a></li>
       <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
@@ -159,8 +156,85 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
   <div class="container article-wrap">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
@@ -321,7 +395,12 @@
       <h2>Related Articles</h2>
       <div class="grid grid-3">
         <a class="card" href="/fluval-chi-aquarium-light-not-working/">
-          <img src="/assets/img/articles/fluval-chi-aquarium-light-not-working.webp" alt="A Fluval Chi all-in-one aquarium with its integrated LED light unit built into the lid" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/fluval-chi-aquarium-light-not-working.webp" alt="A Fluval Chi all-in-one aquarium with its integrated LED light unit built into the lid" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Aquarium Equipment Reviews</span>
             <h3>Fluval Chi Aquarium Light Not Working: Common Causes and Fixes</h3>
@@ -329,7 +408,12 @@
           </div>
         </a>
         <a class="card" href="/best-lighting-for-40-gallon-breeder/">
-          <img src="/assets/img/articles/best-lighting-for-40-gallon-breeder.webp" alt="A 40-gallon breeder aquarium with a wide LED light fixture spanning the tank&#x27;s width" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/best-lighting-for-40-gallon-breeder.webp" alt="A 40-gallon breeder aquarium with a wide LED light fixture spanning the tank&#x27;s width" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Best Lighting for a 40-Gallon Breeder Tank</h3>
@@ -337,7 +421,12 @@
           </div>
         </a>
         <a class="card" href="/how-much-white-light-do-corals-need/">
-          <img src="/assets/img/articles/how-much-white-light-do-corals-need.webp" alt="A reef tank lit with a mix of white and blue LED lighting over coral colonies" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-much-white-light-do-corals-need.webp" alt="A reef tank lit with a mix of white and blue LED lighting over coral colonies" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Much White Light Do Corals Need?</h3>
@@ -345,7 +434,12 @@
           </div>
         </a>
         <a class="card" href="/aquarium-hood-light-not-working/">
-          <img src="/assets/img/articles/aquarium-hood-light-not-working.webp" alt="An aquarium hood with an integrated light fixture that is not illuminated" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/aquarium-hood-light-not-working.webp" alt="An aquarium hood with an integrated light fixture that is not illuminated" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Aquarium Hood Light Not Working: How to Troubleshoot It</h3>
@@ -353,7 +447,12 @@
           </div>
         </a>
         <a class="card" href="/lps-corals-for-beginners/">
-          <img src="/assets/img/articles/lps-corals-for-beginners.webp" alt="Several large-polyp stony corals, including hammer and torch corals, growing on rockwork in a reef aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/lps-corals-for-beginners.webp" alt="Several large-polyp stony corals, including hammer and torch corals, growing on rockwork in a reef aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>LPS Corals for Beginners: What to Know Before You Start</h3>
@@ -361,7 +460,12 @@
           </div>
         </a>
         <a class="card" href="/how-can-i-tell-if-my-corals-are-stressed-or-unhealthy/">
-          <img src="/assets/img/articles/how-can-i-tell-if-my-corals-are-stressed-or-unhealthy.webp" alt="A reef aquarium with multiple coral colonies of different types, illustrating signs of coral health" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-can-i-tell-if-my-corals-are-stressed-or-unhealthy.webp" alt="A reef aquarium with multiple coral colonies of different types, illustrating signs of coral health" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Corals &amp; Invertebrates</span>
             <h3>How Can I Tell If My Corals Are Stressed or Unhealthy?</h3>

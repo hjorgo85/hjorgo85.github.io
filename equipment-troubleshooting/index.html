@@ -331,16 +331,13 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
+<header class="site-header" id="site-header">
   <div class="container nav">
     <a href="/" class="logo">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
-      Sea Life Planet
+      <span>Sea Life Planet</span>
     </a>
-    <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
-    <ul class="nav-links" id="primary-nav">
+    <ul class="nav-links" id="primary-nav" role="list">
       <li><a href="/saltwater/">Saltwater</a></li>
       <li><a href="/freshwater-fish/">Freshwater Fish</a></li>
       <li><a href="/corals-invertebrates/">Corals &amp; Invertebrates</a></li>
@@ -352,8 +349,85 @@
       <li><a href="/about/">About</a></li>
       <li><a href="/contact-us/">Contact</a></li>
     </ul>
+    <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
   </div>
 </header>
+
+<!-- Mobile navigation overlay -->
+<div class="mobile-nav-overlay" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+  <div class="mobile-nav-panel">
+    <div class="mobile-nav-header">
+      <a href="/" class="logo" tabindex="-1">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2.5-4 6.5-6 10-6 4.5 0 8 2.5 10 6-2 3.5-5.5 6-10 6-3.5 0-7.5-2-10-6z"/><circle cx="15" cy="10.5" r="0.8" fill="currentColor"/><path d="M2 12c1.3-1 2.5-1.6 3.5-2M2 12c1.3 1 2.5 1.6 3.5 2"/></svg>
+        <span>Sea Life Planet</span>
+      </a>
+      <button class="mobile-nav-close" aria-label="Close navigation menu" tabindex="-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="/saltwater/" tabindex="-1">
+          Saltwater
+        </a>
+      </li>
+      <li>
+        <a href="/freshwater-fish/" tabindex="-1">
+          Freshwater Fish
+        </a>
+      </li>
+      <li>
+        <a href="/corals-invertebrates/" tabindex="-1">
+          Corals &amp; Invertebrates
+        </a>
+      </li>
+      <li>
+        <a href="/turtles/" tabindex="-1">
+          Turtles
+        </a>
+      </li>
+      <li>
+        <a href="/equipment-troubleshooting/" aria-current="page" tabindex="-1">
+          Equipment
+        </a>
+      </li>
+      <li>
+        <a href="/product-reviews/" tabindex="-1">
+          Product Reviews
+        </a>
+      </li>
+      <li>
+        <a href="/aquarium-plants/" tabindex="-1">
+          Aquarium Plants
+        </a>
+      </li>
+      <li>
+        <a href="/fish-facts-faqs/" tabindex="-1">
+          Fish Facts &amp; FAQs
+        </a>
+      </li>
+      <li>
+        <a href="/about/" tabindex="-1">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="/contact-us/" tabindex="-1">
+          Contact
+        </a>
+      </li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <p>Practical fishkeeping guides, free forever.</p>
+    </div>
+  </div>
+</div>
 <main id="main">
   <div class="hub-hero">
     <div class="container">
@@ -369,6 +443,7 @@
   </div>
 
   <div class="container section">
+
     <div class="article-content">
       <h2 id="equipment-problems-are-usually-fixable-not-fatal">Equipment Problems Are Usually Fixable, Not Fatal</h2>
 <p>A piece of equipment acting up — reduced flow, unusual noise, or a tank that went dark during a storm — tends to feel more urgent than it usually is. Most of the time, the cause is one of a small set of recurring issues: something wasn&#39;t reassembled quite right after maintenance, placement is creating an uneven result, or a routine maintenance step got skipped or overdone. None of these usually mean the equipment has failed.</p>
@@ -378,11 +453,19 @@
 
     </div>
 
-    <section class="related-articles">
+    <!-- Filter tabs injected by JS when there are multiple groups -->
+    <div class="hub-filter-bar" id="hub-filters" role="tablist" aria-label="Filter articles" style="display:none"></div>
+
+    <section class="related-articles hub-group reveal" data-group-index="0" data-group-title="Filters &amp; Air Pumps: Setup and Troubleshooting">
       <h2>Filters &amp; Air Pumps: Setup and Troubleshooting</h2>
       <div class="grid grid-3">
         <a class="card" href="/canister-filter-inlet-outlet-placement/">
-          <img src="/assets/img/articles/canister-filter-inlet-outlet-placement.webp" alt="A canister filter intake tube and spray bar outlet positioned at opposite ends of an aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/canister-filter-inlet-outlet-placement.webp" alt="A canister filter intake tube and spray bar outlet positioned at opposite ends of an aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Canister Filter Inlet &amp; Outlet Placement: Where They Actually Go</h3>
@@ -390,7 +473,12 @@
           </div>
         </a>
         <a class="card" href="/how-long-can-fish-live-without-air-pump-or-filter/">
-          <img src="/assets/img/articles/how-long-can-fish-live-without-air-pump-or-filter.webp" alt="An aquarium with a filter and air pump turned off during a power outage, with a flashlight nearby" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-long-can-fish-live-without-air-pump-or-filter.webp" alt="An aquarium with a filter and air pump turned off during a power outage, with a flashlight nearby" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Long Can Fish Live Without an Air Pump or Filter?</h3>
@@ -398,7 +486,12 @@
           </div>
         </a>
         <a class="card" href="/how-often-should-you-change-a-fish-tank-filter/">
-          <img src="/assets/img/articles/how-often-should-you-change-a-fish-tank-filter.webp" alt="Different types of aquarium filter media including sponge, ceramic rings, and activated carbon laid out for replacement" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-often-should-you-change-a-fish-tank-filter.webp" alt="Different types of aquarium filter media including sponge, ceramic rings, and activated carbon laid out for replacement" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Often Should You Change a Fish Tank Filter? A Media-by-Media Guide</h3>
@@ -406,7 +499,12 @@
           </div>
         </a>
         <a class="card" href="/aquarium-filter-not-working-after-cleaning/">
-          <img src="/assets/img/articles/aquarium-filter-not-working-after-cleaning.webp" alt="An aquarium canister filter partially disassembled for cleaning with tubing and media trays removed" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/aquarium-filter-not-working-after-cleaning.webp" alt="An aquarium canister filter partially disassembled for cleaning with tubing and media trays removed" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Aquarium Filter Not Working After Cleaning? Common Causes &amp; Fixes</h3>
@@ -415,11 +513,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="1" data-group-title="Filter Sizing, Placement &amp; Media">
       <h2>Filter Sizing, Placement &amp; Media</h2>
       <div class="grid grid-3">
         <a class="card" href="/can-a-filter-be-too-big-for-a-fish-tank/">
-          <img src="/assets/img/articles/can-a-filter-be-too-big-for-a-fish-tank.webp" alt="A large hang-on-back filter mounted on a small aquarium with visible surface current" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-a-filter-be-too-big-for-a-fish-tank.webp" alt="A large hang-on-back filter mounted on a small aquarium with visible surface current" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Can a Filter Be Too Big for a Fish Tank?</h3>
@@ -427,7 +530,12 @@
           </div>
         </a>
         <a class="card" href="/how-deep-should-my-aquarium-filter-intake-be/">
-          <img src="/assets/img/articles/how-deep-should-my-aquarium-filter-intake-be.webp" alt="An aquarium filter intake strainer positioned a few inches above the substrate in a planted tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-deep-should-my-aquarium-filter-intake-be.webp" alt="An aquarium filter intake strainer positioned a few inches above the substrate in a planted tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Deep Should My Aquarium Filter Intake Be?</h3>
@@ -435,7 +543,12 @@
           </div>
         </a>
         <a class="card" href="/cotton-wool-in-my-aquarium-filter/">
-          <img src="/assets/img/articles/cotton-wool-in-my-aquarium-filter.webp" alt="White polyester filter wool media being placed into an aquarium filter tray" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/cotton-wool-in-my-aquarium-filter.webp" alt="White polyester filter wool media being placed into an aquarium filter tray" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>What Is the Cotton Wool in My Aquarium Filter (And Should I Replace It With Real Cotton)?</h3>
@@ -443,7 +556,12 @@
           </div>
         </a>
         <a class="card" href="/aquarium-sand-filter-problems/">
-          <img src="/assets/img/articles/aquarium-sand-filter-problems.webp" alt="Sand substrate being stirred up near an aquarium filter intake" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/aquarium-sand-filter-problems.webp" alt="Sand substrate being stirred up near an aquarium filter intake" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Aquarium Sand Filter Problems: Why Sand Keeps Getting Into Your Filter</h3>
@@ -452,11 +570,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="2" data-group-title="Aquarium Lighting: Troubleshooting and Setup">
       <h2>Aquarium Lighting: Troubleshooting and Setup</h2>
       <div class="grid grid-3">
         <a class="card" href="/aquarium-hood-light-not-working/">
-          <img src="/assets/img/articles/aquarium-hood-light-not-working.webp" alt="An aquarium hood with an integrated light fixture that is not illuminated" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/aquarium-hood-light-not-working.webp" alt="An aquarium hood with an integrated light fixture that is not illuminated" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Aquarium Hood Light Not Working: How to Troubleshoot It</h3>
@@ -464,7 +587,12 @@
           </div>
         </a>
         <a class="card" href="/juwel-aquarium-lights-not-working/">
-          <img src="/assets/img/articles/juwel-aquarium-lights-not-working.webp" alt="A Juwel aquarium hood with the clip-in light unit and condensation tray visible" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/juwel-aquarium-lights-not-working.webp" alt="A Juwel aquarium hood with the clip-in light unit and condensation tray visible" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Juwel Aquarium Lights Not Working: Common Causes and Fixes</h3>
@@ -472,7 +600,12 @@
           </div>
         </a>
         <a class="card" href="/how-long-can-algae-live-without-light/">
-          <img src="/assets/img/articles/how-long-can-algae-live-without-light.webp" alt="A darkened aquarium with the lights off and a towel partially covering the tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-long-can-algae-live-without-light.webp" alt="A darkened aquarium with the lights off and a towel partially covering the tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Long Can Algae Live Without Light?</h3>
@@ -480,7 +613,12 @@
           </div>
         </a>
         <a class="card" href="/how-much-white-light-do-corals-need/">
-          <img src="/assets/img/articles/how-much-white-light-do-corals-need.webp" alt="A reef tank lit with a mix of white and blue LED lighting over coral colonies" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-much-white-light-do-corals-need.webp" alt="A reef tank lit with a mix of white and blue LED lighting over coral colonies" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Much White Light Do Corals Need?</h3>
@@ -488,7 +626,12 @@
           </div>
         </a>
         <a class="card" href="/best-lighting-for-40-gallon-breeder/">
-          <img src="/assets/img/articles/best-lighting-for-40-gallon-breeder.webp" alt="A 40-gallon breeder aquarium with a wide LED light fixture spanning the tank&#x27;s width" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/best-lighting-for-40-gallon-breeder.webp" alt="A 40-gallon breeder aquarium with a wide LED light fixture spanning the tank&#x27;s width" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Best Lighting for a 40-Gallon Breeder Tank</h3>
@@ -497,11 +640,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="3" data-group-title="Air Pumps: Setup and Troubleshooting">
       <h2>Air Pumps: Setup and Troubleshooting</h2>
       <div class="grid grid-3">
         <a class="card" href="/aquarium-pump-not-working/">
-          <img src="/assets/img/articles/aquarium-pump-not-working.webp" alt="An aquarium air pump connected to airline tubing and an airstone in a fish tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/aquarium-pump-not-working.webp" alt="An aquarium air pump connected to airline tubing and an airstone in a fish tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Aquarium Air Pump Not Working: How to Troubleshoot It</h3>
@@ -509,7 +657,12 @@
           </div>
         </a>
         <a class="card" href="/how-long-should-you-run-an-air-pump-in-a-fish-tank/">
-          <img src="/assets/img/articles/how-long-should-you-run-an-air-pump-in-a-fish-tank.webp" alt="An aquarium air pump and airstone running continuously in a community fish tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-long-should-you-run-an-air-pump-in-a-fish-tank.webp" alt="An aquarium air pump and airstone running continuously in a community fish tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Long Should You Run an Air Pump in a Fish Tank?</h3>
@@ -517,7 +670,12 @@
           </div>
         </a>
         <a class="card" href="/aquarium-bubble-wand-not-working/">
-          <img src="/assets/img/articles/aquarium-bubble-wand-not-working.webp" alt="A bubble wand on the bottom of an aquarium producing a row of bubbles along its length" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/aquarium-bubble-wand-not-working.webp" alt="A bubble wand on the bottom of an aquarium producing a row of bubbles along its length" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Aquarium Bubble Wand Not Working Properly: Common Causes</h3>
@@ -525,7 +683,12 @@
           </div>
         </a>
         <a class="card" href="/how-does-an-air-pump-work-in-an-aquarium/">
-          <img src="/assets/img/articles/how-does-an-air-pump-work-in-an-aquarium.webp" alt="Diagram-style view of an aquarium air pump, airline tubing, and airstone producing bubbles that agitate the water surface" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-does-an-air-pump-work-in-an-aquarium.webp" alt="Diagram-style view of an aquarium air pump, airline tubing, and airstone producing bubbles that agitate the water surface" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Does an Air Pump Work in an Aquarium?</h3>
@@ -534,11 +697,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="4" data-group-title="Heaters &amp; Overflow Boxes: Setup and Troubleshooting">
       <h2>Heaters &amp; Overflow Boxes: Setup and Troubleshooting</h2>
       <div class="grid grid-3">
         <a class="card" href="/how-does-an-aquarium-overflow-box-work/">
-          <img src="/assets/img/articles/how-does-an-aquarium-overflow-box-work.webp" alt="An aquarium overflow box mounted on the back wall of a tank, draining water down to a sump below" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-does-an-aquarium-overflow-box-work.webp" alt="An aquarium overflow box mounted on the back wall of a tank, draining water down to a sump below" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Does an Aquarium Overflow Box Work?</h3>
@@ -546,7 +714,12 @@
           </div>
         </a>
         <a class="card" href="/aquarium-heater-light-on-but-heater-not-working/">
-          <img src="/assets/img/articles/aquarium-heater-light-on-but-heater-not-working.webp" alt="An aquarium heater submerged in a tank with its indicator light visible" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/aquarium-heater-light-on-but-heater-not-working.webp" alt="An aquarium heater submerged in a tank with its indicator light visible" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Aquarium Heater Light Is On But It&#x27;s Not Heating: What&#x27;s Wrong?</h3>
@@ -554,7 +727,12 @@
           </div>
         </a>
         <a class="card" href="/how-long-do-aquarium-heaters-last/">
-          <img src="/assets/img/articles/how-long-do-aquarium-heaters-last.webp" alt="An aquarium heater with some mineral buildup on its surface, submerged in a tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-long-do-aquarium-heaters-last.webp" alt="An aquarium heater with some mineral buildup on its surface, submerged in a tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Long Do Aquarium Heaters Last?</h3>
@@ -563,11 +741,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="5" data-group-title="Tank Stands, Bracing &amp; Sump Sizing">
       <h2>Tank Stands, Bracing &amp; Sump Sizing</h2>
       <div class="grid grid-3">
         <a class="card" href="/can-a-fish-tank-hang-over-stand/">
-          <img src="/assets/img/articles/can-a-fish-tank-hang-over-stand.webp" alt="Aquarium sitting on a stand with its glass bottom edge extending slightly beyond the stand&#x27;s top surface" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/can-a-fish-tank-hang-over-stand.webp" alt="Aquarium sitting on a stand with its glass bottom edge extending slightly beyond the stand&#x27;s top surface" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Can a Fish Tank Hang Over Its Stand? Overhang Safety Explained</h3>
@@ -575,7 +758,12 @@
           </div>
         </a>
         <a class="card" href="/what-is-aquarium-bracing/">
-          <img src="/assets/img/articles/what-is-aquarium-bracing.webp" alt="Close-up of an aquarium&#x27;s top rim showing a plastic center brace spanning across the glass" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/what-is-aquarium-bracing.webp" alt="Close-up of an aquarium&#x27;s top rim showing a plastic center brace spanning across the glass" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>What Is Aquarium Bracing? Why Your Tank&#x27;s Top Rim Matters</h3>
@@ -583,7 +771,12 @@
           </div>
         </a>
         <a class="card" href="/aquarium-sump-size-calculator/">
-          <img src="/assets/img/articles/aquarium-sump-size-calculator.webp" alt="Aquarium sump tank below a display tank, divided into compartments for filtration media, equipment, and a return pump" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/aquarium-sump-size-calculator.webp" alt="Aquarium sump tank below a display tank, divided into compartments for filtration media, equipment, and a return pump" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Aquarium Sump Size Calculator: How to Size a Sump for Your Tank</h3>
@@ -592,11 +785,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="6" data-group-title="Brand-Specific Equipment: Common Problems">
       <h2>Brand-Specific Equipment: Common Problems</h2>
       <div class="grid grid-3">
         <a class="card" href="/penn-plax-cascade-canister-aquarium-filter/">
-          <img src="/assets/img/articles/penn-plax-cascade-canister-aquarium-filter.webp" alt="A Penn Plax Cascade canister filter sitting beneath an aquarium with intake and output hoses connected" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/penn-plax-cascade-canister-aquarium-filter.webp" alt="A Penn Plax Cascade canister filter sitting beneath an aquarium with intake and output hoses connected" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Penn Plax Cascade Canister Filter: Common Problems and Fixes</h3>
@@ -604,7 +802,12 @@
           </div>
         </a>
         <a class="card" href="/hygger-aquarium-gravel-cleaner-not-working/">
-          <img src="/assets/img/articles/hygger-aquarium-gravel-cleaner-not-working.webp" alt="A battery-powered aquarium gravel cleaner with its intake tube resting in the substrate of a fish tank" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/hygger-aquarium-gravel-cleaner-not-working.webp" alt="A battery-powered aquarium gravel cleaner with its intake tube resting in the substrate of a fish tank" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Hygger Aquarium Gravel Cleaner Not Working: How to Fix It</h3>
@@ -612,7 +815,12 @@
           </div>
         </a>
         <a class="card" href="/juwel-aquarium-lights-not-working/">
-          <img src="/assets/img/articles/juwel-aquarium-lights-not-working.webp" alt="A Juwel aquarium hood with the clip-in light unit and condensation tray visible" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/juwel-aquarium-lights-not-working.webp" alt="A Juwel aquarium hood with the clip-in light unit and condensation tray visible" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Juwel Aquarium Lights Not Working: Common Causes and Fixes</h3>
@@ -620,7 +828,12 @@
           </div>
         </a>
         <a class="card" href="/penguin-bio-wheel-200-impeller-noise/">
-          <img src="/assets/img/articles/penguin-bio-wheel-200-impeller-noise.webp" alt="A Penguin BioWheel hang-on-back aquarium filter mounted on a tank, with its rotating bio-wheel visible" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/penguin-bio-wheel-200-impeller-noise.webp" alt="A Penguin BioWheel hang-on-back aquarium filter mounted on a tank, with its rotating bio-wheel visible" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Penguin BioWheel 200 Impeller Noise: Causes and Fixes</h3>
@@ -629,11 +842,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="7" data-group-title="Water Chemistry &amp; Cycling">
       <h2>Water Chemistry &amp; Cycling</h2>
       <div class="grid grid-3">
         <a class="card" href="/high-nitrites-and-nitrates-during-cycle/">
-          <img src="/assets/img/articles/high-nitrites-and-nitrates-during-cycle.webp" alt="An aquarium water test kit with vials showing different color reactions for ammonia, nitrite, and nitrate" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/high-nitrites-and-nitrates-during-cycle.webp" alt="An aquarium water test kit with vials showing different color reactions for ammonia, nitrite, and nitrate" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>High Nitrites and Nitrates During Cycling: What&#x27;s Normal and What to Do</h3>
@@ -641,7 +859,12 @@
           </div>
         </a>
         <a class="card" href="/does-seachem-prime-go-bad/">
-          <img src="/assets/img/articles/does-seachem-prime-go-bad.webp" alt="A bottle of dark amber aquarium water conditioner sitting on a shelf next to aquarium supplies" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/does-seachem-prime-go-bad.webp" alt="A bottle of dark amber aquarium water conditioner sitting on a shelf next to aquarium supplies" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Does Seachem Prime Go Bad? Shelf Life, Smell, and Storage</h3>
@@ -649,7 +872,12 @@
           </div>
         </a>
         <a class="card" href="/how-long-does-prime-take-to-work-in-an-aquarium/">
-          <img src="/assets/img/articles/how-long-does-prime-take-to-work-in-an-aquarium.webp" alt="A person adding drops of water conditioner to an aquarium with a dropper bottle" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-long-does-prime-take-to-work-in-an-aquarium.webp" alt="A person adding drops of water conditioner to an aquarium with a dropper bottle" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Long Does Prime Take to Work in an Aquarium?</h3>
@@ -657,7 +885,12 @@
           </div>
         </a>
         <a class="card" href="/how-long-does-zeolite-take-to-work-aquarium/">
-          <img src="/assets/img/articles/how-long-does-zeolite-take-to-work-aquarium.webp" alt="Small porous mineral granules of aquarium zeolite media in a filter media bag" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-long-does-zeolite-take-to-work-aquarium.webp" alt="Small porous mineral granules of aquarium zeolite media in a filter media bag" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How Long Does Zeolite Take to Work in an Aquarium?</h3>
@@ -665,7 +898,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-add-nitrate-to-an-aquarium/">
-          <img src="/assets/img/articles/how-to-add-nitrate-to-an-aquarium.webp" alt="A small bottle of liquid fertilizer being dosed into a heavily planted aquarium" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-add-nitrate-to-an-aquarium.webp" alt="A small bottle of liquid fertilizer being dosed into a heavily planted aquarium" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How to Add Nitrate to an Aquarium (Yes, Really)</h3>
@@ -674,11 +912,16 @@
         </a>
       </div>
     </section>
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="8" data-group-title="Water Color, Smell &amp; Surface Issues">
       <h2>Water Color, Smell &amp; Surface Issues</h2>
       <div class="grid grid-3">
         <a class="card" href="/fish-tank-water-red-tint/">
-          <img src="/assets/img/articles/fish-tank-water-red-tint.webp" alt="An aquarium with a noticeable reddish-pink tint to the water, with medication bottle nearby" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/fish-tank-water-red-tint.webp" alt="An aquarium with a noticeable reddish-pink tint to the water, with medication bottle nearby" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Why Is My Fish Tank Water Red or Pink? Common Causes</h3>
@@ -686,7 +929,12 @@
           </div>
         </a>
         <a class="card" href="/why-is-my-fish-tank-water-orange/">
-          <img src="/assets/img/articles/why-is-my-fish-tank-water-orange.webp" alt="An aquarium with amber, tea-colored water tinted by driftwood tannins" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/why-is-my-fish-tank-water-orange.webp" alt="An aquarium with amber, tea-colored water tinted by driftwood tannins" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Why Is My Fish Tank Water Orange or Tea-Colored?</h3>
@@ -694,7 +942,12 @@
           </div>
         </a>
         <a class="card" href="/fish-tank-water-smells-earthy/">
-          <img src="/assets/img/articles/fish-tank-water-smells-earthy.webp" alt="A person leaning toward an aquarium, with a new soil-based substrate visible beneath the water" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/fish-tank-water-smells-earthy.webp" alt="A person leaning toward an aquarium, with a new soil-based substrate visible beneath the water" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Why Does My Fish Tank Smell Earthy or Musty?</h3>
@@ -702,7 +955,12 @@
           </div>
         </a>
         <a class="card" href="/how-to-get-rid-of-protein-film-in-a-fish-tank/">
-          <img src="/assets/img/articles/how-to-get-rid-of-protein-film-in-a-fish-tank.webp" alt="A thin oily film visible on the surface of aquarium water, with ripples from a filter outflow nearby" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/how-to-get-rid-of-protein-film-in-a-fish-tank.webp" alt="A thin oily film visible on the surface of aquarium water, with ripples from a filter outflow nearby" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>How to Get Rid of Protein Film in a Fish Tank</h3>
@@ -710,7 +968,12 @@
           </div>
         </a>
         <a class="card" href="/uv-sterilizer-for-ich/">
-          <img src="/assets/img/articles/uv-sterilizer-for-ich.webp" alt="A UV sterilizer unit connected to an aquarium filter outflow line" loading="lazy" width="400" height="300">
+          <div class="card-img-wrap">
+            <img src="/assets/img/articles/uv-sterilizer-for-ich.webp" alt="A UV sterilizer unit connected to an aquarium filter outflow line" loading="lazy" width="600" height="400">
+            <div class="card-overlay" aria-hidden="true">
+              <span class="card-read-more">Read Guide →</span>
+            </div>
+          </div>
           <div class="card-body">
             <span class="card-tag">Equipment &amp; Troubleshooting</span>
             <h3>Do UV Sterilizers Work for Ich? What They Can and Can&#x27;t Do</h3>
