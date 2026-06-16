@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-12-12"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/black-widow-anemone-or-rose-bta.webp"
 imageAlt: "A dark reddish-pink bubble tip anemone with tentacles spread in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

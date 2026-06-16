@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2029-01-17"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/fluval-biomax-vs-seachem-matrix.webp"
 imageAlt: "Two types of porous ceramic and rock-like biological filter media side by side in a filter tray"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-07-08"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-to-dry-coral.webp"
 imageAlt: "A cleaned, bleached white coral skeleton drying on a towel in indirect sunlight"
 imageWidth: 1200
 imageHeight: 800

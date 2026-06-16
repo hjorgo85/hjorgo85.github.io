@@ -9,7 +9,7 @@ categoryUrl: "/turtles/"
 author: "hektor-jorgo"
 datePublished: "2026-10-27"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-do-i-get-rid-of-mosquitos-in-my-turtle-tank.webp"
 imageAlt: "Mosquito larvae near the surface of still water in an outdoor turtle enclosure"
 imageWidth: 1200
 imageHeight: 800

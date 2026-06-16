@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-10-18"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/neon-tetra-fungus.webp"
 imageAlt: "A neon tetra with faded color swimming away from its school, a sign sometimes mistaken for fungus"
 imageWidth: 1200
 imageHeight: 800

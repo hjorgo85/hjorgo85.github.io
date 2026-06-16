@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-05-10"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/sponges-reef-tank.webp"
 imageAlt: "Brightly colored encrusting sponge growing on live rock in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

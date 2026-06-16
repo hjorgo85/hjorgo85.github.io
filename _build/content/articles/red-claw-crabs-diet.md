@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-10-28"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/red-claw-crabs-diet.webp"
 imageAlt: "A red claw crab with distinctive red-tipped claws resting on driftwood above the waterline in a paludarium"
 imageWidth: 1200
 imageHeight: 800

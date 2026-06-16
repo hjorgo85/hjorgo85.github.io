@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2023-04-04"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/dragon-goby.webp"
 imageAlt: "A dragon goby partially buried in sand substrate with only its head visible"
 imageWidth: 1200
 imageHeight: 800

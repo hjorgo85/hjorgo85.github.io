@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-11-01"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/black-skirt-tetra-being-aggressive.webp"
 imageAlt: "A group of black skirt tetras swimming together in a planted aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-05-17"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/pleco-poop-information.webp"
 imageAlt: "A pleco resting near the substrate of an aquarium, with visible waste nearby"
 imageWidth: 1200
 imageHeight: 800

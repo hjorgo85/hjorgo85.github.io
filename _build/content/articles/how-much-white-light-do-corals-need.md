@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-06-22"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-much-white-light-do-corals-need.webp"
 imageAlt: "A reef tank lit with a mix of white and blue LED lighting over coral colonies"
 imageWidth: 1200
 imageHeight: 800

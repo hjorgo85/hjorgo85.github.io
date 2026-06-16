@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2030-09-25"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-salt-water-fish-live-in-freshwater.webp"
 imageAlt: "Side-by-side comparison of a saltwater and freshwater aquarium"
 imageWidth: 1200
 imageHeight: 800

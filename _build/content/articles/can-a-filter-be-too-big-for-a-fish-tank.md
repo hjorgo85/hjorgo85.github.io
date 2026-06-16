@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-03-16"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-a-filter-be-too-big-for-a-fish-tank.webp"
 imageAlt: "A large hang-on-back filter mounted on a small aquarium with visible surface current"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2031-01-01"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/red-feather-duster-worm.webp"
 imageAlt: "A red feather duster worm with its feathery crown extended in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

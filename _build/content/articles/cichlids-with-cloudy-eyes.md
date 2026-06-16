@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2021-11-03"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/cichlids-with-cloudy-eyes.webp"
 imageAlt: "Close-up of a cichlid with a cloudy, hazy film over one eye"
 imageWidth: 1200
 imageHeight: 800

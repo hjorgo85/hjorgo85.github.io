@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-08-29"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/white-severum-fish.webp"
 imageAlt: "A pale white and gold cichlid with a rounded body swimming in a planted aquarium"
 imageWidth: 1200
 imageHeight: 800

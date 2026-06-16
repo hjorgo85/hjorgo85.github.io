@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-05-24"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/lawnmower-blenny-and-hair-algae.webp"
 imageAlt: "A lawnmower blenny grazing on turf algae across live rock in a reef tank"
 imageWidth: 1200
 imageHeight: 800

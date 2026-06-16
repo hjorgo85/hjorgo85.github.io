@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-04-05"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/diatoms-reef-tank.webp"
 imageAlt: "Brown diatom film coating the sand bed and lower rockwork of a newly set up reef tank"
 imageWidth: 1200
 imageHeight: 800

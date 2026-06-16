@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-04-18"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/blue-devil-damselfish.webp"
 imageAlt: "Blue devil damselfish (Chrysiptera cyanea) male with vivid blue body and orange-tipped tail near coral"
 imageWidth: 1200
 imageHeight: 800

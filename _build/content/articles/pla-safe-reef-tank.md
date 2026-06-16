@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-06-14"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/pla-safe-reef-tank.webp"
 imageAlt: "3D printed PLA frag rack submerged in a reef aquarium sump holding coral frag plugs"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-03-02"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/aquarium-filter-not-working-after-cleaning.webp"
 imageAlt: "An aquarium canister filter partially disassembled for cleaning with tubing and media trays removed"
 imageWidth: 1200
 imageHeight: 800

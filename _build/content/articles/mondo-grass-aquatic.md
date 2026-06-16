@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2030-04-10"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/mondo-grass-aquatic.webp"
 imageAlt: "Dark green grass-like mondo grass foliage growing as a groundcover, with a separate underwater grass-carpet aquarium in the background"
 imageWidth: 1200
 imageHeight: 800

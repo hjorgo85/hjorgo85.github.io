@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2031-08-13"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/four-eyed-fish.webp"
 imageAlt: "Four-eyed fish swimming at the water's surface with its distinctive split, protruding eyes visible above the waterline"
 imageWidth: 1200
 imageHeight: 800

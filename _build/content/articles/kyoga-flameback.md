@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-08-15"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/kyoga-flameback.webp"
 imageAlt: "A male African cichlid with a bright orange patch along its back swimming over rocky substrate"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2030-02-27"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/aquarium-laterite.webp"
 imageAlt: "Reddish-brown laterite clay granules being layered into aquarium substrate beneath a layer of gravel"
 imageWidth: 1200
 imageHeight: 800

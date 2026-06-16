@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-06-07"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/amazon-sword-runners.webp"
 imageAlt: "An Amazon sword plant sending out a horizontal runner with a small plantlet forming at the end"
 imageWidth: 1200
 imageHeight: 800

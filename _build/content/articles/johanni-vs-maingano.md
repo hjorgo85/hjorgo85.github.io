@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2028-12-20"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/johanni-vs-maingano.webp"
 imageAlt: "A blue Mbuna cichlid with dark vertical stripes swimming over rockwork in a Lake Malawi-style aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-10-29"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/xenia-coral-dying.webp"
 imageAlt: "A colony of Xenia coral with pulsing tentacles, in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-05-25"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/juwel-aquarium-lights-not-working.webp"
 imageAlt: "A Juwel aquarium hood with the clip-in light unit and condensation tray visible"
 imageWidth: 1200
 imageHeight: 800

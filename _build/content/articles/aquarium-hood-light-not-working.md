@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-05-11"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/aquarium-hood-light-not-working.webp"
 imageAlt: "An aquarium hood with an integrated light fixture that is not illuminated"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2021-10-20"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/75-gallon-peacock-cichlid-tank.webp"
 imageAlt: "Colorful male peacock cichlids (Aulonocara) swimming over a sand substrate in a 75-gallon aquarium"
 imageWidth: 1200
 imageHeight: 800

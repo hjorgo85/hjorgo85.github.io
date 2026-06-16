@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-09-30"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-saltwater-crabs-live-in-freshwater.webp"
 imageAlt: "A crab partially submerged at the boundary where saltwater and freshwater meet in an estuary"
 imageWidth: 1200
 imageHeight: 800

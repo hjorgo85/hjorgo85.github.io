@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-12-26"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/colorado-sunburst-anemone.webp"
 imageAlt: "A bright orange and yellow bubble tip anemone displaying a sunburst color pattern in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

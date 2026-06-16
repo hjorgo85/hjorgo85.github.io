@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-09-14"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-does-an-aquarium-overflow-box-work.webp"
 imageAlt: "An aquarium overflow box mounted on the back wall of a tank, draining water down to a sump below"
 imageWidth: 1200
 imageHeight: 800

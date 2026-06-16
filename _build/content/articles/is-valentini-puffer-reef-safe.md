@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-10-20"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/is-valentini-puffer-reef-safe.webp"
 imageAlt: "Valentini puffer (Canthigaster valentini) swimming near a cleanup crew snail and LPS coral in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

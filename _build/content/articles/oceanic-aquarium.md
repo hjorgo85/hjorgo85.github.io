@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2031-12-31"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/oceanic-aquarium.webp"
 imageAlt: "A reef-ready glass aquarium with a built-in corner overflow box, set up for a sump-based filtration system"
 imageWidth: 1200
 imageHeight: 800

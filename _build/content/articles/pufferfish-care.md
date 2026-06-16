@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-10-03"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/pufferfish-care.webp"
 imageAlt: "Valentini puffer (Canthigaster valentini) with white body, dark saddle markings, and orange-spotted fins resting near live rock"
 imageWidth: 1200
 imageHeight: 800

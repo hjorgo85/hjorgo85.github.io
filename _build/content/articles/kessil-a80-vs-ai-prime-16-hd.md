@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2029-01-03"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/kessil-a80-vs-ai-prime-16-hd.webp"
 imageAlt: "A small reef aquarium lit by a compact LED fixture mounted on a gooseneck arm above the water"
 imageWidth: 1200
 imageHeight: 800

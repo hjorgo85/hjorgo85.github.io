@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2030-08-28"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-do-fish-see-from-inside-the-tank.webp"
 imageAlt: "A view from underwater looking up toward the surface of an aquarium, showing a compressed view of the room above"
 imageWidth: 1200
 imageHeight: 800

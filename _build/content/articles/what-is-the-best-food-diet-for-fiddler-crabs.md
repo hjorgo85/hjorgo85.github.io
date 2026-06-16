@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-10-14"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-is-the-best-food-diet-for-fiddler-crabs.webp"
 imageAlt: "A fiddler crab foraging on damp sand near the water's edge in a paludarium"
 imageWidth: 1200
 imageHeight: 800

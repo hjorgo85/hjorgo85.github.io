@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-06-24"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-you-take-coral-from-the-beach.webp"
 imageAlt: "A bleached white coral skeleton fragment lying on a sandy beach near the waterline"
 imageWidth: 1200
 imageHeight: 800

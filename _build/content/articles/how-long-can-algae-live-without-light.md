@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-06-08"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-long-can-algae-live-without-light.webp"
 imageAlt: "A darkened aquarium with the lights off and a towel partially covering the tank"
 imageWidth: 1200
 imageHeight: 800

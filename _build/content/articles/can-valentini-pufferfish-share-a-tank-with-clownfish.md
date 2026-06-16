@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-11-08"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-valentini-pufferfish-share-a-tank-with-clownfish.webp"
 imageAlt: "Valentini pufferfish (Canthigaster valentini) with saddle-like dark markings swimming near a pair of orange clownfish on live rock"
 imageWidth: 1200
 imageHeight: 800

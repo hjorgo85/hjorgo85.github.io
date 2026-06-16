@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-05-09"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/otocinclus-fry.webp"
 imageAlt: "A small group of otocinclus catfish grazing on algae-covered glass in a planted aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2028-12-06"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/amiracle-wet-dry-filter-for-aquariums.webp"
 imageAlt: "An Amiracle wet/dry trickle filter with a drip plate over bio-media, installed in an aquarium sump"
 imageWidth: 1200
 imageHeight: 800

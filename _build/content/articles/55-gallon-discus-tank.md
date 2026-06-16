@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-09-06"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/55-gallon-discus-tank.webp"
 imageAlt: "A group of discus fish swimming in a tall planted aquarium"
 imageWidth: 1200
 imageHeight: 800

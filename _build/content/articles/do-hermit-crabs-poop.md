@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-02-03"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/do-hermit-crabs-poop.webp"
 imageAlt: "A land hermit crab terrarium with sand substrate being spot-cleaned with a small scoop"
 imageWidth: 1200
 imageHeight: 800

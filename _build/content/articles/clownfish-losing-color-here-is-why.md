@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2027-11-23"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/clownfish-losing-color-here-is-why.webp"
 imageAlt: "A clownfish with noticeably faded, pale orange coloration swimming near rockwork"
 imageWidth: 1200
 imageHeight: 800
