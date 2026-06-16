@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2031-05-07"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/green-star-polyps-growth-rate.webp"
 imageAlt: "A mat of green star polyps with bright green polyps extended over a purple encrusting base"
 imageWidth: 1200
 imageHeight: 800

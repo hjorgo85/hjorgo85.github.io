@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2031-07-16"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/african-butterfly-fish.webp"
 imageAlt: "African butterfly fish with broad wing-like pectoral fins resting near the water's surface among floating plants"
 imageWidth: 1200
 imageHeight: 800

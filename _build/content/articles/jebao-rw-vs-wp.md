@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2031-12-03"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/jebao-rw-vs-wp.webp"
 imageAlt: "A Jebao wave maker pump mounted inside a reef aquarium with its external magnetic mount visible"
 imageWidth: 1200
 imageHeight: 800

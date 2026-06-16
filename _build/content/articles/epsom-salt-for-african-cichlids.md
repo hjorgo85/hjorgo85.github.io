@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2021-11-18"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/epsom-salt-for-african-cichlids.webp"
 imageAlt: "A small container of Epsom salt next to an aquarium, used for treating constipation in African cichlids"
 imageWidth: 1200
 imageHeight: 800

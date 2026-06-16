@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-04-19"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/are-american-flagfish-aggressive.webp"
 imageAlt: "A male American flagfish displaying territorial posturing toward another fish near aquarium plants"
 imageWidth: 1200
 imageHeight: 800

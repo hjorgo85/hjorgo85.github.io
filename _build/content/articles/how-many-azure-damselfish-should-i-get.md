@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-12-18"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-many-azure-damselfish-should-i-get.webp"
 imageAlt: "Multiple azure damselfish with blue and yellow coloration spread across rockwork in a reef tank"
 imageWidth: 1200
 imageHeight: 800

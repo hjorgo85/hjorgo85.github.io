@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-07-23"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-long-do-corals-live.webp"
 imageAlt: "A healthy, well-established coral colony in a reef aquarium, illustrating long-term coral keeping"
 imageWidth: 1200
 imageHeight: 800

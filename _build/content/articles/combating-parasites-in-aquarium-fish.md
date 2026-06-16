@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-10-24"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/combating-parasites-in-aquarium-fish.webp"
 imageAlt: "A close-up of an aquarium fish showing small white spots on its fins and body, a common sign of a parasitic infection"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2021-09-02"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/saltwater-aquarium-fish-for-beginners.webp"
 imageAlt: "Yellowtail damselfish, common clownfish, and firefish swimming together in a beginner saltwater aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2030-11-20"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/is-conch-a-mollusk-or-crustacean.webp"
 imageAlt: "A large spiral conch shell on sand with the soft-bodied snail partially visible"
 imageWidth: 1200
 imageHeight: 800

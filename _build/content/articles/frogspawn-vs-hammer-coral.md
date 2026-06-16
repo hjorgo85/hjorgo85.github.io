@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2031-05-21"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/frogspawn-vs-hammer-coral.webp"
 imageAlt: "Side-by-side comparison of frogspawn coral with branching tentacle tips and hammer coral with anchor-shaped tentacle tips"
 imageWidth: 1200
 imageHeight: 800

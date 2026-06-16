@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-04-30"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/brain-coral-skeleton.webp"
 imageAlt: "A brain coral skeleton showing its characteristic meandering ridge-and-valley pattern"
 imageWidth: 1200
 imageHeight: 800

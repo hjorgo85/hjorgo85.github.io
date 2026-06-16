@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-05-12"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/shrimp-reef-tank.webp"
 imageAlt: "A cleaner shrimp with long white antennae perched on coral rock in a reef tank"
 imageWidth: 1200
 imageHeight: 800

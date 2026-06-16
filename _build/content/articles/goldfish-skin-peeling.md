@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2023-03-21"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/goldfish-skin-peeling.webp"
 imageAlt: "A goldfish swimming in a planted aquarium, showing a small pale patch on its side"
 imageWidth: 1200
 imageHeight: 800

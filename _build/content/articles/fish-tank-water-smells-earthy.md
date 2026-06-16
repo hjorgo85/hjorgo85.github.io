@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2030-05-22"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/fish-tank-water-smells-earthy.webp"
 imageAlt: "A person leaning toward an aquarium, with a new soil-based substrate visible beneath the water"
 imageWidth: 1200
 imageHeight: 800

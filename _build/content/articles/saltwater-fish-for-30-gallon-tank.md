@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-12-02"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/saltwater-fish-for-30-gallon-tank.webp"
 imageAlt: "30-gallon saltwater aquarium with clownfish, firefish, and live rock"
 imageWidth: 1200
 imageHeight: 800

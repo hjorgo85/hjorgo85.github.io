@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-03-03"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/do-hermit-crabs-need-a-heat-lamp.webp"
 imageAlt: "A land hermit crab terrarium with an under-tank heater and a thermometer/hygrometer mounted on the glass"
 imageWidth: 1200
 imageHeight: 800

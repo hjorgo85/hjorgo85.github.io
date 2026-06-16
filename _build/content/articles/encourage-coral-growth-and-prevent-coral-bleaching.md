@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-03-04"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/encourage-coral-growth-and-prevent-coral-bleaching.webp"
 imageAlt: "Healthy, colorful coral colonies with full polyp extension in a well-lit reef aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-06-25"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/do-corals-have-brains.webp"
 imageAlt: "A coral polyp with extended tentacles, reacting to its surroundings without a centralized nervous system"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-07-26"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-to-care-for-asian-banjo-catfish.webp"
 imageAlt: "A small, flattened Asian stream catfish resting on sand substrate in an aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-04-27"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/aquarium-sand-filter-problems.webp"
 imageAlt: "Sand substrate being stirred up near an aquarium filter intake"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-08-02"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/planted-75-gallon-aquarium.webp"
 imageAlt: "A well-planted 75-gallon aquarium with a mix of sword plants, hornwort, and anubias mounted on driftwood"
 imageWidth: 1200
 imageHeight: 800

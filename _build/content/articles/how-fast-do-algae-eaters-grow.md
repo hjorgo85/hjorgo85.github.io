@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-08-16"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-fast-do-algae-eaters-grow.webp"
 imageAlt: "A small algae-eating fish grazing on algae-covered aquarium glass next to a larger adult of the same species"
 imageWidth: 1200
 imageHeight: 800

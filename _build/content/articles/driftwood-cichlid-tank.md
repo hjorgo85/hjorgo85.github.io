@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2021-12-02"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/driftwood-cichlid-tank.webp"
 imageAlt: "A piece of driftwood in an aquarium, with tannins visibly tinting the water a light brown"
 imageWidth: 1200
 imageHeight: 800

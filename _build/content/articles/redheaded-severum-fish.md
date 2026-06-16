@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-09-12"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/redheaded-severum-fish.webp"
 imageAlt: "A gold-bodied cichlid with a distinct red-orange patch on its head and forehead swimming in a planted aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2031-11-19"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/kessil-a350w-vs-a360w.webp"
 imageAlt: "A Kessil point-source LED reef light mounted on a gooseneck arm above a reef tank"
 imageWidth: 1200
 imageHeight: 800

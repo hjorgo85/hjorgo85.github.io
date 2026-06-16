@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2023-03-07"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/oscar-fish-skin-peeling-off.webp"
 imageAlt: "An Oscar fish showing small pits along its head and lateral line"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-10-28"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/foxface-rabbitfish-stressed.webp"
 imageAlt: "Foxface rabbitfish (Siganus vulpinus) with yellow body and dark face mask, showing darkened stress coloration"
 imageWidth: 1200
 imageHeight: 800

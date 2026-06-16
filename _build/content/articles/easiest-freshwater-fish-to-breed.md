@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-06-20"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/easiest-freshwater-fish-to-breed.webp"
 imageAlt: "A guppy with several free-swimming fry in a planted aquarium"
 imageWidth: 1200
 imageHeight: 800

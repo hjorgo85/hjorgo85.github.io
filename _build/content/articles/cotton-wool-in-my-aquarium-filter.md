@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-04-13"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/cotton-wool-in-my-aquarium-filter.webp"
 imageAlt: "White polyester filter wool media being placed into an aquarium filter tray"
 imageWidth: 1200
 imageHeight: 800

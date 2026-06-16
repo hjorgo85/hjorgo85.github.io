@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2032-02-11"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/nerite-snails-vs-mystery-snails.webp"
 imageAlt: "A striped nerite snail and a larger gold mystery snail on the glass of a planted freshwater aquarium"
 imageWidth: 1200
 imageHeight: 800

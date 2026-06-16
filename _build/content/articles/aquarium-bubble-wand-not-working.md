@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-08-17"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/aquarium-bubble-wand-not-working.webp"
 imageAlt: "A bubble wand on the bottom of an aquarium producing a row of bubbles along its length"
 imageWidth: 1200
 imageHeight: 800

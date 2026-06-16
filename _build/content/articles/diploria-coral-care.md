@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-01-21"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/diploria-coral-care.webp"
 imageAlt: "A Diploria brain coral colony showing its characteristic maze-like ridged surface pattern"
 imageWidth: 1200
 imageHeight: 800

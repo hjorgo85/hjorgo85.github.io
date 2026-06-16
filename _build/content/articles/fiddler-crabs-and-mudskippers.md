@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-11-25"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/fiddler-crabs-and-mudskippers.webp"
 imageAlt: "A fiddler crab and a mudskipper sharing a muddy bank in a paludarium setup"
 imageWidth: 1200
 imageHeight: 800

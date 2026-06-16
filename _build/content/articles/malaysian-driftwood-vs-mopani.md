@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2032-01-28"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/malaysian-driftwood-vs-mopani.webp"
 imageAlt: "Two pieces of aquarium driftwood side by side, one dark twisted Malaysian driftwood and one two-toned tan and brown Mopani wood"
 imageWidth: 1200
 imageHeight: 800

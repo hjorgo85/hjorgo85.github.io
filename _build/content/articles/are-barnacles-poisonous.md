@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2030-12-04"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/are-barnacles-poisonous.webp"
 imageAlt: "Barnacles attached to a rock at the shoreline"
 imageWidth: 1200
 imageHeight: 800

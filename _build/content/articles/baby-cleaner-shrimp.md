@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-05-26"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/baby-cleaner-shrimp.webp"
 imageAlt: "A cleaner shrimp carrying a visible mass of greenish eggs under its abdomen"
 imageWidth: 1200
 imageHeight: 800

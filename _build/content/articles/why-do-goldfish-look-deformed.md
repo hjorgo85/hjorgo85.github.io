@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-11-29"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/why-do-goldfish-look-deformed.webp"
 imageAlt: "A fancy goldfish with a rounded body shape swimming in a planted aquarium"
 imageWidth: 1200
 imageHeight: 800

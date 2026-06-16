@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-02-18"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-can-i-tell-if-my-corals-are-stressed-or-unhealthy.webp"
 imageAlt: "A reef aquarium with multiple coral colonies of different types, illustrating signs of coral health"
 imageWidth: 1200
 imageHeight: 800

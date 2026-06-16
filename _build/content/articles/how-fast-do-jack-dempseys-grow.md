@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-09-26"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-fast-do-jack-dempseys-grow.webp"
 imageAlt: "A dark-bodied cichlid with iridescent blue-green speckling swimming in a rocky aquarium"
 imageWidth: 1200
 imageHeight: 800

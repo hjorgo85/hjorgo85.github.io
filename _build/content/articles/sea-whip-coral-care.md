@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-11-26"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/sea-whip-coral-care.webp"
 imageAlt: "A sea whip gorgonian with long, thin branching polyps extended in flow within a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

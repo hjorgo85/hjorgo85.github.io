@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-10-12"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-long-do-aquarium-heaters-last.webp"
 imageAlt: "An aquarium heater with some mineral buildup on its surface, submerged in a tank"
 imageWidth: 1200
 imageHeight: 800

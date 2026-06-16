@@ -9,7 +9,7 @@ categoryUrl: "/fish-facts-faqs/"
 author: "hektor-jorgo"
 datePublished: "2030-09-11"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/why-do-fish-jump-out-of-the-water.webp"
 imageAlt: "A fish leaping above the surface of an aquarium"
 imageWidth: 1200
 imageHeight: 800

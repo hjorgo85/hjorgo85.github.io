@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-01-10"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/peacock-eel-with-cichlids.webp"
 imageAlt: "A peacock eel (Macrognathus siamensis) partially buried in sand substrate"
 imageWidth: 1200
 imageHeight: 800

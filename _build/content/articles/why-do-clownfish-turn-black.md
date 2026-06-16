@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2021-10-05"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/why-do-clownfish-turn-black.webp"
 imageAlt: "Clownfish with darkened, blackened body coloration next to its normal bright orange coloration"
 imageWidth: 1200
 imageHeight: 800

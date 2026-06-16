@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-04-26"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-anubias-grow-out-of-water.webp"
 imageAlt: "Anubias growing emersed on hardscape above the waterline in a paludarium"
 imageWidth: 1200
 imageHeight: 800

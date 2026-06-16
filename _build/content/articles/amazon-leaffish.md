@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2031-07-30"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/amazon-leaffish.webp"
 imageAlt: "Amazon leaffish camouflaged among dead leaf litter, body shape and coloration closely resembling a fallen leaf"
 imageWidth: 1200
 imageHeight: 800

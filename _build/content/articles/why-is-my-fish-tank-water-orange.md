@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2030-05-08"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/why-is-my-fish-tank-water-orange.webp"
 imageAlt: "An aquarium with amber, tea-colored water tinted by driftwood tannins"
 imageWidth: 1200
 imageHeight: 800

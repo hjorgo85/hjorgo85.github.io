@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-04-29"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-are-some-compatible-tank-mates-for-corals.webp"
 imageAlt: "A reef aquarium showing fish and cleanup crew invertebrates alongside coral colonies"
 imageWidth: 1200
 imageHeight: 800

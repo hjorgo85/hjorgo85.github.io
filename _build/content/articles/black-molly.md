@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2027-12-21"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/black-molly.webp"
 imageAlt: "A solid black molly fish swimming in a planted freshwater aquarium"
 imageWidth: 1200
 imageHeight: 800

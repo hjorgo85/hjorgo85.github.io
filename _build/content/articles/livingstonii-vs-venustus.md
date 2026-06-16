@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2032-01-14"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/livingstonii-vs-venustus.webp"
 imageAlt: "A large mottled Lake Malawi hap cichlid with giraffe-like blotches resting near the substrate of an aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-04-15"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-many-corals-in-a-10-gallon-tank.webp"
 imageAlt: "A small 10-gallon reef aquarium with a handful of coral colonies on aquascaped rock"
 imageWidth: 1200
 imageHeight: 800

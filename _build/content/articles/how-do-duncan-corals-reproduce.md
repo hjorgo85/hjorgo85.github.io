@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-01-07"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-do-duncan-corals-reproduce.webp"
 imageAlt: "A Duncan coral colony with multiple polyp heads extended from a shared branching skeleton base"
 imageWidth: 1200
 imageHeight: 800

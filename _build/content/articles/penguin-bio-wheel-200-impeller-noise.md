@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2028-01-04"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/penguin-bio-wheel-200-impeller-noise.webp"
 imageAlt: "A Penguin BioWheel hang-on-back aquarium filter mounted on a tank, with its rotating bio-wheel visible"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-08-05"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/flower-pot-coral-dying.webp"
 imageAlt: "A flower pot coral (Goniopora) with extended fluffy polyps in a reef tank, alongside an area of receding tissue"
 imageWidth: 1200
 imageHeight: 800

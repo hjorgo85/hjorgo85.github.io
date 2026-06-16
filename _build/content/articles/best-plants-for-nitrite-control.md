@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-08-30"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/best-plants-for-nitrite-control.webp"
 imageAlt: "Fast-growing hornwort and floating plants in a planted aquarium during the early weeks of setup"
 imageWidth: 1200
 imageHeight: 800

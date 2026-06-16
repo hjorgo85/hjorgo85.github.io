@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2030-01-02"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-long-does-zeolite-take-to-work-aquarium.webp"
 imageAlt: "Small porous mineral granules of aquarium zeolite media in a filter media bag"
 imageWidth: 1200
 imageHeight: 800

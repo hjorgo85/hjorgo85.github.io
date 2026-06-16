@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-12-09"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-red-claw-crabs-and-fiddler-crabs-live-together.webp"
 imageAlt: "A red claw crab and a fiddler crab on opposite sides of a paludarium's land area"
 imageWidth: 1200
 imageHeight: 800

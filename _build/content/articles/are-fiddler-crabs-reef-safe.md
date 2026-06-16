@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-12-23"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/are-fiddler-crabs-reef-safe.webp"
 imageAlt: "A fiddler crab on a muddy bank, with a coral reef tank shown separately in the background for contrast"
 imageWidth: 1200
 imageHeight: 800

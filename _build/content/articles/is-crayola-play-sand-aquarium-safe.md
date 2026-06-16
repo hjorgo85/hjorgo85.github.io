@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2030-03-13"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/is-crayola-play-sand-aquarium-safe.webp"
 imageAlt: "A bag of play sand being poured into an aquarium as substrate, with rinsing equipment nearby"
 imageWidth: 1200
 imageHeight: 800

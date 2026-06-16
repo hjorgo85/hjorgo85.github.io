@@ -9,7 +9,7 @@ categoryUrl: "/turtles/"
 author: "hektor-jorgo"
 datePublished: "2027-01-05"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-i-turn-my-turtle-tank-filter-off-at-night.webp"
 imageAlt: "An aquarium filter running continuously in a turtle tank at night with dim ambient lighting"
 imageWidth: 1200
 imageHeight: 800

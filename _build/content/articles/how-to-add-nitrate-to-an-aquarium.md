@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2030-01-16"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-to-add-nitrate-to-an-aquarium.webp"
 imageAlt: "A small bottle of liquid fertilizer being dosed into a heavily planted aquarium"
 imageWidth: 1200
 imageHeight: 800

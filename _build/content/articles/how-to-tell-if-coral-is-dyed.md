@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-07-22"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-to-tell-if-coral-is-dyed.webp"
 imageAlt: "Brightly dyed coral skeleton pieces in unnatural blue and pink tones displayed for sale"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-08-31"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-does-an-air-pump-work-in-an-aquarium.webp"
 imageAlt: "Diagram-style view of an aquarium air pump, airline tubing, and airstone producing bubbles that agitate the water surface"
 imageWidth: 1200
 imageHeight: 800

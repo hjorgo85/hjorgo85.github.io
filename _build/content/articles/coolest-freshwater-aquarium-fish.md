@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-10-10"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/coolest-freshwater-aquarium-fish.webp"
 imageAlt: "A collage-style aquarium scene with several brightly colored and unusually patterned freshwater fish"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-09-15"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/sand-sifting-starfish-lifespan.webp"
 imageAlt: "A sand sifting starfish partially buried in the substrate of a reef tank"
 imageWidth: 1200
 imageHeight: 800

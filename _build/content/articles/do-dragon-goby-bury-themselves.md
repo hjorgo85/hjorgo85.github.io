@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2023-04-18"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/do-dragon-goby-bury-themselves.webp"
 imageAlt: "A dragon goby with only its head and dorsal fin visible above a sand substrate"
 imageWidth: 1200
 imageHeight: 800

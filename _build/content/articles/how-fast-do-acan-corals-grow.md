@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-12-24"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-fast-do-acan-corals-grow.webp"
 imageAlt: "A colony of Acan (Acanthastrea) coral with large fleshy polyps in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

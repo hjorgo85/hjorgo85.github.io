@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-08-20"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-to-target-feed-corals.webp"
 imageAlt: "A reef keeper using a pipette to target-feed a coral with extended polyps"
 imageWidth: 1200
 imageHeight: 800
