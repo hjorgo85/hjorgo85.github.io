@@ -4,19 +4,14 @@
 {{> header}}
 <main id="main">
 
-  <!-- HERO -->
+  <!-- ═══════════════ HERO ═══════════════ -->
   <section class="hero-home">
     <div class="hero-bubbles" aria-hidden="true">
-      <span class="bubble b1"></span>
-      <span class="bubble b2"></span>
-      <span class="bubble b3"></span>
-      <span class="bubble b4"></span>
-      <span class="bubble b5"></span>
-      <span class="bubble b6"></span>
-      <span class="bubble b7"></span>
-      <span class="bubble b8"></span>
-      <span class="bubble b9"></span>
-      <span class="bubble b10"></span>
+      <span class="bubble b1"></span><span class="bubble b2"></span>
+      <span class="bubble b3"></span><span class="bubble b4"></span>
+      <span class="bubble b5"></span><span class="bubble b6"></span>
+      <span class="bubble b7"></span><span class="bubble b8"></span>
+      <span class="bubble b9"></span><span class="bubble b10"></span>
     </div>
     <div class="container hero-content">
       <div class="hero-eyebrow">Marine Biology-Backed Guides</div>
@@ -39,7 +34,7 @@
     </div>
   </section>
 
-  <!-- CATEGORIES -->
+  <!-- ═══════════════ CATEGORIES ═══════════════ -->
   <section class="section categories-section">
     <div class="container">
       <div class="section-header">
@@ -60,7 +55,50 @@
     </div>
   </section>
 
-  <!-- FEATURED ARTICLES -->
+  <!-- ═══════════════ FUN FACTS ═══════════════ -->
+  <section class="facts-section" aria-label="Ocean fun facts">
+    <div class="container">
+      <div class="facts-inner">
+        <div class="facts-label" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4m0-4h.01"/></svg>
+          Did you know?
+        </div>
+        <div class="facts-track" id="factsTrack" aria-live="polite">
+          <div class="fact-slide active">
+            <span class="fact-emoji" aria-hidden="true">🐠</span>
+            <p>All clownfish are born male — the dominant fish in a group changes sex to become female.</p>
+          </div>
+          <div class="fact-slide">
+            <span class="fact-emoji" aria-hidden="true">🐢</span>
+            <p>Sea turtles can hold their breath for up to <strong>7 hours</strong> while resting or sleeping underwater.</p>
+          </div>
+          <div class="fact-slide">
+            <span class="fact-emoji" aria-hidden="true">🦐</span>
+            <p>Mantis shrimp can punch with the force of a bullet. They also see <strong>16 colors</strong> — humans see only 3.</p>
+          </div>
+          <div class="fact-slide">
+            <span class="fact-emoji" aria-hidden="true">🪸</span>
+            <p>Coral reefs cover less than <strong>1% of the ocean</strong> floor but support roughly 25% of all marine species.</p>
+          </div>
+          <div class="fact-slide">
+            <span class="fact-emoji" aria-hidden="true">🐙</span>
+            <p>Octopuses have <strong>three hearts</strong> and blue blood, and can change their skin color in under one second.</p>
+          </div>
+          <div class="fact-slide">
+            <span class="fact-emoji" aria-hidden="true">🐟</span>
+            <p>The seahorse is the only fish where the <strong>male carries the eggs</strong> and gives birth to the young.</p>
+          </div>
+        </div>
+        <div class="facts-controls" aria-label="Fact navigation">
+          <button class="fact-btn fact-prev" id="factPrev" aria-label="Previous fact">&#8249;</button>
+          <div class="fact-dots" id="factDots" aria-hidden="true"></div>
+          <button class="fact-btn fact-next" id="factNext" aria-label="Next fact">&#8250;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FEATURED ARTICLES ═══════════════ -->
   <section class="section section-alt">
     <div class="container">
       <div class="section-header">
@@ -73,12 +111,176 @@
         {{/each}}
       </div>
       <div class="section-cta">
-        <a href="/fish-types/" class="btn btn-primary">Browse All Guides</a>
+        <a href="/fish-types/" class="btn btn-primary">Browse All 310+ Guides</a>
       </div>
     </div>
   </section>
 
-  <!-- WHY SEA LIFE PLANET -->
+  <!-- ═══════════════ INTERACTIVE FISH TANK ═══════════════ -->
+  <section class="tank-section">
+    <div class="tank-hint" aria-hidden="true">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+      Click the fish &amp; turtle!
+    </div>
+
+    <div class="fish-tank" role="img" aria-label="Interactive aquarium with animated fish and a turtle — click them!">
+
+      <!-- Caustic light rays -->
+      <div class="tank-rays" aria-hidden="true">
+        <div class="ray r1"></div><div class="ray r2"></div>
+        <div class="ray r3"></div><div class="ray r4"></div>
+      </div>
+
+      <!-- Rising bubbles -->
+      <div class="tank-bubble tb1" aria-hidden="true"></div>
+      <div class="tank-bubble tb2" aria-hidden="true"></div>
+      <div class="tank-bubble tb3" aria-hidden="true"></div>
+      <div class="tank-bubble tb4" aria-hidden="true"></div>
+      <div class="tank-bubble tb5" aria-hidden="true"></div>
+
+      <!-- Seaweed -->
+      <div class="seaweed sw1" aria-hidden="true"></div>
+      <div class="seaweed sw2" aria-hidden="true"></div>
+      <div class="seaweed sw3" aria-hidden="true"></div>
+      <div class="seaweed sw4" aria-hidden="true"></div>
+      <div class="seaweed sw5" aria-hidden="true"></div>
+      <div class="seaweed sw6" aria-hidden="true"></div>
+
+      <!-- Coral decorations -->
+      <div class="tank-coral coral-a" aria-hidden="true"></div>
+      <div class="tank-coral coral-b" aria-hidden="true"></div>
+      <div class="tank-coral coral-c" aria-hidden="true"></div>
+
+      <!-- Sand + rocks -->
+      <div class="tank-sand" aria-hidden="true">
+        <div class="sand-rock rock1"></div>
+        <div class="sand-rock rock2"></div>
+        <div class="sand-rock rock3"></div>
+      </div>
+
+      <!-- ── FISH 1: Clownfish (swims left→right) ── -->
+      <div class="fish-wrap fw-1">
+        <button class="tank-fish" data-species="Clownfish" data-fact="All clownfish are born male — the dominant one changes sex to become female!" aria-label="Clickable clownfish">
+          <svg viewBox="0 0 88 56" width="88" height="56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs><clipPath id="cfClip"><ellipse cx="48" cy="28" rx="32" ry="19"/></clipPath></defs>
+            <path d="M14,28 L2,10 L2,46 Z" fill="#c94a00"/>
+            <ellipse cx="48" cy="28" rx="32" ry="19" fill="#ff6600"/>
+            <rect x="40" y="0" width="10" height="56" fill="white" opacity="0.88" clip-path="url(#cfClip)"/>
+            <rect x="40" y="0" width="2" height="56" fill="#1a0a00" opacity="0.35" clip-path="url(#cfClip)"/>
+            <rect x="50" y="0" width="2" height="56" fill="#1a0a00" opacity="0.35" clip-path="url(#cfClip)"/>
+            <path d="M28,9 C39,2 57,3 64,10" stroke="#c94a00" stroke-width="5" fill="none" stroke-linecap="round"/>
+            <path d="M30,47 C41,54 57,53 63,46" stroke="#c94a00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+            <ellipse cx="37" cy="35" rx="9" ry="4.5" fill="#ff8833" transform="rotate(28,37,35)" opacity="0.85"/>
+            <circle cx="66" cy="20" r="6" fill="white"/>
+            <circle cx="67" cy="20" r="4" fill="#0a0014"/>
+            <circle cx="68.5" cy="18.5" r="1.5" fill="white"/>
+            <path d="M74,26 Q77,29 74,30" stroke="#aa3a00" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- ── FISH 2: Blue Tang (swims right→left, CSS flips it) ── -->
+      <div class="fish-wrap fw-2">
+        <button class="tank-fish" data-species="Blue Tang" data-fact="Blue tangs like this one inspired Dory in Finding Nemo — they're real, vivid blue surgeonfish!" aria-label="Clickable blue tang">
+          <svg viewBox="0 0 88 56" width="88" height="56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M14,28 L2,10 L2,46 Z" fill="#1a55c0"/>
+            <ellipse cx="48" cy="28" rx="32" ry="19" fill="#0a6bff"/>
+            <ellipse cx="48" cy="22" rx="20" ry="10" fill="#4d99ff" opacity="0.28"/>
+            <path d="M18,40 L10,47 L3,40" stroke="#f5c518" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M28,8 C39,1 58,2 64,9" stroke="#0044bb" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+            <path d="M30,48 C41,55 58,54 63,47" stroke="#0044bb" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <ellipse cx="38" cy="35" rx="10" ry="5" fill="#0055cc" transform="rotate(22,38,35)" opacity="0.82"/>
+            <circle cx="66" cy="20" r="6" fill="white"/>
+            <circle cx="67" cy="20" r="4" fill="#04041a"/>
+            <circle cx="68.5" cy="18.5" r="1.5" fill="white"/>
+            <path d="M75,27 Q78,30 75,31" stroke="#0044bb" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- ── FISH 3: Yellow Tang (swims left→right) ── -->
+      <div class="fish-wrap fw-3">
+        <button class="tank-fish" data-species="Yellow Tang" data-fact="Yellow tangs are surgeonfish with a sharp scalpel-like spine near their tail — handle with care!" aria-label="Clickable yellow tang">
+          <svg viewBox="0 0 82 54" width="82" height="54" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M12,27 L0,9 L0,45 Z" fill="#c8a200"/>
+            <ellipse cx="45" cy="27" rx="30" ry="21" fill="#f5c200"/>
+            <ellipse cx="45" cy="20" rx="18" ry="10" fill="#ffe066" opacity="0.32"/>
+            <path d="M24,6 C36,-1 57,0 64,8" stroke="#c8a200" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+            <path d="M26,47 C38,55 57,54 63,46" stroke="#c8a200" stroke-width="5" fill="none" stroke-linecap="round"/>
+            <ellipse cx="36" cy="35" rx="10" ry="5" fill="#d4aa00" transform="rotate(25,36,35)" opacity="0.85"/>
+            <circle cx="64" cy="18" r="6" fill="white"/>
+            <circle cx="65" cy="18" r="4" fill="#0a0a14"/>
+            <circle cx="66.5" cy="16.5" r="1.5" fill="white"/>
+            <path d="M72,25 Q75,28 72,29" stroke="#aa8800" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- ── FISH 4: Mandarin Fish (swims right→left, CSS flips) ── -->
+      <div class="fish-wrap fw-4">
+        <button class="tank-fish" data-species="Mandarin Fish" data-fact="Mandarin fish are among the most colourful fish on Earth — but they're notoriously difficult to keep!" aria-label="Clickable mandarin fish">
+          <svg viewBox="0 0 80 50" width="80" height="50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M12,25 L0,8 L0,42 Z" fill="#007a5e"/>
+            <ellipse cx="44" cy="25" rx="28" ry="18" fill="#00c48c"/>
+            <ellipse cx="44" cy="18" rx="16" ry="8" fill="#00ffb3" opacity="0.28"/>
+            <circle cx="32" cy="20" r="5" fill="#ff6600" opacity="0.55"/>
+            <circle cx="45" cy="32" r="4" fill="#ff6600" opacity="0.45"/>
+            <circle cx="55" cy="18" r="3.5" fill="#ff6600" opacity="0.4"/>
+            <path d="M26,8 C37,1 55,2 61,9" stroke="#007a5e" stroke-width="5" fill="none" stroke-linecap="round"/>
+            <path d="M28,42 C39,49 55,48 60,41" stroke="#007a5e" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <ellipse cx="35" cy="32" rx="9" ry="4.5" fill="#009977" transform="rotate(22,35,32)" opacity="0.85"/>
+            <circle cx="63" cy="18" r="5.5" fill="white"/>
+            <circle cx="64" cy="18" r="3.5" fill="#0a140a"/>
+            <circle cx="65.5" cy="16.5" r="1.2" fill="white"/>
+            <path d="M71,24 Q74,27 71,28" stroke="#007a5e" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- ── TURTLE (walks left→right along the bottom) ── -->
+      <div class="turtle-wrap">
+        <button class="tank-turtle" data-species="Sea Turtle" data-fact="Sea turtles can hold their breath for up to 7 hours while sleeping — they've existed for over 100 million years!" aria-label="Clickable sea turtle">
+          <svg viewBox="0 0 90 68" width="78" height="59" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <!-- front left flipper -->
+            <path d="M26,28 C15,14 5,18 12,30" fill="#3d7a50"/>
+            <!-- front right flipper -->
+            <path d="M26,42 C15,56 5,52 12,40" fill="#3d7a50"/>
+            <!-- back right flipper -->
+            <path d="M60,28 C72,16 80,22 70,32" fill="#3d7a50"/>
+            <!-- back left flipper -->
+            <path d="M60,42 C72,54 80,48 70,38" fill="#3d7a50"/>
+            <!-- shell base -->
+            <ellipse cx="43" cy="35" rx="24" ry="20" fill="#4a8a60"/>
+            <!-- shell highlight panels -->
+            <ellipse cx="43" cy="35" rx="15" ry="12" fill="#5aaa72" opacity="0.65"/>
+            <!-- shell scute lines -->
+            <line x1="43" y1="15" x2="43" y2="55" stroke="#3d7a50" stroke-width="1.5" opacity="0.6"/>
+            <line x1="20" y1="35" x2="66" y2="35" stroke="#3d7a50" stroke-width="1.5" opacity="0.6"/>
+            <line x1="24" y1="20" x2="62" y2="50" stroke="#3d7a50" stroke-width="1" opacity="0.4"/>
+            <line x1="62" y1="20" x2="24" y2="50" stroke="#3d7a50" stroke-width="1" opacity="0.4"/>
+            <!-- head -->
+            <ellipse cx="66" cy="32" rx="12" ry="9" fill="#5aaa72"/>
+            <!-- eye -->
+            <circle cx="72" cy="27" r="3.5" fill="#1a2e1a"/>
+            <circle cx="73" cy="26.2" r="1.2" fill="white"/>
+            <!-- nostril -->
+            <circle cx="76" cy="31" r="1.5" fill="#3d7a50" opacity="0.7"/>
+            <!-- mouth -->
+            <path d="M70,36 Q73,40 77,36" stroke="#3d7a50" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+
+    </div><!-- /fish-tank -->
+
+    <div class="tank-base" aria-hidden="true">
+      <svg viewBox="0 0 1440 28" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="display:block;width:100%;height:28px">
+        <path d="M0,0 C360,28 1080,-2 1440,0 L1440,28 L0,28 Z" fill="#f4f9fb"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ═══════════════ WHY SECTION ═══════════════ -->
   <section class="section">
     <div class="container">
       <div class="why-grid">
@@ -90,30 +292,46 @@
             <div class="feature-icon">✓</div>
             <div>
               <strong>Quick Facts on Every Guide</strong>
-              <p>Scientific name, realistic tank size, water parameters, and temperament at a glance.</p>
+              <p>Scientific name, realistic tank size, water parameters, and temperament — at a glance.</p>
             </div>
           </div>
           <div class="feature-item reveal">
             <div class="feature-icon">✓</div>
             <div>
               <strong>Honest Compatibility Notes</strong>
-              <p>Including the combinations that don't work, not just the ones that do.</p>
+              <p>Including the tank-mate combinations that don't work, not just the ones that do.</p>
             </div>
           </div>
           <div class="feature-item reveal">
             <div class="feature-icon">✓</div>
             <div>
-              <strong>Updated Regularly</strong>
-              <p>Guides reviewed for accuracy and updated when best practices in the hobby change.</p>
+              <strong>Real Tank Experience</strong>
+              <p>Written by fishkeepers and reviewed for accuracy against current sources.</p>
             </div>
           </div>
           <div class="feature-item reveal">
             <div class="feature-icon">✓</div>
             <div>
               <strong>Dedicated FAQ Sections</strong>
-              <p>Every guide includes a FAQ covering the questions you actually have about that species.</p>
+              <p>Every guide answers the questions you'll actually type into a search box.</p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CTA BAND ═══════════════ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div class="cta-band-text">
+          <h2>New to fishkeeping?</h2>
+          <p>Start with our beginner-friendly setup guides and species profiles — written to answer what you actually need to know, not just what's easy to write.</p>
+        </div>
+        <div class="cta-band-actions">
+          <a href="/saltwater/" class="btn btn-accent btn-lg">Saltwater Guides</a>
+          <a href="/freshwater-fish/" class="btn btn-outline btn-lg">Freshwater Guides</a>
         </div>
       </div>
     </div>
