@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-08-01"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/astatheros-robertsoni.webp"
 imageAlt: "A medium-sized Central American cichlid with greenish-grey coloration swimming over gravel substrate"
 imageWidth: 1200
 imageHeight: 800

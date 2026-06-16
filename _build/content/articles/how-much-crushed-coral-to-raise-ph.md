@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-05-27"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-much-crushed-coral-to-raise-ph.webp"
 imageAlt: "A media bag of crushed coral placed inside an aquarium canister filter compartment"
 imageWidth: 1200
 imageHeight: 800

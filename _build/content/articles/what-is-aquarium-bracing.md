@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2031-09-24"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/what-is-aquarium-bracing.webp"
 imageAlt: "Close-up of an aquarium's top rim showing a plastic center brace spanning across the glass"
 imageWidth: 1200
 imageHeight: 800

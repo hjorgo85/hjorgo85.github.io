@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-06-14"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/channel-catfish-tank-conditions.webp"
 imageAlt: "A channel catfish in shallow water, illustrating its size relative to typical aquarium fish"
 imageWidth: 1200
 imageHeight: 800

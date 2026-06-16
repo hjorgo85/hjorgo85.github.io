@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2031-01-29"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/mandarin-fish.webp"
 imageAlt: "A mandarin fish (mandarin dragonet) with its psychedelic blue and orange pattern resting on live rock"
 imageWidth: 1200
 imageHeight: 800

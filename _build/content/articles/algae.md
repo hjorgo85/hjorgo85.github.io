@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-01-18"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/algae.webp"
 imageAlt: "Green algae growth on the glass and decor of a planted freshwater aquarium"
 imageWidth: 1200
 imageHeight: 800

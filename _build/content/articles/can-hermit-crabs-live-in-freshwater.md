@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-01-20"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-hermit-crabs-live-in-freshwater.webp"
 imageAlt: "A land hermit crab on dry sand substrate near a shallow water dish in a terrarium"
 imageWidth: 1200
 imageHeight: 800

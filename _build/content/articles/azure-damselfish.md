@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-03-14"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/azure-damselfish.webp"
 imageAlt: "Azure damselfish (Chrysiptera hemicyanea) with bright blue body and yellow belly hovering near live rock"
 imageWidth: 1200
 imageHeight: 800

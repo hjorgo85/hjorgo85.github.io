@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-05-14"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/corals.webp"
 imageAlt: "Close-up of a coral colony showing individual polyps extended over its skeleton"
 imageWidth: 1200
 imageHeight: 800

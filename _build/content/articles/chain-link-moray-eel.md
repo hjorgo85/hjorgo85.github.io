@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-08-22"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/chain-link-moray-eel.webp"
 imageAlt: "Chain link moray eel (Echidna catenata) with chain-like brown and cream pattern peeking out of live rock"
 imageWidth: 1200
 imageHeight: 800

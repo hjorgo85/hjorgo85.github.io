@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2026-09-01"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-to-mix-red-sea-coral-pro-salt.webp"
 imageAlt: "A container of Red Sea Coral Pro Salt being mixed into RO/DI water with a powerhead for circulation"
 imageWidth: 1200
 imageHeight: 800

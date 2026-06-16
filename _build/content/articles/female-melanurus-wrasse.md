@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-09-23"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/female-melanurus-wrasse.webp"
 imageAlt: "Melanurus wrasse (Halichoeres melanurus) showing green and orange striped coloration over live rock"
 imageWidth: 1200
 imageHeight: 800

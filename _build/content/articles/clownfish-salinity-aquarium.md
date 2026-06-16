@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2021-12-09"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/clownfish-salinity-aquarium.webp"
 imageAlt: "Clownfish swimming in clear aquarium water with a refractometer and hydrometer shown for salinity measurement"
 imageWidth: 1200
 imageHeight: 800

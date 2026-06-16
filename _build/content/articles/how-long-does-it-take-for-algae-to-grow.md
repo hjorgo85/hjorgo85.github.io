@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-02-01"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-long-does-it-take-for-algae-to-grow.webp"
 imageAlt: "A thin brown algae film developing on the glass of a newly set up aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-05-09"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/flame-angelfish.webp"
 imageAlt: "Flame angelfish (Centropyge loricula) with vivid red-orange body and dark vertical stripes swimming near live rock"
 imageWidth: 1200
 imageHeight: 800

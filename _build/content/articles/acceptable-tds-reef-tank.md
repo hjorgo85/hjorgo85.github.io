@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-01-12"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/acceptable-tds-reef-tank.webp"
 imageAlt: "TDS meter pen showing a 0 ppm reading at the output of a reef aquarium RO/DI water filtration unit"
 imageWidth: 1200
 imageHeight: 800

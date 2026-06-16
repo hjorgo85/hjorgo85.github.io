@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2028-11-22"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/methylene-blue-vs-malachite-green.webp"
 imageAlt: "Bottles of blue and green aquarium medication next to a hospital tank setup"
 imageWidth: 1200
 imageHeight: 800

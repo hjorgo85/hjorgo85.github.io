@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-09-02"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/freshwater-crabs-for-aquariums.webp"
 imageAlt: "A small crab perched on a piece of driftwood that breaks the water's surface in a paludarium-style tank"
 imageWidth: 1200
 imageHeight: 800

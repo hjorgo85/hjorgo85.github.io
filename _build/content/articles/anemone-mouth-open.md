@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-10-17"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/anemone-mouth-open.webp"
 imageAlt: "A sea anemone with its central mouth opening visibly distended in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

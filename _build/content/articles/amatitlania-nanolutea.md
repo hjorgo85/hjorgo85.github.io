@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2029-07-18"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/amatitlania-nanolutea.webp"
 imageAlt: "A small yellowish cichlid with faint dark markings resting near rocks in a freshwater aquarium"
 imageWidth: 1200
 imageHeight: 800

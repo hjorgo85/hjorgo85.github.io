@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2024-06-11"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/do-corals-move.webp"
 imageAlt: "A coral polyp with tentacles extended, illustrating the kind of movement corals are capable of"
 imageWidth: 1200
 imageHeight: 800

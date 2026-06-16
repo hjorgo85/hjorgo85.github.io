@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-03-15"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/anubias-rot.webp"
 imageAlt: "An anubias plant with its rhizome mounted on driftwood above the substrate"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-09-19"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/best-mantis-shrimp-tank-mates.webp"
 imageAlt: "A mantis shrimp with large folded raptorial claws peeking out from a crevice in live rock"
 imageWidth: 1200
 imageHeight: 800

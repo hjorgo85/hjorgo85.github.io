@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-04-22"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/hydroids-reef-tank.webp"
 imageAlt: "Close-up of small white feathery hydroid colonies growing on aquarium glass and live rock"
 imageWidth: 1200
 imageHeight: 800

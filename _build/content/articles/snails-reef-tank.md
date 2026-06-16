@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-08-04"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/snails-reef-tank.webp"
 imageAlt: "Several small marine snails grazing on algae across live rock in a reef tank"
 imageWidth: 1200
 imageHeight: 800

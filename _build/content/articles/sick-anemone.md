@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-10-03"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/sick-anemone.webp"
 imageAlt: "A sea anemone with deflated, drooping tentacles in a reef aquarium"
 imageWidth: 1200
 imageHeight: 800

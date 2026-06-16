@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-11-28"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/anemone-with-purple-tips.webp"
 imageAlt: "A bubble tip anemone with tentacles showing distinct purple coloration at the tips"
 imageWidth: 1200
 imageHeight: 800

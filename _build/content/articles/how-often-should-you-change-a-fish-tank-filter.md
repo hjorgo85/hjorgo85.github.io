@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2027-02-16"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/how-often-should-you-change-a-fish-tank-filter.webp"
 imageAlt: "Different types of aquarium filter media including sponge, ceramic rings, and activated carbon laid out for replacement"
 imageWidth: 1200
 imageHeight: 800

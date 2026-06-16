@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-02-25"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/specific-gravity-reef-tank.webp"
 imageAlt: "Refractometer measuring the specific gravity of reef tank water with calibration fluid bottle alongside"
 imageWidth: 1200
 imageHeight: 800

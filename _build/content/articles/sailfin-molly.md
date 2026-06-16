@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-03-08"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/sailfin-molly.webp"
 imageAlt: "A male sailfin molly displaying its large dorsal sail fin in a planted aquarium"
 imageWidth: 1200
 imageHeight: 800

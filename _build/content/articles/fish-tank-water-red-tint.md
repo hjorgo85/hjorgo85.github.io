@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2030-04-24"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/fish-tank-water-red-tint.webp"
 imageAlt: "An aquarium with a noticeable reddish-pink tint to the water, with medication bottle nearby"
 imageWidth: 1200
 imageHeight: 800

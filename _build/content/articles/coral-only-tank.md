@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-04-01"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/coral-only-tank.webp"
 imageAlt: "A reef aquarium with a variety of coral colonies and no fish visible"
 imageWidth: 1200
 imageHeight: 800

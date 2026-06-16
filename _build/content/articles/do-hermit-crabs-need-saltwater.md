@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2026-01-06"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/do-hermit-crabs-need-saltwater.webp"
 imageAlt: "A land hermit crab terrarium with separate dishes of fresh water and saltwater on a sand substrate"
 imageWidth: 1200
 imageHeight: 800

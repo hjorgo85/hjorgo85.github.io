@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-03-01"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/grey-algae.webp"
 imageAlt: "A thin grey diatom film coating the glass and decor of a recently set up aquarium"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2031-09-10"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-a-fish-tank-hang-over-stand.webp"
 imageAlt: "Aquarium sitting on a stand with its glass bottom edge extending slightly beyond the stand's top surface"
 imageWidth: 1200
 imageHeight: 800

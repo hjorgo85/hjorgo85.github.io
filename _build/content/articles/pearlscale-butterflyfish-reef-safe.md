@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-07-11"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/pearlscale-butterflyfish-reef-safe.webp"
 imageAlt: "Pearlscale butterflyfish (Chaetodon xanthurus) with white pearl-patterned body and orange-yellow tail swimming over reef rock"
 imageWidth: 1200
 imageHeight: 800

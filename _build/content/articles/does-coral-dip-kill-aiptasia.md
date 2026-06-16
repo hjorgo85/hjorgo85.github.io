@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2023-09-05"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/does-coral-dip-kill-aiptasia.webp"
 imageAlt: "A coral frag being dipped in a container of treatment solution before being added to a reef tank"
 imageWidth: 1200
 imageHeight: 800

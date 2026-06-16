@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-07-01"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/blue-hippo-tang.webp"
 imageAlt: "Blue hippo tang (Paracanthurus hepatus) with bright blue body, black markings, and yellow tail swimming over live rock"
 imageWidth: 1200
 imageHeight: 800

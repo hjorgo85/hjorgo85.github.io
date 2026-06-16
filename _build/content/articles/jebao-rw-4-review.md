@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "chris-brady"
 datePublished: "2024-06-18"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/jebao-rw-4-review.webp"
 imageAlt: "Jebao RW-4 wave maker pump mounted inside a reef aquarium with its external controller"
 imageWidth: 1200
 imageHeight: 800

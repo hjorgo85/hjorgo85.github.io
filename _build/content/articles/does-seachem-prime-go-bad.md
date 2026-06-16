@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2029-12-05"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/does-seachem-prime-go-bad.webp"
 imageAlt: "A bottle of dark amber aquarium water conditioner sitting on a shelf next to aquarium supplies"
 imageWidth: 1200
 imageHeight: 800

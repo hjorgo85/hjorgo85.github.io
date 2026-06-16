@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-02-08"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/split-tail-guppy.webp"
 imageAlt: "A double-tail (split-tail) guppy showing its divided caudal fin"
 imageWidth: 1200
 imageHeight: 800

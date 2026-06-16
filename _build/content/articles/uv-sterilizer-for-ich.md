@@ -9,7 +9,7 @@ categoryUrl: "/equipment-troubleshooting/"
 author: "hektor-jorgo"
 datePublished: "2030-06-19"
 dateModified: "2026-06-15"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/uv-sterilizer-for-ich.webp"
 imageAlt: "A UV sterilizer unit connected to an aquarium filter outflow line"
 imageWidth: 1200
 imageHeight: 800

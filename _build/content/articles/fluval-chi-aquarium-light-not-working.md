@@ -9,7 +9,7 @@ categoryUrl: "/product-reviews/"
 author: "hektor-jorgo"
 datePublished: "2028-11-08"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/fluval-chi-aquarium-light-not-working.webp"
 imageAlt: "A Fluval Chi all-in-one aquarium with its integrated LED light unit built into the lid"
 imageWidth: 1200
 imageHeight: 800

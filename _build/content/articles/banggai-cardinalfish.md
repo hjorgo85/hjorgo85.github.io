@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-06-21"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/banggai-cardinalfish.webp"
 imageAlt: "Banggai cardinalfish (Pterapogon kauderni) with elongated fins and white-spotted black bands hovering near rockwork"
 imageWidth: 1200
 imageHeight: 800

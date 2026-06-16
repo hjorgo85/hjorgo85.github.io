@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-02-15"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/calothrix-algae.webp"
 imageAlt: "Dark tufted cyanobacteria growth on aquarium hardscape, often confused with black beard algae"
 imageWidth: 1200
 imageHeight: 800

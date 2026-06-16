@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2021-09-02"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/firefish.webp"
 imageAlt: "Firefish goby (Nemateleotris magnifica) hovering near a rock crevice with its dorsal fin raised"
 imageWidth: 1200
 imageHeight: 800

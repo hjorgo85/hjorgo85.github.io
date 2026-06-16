@@ -9,7 +9,7 @@ categoryUrl: "/freshwater-fish/"
 author: "hektor-jorgo"
 datePublished: "2022-05-03"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/stingray-pleco.webp"
 imageAlt: "A boldly spotted L-number pleco resting on driftwood, the pattern sometimes marketed as 'stingray pleco'"
 imageWidth: 1200
 imageHeight: 800

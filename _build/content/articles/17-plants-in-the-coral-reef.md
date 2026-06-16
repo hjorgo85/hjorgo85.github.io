@@ -9,7 +9,7 @@ categoryUrl: "/aquarium-plants/"
 author: "hektor-jorgo"
 datePublished: "2028-05-10"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/17-plants-in-the-coral-reef.webp"
 imageAlt: "Coralline algae, macroalgae, and turf algae growing across live rock on a coral reef"
 imageWidth: 1200
 imageHeight: 800

@@ -9,7 +9,7 @@ categoryUrl: "/saltwater/"
 author: "hektor-jorgo"
 datePublished: "2022-07-18"
 dateModified: "2026-06-13"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/saltwater-fish-for-10-gallon-tank.webp"
 imageAlt: "Small nano saltwater aquarium around 10 gallons with live rock and a single small goby"
 imageWidth: 1200
 imageHeight: 800

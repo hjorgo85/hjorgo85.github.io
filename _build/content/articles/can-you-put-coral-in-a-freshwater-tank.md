@@ -9,7 +9,7 @@ categoryUrl: "/corals-invertebrates/"
 author: "hektor-jorgo"
 datePublished: "2025-06-10"
 dateModified: "2026-06-14"
-image: "/assets/img/placeholder.svg"
+image: "/assets/img/articles/can-you-put-coral-in-a-freshwater-tank.webp"
 imageAlt: "A bleached white coral skeleton ornament placed in a freshwater aquarium with plants and gravel"
 imageWidth: 1200
 imageHeight: 800
