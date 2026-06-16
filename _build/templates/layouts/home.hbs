@@ -3,34 +3,64 @@
 <a class="skip-link" href="#main">Skip to content</a>
 {{> header}}
 <main id="main">
-  <section class="hero">
-    <div class="container">
+
+  <!-- HERO -->
+  <section class="hero-home">
+    <div class="hero-bubbles" aria-hidden="true">
+      <span class="bubble b1"></span>
+      <span class="bubble b2"></span>
+      <span class="bubble b3"></span>
+      <span class="bubble b4"></span>
+      <span class="bubble b5"></span>
+      <span class="bubble b6"></span>
+      <span class="bubble b7"></span>
+      <span class="bubble b8"></span>
+      <span class="bubble b9"></span>
+      <span class="bubble b10"></span>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-eyebrow">Marine Biology-Backed Guides</div>
       <h1>{{hero.title}}</h1>
       <p>{{hero.subtitle}}</p>
       <div class="btn-group">
-        <a class="btn btn-accent" href="{{hero.primaryCtaUrl}}">{{hero.primaryCtaLabel}}</a>
-        <a class="btn btn-outline" href="{{hero.secondaryCtaUrl}}" style="color:#fff;border-color:#fff;">{{hero.secondaryCtaLabel}}</a>
+        <a class="btn btn-accent btn-lg" href="{{hero.primaryCtaUrl}}">{{hero.primaryCtaLabel}}</a>
+        <a class="btn btn-ghost btn-lg" href="{{hero.secondaryCtaUrl}}">{{hero.secondaryCtaLabel}}</a>
       </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>310+</strong><span>Expert Guides</span></div>
+        <div class="hero-stat"><strong>8</strong><span>Categories</span></div>
+        <div class="hero-stat"><strong>Free</strong><span>Always</span></div>
+      </div>
+    </div>
+    <div class="hero-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,30 C240,60 480,0 720,30 C960,60 1200,0 1440,30 L1440,60 L0,60 Z" fill="#ffffff"/>
+      </svg>
     </div>
   </section>
 
-  <section class="section">
+  <!-- CATEGORIES -->
+  <section class="section categories-section">
     <div class="container">
       <div class="section-header">
         <h2>{{categories.heading}}</h2>
         <p>{{categories.subheading}}</p>
       </div>
-      <div class="grid grid-4">
+      <div class="category-grid">
         {{#each categories.items}}
-        <a class="category-tile" href="{{this.url}}">
-          <span class="icon">{{icon this.icon}}</span>
+        <a class="category-card cat-{{@index}} reveal" href="{{this.url}}">
+          <div class="cat-icon">{{icon this.icon}}</div>
           <h3>{{this.label}}</h3>
+          <svg class="cat-arrow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
         </a>
         {{/each}}
       </div>
     </div>
   </section>
 
+  <!-- FEATURED ARTICLES -->
   <section class="section section-alt">
     <div class="container">
       <div class="section-header">
@@ -39,19 +69,56 @@
       </div>
       <div class="grid grid-3">
         {{#each featured.items}}
-        {{> article-card}}
+        <div class="reveal">{{> article-card}}</div>
         {{/each}}
+      </div>
+      <div class="section-cta">
+        <a href="/fish-types/" class="btn btn-primary">Browse All Guides</a>
       </div>
     </div>
   </section>
 
+  <!-- WHY SEA LIFE PLANET -->
   <section class="section">
     <div class="container">
-      <div class="article-content">
-        {{{contentHtml}}}
+      <div class="why-grid">
+        <div class="why-content reveal">
+          {{{contentHtml}}}
+        </div>
+        <div class="why-features">
+          <div class="feature-item reveal">
+            <div class="feature-icon">✓</div>
+            <div>
+              <strong>Quick Facts on Every Guide</strong>
+              <p>Scientific name, realistic tank size, water parameters, and temperament at a glance.</p>
+            </div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-icon">✓</div>
+            <div>
+              <strong>Honest Compatibility Notes</strong>
+              <p>Including the combinations that don't work, not just the ones that do.</p>
+            </div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-icon">✓</div>
+            <div>
+              <strong>Updated Regularly</strong>
+              <p>Guides reviewed for accuracy and updated when best practices in the hobby change.</p>
+            </div>
+          </div>
+          <div class="feature-item reveal">
+            <div class="feature-icon">✓</div>
+            <div>
+              <strong>Dedicated FAQ Sections</strong>
+              <p>Every guide includes a FAQ covering the questions you actually have about that species.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+
 </main>
 {{> footer}}
 <script src="/assets/js/main.js"></script>

@@ -12,12 +12,18 @@
   </div>
 
   <div class="container section">
+
+    {{#if contentHtml}}
     <div class="article-content">
       {{{contentHtml}}}
     </div>
+    {{/if}}
+
+    <!-- Filter tabs injected by JS when there are multiple groups -->
+    <div class="hub-filter-bar" id="hub-filters" role="tablist" aria-label="Filter articles" style="display:none"></div>
 
     {{#each groups}}
-    <section class="related-articles">
+    <section class="related-articles hub-group reveal" data-group-index="{{@index}}" data-group-title="{{this.title}}">
       <h2>{{this.title}}</h2>
       <div class="grid grid-3">
         {{#each this.articles}}
